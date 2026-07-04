@@ -1,0 +1,35 @@
+{
+  "date": "2026-07-04",
+  "checked_at": "2026-07-04T15:01:54+02:00",
+  "results": [
+    {
+      "source": "BOE",
+      "entity": "MINISTERIO DE VIVIENDA Y AGENDA URBANA",
+      "scope": "Estatal",
+      "title": "Real Decreto 538/2026, de 30 de junio, por el que se regula la concesión directa de subvenciones en materia de Agenda Urbana, arquitectura y calidad de la edificación durante el ejercicio presupuestario 2026.",
+      "published_date": "2026-07-04",
+      "open_date": "No publicada expresamente; publicacion oficial: 2026-07-04",
+      "close_date": "No publicada expresamente; revisar el texto oficial",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14502",
+      "pdf_url": "https://www.boe.es/boe/dias/2026/07/04/pdfs/BOE-A-2026-14502.pdf",
+      "beneficiary_hint": "rque se trata de subvenciones que financian actuaciones concretas que llevarán a cabo las entidades beneficiarias. Por todo ello, en el ámbito de las competencias que ostenta el Ministerio de Vivienda y Agenda Urbana en relación con las políticas en materia de Agenda Urbana, arquitectura y calidad de la edificación se regulan mediante este real decreto las subvenciones que, por su interés público",
+      "matched_terms": [
+        "subvencion",
+        "subvenciones",
+        "ayuda",
+        "ayudas",
+        "concesion directa de subvenciones",
+        "concesión directa de subvenciones",
+        "convocatoria",
+        "asociaciones",
+        "asociacion",
+        "asociación",
+        "fundacion",
+        "fundación"
+      ],
+      "score": 14,
+      "checked_at": "2026-07-04T15:01:46+02:00"
+    }
+  ],
+  "errors": []
+}
