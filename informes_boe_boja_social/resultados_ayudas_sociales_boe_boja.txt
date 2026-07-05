@@ -5168,3 +5168,196 @@ PDF oficial: https://www.boe.es/boe/dias/2026/06/24/pdfs/BOE-A-2026-13717.pdf
 
 Novedades incorporadas en esta ejecucion: 377
 Coincidencias totales en el periodo revisado: 395
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2025-08-10 a 2026-07-05
+Ejecucion: 2026-07-05 12:45:25 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Orden CLT/903/2025, de 6 de agosto, por la que se establecen las bases reguladoras para la concesión de ayudas para la internacionalización de las galerías de arte, en el marco del Plan de Recuperación, Transformación y Resiliencia, y se aprueba la convocatoria correspondiente a 2025.
+Entidad convocante: MINISTERIO DE CULTURA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2025-08-11
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2025-08-11
+Fecha de cierre: 30 de junio de 2026
+Dia incorporado al TXT: 2026-07-05
+Beneficiarios/encaje detectado: a global del 0 %, por lo que no cabe esperar ninguna contribución específica de la actividad de los beneficiarios de este subproyecto a la transición verde. Asimismo, El Componente 24 tiene una contribución a la transición digital del 29,5 %, pero no así la parte de la ayuda de dicho componente adscrita a este programa concreto de inversión, del 0 %. Es en el marco del primer eje de impulso a la c
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, financiacion, financiación, entidades sin animo de lucro, entidades sin ánimo de lucro, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-16694
+PDF oficial: https://www.boe.es/boe/dias/2025/08/11/pdfs/BOE-A-2025-16694.pdf
+
+2. Extracto de la Resolución de 6 de agosto de 2025 de la Secretaría de Estado de Trabajo, por la que se aprueba la convocatoria para la concesión de subvenciones a las actividades de promoción del trabajo autónomo, y para sufragar los gastos de funcionamiento, para el año 2025.
+Entidad convocante: MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2025-08-14
+Fecha de apertura: 6 de agosto de 2025
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-05
+Beneficiarios/encaje detectado: onal de Subvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/851502) Primero. Beneficiarios: a) De las subvenciones a las actuaciones de ámbito estatal de promoción del trabajo autónomo. · Asociaciones profesionales de trabajadores autónomos de ámbito estatal. · Otras asociaciones, fundaciones y universidades. b) Para los gastos de funcionamiento: · Asociaciones profesionales
+Coincidencias: subvencion, subvenciones, bases reguladoras, convocatoria, financiacion, financiación, asociaciones, fundaciones
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-29584
+PDF oficial: https://www.boe.es/boe/dias/2025/08/14/pdfs/BOE-B-2025-29584.pdf
+
+3. Orden SND/914/2025, de 7 de agosto, por la que se modifica la Orden SND/716/2025, de 26 de junio, por la que se aprueban las bases reguladoras y convocatoria para la selección de operaciones «Tardes con Plan», en el marco del Programa de Inclusión Social, Garantía Infantil y Lucha contra la Pobreza, cofinanciado con el Fondo Social Europeo Plus (FSE+).
+Entidad convocante: MINISTERIO DE SANIDAD
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2025-08-14
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2025-08-14
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-05
+Beneficiarios/encaje detectado: No detallado en el listado; revisar el enlace oficial.
+Coincidencias: ayudas, bases reguladoras, convocatoria, inclusion social, inclusión social, pobreza
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-16888
+PDF oficial: https://www.boe.es/boe/dias/2025/08/14/pdfs/BOE-A-2025-16888.pdf
+
+4. Extracto de la Resolución de fecha 10 de agosto de 2025 de la Dirección de la Fundación Biodiversidad, F.S.P., por la que se modifica la convocatoria de subvenciones, en régimen de concurrencia competitiva, para apoyo a programas y proyectos de impulso a la bioeconomía, cofinanciada por el Fondo Europeo de Desarrollo Regional (FEDER)
+Entidad convocante: MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2025-08-15
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2025-08-15
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-05
+Beneficiarios/encaje detectado: No detallado en el listado; revisar el enlace oficial.
+Coincidencias: subvenciones, convocatoria, fundacion, fundación
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-29617
+PDF oficial: https://www.boe.es/boe/dias/2025/08/15/pdfs/BOE-B-2025-29617.pdf
+
+5. Extracto de la Resolución de 30 de julio de 2025, del Mando de Adiestramiento y Doctrina, por la que se convocan ayudas económicas para la formación de idiomas para personal militar del Ejército de Tierra para el año 2025.
+Entidad convocante: MINISTERIO DE DEFENSA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2025-08-20
+Fecha de apertura: 30 de julio de 2025
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-05
+Beneficiarios/encaje detectado: onal de Subvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/852105) Primero. Beneficiarios. Podrán a optar a solicitar las ayudas el personal del ET en activo, de los Cuerpos Comunes destinados en la estructura del ET y alumnos de formación de Centros Docentes Militares dependientes del ET Segundo.Objeto. Conceder ayudas económicas, en régimen de concurrencia competitiva, qu
+Coincidencias: subvencion, subvenciones, ayudas, bases reguladoras, convocatoria, convocan, accion social, acción social
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-29998
+PDF oficial: https://www.boe.es/boe/dias/2025/08/20/pdfs/BOE-B-2025-29998.pdf
+
+6. Resolución de 22 de agosto de 2025 del Servicio Público de Empleo Estatal, por la que se aprueba, la convocatoria para la concesión de subvenciones públicas, destinadas a la financiación del Programa de orientación profesional para el empleo y autoempleo en el ámbito territorial de Melilla, para el ejercicio 2025.
+Entidad convocante: MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2025-08-26
+Fecha de apertura: 22 de agosto de 2025
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-05
+Beneficiarios/encaje detectado: onal de Subvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/853096) Primero: Beneficiarios. Podrán ser beneficiarias de las subvenciones destinadas a financiar el Programa de orientación profesional para el empleo y autoempleo, según el artículo 20 del Real Decreto 818/2021 y en el anexo de la Orden TES/1170/2023, de 28 de septiembre: a) Las entidades locales, incluidas sus
+Coincidencias: subvenciones, bases reguladoras, convocatoria, financiacion, financiación, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-30569
+PDF oficial: https://www.boe.es/boe/dias/2025/08/26/pdfs/BOE-B-2025-30569.pdf
+
+7. Real Decreto 714/2025, de 26 de agosto, por el que se regula la concesión directa de subvenciones a Administraciones Públicas y otras entidades para la ejecución de actuaciones de relevancia deportiva y de interés público durante el ejercicio 2025.
+Entidad convocante: MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2025-08-27
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2025-08-27
+Fecha de cierre: 30 de junio de 2025
+Dia incorporado al TXT: 2026-07-05
+Beneficiarios/encaje detectado: úblico, económico y social, de veintiún subvenciones de carácter singular, a favor de las entidades beneficiarias y para las actuaciones que figuran en el artículo 4, destinadas al fomento de la celebración en España de determinadas competiciones deportivas de relevancia internacional con el objeto incrementar la representatividad y reputación internacional del deporte español por su alta difusión
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, bases reguladoras, convocatoria, financiacion, financiación, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17188
+PDF oficial: https://www.boe.es/boe/dias/2025/08/27/pdfs/BOE-A-2025-17188.pdf
+
+8. Real Decreto 713/2025, de 26 de agosto, por el que se regula la concesión directa de una subvención al Comité Olímpico Español para la creación de un programa de espacios de datos sectoriales para el deporte.
+Entidad convocante: MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2025-08-27
+Fecha de apertura: 1 de enero de 2025
+Fecha de cierre: 31 de diciembre de 2027
+Dia incorporado al TXT: 2026-07-05
+Beneficiarios/encaje detectado: e a todos los agentes del sector. Asimismo, en cuanto a la idoneidad y carácter único de la entidad beneficiaria, tal y como figura en el preámbulo de la Ley 39/2022, de 30 de diciembre, el Comité Olímpico Español ha tenido, desde su creación, un papel esencial en el desarrollo del deporte y en la difusión de los ideales y valores asociados al Movimiento Olímpico. Con todo ello, queda acreditado e
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, bases reguladoras, convocatoria, financiacion, financiación, asociaciones, asociacion
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17187
+PDF oficial: https://www.boe.es/boe/dias/2025/08/27/pdfs/BOE-A-2025-17187.pdf
+
+9. Extracto de la Resolución de 26 de agosto de 2025, de la Dirección General de Gestión Migratoria, por la que se convocan subvenciones para proyectos de retorno voluntario de personas nacionales de terceros países.
+Entidad convocante: MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2025-08-28
+Fecha de apertura: 26 de agosto de 2025
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: quince días hábiles
+Dia incorporado al TXT: 2026-07-05
+Beneficiarios/encaje detectado: onal de Subvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/853480) Primero. Beneficiarios: Entidades, organizaciones no gubernamentales, organismos internacionales y entidades de naturaleza análoga que reúnan los siguientes requisitos: .Tener como fines institucionales primordiales la realización de actividades a favor de los colectivos de inmigrantes, solicitantes y benefi
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocatoria, convocan, organizaciones no gubernamentales, vulnerabilidad, migrantes
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-30759
+PDF oficial: https://www.boe.es/boe/dias/2025/08/28/pdfs/BOE-B-2025-30759.pdf
+
+10. Extracto de la Resolución de 28 de agosto de 2025 de la Dirección de la Agencia Española de Cooperación Internacional para el Desarrollo por la que se convocan subvenciones en concurrencia competitiva para acciones y proyectos de cooperación al desarrollo en materia de Memoria, construcción de paz y resolución de conflictos, en el marco del Programa Democracia con cargo al presupuesto de 2025.
+Entidad convocante: MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2025-09-03
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2025-09-03
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: veinte días hábiles
+Dia incorporado al TXT: 2026-07-05
+Beneficiarios/encaje detectado: bvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/854291) Primero. Entidades Beneficiarias: a) Personas jurídicas sin ánimo de lucro, públicas o privadas, españolas, legalmente constituidas, que por razón de sus fines, objeto o ámbito de actividad puedan llevar a cabo actuaciones en el ámbito de la cooperación internacional para el desarrollo que fundamentan el otorgamiento
+Coincidencias: subvencion, subvenciones, bases reguladoras, convocatoria, convocan, financiacion, financiación, sin animo de lucro, sin ánimo de lucro, asociaciones, fundaciones, organizaciones no gubernamentales
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-31456
+PDF oficial: https://www.boe.es/boe/dias/2025/09/03/pdfs/BOE-B-2025-31456.pdf
+
+11. Real Decreto 774/2025, de 2 de septiembre, por el que se modifica el Real Decreto 1042/2021, de 23 de noviembre, por el que se regula la concesión directa de una subvención a la Federación Española de Municipios y Provincias para la modernización y ampliación de los dispositivos de atención y protección a las víctimas de violencia machista en el marco del Plan de Recuperación, Transformación y Resiliencia.
+Entidad convocante: MINISTERIO DE IGUALDAD
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2025-09-03
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2025-09-03
+Fecha de cierre: 31 de diciembre de 2023
+Dia incorporado al TXT: 2026-07-05
+Beneficiarios/encaje detectado: s nuevos plazos de ejecución y justificación previstos en este real decreto, previa audiencia de la beneficiaria. Disposición final única. Entrada en vigor. El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado». Dado en Madrid, el 2 de septiembre de 2025. FELIPE R. La Ministra de Igualdad, ANA MARÍA DEL CARMEN REDONDO GARCÍA
+Coincidencias: subvencion, subvenciones, fundacion, fundación, igualdad, violencia de genero, violencia de género
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17511
+PDF oficial: https://www.boe.es/boe/dias/2025/09/03/pdfs/BOE-A-2025-17511.pdf
+
+12. Real Decreto 771/2025, de 2 de septiembre, por el que se regula la concesión directa de subvenciones en materia de Agenda Urbana, arquitectura y calidad de la edificación por el Ministerio de Vivienda y Agenda Urbana durante el ejercicio presupuestario 2025.
+Entidad convocante: MINISTERIO DE VIVIENDA Y AGENDA URBANA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2025-09-03
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2025-09-03
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-05
+Beneficiarios/encaje detectado: rque se trata de subvenciones que financian actuaciones concretas que llevarán a cabo las entidades beneficiarias. Por todo ello, en el ámbito de las competencias que ostenta el Ministerio de Vivienda y Agenda Urbana en relación con las políticas en materia de Agenda Urbana, arquitectura y calidad de la edificación se regulan mediante este real decreto las subvenciones que, por su interés público
+Coincidencias: subvenciones, ayuda, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, convocatoria, asociaciones, asociacion, asociación, fundacion, fundación, vulnerabilidad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17508
+PDF oficial: https://www.boe.es/boe/dias/2025/09/03/pdfs/BOE-A-2025-17508.pdf
+
+13. Real Decreto 772/2025, de 2 de septiembre, por el que se regula la concesión directa de subvenciones a diversas entidades para la promoción de las artes escénicas y musicales en el año 2025.
+Entidad convocante: MINISTERIO DE CULTURA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2025-09-03
+Fecha de apertura: 31 de diciembre de 2025
+Fecha de cierre: 31 de diciembre de 2025
+Dia incorporado al TXT: 2026-07-05
+Beneficiarios/encaje detectado: anza en la programación de los grandes espacios escénicos y musicales de nuestro país. Otra entidad beneficiaria el Circuito Estatal de Músicas Populares, para su programa Girando por Salas. Desde su primera edición en 2010, este circuito se ha convertido a lo largo de su historia en uno de los principales referentes para las bandas emergentes, saliendo de sus giras muchos de los grupos con mayor
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, bases reguladoras, convocatoria, convocan, financiacion, financiación, sin animo de lucro
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17509
+PDF oficial: https://www.boe.es/boe/dias/2025/09/03/pdfs/BOE-A-2025-17509.pdf
+
+14. Resolución de 25 de agosto de 2025, de la Secretaría de Estado de Derechos Sociales, por la que se publica el Acuerdo del Consejo Territorial de Servicios Sociales y del Sistema para la Autonomía y Atención a la Dependencia, de 28 de julio de 2025, para el Marco de Cooperación Interadministrativa y criterios de reparto de créditos de la Administración General del Estado para la financiación durante 2025 del nivel acordado, previsto en la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia.
+Entidad convocante: MINISTERIO DE DERECHOS SOCIALES, CONSUMO Y AGENDA 2030
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2025-09-04
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2025-09-04
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-05
+Beneficiarios/encaje detectado: En cada uno de ellos se calcula primero una ratio (Ri) que es igual a la proporción de personas beneficiarias con derecho reconocido (Di) sobre la población de esa edad (Pi). A continuación, se obtiene un factor de ajuste (Fi) que es igual al cociente entre la proporción de personas beneficiarias en cada tramo de edad y la proporción de personas beneficiarias en el tramo de edad de 80 a 84 años (F
+Coincidencias: ayuda, ayudas, convocatoria, financiacion, financiación, organizaciones no gubernamentales, accion social, acción social, servicios sociales, menores, discapacidad, dependencia
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17652
+PDF oficial: https://www.boe.es/boe/dias/2025/09/04/pdfs/BOE-A-2025-17652.pdf
+
+Novedades incorporadas en esta ejecucion: 14
+Coincidencias totales en el periodo revisado: 409
