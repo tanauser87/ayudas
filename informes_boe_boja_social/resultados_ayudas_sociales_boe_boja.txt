@@ -5374,3 +5374,66 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 16
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-06-27 a 2026-07-06
+Ejecucion: 2026-07-06 19:23:54 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Extracto de la Resolución de 24 de junio de 2026, de la Universidad de Huelva, por la que se convocan ayudas para la realización de actividades de voluntariado en proyectos de cooperación internacional para el desarrollo en terreno (Comuna de Dindefelo-Senegal).
+Entidad convocante: Universidades
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-07-06
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-06
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-06
+Beneficiarios/encaje detectado: a cabo en la población de Dindefelo u otras aledañas a la Región de Kedougou (Senegal). La persona beneficiaria se alojará con la población local en familias. Segundo. Bases reguladoras. Resolución Rectoral de 30 de septiembre de 2025, de la Universidad de Huelva, por la que se aprueban las «Bases reguladoras de becas y ayudas para la movilidad internacional de la Universidad de Huelva», publicad
+Coincidencias: ayudas, convocan, voluntariado, cooperacion internacional, cooperación internacional
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/128/6.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/128/BOJA26-128-00002-8992-01_00340225.pdf
+
+2. Orden SND/677/2026, de 26 de junio, por la que se aprueban las bases reguladoras y convocatoria 2026 para la selección de operaciones «Tardes con Plan 2», en el marco del Programa de Inclusión Social, Garantía Infantil y Lucha contra la Pobreza, cofinanciado con el Fondo Social Europeo Plus (FSE+).
+Entidad convocante: MINISTERIO DE SANIDAD
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-06
+Fecha de apertura: 1 de septiembre de 2026
+Fecha de cierre: 31 de diciembre de 2029
+Dia incorporado al TXT: 2026-07-06
+Beneficiarios/encaje detectado: intervención. Desde el momento de la selección de la operación la entidad solicitante pasará a ser beneficiaria del Ministerio de Sanidad según la definición del apartado 9 del artículo 2 del Reglamento (UE) 2021/1060, en el marco del Programa FSE+ de Inclusión Social, Garantía Infantil y Lucha contra la Pobreza. 3. Las operaciones que se seleccionen deben enmarcarse en el Programa Estatal de «In
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, convocan, financiacion, financiación, entidades sin animo de lucro, entidades sin ánimo de lucro, sin animo de lucro
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14638
+PDF oficial: https://www.boe.es/boe/dias/2026/07/06/pdfs/BOE-A-2026-14638.pdf
+
+3. Extracto de la Resolución Rectoral de 26 de junio de 2026, de la Universidad de Huelva, por la que se convocan las ayudas destinadas a estudiantes con discapacidad para el curso académico 2025/2026.
+Entidad convocante: Universidades
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-07-06
+Fecha de apertura: 15 de octubre de 2026
+Fecha de cierre: 15 de octubre de 2026
+Dia incorporado al TXT: 2026-07-06
+Beneficiarios/encaje detectado: mporte consignado en la Unidad de Gasto 800004, del Servicio de Gestión Académica. Cuarto. Personas beneficiarias. Estudiantes matriculados en la Universidad de Huelva en el curso 2026/2027, en una titulación oficial con validez en todo el territorio nacional, Grado o Máster Oficial, que presenten algún tipo de discapacidad, legalmente calificada, con un grado igual o superior al 33%, por la que s
+Coincidencias: ayudas, convocan, discapacidad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/128/8.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/128/BOJA26-128-00002-8994-01_00340227.pdf
+
+4. Resolución de 25 de junio de 2026, de la Dirección General de Agenda 2030, por la que se publica el Convenio con la Federación Española de Municipios y Provincias, como entidad colaboradora en la gestión de la subvención de la convocatoria de 2026, destinada a acciones para el impulso de la Agenda 2030 en las entidades locales.
+Entidad convocante: MINISTERIO DE DERECHOS SOCIALES, CONSUMO Y AGENDA 2030
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-06
+Fecha de apertura: 31 de diciembre de 2026
+Fecha de cierre: 30 de septiembre de 2029
+Dia incorporado al TXT: 2026-07-06
+Beneficiarios/encaje detectado: mo entidad colaboradora de la Administración en la gestión de las subvenciones de la que puedan ser beneficiarias las Entidades Locales y sus organismos dependientes, a tenor de lo establecido en la disposición adicional quinta de la Ley 7/1985, de 2 de abril, según redacción operada por la Ley 11/1999, de 21 de abril, de modificación de la Ley 7/1985, de 2 de abril, y otras medidas para el desarr
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, financiacion, financiación, asociaciones, asociacion, asociación
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14639
+PDF oficial: https://www.boe.es/boe/dias/2026/07/06/pdfs/BOE-A-2026-14639.pdf
+
+Novedades incorporadas en esta ejecucion: 4
+Coincidencias totales en el periodo revisado: 19
