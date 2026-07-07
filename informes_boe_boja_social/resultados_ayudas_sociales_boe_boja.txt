@@ -5437,3 +5437,27 @@ PDF oficial: https://www.boe.es/boe/dias/2026/07/06/pdfs/BOE-A-2026-14639.pdf
 
 Novedades incorporadas en esta ejecucion: 4
 Coincidencias totales en el periodo revisado: 19
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-06-28 a 2026-07-07
+Ejecucion: 2026-07-07 18:07:56 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Orden TES/679/2026, de 29 de junio, por la que se modifica la Orden TMS/368/2019, de 28 de marzo, por la que se desarrolla el Real Decreto 694/2017, de 3 de julio, por el que se desarrolla la Ley 30/2015, de 9 de septiembre, por la que se regula el Sistema de Formación Profesional para el Empleo en el ámbito laboral, en relación con la oferta formativa de las administraciones competentes y su financiación, y se establecen las bases reguladoras para la concesión de subvenciones públicas destinadas a su financiación.
+Entidad convocante: MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-07
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-07
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: seis mes
+Dia incorporado al TXT: 2026-07-07
+Beneficiarios/encaje detectado: 6.6 de la Ley 30/2015, de 9 de septiembre, se podrán realizar entregas de fondos cuando la entidad beneficiaria comunique la fecha de inicio de la actividad formativa, con un límite máximo que no podrá superar el 80 por ciento del importe concedido para la totalidad del programa o proyecto formativo. Se entenderá por inicio de la actividad formativa el comienzo de la ejecución del primer grupo fo
+Coincidencias: subvencion, subvenciones, bases reguladoras, convocatoria, financiacion, financiación, menores
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14656
+PDF oficial: https://www.boe.es/boe/dias/2026/07/07/pdfs/BOE-A-2026-14656.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 14
