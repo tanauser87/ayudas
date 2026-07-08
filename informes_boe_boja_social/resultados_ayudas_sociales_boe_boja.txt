@@ -5461,3 +5461,34 @@ PDF oficial: https://www.boe.es/boe/dias/2026/07/07/pdfs/BOE-A-2026-14656.pdf
 
 Novedades incorporadas en esta ejecucion: 1
 Coincidencias totales en el periodo revisado: 14
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-06-29 a 2026-07-08
+Ejecucion: 2026-07-08 14:10:07 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Real Decreto 537/2026, de 30 de junio, por el que se modifican el Real Decreto 819/2021, de 28 de septiembre, por el que se establecen las bases reguladoras para la concesión directa de subvenciones a las explotaciones agrarias de titularidad compartida, y se aprueba la convocatoria para el ejercicio 2021, el Real Decreto 1048/2022, de 27 de diciembre, sobre la aplicación, a partir de 2023, de las intervenciones en forma de pagos directos y el establecimiento de requisitos comunes en el marco del Plan Estratégico de la Política Agrícola Común, y la regulación de la solicitud única del sistema integrado de gestión y control, y el Real Decreto 938/2025, de 21 de octubre, por el que se regula la concesión directa de diversas subvenciones en materia agroalimentaria y pesquera.
+Entidad convocante: MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-08
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-08
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: seis mes
+Dia incorporado al TXT: 2026-07-08
+Beneficiarios/encaje detectado: dad Social. Desde la puesta en marcha de esta línea de subvenciones en 2021, el número de entidades beneficiarias ha mostrado un crecimiento continuo y sostenido al pasar de 729 entidades beneficiarias a 1.194 en 2025. En cuanto a las bases reguladoras de esta subvención, su contenido se ha visto modificado en varias ocasiones para mejorar determinados aspectos. El año 2021, a través del Real Decr
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, bases reguladoras, convocatoria, financiacion, financiación, igualdad, violencia de genero
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14763
+PDF oficial: https://www.boe.es/boe/dias/2026/07/08/pdfs/BOE-A-2026-14763.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 15
+Incidencias: 6
+- 2026-06-29: BOJA: RemoteDisconnected: Remote end closed connection without response
+- 2026-06-30: BOJA: RemoteDisconnected: Remote end closed connection without response
+- 2026-07-01: BOJA: RemoteDisconnected: Remote end closed connection without response
+- 2026-07-04: BOJA: RemoteDisconnected: Remote end closed connection without response
+- 2026-07-05: BOJA: RemoteDisconnected: Remote end closed connection without response
+- 2026-07-08: BOJA: RemoteDisconnected: Remote end closed connection without response
