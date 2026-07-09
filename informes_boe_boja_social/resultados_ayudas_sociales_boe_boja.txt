@@ -5492,3 +5492,47 @@ Incidencias: 6
 - 2026-07-04: BOJA: RemoteDisconnected: Remote end closed connection without response
 - 2026-07-05: BOJA: RemoteDisconnected: Remote end closed connection without response
 - 2026-07-08: BOJA: RemoteDisconnected: Remote end closed connection without response
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-06-30 a 2026-07-09
+Ejecucion: 2026-07-09 18:18:47 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Real Decreto 567/2026, de 8 de julio, por el que se regula la concesión directa de una subvención a la asociación Be Wild Be Proud para la realización de la Ruta al Exilio.
+Entidad convocante: MINISTERIO DE JUVENTUD E INFANCIA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-09
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-09
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días
+Dia incorporado al TXT: 2026-07-09
+Beneficiarios/encaje detectado: ientras se desarrollan talleres históricos y culturales y visitas a museos y memoriales. La entidad beneficiaria, Be Wild Be Proud, tiene el proyecto Ruta al Exilio legalmente registrado a su nombre, por lo que no resulta posible la convocatoria pública de esta subvención para la realización del proyecto Ruta al Exilio. Se trata de un proyecto que se alinea con los objetivos establecidos en la leg
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, convocatoria, financiacion, financiación, asociaciones, asociacion, asociación, fundaciones, voluntariado
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14881
+PDF oficial: https://www.boe.es/boe/dias/2026/07/09/pdfs/BOE-A-2026-14881.pdf
+
+2. Resolución de 22 de junio de 2026, de la Subsecretaría, por la que se autoriza la eliminación de series documentales de subvenciones de concurrencia competitiva existentes en los archivos del Departamento y sus Organismos Públicos.
+Entidad convocante: MINISTERIO DE CULTURA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-09
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-09
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: un mes
+Dia incorporado al TXT: 2026-07-09
+Beneficiarios/encaje detectado: 37/2016, modificado por el 24/2017. Expedientes de ayudas a fundaciones y asociaciones con dependencia orgánica de partidos políticos con representación en las Cortes Generales (1994- […]) // Ministerio de Cultura. Dirección General de Cooperación y Comunicación Cultural. CP Regla 3 Conservación permanente. 37/2016, modificado por el 24/2017. Expedientes de ayudas a empresas periodísticas editoras
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, convocatoria, sin animo de lucro, sin ánimo de lucro, asociaciones, fundaciones, dependencia
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15011
+PDF oficial: https://www.boe.es/boe/dias/2026/07/09/pdfs/BOE-A-2026-15011.pdf
+
+Novedades incorporadas en esta ejecucion: 2
+Coincidencias totales en el periodo revisado: 15
+Incidencias: 6
+- 2026-06-30: BOJA: RemoteDisconnected: Remote end closed connection without response
+- 2026-07-05: BOJA: RemoteDisconnected: Remote end closed connection without response
+- 2026-07-06: BOJA: RemoteDisconnected: Remote end closed connection without response
+- 2026-07-07: BOJA: RemoteDisconnected: Remote end closed connection without response
+- 2026-07-08: BOJA: RemoteDisconnected: Remote end closed connection without response
+- 2026-07-09: BOJA: RemoteDisconnected: Remote end closed connection without response
