@@ -5599,3 +5599,27 @@ PDF oficial: https://www.boe.es/boe/dias/2026/07/10/pdfs/BOE-A-2026-15123.pdf
 
 Novedades incorporadas en esta ejecucion: 4
 Coincidencias totales en el periodo revisado: 18
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-07-02 a 2026-07-11
+Ejecucion: 2026-07-11 12:44:55 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Resolución de 26 de junio de 2026, de la Secretaría de Estado de Derechos Sociales, por la que se inicia el procedimiento para la selección de operaciones de acompañamiento a recursos residenciales del sistema de protección a la infancia (medida 7.L.03) y de formación de profesionales (medida 7.L.04), a cofinanciar por el Fondo Social Europeo Plus (FSE+), el marco del Programa de Inclusión Social, Garantía Infantil y Lucha contra la Pobreza.
+Entidad convocante: MINISTERIO DE DERECHOS SOCIALES, CONSUMO Y AGENDA 2030
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-11
+Fecha de apertura: 1 de enero de 2027
+Fecha de cierre: 31 de diciembre de 2029
+Dia incorporado al TXT: 2026-07-11
+Beneficiarios/encaje detectado: odo el sistema hacia un mejor modelo de intervención. Los recursos residenciales designados por los beneficiarios en el marco de las operaciones seleccionadas deberán someterse a un diagnóstico previo sobre las características del recurso y el modelo de intervención y las necesidades de transformación o actualización de ambos para avanzar hacia un recurso más centrado en la persona, de base comuni
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, convocatoria, financiacion, financiación, tercer sector, asociacion, asociación, inclusion social, inclusión social
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15195
+PDF oficial: https://www.boe.es/boe/dias/2026/07/11/pdfs/BOE-A-2026-15195.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 17
