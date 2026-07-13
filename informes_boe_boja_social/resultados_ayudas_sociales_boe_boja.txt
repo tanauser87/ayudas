@@ -5623,3 +5623,27 @@ PDF oficial: https://www.boe.es/boe/dias/2026/07/11/pdfs/BOE-A-2026-15195.pdf
 
 Novedades incorporadas en esta ejecucion: 1
 Coincidencias totales en el periodo revisado: 17
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-07-04 a 2026-07-13
+Ejecucion: 2026-07-13 18:10:07 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Anuncio de 25 de junio de 2026, de la Dirección General de Prestaciones, Ayudas y Subvenciones, por el que se notifica resolución de fraccionamiento de deuda.
+Entidad convocante: Consejería de Inclusión Social, Juventud, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-07-13
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-13
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: quince días hábiles
+Dia incorporado al TXT: 2026-07-13
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Información inst
+Coincidencias: subvenciones, ayudas, inclusion social, inclusión social, juventud, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/133/56.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/133/BOJA26-133-00001-9196-01_00340429.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 13
