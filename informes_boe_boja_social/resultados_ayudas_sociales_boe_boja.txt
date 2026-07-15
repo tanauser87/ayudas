@@ -5749,3 +5749,40 @@ PDF oficial: https://www.boe.es/boe/dias/2026/07/14/pdfs/BOE-B-2026-24127.pdf
 
 Novedades incorporadas en esta ejecucion: 7
 Coincidencias totales en el periodo revisado: 19
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-07-06 a 2026-07-15
+Ejecucion: 2026-07-15 14:05:10 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Resolución de 29 de junio de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de modificación parcial del VIII Convenio marco estatal de servicios de atención a las personas dependientes y desarrollo de la promoción de la autonomía personal (residencias privadas de personas mayores y del servicio de ayuda a domicilio).
+Entidad convocante: MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-15
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-15
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: treinta días hábiles
+Dia incorporado al TXT: 2026-07-15
+Beneficiarios/encaje detectado: No detallado en el listado; revisar el enlace oficial.
+Coincidencias: ayuda, personas mayores, mayores, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15441
+PDF oficial: https://www.boe.es/boe/dias/2026/07/15/pdfs/BOE-A-2026-15441.pdf
+
+2. Resolución de 9 de julio de 2026, de la Dirección General de Incentivos para el Empleo y Competitividad Empresarial, por la que se redistribuye el crédito de la línea 3 de la convocatoria de subvenciones para el año 2025, regulada en la Orden de 21 de junio de 2024, por la que se aprueban las bases reguladoras para la concesión de subvenciones públicas, en régimen de concurrencia no competitiva, para el fomento del empleo de personas con discapacidad en centros especiales de empleo y en el mercado ordinario de trabajo.
+Entidad convocante: Consejería de Empleo, Empresa y Trabajo Autónomo
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-07-15
+Fecha de apertura: 9 de julio de 2026
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-15
+Beneficiarios/encaje detectado: que cumplen los requisitos exigidos en la convocatoria, en atención a la distinta tipología de los beneficiarios. Asimismo, se constata la existencia de solicitudes no atendidas en la provincia de Granada por insuficiencia de crédito, así como la concurrencia de un remanente del crédito convocado en la provincia de Córdoba, derivado de la ausencia de solicitudes en dicho ámbito territorial, lo qu
+Coincidencias: subvenciones, bases reguladoras, convocatoria, discapacidad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/135/3.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/135/BOJA26-135-00005-9514-01_00340746.pdf
+
+Novedades incorporadas en esta ejecucion: 2
+Coincidencias totales en el periodo revisado: 21
