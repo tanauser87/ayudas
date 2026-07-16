@@ -5786,3 +5786,53 @@ PDF oficial: https://www.juntadeandalucia.es/boja/2026/135/BOJA26-135-00005-9514
 
 Novedades incorporadas en esta ejecucion: 2
 Coincidencias totales en el periodo revisado: 21
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-07-07 a 2026-07-16
+Ejecucion: 2026-07-16 14:06:48 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Real Decreto 594/2026, de 15 de julio, por el que se regula la concesión directa de una subvención a la Fundació Barcelona Mobile World Capital Foundation.
+Entidad convocante: MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-16
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-16
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días hábiles
+Dia incorporado al TXT: 2026-07-16
+Beneficiarios/encaje detectado: ente necesaria para alcanzar su objetivo, sin imponer cargas o requisitos innecesarios a la entidad beneficiaria. c) Seguridad jurídica, al encajar coherentemente en el marco normativo nacional sobre subvenciones y planificación estratégica digital, y respetar los acuerdos internacionales vigentes. d) Transparencia, porque se justifica con claridad el interés público que motiva la concesión direct
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, financiacion, financiación, asociacion, asociación, fundaciones, fundacion
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15461
+PDF oficial: https://www.boe.es/boe/dias/2026/07/16/pdfs/BOE-A-2026-15461.pdf
+
+2. Anuncio de 7 de julio de 2026, de la Delegación Territorial de Fomento, Articulación del Territorio y Vivienda en Córdoba, mediante el que se publica la resolución por la que se notifica la finalización del procedimiento al solicitante de ayuda al alquiler de vivienda habitual a personas en situación de especial vulnerabilidad, con ingresos limitados y a jóvenes, en la Comunidad Autónoma de Andalucía (convocatoria 2025).
+Entidad convocante: Consejería de Fomento, Articulación del Territorio y Vivienda
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-07-16
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-16
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: 10 días hábiles
+Dia incorporado al TXT: 2026-07-16
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Información inst
+Coincidencias: ayuda, convocatoria, vulnerabilidad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/136/40.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/136/BOJA26-136-00001-9363-01_00340595.pdf
+
+3. Real Decreto 595/2026, de 15 de julio, por el que se regula la concesión directa de una subvención por razones de interés público, social y económico para la organización del South Summit España 2026 en Madrid.
+Entidad convocante: MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-16
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-16
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-16
+Beneficiarios/encaje detectado: de noviembre, General de Subvenciones. La entidad Spain Startup and Investors Services, SL, será la beneficiaria de esta ayuda, al ser la titular de los derechos de la marca South Summit España y la única entidad capacitada para su organización en los términos actuales. Su acreditada trayectoria, su conocimiento profundo del ecosistema emprendedor y su capacidad de atracción internacional garantiz
+Coincidencias: subvencion, subvenciones, ayuda, convocatoria, financiacion, financiación, mayores
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15462
+PDF oficial: https://www.boe.es/boe/dias/2026/07/16/pdfs/BOE-A-2026-15462.pdf
+
+Novedades incorporadas en esta ejecucion: 3
+Coincidencias totales en el periodo revisado: 22
