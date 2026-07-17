@@ -5836,3 +5836,40 @@ PDF oficial: https://www.boe.es/boe/dias/2026/07/16/pdfs/BOE-A-2026-15462.pdf
 
 Novedades incorporadas en esta ejecucion: 3
 Coincidencias totales en el periodo revisado: 22
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-07-08 a 2026-07-17
+Ejecucion: 2026-07-17 13:46:10 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Extracto de la Resolución de 16 de julio de 2026 del Servicio Público de Empleo Estatal, por la que se aprueba, la convocatoria para la concesión de subvenciones públicas, destinadas a la financiación del Programa de orientación profesional para el empleo y autoempleo en el ámbito territorial de Melilla, para el ejercicio 2026.
+Entidad convocante: MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-17
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-17
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-17
+Beneficiarios/encaje detectado: onal de Subvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/919257) Primero: Beneficiarios. Podrán ser beneficiarias de las subvenciones destinadas a financiar el Programa de orientación profesional para el empleo y autoempleo, según el artículo 20 del Real Decreto 818/2021 y en el anexo de la Orden TES/1170/2023, de 28 de septiembre: a) Las entidades locales, incluidas sus
+Coincidencias: subvenciones, bases reguladoras, convocatoria, financiacion, financiación, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-24459
+PDF oficial: https://www.boe.es/boe/dias/2026/07/17/pdfs/BOE-B-2026-24459.pdf
+
+2. Real Decreto 593/2026, de 15 de julio, por el que se regula la concesión directa de subvenciones a entidades relacionadas con la investigación y el conocimiento.
+Entidad convocante: MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-17
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-17
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-17
+Beneficiarios/encaje detectado: e Funcionamiento de la Unión Europea, teniendo en cuenta el tipo y características de las entidades beneficiarias y el objeto de las subvenciones. De conformidad con lo dispuesto en el artículo 8.1 de la Ley 38/2003, de 17 de noviembre, estas subvenciones forman parte del Plan Estratégico de Subvenciones del Ministerio de Ciencia, Innovación y Universidades al estar incluidas en el Plan Estatal de
+Coincidencias: subvenciones, ayuda, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, convocatoria, asociaciones
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15576
+PDF oficial: https://www.boe.es/boe/dias/2026/07/17/pdfs/BOE-A-2026-15576.pdf
+
+Novedades incorporadas en esta ejecucion: 2
+Coincidencias totales en el periodo revisado: 22
