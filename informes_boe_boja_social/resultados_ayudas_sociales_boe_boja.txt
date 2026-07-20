@@ -5899,3 +5899,144 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 19
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-07-11 a 2026-07-20
+Ejecucion: 2026-07-20 15:30:51 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Resolución de 8 de julio de 2026, de la Agencia Española de Protección de Datos, por la que se aprueban las bases reguladoras y se convoca el Premio a la formación, educación y concienciación en protección de datos, para el año 2026.
+Entidad convocante: AGENCIA ESPAÑOLA DE PROTECCIÓN DE DATOS
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-20
+Fecha de apertura: 15 de octubre de 2026
+Fecha de cierre: 15 de octubre de 2026
+Dia incorporado al TXT: 2026-07-20
+Beneficiarios/encaje detectado: ue actúe como representante o apoderada única de la agrupación. No podrán obtener la condición de beneficiarias las personas o entidades en quienes concurra alguna de las circunstancias previstas en el artículo 13 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones. De conformidad con los artículos 24 a 26 del Reglamento de la Ley General de Subvenciones, las personas solicitantes habrá
+Coincidencias: subvencion, subvenciones, ayudas, bases reguladoras, convocatoria, asociaciones, fundaciones, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15847
+PDF oficial: https://www.boe.es/boe/dias/2026/07/20/pdfs/BOE-A-2026-15847.pdf
+
+2. Resolución de 8 de julio de 2026, de la Agencia Española de Protección de Datos, por la que se aprueban las bases reguladoras y se convoca el Premio a la labor de la persona Delegada de Protección de Datos, para el año 2026.
+Entidad convocante: AGENCIA ESPAÑOLA DE PROTECCIÓN DE DATOS
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-20
+Fecha de apertura: 15 de octubre de 2026
+Fecha de cierre: 15 de octubre de 2026
+Dia incorporado al TXT: 2026-07-20
+Beneficiarios/encaje detectado: s personas en el momento de presentación de la solicitud. No podrán obtener la condición de persona beneficiaria el/la DPD en quien concurra alguna de las circunstancias previstas en el artículo 13 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones. De conformidad con los artículos 24 a 26 del Reglamento de la Ley General de Subvenciones, las personas solicitantes habrán de presentar u
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocatoria, asociaciones, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15848
+PDF oficial: https://www.boe.es/boe/dias/2026/07/20/pdfs/BOE-A-2026-15848.pdf
+
+3. Resolución de 8 de julio de 2026, de la Agencia Española de Protección de Datos, por la que se aprueban las bases reguladoras y se convoca el Premio a la protección de datos personales de colectivos vulnerables y frente a la violencia digital, para el año 2026.
+Entidad convocante: AGENCIA ESPAÑOLA DE PROTECCIÓN DE DATOS
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-20
+Fecha de apertura: 15 de octubre de 2026
+Fecha de cierre: 15 de octubre de 2026
+Dia incorporado al TXT: 2026-07-20
+Beneficiarios/encaje detectado: que actúe como representante o apoderada única de la agrupación. No podrán obtener la condición de beneficiarias las personas o entidades en quienes concurra alguna de las circunstancias establecidas en el artículo 13 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones. De conformidad con los artículos 24 a 26 del Reglamento de la Ley General de Subvenciones, las personas solicitantes
+Coincidencias: subvencion, subvenciones, bases reguladoras, convocatoria, tercer sector, vulnerabilidad, personas vulnerables, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15851
+PDF oficial: https://www.boe.es/boe/dias/2026/07/20/pdfs/BOE-A-2026-15851.pdf
+
+4. Resolución de 8 de julio de 2026, de la Agencia Española de Protección de Datos, por la que se aprueban las bases reguladoras y se convoca el Premio a las buenas prácticas de cumplimiento normativo y de responsabilidad social en el tratamiento de datos, para el año 2026.
+Entidad convocante: AGENCIA ESPAÑOLA DE PROTECCIÓN DE DATOS
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-20
+Fecha de apertura: 15 de octubre de 2026
+Fecha de cierre: 15 de octubre de 2026
+Dia incorporado al TXT: 2026-07-20
+Beneficiarios/encaje detectado: hubiera financiado la realización del proyecto premiado. Decimocuarta. Obligaciones de las personas beneficiarias. Las personas beneficiarias están obligadas al cumplimiento de lo que establezca la normativa aplicable. Decimoquinta. Nulidad y anulabilidad. En caso de concurrir alguna de las causas de nulidad o anulabilidad a las que hace referencia los artículos 47 y 48 de la Ley 39/2015, de 1 de
+Coincidencias: bases reguladoras, convocatoria, asociaciones, fundaciones, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15849
+PDF oficial: https://www.boe.es/boe/dias/2026/07/20/pdfs/BOE-A-2026-15849.pdf
+
+5. Orden de 15 de julio de 2026, por la que se aprueban las bases reguladoras para la concesión de subvenciones a municipios y entidades locales autónomas de la Comunidad Autónoma de Andalucía, en régimen de concurrencia no competitiva, destinadas al mantenimiento de las Agrupaciones Locales del Voluntariado de Protección Civil.
+Entidad convocante: Consejería de Presidencia, Sanidad y Emergencias
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-07-20
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-20
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-20
+Beneficiarios/encaje detectado: cceso público a la información. La concurrencia se extrae de la descripción del procedimiento y los beneficiarios. Se establece el régimen de concurrencia no competitiva como el procedimiento de concesión. Este régimen atiende a la «mera concurrencia de una determinada situación en el perceptor, sin que sea necesario establecer la comparación de solicitudes ni la prelación entre las mismas». Esto
+Coincidencias: subvenciones, bases reguladoras, voluntariado
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/213801/1.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/213801/BOJA26-213801-00024-9856-01_00341087.pdf
+
+6. Resolución de 8 de julio de 2026, de la Agencia Española de Protección de Datos, por la que se aprueban las bases reguladoras y se convoca el Premio a la difusión del derecho fundamental a la protección de datos personales en redes sociales, para el año 2026.
+Entidad convocante: AGENCIA ESPAÑOLA DE PROTECCIÓN DE DATOS
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-20
+Fecha de apertura: 15 de octubre de 2026
+Fecha de cierre: 15 de octubre de 2026
+Dia incorporado al TXT: 2026-07-20
+Beneficiarios/encaje detectado: que actúe como representante o apoderada única de la agrupación. No podrán obtener la condición de beneficiarias las personas o entidades en quienes concurra alguna de las circunstancias previstas en el artículo 13 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones. De conformidad con los artículos 24 a 26 del Reglamento de la Ley General de Subvenciones, las personas solicitantes hab
+Coincidencias: subvencion, subvenciones, ayudas, bases reguladoras, convocatoria, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15846
+PDF oficial: https://www.boe.es/boe/dias/2026/07/20/pdfs/BOE-A-2026-15846.pdf
+
+7. Resolución de 8 de julio de 2026, de la Agencia Española de Protección de Datos, por la que se aprueban las bases reguladoras y se convoca el Premio Comunicación de Protección de Datos Personales, para el año 2026.
+Entidad convocante: AGENCIA ESPAÑOLA DE PROTECCIÓN DE DATOS
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-20
+Fecha de apertura: 15 de octubre de 2026
+Fecha de cierre: 15 de octubre de 2026
+Dia incorporado al TXT: 2026-07-20
+Beneficiarios/encaje detectado: rá nombrarse un representante o apoderado único de la agrupación. No podrán obtener la condición de beneficiaria las personas o entidades en quienes concurra alguna de las circunstancias previstas en el artículo 13 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones. De conformidad con los artículos 24 a 26 del Reglamento de la Ley General de Subvenciones, las personas solicitantes habr
+Coincidencias: subvencion, subvenciones, ayudas, bases reguladoras, convocatoria, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15843
+PDF oficial: https://www.boe.es/boe/dias/2026/07/20/pdfs/BOE-A-2026-15843.pdf
+
+8. Resolución de 8 de julio de 2026, de la Agencia Española de Protección de Datos, por la que se aprueban las bases reguladoras y se convoca el Premio de Investigación en Ciencias Puras y Aplicadas en Protección de Datos Personales «Ángela Ruiz Robles», para el año 2026.
+Entidad convocante: AGENCIA ESPAÑOLA DE PROTECCIÓN DE DATOS
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-20
+Fecha de apertura: 15 de octubre de 2026
+Fecha de cierre: 15 de octubre de 2026
+Dia incorporado al TXT: 2026-07-20
+Beneficiarios/encaje detectado: todas las personas en el momento de presentación de la solicitud. No podrán obtener la condición de beneficiario las personas o entidades en quienes concurra alguna de las circunstancias previstas en el artículo 13 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones. De conformidad con los artículos 24 a 26 del Reglamento de la Ley General de Subvenciones, los solicitantes habrán de pre
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, menores, discapacidad, igualdad, violencia de genero, violencia de género
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15844
+PDF oficial: https://www.boe.es/boe/dias/2026/07/20/pdfs/BOE-A-2026-15844.pdf
+
+9. Resolución de 8 de julio de 2026, de la Agencia Española de Protección de Datos, por la que se aprueban las bases reguladoras y se convoca el Premio de Investigación jurídica en Protección de Datos Personales «Emilio Aced», para el año 2026.
+Entidad convocante: AGENCIA ESPAÑOLA DE PROTECCIÓN DE DATOS
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-20
+Fecha de apertura: 15 de octubre de 2026
+Fecha de cierre: 15 de octubre de 2026
+Dia incorporado al TXT: 2026-07-20
+Beneficiarios/encaje detectado: todas las personas en el momento de presentación de la solicitud. No podrán obtener la condición de beneficiarios las personas o entidades en quienes concurra alguna de las circunstancias previstas en el artículo 13 de la Ley 38/2003, de 17 de noviembre. De conformidad con los artículos 24 a 26 del Reglamento de la Ley General de Subvenciones, las personas solicitantes habrán de presentar una decl
+Coincidencias: subvencion, subvenciones, ayudas, bases reguladoras, convocatoria, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15850
+PDF oficial: https://www.boe.es/boe/dias/2026/07/20/pdfs/BOE-A-2026-15850.pdf
+
+10. Resolución de 8 de julio de 2026, de la Agencia Española de Protección de Datos, por la que se aprueban las bases reguladoras y se convoca el Premio de Privacidad y Protección de Datos en Iberoamérica, para el año 2026.
+Entidad convocante: AGENCIA ESPAÑOLA DE PROTECCIÓN DE DATOS
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-20
+Fecha de apertura: 15 de octubre de 2026
+Fecha de cierre: 15 de octubre de 2026
+Dia incorporado al TXT: 2026-07-20
+Beneficiarios/encaje detectado: que actúe como representante o apoderada única de la agrupación. No podrán obtener la condición de beneficiarias las personas o entidades en quienes concurra alguna de las circunstancias previstas en el artículo 13 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones. De conformidad con los artículos 24 a 26 del Reglamento de la Ley General de Subvenciones, las personas solicitantes hab
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocatoria, igualdad, cooperacion internacional, cooperación internacional
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15845
+PDF oficial: https://www.boe.es/boe/dias/2026/07/20/pdfs/BOE-A-2026-15845.pdf
+
+Novedades incorporadas en esta ejecucion: 10
+Coincidencias totales en el periodo revisado: 23
