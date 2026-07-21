@@ -6040,3 +6040,16 @@ PDF oficial: https://www.boe.es/boe/dias/2026/07/20/pdfs/BOE-A-2026-15845.pdf
 
 Novedades incorporadas en esta ejecucion: 10
 Coincidencias totales en el periodo revisado: 23
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-07-12 a 2026-07-21
+Ejecucion: 2026-07-21 14:12:45 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban registradas.
+
+Novedades incorporadas en esta ejecucion: 0
+Coincidencias totales en el periodo revisado: 22
