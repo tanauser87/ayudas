@@ -6053,3 +6053,40 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 22
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-07-13 a 2026-07-22
+Ejecucion: 2026-07-22 14:16:39 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Anuncio de 13 de julio de 2026, de la Delegación Territorial de Salud y Consumo en Málaga, de la distribución definitiva de la cuantía máxima de los créditos presupuestarios en Málaga, convocatoria por Resolución de 8 de abril de 2026, de la Dirección General de Cuidados, Atención Sociosanitaria, Salud Mental y Adicciones, ejercicio 2026, de la concesión de subvenciones, en régimen de concurrencia competitiva, en materia de drogodependencia y adicciones, para entidades privadas sin ánimo de lucro para mantenimiento de sedes y desarrollo de programas, y entidades locales andaluzas para la prevención comunitaria (BOJA núm. 74, de 20.4.2026).
+Entidad convocante: Consejería de Sanidad, Presidencia y Emergencias
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-07-22
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-22
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-22
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Información inst
+Coincidencias: subvenciones, convocatoria, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/140/26.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/140/BOJA26-140-00001-9643-01_00340874.pdf
+
+2. Anuncio de 14 de julio de 2026, de la Dirección Provincial de la Agencia de Vivienda y Rehabilitación de Andalucía en Jaén, de notificación de resolución de expediente sobre incumplimiento de requisitos de la subvención y archivo a la ayuda concedida mediante Resolución del Delegado Provincial de Vivienda y Ordenación del Territorio de 18/12/2008, relativa a la transformación de infravivienda en calle Cuna, 5, del área de rehabilitación del centro histórico de Jaén.
+Entidad convocante: Consejería de Vivienda, Juventud y Ordenación del Territorio
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-07-22
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-22
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días
+Dia incorporado al TXT: 2026-07-22
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Información inst
+Coincidencias: subvencion, ayuda, juventud
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/140/52.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/140/BOJA26-140-00001-9677-01_00340908.pdf
+
+Novedades incorporadas en esta ejecucion: 2
+Coincidencias totales en el periodo revisado: 23
