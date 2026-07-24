@@ -6231,3 +6231,27 @@ PDF oficial: https://www.boe.es/boe/dias/2026/07/23/pdfs/BOE-A-2026-16081.pdf
 
 Novedades incorporadas en esta ejecucion: 10
 Coincidencias totales en el periodo revisado: 33
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-07-15 a 2026-07-24
+Ejecucion: 2026-07-24 14:06:50 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Extracto de la resolución de 21 de julio de 2026 de ICEX España Exportación e Inversiones E.P.E. por la que se convocan entregas dinerarias sin contraprestación a las entidades colaboradoras en gestión de ayudas de ICEX España Exportación e Inversiones E.P.E., para actividades cuya realización esté prevista del 1 de enero al 31 de diciembre de 2027
+Entidad convocante: MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-24
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-24
+Fecha de cierre: 31 de diciembre de 2027
+Dia incorporado al TXT: 2026-07-24
+Beneficiarios/encaje detectado: onal de Subvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/920927) Primero. Beneficiarios. Podrán ser beneficiarias las asociaciones, federaciones españolas de exportadores o entidades similares reconocidas como entidades colaboradoras de ICEX con las que se haya firmado el correspondiente Convenio. Segundo. Objeto. 1. Convocar la concesión de entregas dinerarias sin contra
+Coincidencias: subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, convocan, asociaciones, asociacion, asociación
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-25114
+PDF oficial: https://www.boe.es/boe/dias/2026/07/24/pdfs/BOE-B-2026-25114.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 25
