@@ -6255,3 +6255,40 @@ PDF oficial: https://www.boe.es/boe/dias/2026/07/24/pdfs/BOE-B-2026-25114.pdf
 
 Novedades incorporadas en esta ejecucion: 1
 Coincidencias totales en el periodo revisado: 25
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-07-16 a 2026-07-25
+Ejecucion: 2026-07-25 12:58:37 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Resolución de 16 de julio de 2026, de la Dirección General de Derechos Culturales, por la que se publica el Convenio con Plataforma del Tercer Sector, para facilitar el acceso de las ayudas del Bono Cultural Joven por personas beneficiarias en situación de vulnerabilidad y/o exclusión.
+Entidad convocante: MINISTERIO DE CULTURA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-25
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-25
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-25
+Beneficiarios/encaje detectado: orma del Tercer Sector, para facilitar el acceso de las ayudas del Bono Cultural Joven por personas beneficiarias en situación de vulnerabilidad y/o exclusión.. III. Otras disposiciones - MINISTERIO DE CULTURA - Convenios. El Ministerio de Cultura y la Plataforma del Tercer Sector han suscrito, con fecha 14 de julio de 2026, siendo registrado en REOICO con fecha 15 de julio de 2026, un convenio pa
+Coincidencias: subvenciones, ayuda, ayudas, convocatoria, sin animo de lucro, sin ánimo de lucro, entidades sociales, tercer sector, plataforma del tercer sector, exclusion social, exclusión social, vulnerabilidad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16234
+PDF oficial: https://www.boe.es/boe/dias/2026/07/25/pdfs/BOE-A-2026-16234.pdf
+
+2. Resolución de 15 de julio de 2026, del Consorcio Centro de Investigación Biomédica en Red, por la que se publica el Convenio con el Banc de Sang i Teixits y la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P., para el desarrollo del proyecto «Inmunoterapia avanzada basada en macrófagos para infecciones resistentes a antibióticos (AMIR)», en el marco de la convocatoria 2024 de ayudas a proyectos de colaboración público-privada.
+Entidad convocante: MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-25
+Fecha de apertura: 25 de mayo de 2018
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-25
+Beneficiarios/encaje detectado: los organismos públicos de investigación de la Administración General del Estado, los consorcios y fundaciones participadas por las administraciones públicas, los organismos de investigación de otras administraciones públicas y los centros e instituciones del Sistema Nacional de Salud, puedan suscribir convenios administrativos entre ellos o con agentes privados que realicen actividades de invest
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, financiacion, financiación, fundaciones, mayores
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16236
+PDF oficial: https://www.boe.es/boe/dias/2026/07/25/pdfs/BOE-A-2026-16236.pdf
+
+Novedades incorporadas en esta ejecucion: 2
+Coincidencias totales en el periodo revisado: 26
