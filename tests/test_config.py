@@ -27,6 +27,9 @@ class ConfigTests(unittest.TestCase):
         self.assertIn("Tarifa", municipalities)
         self.assertIn("Nerja", municipalities)
         self.assertIn("Pulpí", municipalities)
+        self.assertIn("galpa_cadiz", source_ids)
+        self.assertIn("galpa_huelva", source_ids)
+        self.assertIn("galpa_malaga", source_ids)
 
 
 if __name__ == "__main__":
