@@ -4,10 +4,15 @@
     "name": "Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS)",
     "group": "Estatal - BDNS",
     "adapter": "bdns",
-    "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/busqueda",
-    "detail_url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/{numeroConvocatoria}",
-    "official_domains": ["infosubvenciones.es"],
+    "url": "https://www.infosubvenciones.gob.es/bdnstrans/api/convocatorias/busqueda",
+    "fallback_urls": [
+      "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/busqueda",
+      "https://wwwpre.infosubvenciones.es/bdnstrans/api/convocatorias/busqueda"
+    ],
+    "detail_url": "https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/{numeroConvocatoria}",
+    "official_domains": ["infosubvenciones.gob.es", "infosubvenciones.es"],
     "organization_type": "Administración General del Estado",
+    "accept": "application/json",
     "pages": 8,
     "page_size": 100,
     "respect_robots": false,

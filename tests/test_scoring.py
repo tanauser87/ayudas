@@ -93,6 +93,63 @@ class ScoringTests(unittest.TestCase):
         self.assertEqual(item.participation, "Socia de consorcio europeo")
         self.assertEqual(item.scoring.eligibility, 15)
 
+    def test_exclusive_other_region_is_not_eligible(self) -> None:
+        item = opportunity(
+            "Convocatoria Social Castilla-La Mancha",
+            "Entidades privadas sin ánimo de lucro.",
+        )
+        item.territory = "España"
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.caribdis_score, 0)
+        self.assertEqual(item.priority, "Descartar")
+        self.assertEqual(item.participation, "No elegible")
+
+    def test_nominative_grant_is_discarded(self) -> None:
+        item = opportunity(
+            "Subvención nominativa Museo Ejemplo 2026",
+            "Entidad beneficiaria identificada.",
+        )
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.caribdis_score, 0)
+        self.assertEqual(item.participation, "No elegible")
+
+    def test_personal_scholarship_is_discarded(self) -> None:
+        item = opportunity(
+            "Convocatoria de dos becas de colaboración para estudiantes",
+            "Personas físicas matriculadas.",
+        )
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.caribdis_score, 0)
+        self.assertEqual(item.priority, "Descartar")
+
+    def test_non_competitive_direct_grant_is_discarded(self) -> None:
+        item = opportunity(
+            "Concesión directa de subvenciones a diversas entidades sociales",
+            "Entidades sin ánimo de lucro.",
+        )
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.caribdis_score, 0)
+        self.assertIn("concesión directa no competitiva", item.risks)
+
+    def test_foreign_trade_grant_is_discarded(self) -> None:
+        item = opportunity(
+            "Ayudas de ICEX España Exportación e Inversiones",
+            "Asociaciones sin ánimo de lucro.",
+        )
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.priority, "Descartar")
+        self.assertEqual(item.participation, "No elegible")
+
 
 if __name__ == "__main__":
     unittest.main()

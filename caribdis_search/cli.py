@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
@@ -102,6 +103,24 @@ def main() -> int:
             "report": str(report_path),
         },
     )
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary_path:
+        summary_lines = [
+            "# Revisión global de ayudas CARIBDIS",
+            "",
+            f"- Periodo: {start_date.isoformat()} a {end_date.isoformat()}",
+            f"- Oportunidades únicas: {len(opportunities)}",
+            f"- Fuentes correctas: {len(run.sources_succeeded)}/{len(run.sources_checked)}",
+            f"- Incidencias: {len(run.incidents)}",
+            f"- Informe: `{config['report_path']}`",
+            "",
+        ]
+        if run.incidents:
+            summary_lines.extend(["## Fuentes con incidencias", ""])
+            summary_lines.extend(
+                f"- {incident.source_name}: {incident.message}" for incident in run.incidents
+            )
+        Path(summary_path).write_text("\n".join(summary_lines).rstrip() + "\n", encoding="utf-8")
 
     print(
         f"Buscador CARIBDIS: {len(opportunities)} oportunidades, "

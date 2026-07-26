@@ -210,9 +210,10 @@ def render_report(
 ) -> str:
     today = today or date.today()
     ranked = ranked_opportunities(run.opportunities, today=today)
-    open_items = _filter(ranked, lambda item: normalize_text(item.status) == "abierta")
-    upcoming = _filter(ranked, lambda item: normalize_text(item.status) == "proxima")
-    recurrent = _filter(ranked, lambda item: normalize_text(item.status) == "cerrada recurrente")
+    eligible = _filter(ranked, lambda item: item.priority != "Descartar")
+    open_items = _filter(eligible, lambda item: normalize_text(item.status) == "abierta")
+    upcoming = _filter(eligible, lambda item: normalize_text(item.status) == "proxima")
+    recurrent = _filter(eligible, lambda item: normalize_text(item.status) == "cerrada recurrente")
     discarded = _filter(ranked, lambda item: item.priority == "Descartar")
 
     lines = [

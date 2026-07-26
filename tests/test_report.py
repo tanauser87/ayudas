@@ -4,7 +4,7 @@ from datetime import date
 from pathlib import Path
 
 from caribdis_search.models import Opportunity, RunResult
-from caribdis_search.report import ranked_opportunities, write_report
+from caribdis_search.report import ranked_opportunities, render_report, write_report
 
 
 def item(
@@ -62,6 +62,26 @@ class ReportTests(unittest.TestCase):
             self.assertIn("## 19. Ranking general completo", content)
             self.assertIn("## 20. Recomendaciones de actuación inmediata", content)
             self.assertIn("### 1. Ayuda marina", content)
+
+    def test_discarded_items_do_not_appear_in_open_top(self) -> None:
+        valid = item("Ayuda válida", "Abierta", 70, "2026-09-30")
+        discarded = item("Ayuda descartada", "Abierta", 0, "2026-08-01")
+        discarded.priority = "Descartar"
+        run = RunResult(opportunities=[valid, discarded])
+
+        content = render_report(
+            run,
+            start_date=date(2026, 7, 1),
+            end_date=date(2026, 7, 26),
+            today=date(2026, 7, 26),
+        )
+        top_section = content.split(
+            "## 3. Top 10 ayudas abiertas para solicitar ahora", 1
+        )[1].split("## 4.", 1)[0]
+
+        self.assertIn("Ayuda válida", top_section)
+        self.assertNotIn("Ayuda descartada", top_section)
+        self.assertIn("Ayuda descartada", content.split("## 17.", 1)[1])
 
 
 if __name__ == "__main__":

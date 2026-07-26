@@ -84,6 +84,10 @@ def is_relevant(text: str) -> bool:
 
 
 class GenericPageSource(BaseSource):
+    def __init__(self, config: dict[str, object]) -> None:
+        super().__init__(config)
+        self.errors: list[str] = []
+
     def collect(self, context: SourceContext) -> list[Opportunity]:
         if self.config["adapter"] == "rss":
             return self._collect_rss(context)
@@ -111,7 +115,11 @@ class GenericPageSource(BaseSource):
         opportunities: list[Opportunity] = []
         pause = float(self.config.get("rate_limit_seconds", 0.2))
         for url, link_title in candidates:
-            detail_html = landing_html if url == self.config["url"] else fetch_text(url, context, self.config)
+            try:
+                detail_html = landing_html if url == self.config["url"] else fetch_text(url, context, self.config)
+            except Exception as exc:
+                self.errors.append(f"{url}: {type(exc).__name__}: {exc}")
+                continue
             parser = LinkParser(url)
             parser.feed(detail_html)
             title = parser.page_title or link_title

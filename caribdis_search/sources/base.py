@@ -15,7 +15,11 @@ from typing import Any
 from ..models import Opportunity
 
 
-USER_AGENT = "CARIBDIS-Funding-Monitor/1.0"
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36 "
+    "CARIBDIS-Funding-Monitor/1.0"
+)
 
 
 class SourceError(RuntimeError):
@@ -42,6 +46,7 @@ def fetch_bytes(
     official_domains: list[str],
     retries: int = 3,
     respect_robots: bool = True,
+    accept: str = "text/html,application/xhtml+xml,application/xml,application/json,*/*",
 ) -> bytes:
     if not host_allowed(url, official_domains):
         raise SourceError(f"Dominio fuera de la lista oficial: {url}")
@@ -52,7 +57,7 @@ def fetch_bytes(
         url,
         headers={
             "User-Agent": USER_AGENT,
-            "Accept": "text/html,application/xhtml+xml,application/xml,application/json,*/*",
+            "Accept": accept,
             "Connection": "close",
         },
     )
@@ -107,6 +112,7 @@ def fetch_text(url: str, context: SourceContext, source: dict[str, Any]) -> str:
         official_domains=list(source["official_domains"]),
         retries=int(source.get("retries", 3)),
         respect_robots=bool(source.get("respect_robots", True)),
+        accept=str(source.get("accept", "text/html,application/xhtml+xml,application/xml,application/json,*/*")),
     )
     text = decode_payload(payload)
     if cache_ttl > 0:

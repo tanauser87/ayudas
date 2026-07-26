@@ -80,6 +80,30 @@ TERRITORY_TERMS = {
     "europa": 6,
 }
 
+EXCLUSIVE_OTHER_TERRITORIES = [
+    "aragón",
+    "asturias",
+    "islas baleares",
+    "baleares",
+    "canarias",
+    "cantabria",
+    "castilla-la mancha",
+    "castilla la mancha",
+    "castilla y león",
+    "cataluña",
+    "comunidad de madrid",
+    "comunitat valenciana",
+    "comunidad valenciana",
+    "extremadura",
+    "galicia",
+    "la rioja",
+    "murcia",
+    "navarra",
+    "país vasco",
+    "ceuta",
+    "melilla",
+]
+
 DIRECT_ELIGIBILITY_TERMS = [
     "asociaciones sin ánimo de lucro",
     "entidades sin ánimo de lucro",
@@ -125,11 +149,21 @@ PARTNER_RULES = [
 
 HARD_EXCLUSIONS = [
     (
-        r"\bconcesión directa\b.{0,140}\b(?:a favor de|a la|al|para la|para el)\b",
-        "concesión directa a una entidad concreta",
+        r"\bconcesión directa\b",
+        "concesión directa no competitiva",
     ),
     (r"\bbeneficiari[oa]\s+únic[oa]\b", "beneficiario único ya nombrado"),
+    (r"\bsubvenci(?:ón|on)(?:es)?\s+nominativa", "subvención nominativa"),
+    (r"\bconvenio(?:\s+de\s+colaboración)?\s+(?:con|entre)\b", "convenio con destinatario identificado"),
+    (r"\bconvocatoria\s+de\s+.{0,35}\bbecas?\b", "beca personal"),
     (r"\b(?:beca|premio)s?\s+(?:personal|individual)", "beca o premio personal"),
+    (r"\bpremio\b.{0,100}\bpersona\b", "premio dirigido a una persona"),
+    (r"\b(?:icex|comercio exterior|exportación e inversiones)\b", "comercio exterior"),
+    (
+        r"\b(?:contratos?|ayudas?|investigación)\s+(?:pre|post)doctorales?\b",
+        "investigación doctoral o postdoctoral",
+    ),
+    (r"\b(?:ministerio|industria)\s+de\s+defensa\b", "sector de defensa"),
     (r"\b(?:licitación|contratación pública|contrato público)\b", "contratación pública"),
     (r"\bnombramientos?\b", "nombramiento"),
 ]
@@ -297,6 +331,15 @@ def score_caribdis(opportunity: Opportunity, today: date | None = None) -> tuple
         eligibility = 0
         participation = "No elegible"
         eligibility_risks.append("ámbito territorial fuera de Andalucía, España o la Unión Europea")
+    normalized_title = normalize_text(opportunity.title)
+    if (
+        any(normalize_text(territory) in normalized_title for territory in EXCLUSIVE_OTHER_TERRITORIES)
+        and "andalucia" not in normalized_title
+    ):
+        hard_invalid = True
+        eligibility = 0
+        participation = "No elegible"
+        eligibility_risks.append("convocatoria territorial exclusiva de otra comunidad o ciudad autónoma")
     if normalize_text(opportunity.status) == "cerrada" and not opportunity.recurrent:
         penalties += 15
         eligibility_risks.append("plazo vencido sin recurrencia confirmada")

@@ -47,6 +47,12 @@ def normalize_text(value: str) -> str:
 
 def parse_date(value: str) -> date | None:
     value = clean_text(value)
+    iso_match = re.search(r"\b\d{4}-\d{2}-\d{2}\b", value)
+    if iso_match:
+        try:
+            return date.fromisoformat(iso_match.group(0))
+        except ValueError:
+            pass
     for fmt in ("%Y-%m-%d", "%d/%m/%Y", "%d-%m-%Y", "%d/%m/%y"):
         try:
             return datetime.strptime(value, fmt).date()
@@ -100,6 +106,10 @@ def extract_status(open_date: str, close_date: str, text: str, today: date) -> s
             ) else "Cerrada"
     if any(term in normalized for term in ["convocatoria abierta", "plazo abierto", "presentación de solicitudes"]):
         return "Abierta"
+    if any(term in normalized for term in ["convocatoria cerrada", "plazo cerrado", "estado cerrada"]):
+        return "Cerrada recurrente" if any(
+            term in normalized for term in ["anual", "cada año", "convocatorias anteriores"]
+        ) else "Cerrada"
     return "Desconocida"
 
 
