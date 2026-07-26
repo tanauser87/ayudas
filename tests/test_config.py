@@ -30,6 +30,11 @@ class ConfigTests(unittest.TestCase):
         self.assertIn("galpa_cadiz", source_ids)
         self.assertIn("galpa_huelva", source_ids)
         self.assertIn("galpa_malaga", source_ids)
+        self.assertIn("eu_life", source_ids)
+        self.assertIn("eu_horizon", source_ids)
+        self.assertIn("interreg_poCTEP", source_ids)
+        horizon = next(source for source in config["sources"] if source["id"] == "eu_horizon")
+        self.assertIn("Consorcio europeo", horizon["consortium_hint"])
 
 
 if __name__ == "__main__":

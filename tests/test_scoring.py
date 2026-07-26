@@ -81,6 +81,18 @@ class ScoringTests(unittest.TestCase):
         self.assertEqual(item.priority, "Descartar")
         self.assertEqual(item.participation, "No elegible")
 
+    def test_european_consortium_is_classified_as_partner(self) -> None:
+        item = opportunity(
+            "Horizon Europe para biodiversidad marina y restauración del océano",
+            "Consorcio europeo internacional requerido.",
+        )
+        item.territory = "Unión Europea - España elegible"
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.participation, "Socia de consorcio europeo")
+        self.assertEqual(item.scoring.eligibility, 15)
+
 
 if __name__ == "__main__":
     unittest.main()

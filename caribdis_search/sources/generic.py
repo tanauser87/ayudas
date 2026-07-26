@@ -129,7 +129,11 @@ class GenericPageSource(BaseSource):
                 province=self.config.get("province", "Dato no localizado"),
                 municipality=self.config.get("municipality", "Dato no localizado"),
                 official_url=url,
-                summary=clean_text(detail_html)[:1_000],
+                summary=(
+                    f"{self.config.get('eligibility_hint', '')} "
+                    f"{self.config.get('consortium_hint', '')} "
+                    f"{clean_text(detail_html)[:1_000]}"
+                ).strip(),
                 checked_at=datetime.now().astimezone().isoformat(timespec="seconds"),
             )
             opportunities.append(enrich_opportunity(opportunity, detail_html, context.today))
@@ -172,7 +176,10 @@ class GenericPageSource(BaseSource):
                     province=self.config.get("province", "Dato no localizado"),
                     municipality=self.config.get("municipality", "Dato no localizado"),
                     official_url=link,
-                    summary=summary,
+                    summary=(
+                        f"{self.config.get('eligibility_hint', '')} "
+                        f"{self.config.get('consortium_hint', '')} {summary}"
+                    ).strip(),
                     raw_text=summary,
                     checked_at=datetime.now().astimezone().isoformat(timespec="seconds"),
                 )

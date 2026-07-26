@@ -1,0 +1,152 @@
+{
+  "defaults": {
+    "group": "Unión Europea",
+    "adapter": "html",
+    "organization_type": "Institución o programa europeo",
+    "territory": "Unión Europea - España elegible",
+    "max_items": 20,
+    "enabled": true
+  },
+  "sources": [
+    {
+      "id": "eu_funding_tenders",
+      "name": "Comisión Europea - Funding & Tenders",
+      "organization": "Comisión Europea",
+      "url": "https://commission.europa.eu/funding-tenders/find-funding/find-calls-funding-topic_en",
+      "official_domains": ["commission.europa.eu", "funding-tenders.ec.europa.eu"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "eu_life",
+      "name": "Programa LIFE - Convocatorias",
+      "organization": "CINEA - Comisión Europea",
+      "url": "https://cinea.ec.europa.eu/programmes/life/life-calls-proposals_en",
+      "official_domains": ["cinea.ec.europa.eu", "funding-tenders.ec.europa.eu"],
+      "eligibility_hint": "Entidades públicas o privadas legalmente constituidas en la Unión Europea."
+    },
+    {
+      "id": "eu_horizon",
+      "name": "Horizon Europe - Convocatorias",
+      "organization": "Comisión Europea",
+      "url": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls_en",
+      "official_domains": ["research-and-innovation.ec.europa.eu", "funding-tenders.ec.europa.eu"],
+      "consortium_hint": "Consorcio europeo internacional normalmente requerido."
+    },
+    {
+      "id": "eu_missions",
+      "name": "Misiones de Horizon Europe",
+      "organization": "Comisión Europea",
+      "url": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/eu-missions-horizon-europe_en",
+      "official_domains": ["research-and-innovation.ec.europa.eu", "funding-tenders.ec.europa.eu"],
+      "consortium_hint": "Consorcio europeo internacional normalmente requerido."
+    },
+    {
+      "id": "biodiversa_plus",
+      "name": "Biodiversa+ - Convocatorias",
+      "organization": "Biodiversa+",
+      "url": "https://www.biodiversa.eu/research-funding/open-call/",
+      "official_domains": ["biodiversa.eu"],
+      "eligibility_hint": "Participación habitualmente canalizada mediante universidades o centros de investigación.",
+      "requires_adjustment": true
+    },
+    {
+      "id": "erasmus_plus",
+      "name": "Erasmus+ - Oportunidades para organizaciones",
+      "organization": "Comisión Europea / EACEA",
+      "url": "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-organisations",
+      "official_domains": ["erasmus-plus.ec.europa.eu", "eacea.ec.europa.eu"],
+      "eligibility_hint": "Organizaciones sin ánimo de lucro pueden participar según la acción."
+    },
+    {
+      "id": "cuerpo_europeo_solidaridad",
+      "name": "Cuerpo Europeo de Solidaridad - Convocatorias",
+      "organization": "Comisión Europea / EACEA",
+      "url": "https://youth.europa.eu/solidarity/organisations/calls-for-proposals_en",
+      "official_domains": ["youth.europa.eu", "eacea.ec.europa.eu"],
+      "eligibility_hint": "Organizaciones sin ánimo de lucro pueden participar según la acción."
+    },
+    {
+      "id": "interreg_poCTEP",
+      "name": "Interreg España-Portugal POCTEP - Convocatorias",
+      "organization": "Programa Interreg POCTEP",
+      "url": "https://www.poctep.eu/convocatorias/",
+      "official_domains": ["poctep.eu"],
+      "consortium_hint": "Consorcio europeo internacional con socios de España y Portugal requerido."
+    },
+    {
+      "id": "interreg_sudoe",
+      "name": "Interreg Sudoe - Convocatorias",
+      "organization": "Programa Interreg Sudoe",
+      "url": "https://interreg-sudoe.eu/convocatorias/",
+      "official_domains": ["interreg-sudoe.eu"],
+      "consortium_hint": "Consorcio europeo internacional requerido."
+    },
+    {
+      "id": "interreg_euromed",
+      "name": "Interreg Euro-MED - Convocatorias",
+      "organization": "Programa Interreg Euro-MED",
+      "url": "https://interreg-euro-med.eu/en/calls-for-projects/",
+      "official_domains": ["interreg-euro-med.eu"],
+      "consortium_hint": "Consorcio europeo internacional requerido."
+    },
+    {
+      "id": "interreg_atlantic",
+      "name": "Interreg Atlantic Area - Convocatorias",
+      "organization": "Programa Interreg Atlantic Area",
+      "url": "https://www.atlanticarea.eu/for-applicants/calls/",
+      "official_domains": ["atlanticarea.eu"],
+      "consortium_hint": "Consorcio europeo internacional requerido."
+    },
+    {
+      "id": "eu_emfaf",
+      "name": "EMFAF/FEMPA europeo - Convocatorias",
+      "organization": "CINEA - Comisión Europea",
+      "url": "https://cinea.ec.europa.eu/programmes/european-maritime-fisheries-and-aquaculture-fund/emfaf-calls-proposals_en",
+      "official_domains": ["cinea.ec.europa.eu", "funding-tenders.ec.europa.eu"],
+      "consortium_hint": "Algunas acciones exigen consorcio europeo; revisar cada topic."
+    },
+    {
+      "id": "eu_creative",
+      "name": "Europa Creativa - Convocatorias",
+      "organization": "Comisión Europea / EACEA",
+      "url": "https://culture.ec.europa.eu/creative-europe/creative-europe-calls",
+      "official_domains": ["culture.ec.europa.eu", "eacea.ec.europa.eu"],
+      "consortium_hint": "Algunas acciones exigen consorcio europeo; revisar cada convocatoria."
+    },
+    {
+      "id": "eu_cerv",
+      "name": "CERV - Ciudadanos, Igualdad, Derechos y Valores",
+      "organization": "Comisión Europea",
+      "url": "https://commission.europa.eu/strategy-and-policy/eu-budget/eu-funding-programmes/citizens-equality-rights-and-values-programme/citizens-equality-rights-and-values-programme-funding_en",
+      "official_domains": ["commission.europa.eu", "funding-tenders.ec.europa.eu"],
+      "eligibility_hint": "Organizaciones de la sociedad civil pueden participar según la convocatoria."
+    },
+    {
+      "id": "eu_esf_plus",
+      "name": "Fondo Social Europeo Plus - Financiación",
+      "organization": "Comisión Europea",
+      "url": "https://european-social-fund-plus.ec.europa.eu/en/funding",
+      "official_domains": ["european-social-fund-plus.ec.europa.eu"],
+      "eligibility_hint": "Financiación habitualmente gestionada por autoridades nacionales o regionales.",
+      "requires_adjustment": true
+    },
+    {
+      "id": "eu_feder",
+      "name": "FEDER - Financiación regional",
+      "organization": "Comisión Europea",
+      "url": "https://ec.europa.eu/regional_policy/funding/erdf_en",
+      "official_domains": ["ec.europa.eu"],
+      "eligibility_hint": "Financiación habitualmente gestionada por autoridades nacionales o regionales.",
+      "requires_adjustment": true
+    },
+    {
+      "id": "euki",
+      "name": "European Climate Initiative - Project Financing",
+      "organization": "European Climate Initiative",
+      "url": "https://www.euki.de/en/project-financing/",
+      "official_domains": ["euki.de"],
+      "consortium_hint": "Algunas acciones exigen cooperación internacional; revisar la convocatoria.",
+      "requires_adjustment": true
+    }
+  ]
+}
