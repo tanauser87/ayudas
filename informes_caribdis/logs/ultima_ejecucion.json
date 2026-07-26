@@ -1,0 +1,65 @@
+{
+  "started_at": "2026-07-27T01:42:10+02:00",
+  "finished_at": "2026-07-27T01:42:44+02:00",
+  "period": {
+    "start": "2026-07-20",
+    "end": "2026-07-27"
+  },
+  "sources_checked": [
+    "BOE y BOJA",
+    "Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS)",
+    "FECYT - Cultura Científica 2026"
+  ],
+  "sources_succeeded": [
+    "FECYT - Cultura Científica 2026",
+    "Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS)",
+    "BOE y BOJA"
+  ],
+  "source_statuses": [
+    {
+      "source_id": "boe_boja",
+      "source_name": "BOE y BOJA",
+      "coverage_type": "historical",
+      "coverage_note": "Consulta diaria por fecha en los diarios oficiales BOE y BOJA. Consulta del periodo 2026-07-20 a 2026-07-27 con fechas y paginacion.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "bdns",
+      "source_name": "Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS)",
+      "coverage_type": "api",
+      "coverage_note": "API oficial con filtros fechaDesde/fechaHasta y paginación completa. Consulta del periodo 2026-07-20 a 2026-07-27 con fechas y paginacion.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "fecyt",
+      "source_name": "FECYT - Cultura Científica 2026",
+      "coverage_type": "current",
+      "coverage_note": "Ficha de la convocatoria 2026 contrastada con el portal y las bases oficiales de FECYT. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    }
+  ],
+  "pending_sources": [
+    {
+      "source_id": "diputacion_sevilla",
+      "source_name": "Diputación de Sevilla",
+      "coverage_type": "landing",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": "Requiere adaptar el tablón/BOP y filtrar bases, beneficiarios y plazos; la portada no es suficiente."
+    },
+    {
+      "source_id": "eu_funding_tenders",
+      "source_name": "Comisión Europea - Funding & Tenders",
+      "coverage_type": "landing",
+      "coverage_note": "Portal dinámico; la portada no constituye un listado verificable de topics. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": "Requiere adaptar la API Search Funding & Tenders y sus filtros de elegibilidad, estado y paginación."
+    }
+  ],
+  "incidents": [],
+  "opportunities": 56,
+  "report": "C:\\Users\\Tanau\\Documents\\caribdis\\ayudas_repo\\informes_caribdis\\INFORME_UNICO_AYUDAS_CARIBDIS.md"
+}

@@ -36,8 +36,10 @@ def validate_source(source: dict[str, Any], filename: str) -> None:
         raise ConfigError(f"{filename} / {source.get('id', 'sin id')}: faltan {', '.join(missing)}")
     if not source["official_domains"]:
         raise ConfigError(f"{filename} / {source['id']}: official_domains no puede estar vacío")
-    if source["adapter"] not in {"bdns", "html", "rss"}:
+    if source["adapter"] not in {"bdns", "html", "rss", "verified"}:
         raise ConfigError(f"{filename} / {source['id']}: adaptador no soportado")
+    if source.get("coverage_type") not in {"historical", "api", "rss", "current", "landing"}:
+        raise ConfigError(f"{filename} / {source['id']}: coverage_type no válido")
 
 
 def load_configuration(config_dir: Path) -> dict[str, Any]:
@@ -59,6 +61,13 @@ def load_configuration(config_dir: Path) -> dict[str, Any]:
             source = {**defaults, **raw_source} if isinstance(raw_source, dict) else raw_source
             if not isinstance(source, dict):
                 raise ConfigError(f"{filename} contiene una fuente no válida")
+            source.setdefault(
+                "coverage_type",
+                {"bdns": "api", "rss": "rss", "verified": "current"}.get(
+                    str(source.get("adapter")), "current"
+                ),
+            )
+            source.setdefault("coverage_note", "")
             validate_source(source, filename)
             if source["id"] in seen_ids:
                 raise ConfigError(f"Identificador de fuente duplicado: {source['id']}")

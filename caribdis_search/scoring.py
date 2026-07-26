@@ -131,6 +131,11 @@ PARTNER_RULES = [
         "exige consorcio internacional",
     ),
     (
+        r"\b(?:horizon|life|interreg)\b.{0,160}\b(?:consorcio|consortium|tres países|3 países|three countries)\b",
+        "Socia de consorcio europeo",
+        "exige consorcio europeo",
+    ),
+    (
         r"\b(?:solo|exclusivamente|únicamente).{0,35}\b(?:empresas|autónomos)\b",
         "Solo con socio",
         "beneficiarios limitados a empresas o autónomos",
@@ -184,6 +189,41 @@ PROJECTS = {
     "Voluntariado y participación": (
         "Red de Voluntariado Azul: formación y acciones comunitarias de conservación litoral."
     ),
+}
+
+THEMATIC_MARINE_MINIMUM = {
+    "conservación marina",
+    "biodiversidad marina",
+    "fauna submarina",
+    "flora submarina",
+    "fauna marina",
+    "flora marina",
+    "especies marinas",
+    "hábitats marinos",
+    "fondos marinos",
+    "praderas marinas",
+    "praderas submarinas",
+    "algas",
+    "vegetación marina",
+    "medio marino",
+    "ecosistemas marinos",
+    "ecosistemas costeros",
+    "litoral",
+    "costas",
+    "playas",
+    "residuos marinos",
+    "contaminación marina",
+    "restauración marina",
+}
+
+THEMATIC_SCIENCE_MINIMUM = {
+    "ciencia ciudadana",
+    "investigación participativa",
+    "educación ambiental",
+    "divulgación científica",
+    "cultura científica",
+    "talleres científicos",
+    "talleres ambientales",
 }
 
 
@@ -276,7 +316,14 @@ def _viability_points(opportunity: Opportunity, participation: str, text: str) -
     points = 5
     if participation != "Solicitud directa":
         points = min(points, 3)
-    if opportunity.consortium_required != NOT_FOUND or "consorcio" in normalized:
+    consortium_value = normalize_text(opportunity.consortium_required)
+    affirmative_consortium = (
+        opportunity.consortium_required != NOT_FOUND
+        and not consortium_value.startswith(("no ", "no se ", "sin "))
+    )
+    if affirmative_consortium or re.search(
+        r"\b(?:exige|requiere|obligatorio).{0,30}\bconsorcio\b", normalized
+    ):
         points = min(points, 2)
         risks.append("coordinación de consorcio")
     if opportunity.cofinancing != NOT_FOUND or "cofinanciacion" in normalized:
@@ -301,6 +348,33 @@ def _theme(marine_score: int, science_score: int, social_score: int, text: str) 
     return "Sin encaje temático"
 
 
+def _meets_thematic_minimum(
+    text: str,
+    marine_keywords: list[str],
+    science_keywords: list[str],
+    social_keywords: list[str],
+) -> bool:
+    if any(term in THEMATIC_MARINE_MINIMUM for term in marine_keywords):
+        return True
+    if any(term in THEMATIC_SCIENCE_MINIMUM for term in science_keywords):
+        return True
+    normalized = normalize_text(text)
+    explicit_environmental_activity = any(
+        term in normalized
+        for term in [
+            "taller cientifico",
+            "talleres cientificos",
+            "taller ambiental",
+            "talleres ambientales",
+            "actividad cientifica",
+            "actividades cientificas",
+            "actividad ambiental",
+            "actividades ambientales",
+        ]
+    )
+    return bool(social_keywords and explicit_environmental_activity)
+
+
 def score_caribdis(opportunity: Opportunity, today: date | None = None) -> tuple[ScoringBreakdown, dict[str, object]]:
     del today  # El estado llega normalizado por el extractor; se mantiene para facilitar pruebas futuras.
     text = " ".join(
@@ -317,6 +391,12 @@ def score_caribdis(opportunity: Opportunity, today: date | None = None) -> tuple
     marine_score, marine_keywords = matched_weighted_terms(text, MARINE_TERMS)
     science_score, science_keywords = matched_weighted_terms(text, SCIENCE_EDUCATION_TERMS)
     social_score, social_keywords = matched_weighted_terms(text, SOCIAL_TERMS)
+    thematic_minimum_met = _meets_thematic_minimum(
+        text,
+        marine_keywords,
+        science_keywords,
+        social_keywords,
+    )
     thematic_fit = min(25, marine_score + science_score)
     social_fit = min(15, social_score)
     territorial_fit = _territorial_points(opportunity, text)
@@ -332,6 +412,15 @@ def score_caribdis(opportunity: Opportunity, today: date | None = None) -> tuple
         participation = "No elegible"
         eligibility_risks.append("ámbito territorial fuera de Andalucía, España o la Unión Europea")
     normalized_title = normalize_text(opportunity.title)
+    normalized_text = normalize_text(text)
+    if (
+        "agencia espanola de proteccion de datos" in normalized_text
+        and "premio" in normalized_text
+    ):
+        hard_invalid = True
+        eligibility = 0
+        participation = "No elegible"
+        eligibility_risks.append("premio de la AEPD sin encaje operativo CARIBDIS")
     if (
         any(normalize_text(territory) in normalized_title for territory in EXCLUSIVE_OTHER_TERRITORIES)
         and "andalucia" not in normalized_title
@@ -355,8 +444,17 @@ def score_caribdis(opportunity: Opportunity, today: date | None = None) -> tuple
         penalties=penalties,
     )
     score = 0 if hard_invalid else breakdown.total
+    if not hard_invalid and not thematic_minimum_met:
+        score = min(score, 49)
+        eligibility_risks.append(
+            "no alcanza el umbral temático CARIBDIS; el encaje social o educativo es genérico"
+        )
     priority = "Descartar" if hard_invalid else priority_for_score(score)
-    if normalize_text(opportunity.status) in {"proxima", "cerrada recurrente"} and not hard_invalid:
+    if (
+        normalize_text(opportunity.status) in {"proxima", "cerrada recurrente"}
+        and not hard_invalid
+        and participation == "Solicitud directa"
+    ):
         participation = "Vigilar próxima edición"
 
     keywords = list(dict.fromkeys(marine_keywords + science_keywords + social_keywords))
@@ -370,6 +468,8 @@ def score_caribdis(opportunity: Opportunity, today: date | None = None) -> tuple
     )
     if penalties:
         reason += f"; penalizaciones -{penalties}"
+    if not thematic_minimum_met:
+        reason += "; no supera el umbral temático y la prioridad queda limitada a Baja"
     reason += "."
 
     return breakdown, {
@@ -381,6 +481,7 @@ def score_caribdis(opportunity: Opportunity, today: date | None = None) -> tuple
         "keywords": keywords,
         "risks": risks,
         "recommended_project": PROJECTS.get(theme, NOT_FOUND),
+        "thematic_minimum_met": thematic_minimum_met,
     }
 
 
@@ -395,4 +496,5 @@ def apply_caribdis_scoring(opportunity: Opportunity, today: date | None = None) 
     opportunity.caribdis_keywords = list(result["keywords"])
     opportunity.risks = list(result["risks"])
     opportunity.recommended_project = str(result["recommended_project"])
+    opportunity.thematic_minimum_met = bool(result["thematic_minimum_met"])
     return opportunity

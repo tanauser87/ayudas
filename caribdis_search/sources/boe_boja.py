@@ -19,6 +19,8 @@ class LegacyBoeBojaSource(BaseSource):
                 "group": "BOE/BOJA",
                 "url": "https://www.boe.es/",
                 "official_domains": ["boe.es", "juntadeandalucia.es"],
+                "coverage_type": "historical",
+                "coverage_note": "Consulta diaria por fecha en los diarios oficiales BOE y BOJA.",
             }
         )
         self.errors: list[str] = []
@@ -40,6 +42,7 @@ class LegacyBoeBojaSource(BaseSource):
                 opportunities.append(
                     Opportunity(
                         id=opportunity_id,
+                        source_id=self.id,
                         title=item.title,
                         organization=item.entity,
                         source=item.source,
@@ -60,6 +63,9 @@ class LegacyBoeBojaSource(BaseSource):
                         summary=combined,
                         raw_text=combined,
                         checked_at=item.checked_at,
+                        coverage_type="historical",
+                        coverage_note="Edicion diaria oficial consultada por fecha.",
+                        metadata_verified=True,
                     )
                 )
             current += timedelta(days=1)

@@ -24,7 +24,9 @@
       "province": "Cádiz",
       "url": "https://www.dipucadiz.es/",
       "official_domains": ["dipucadiz.es", "bopcadiz.es"],
-      "requires_adjustment": true
+      "coverage_type": "landing",
+      "requires_adjustment": true,
+      "adjustment_reason": "Requiere adaptar el tablón/BOP y filtrar bases, beneficiarios y plazos; la portada no es suficiente."
     },
     {
       "id": "diputacion_cordoba",
@@ -51,7 +53,9 @@
       "province": "Huelva",
       "url": "https://www.diphuelva.es/",
       "official_domains": ["diphuelva.es"],
-      "requires_adjustment": true
+      "coverage_type": "landing",
+      "requires_adjustment": true,
+      "adjustment_reason": "Requiere adaptar el tablón/BOP y filtrar bases, beneficiarios y plazos; la portada no es suficiente."
     },
     {
       "id": "diputacion_jaen",
@@ -69,7 +73,9 @@
       "province": "Málaga",
       "url": "https://www.malaga.es/",
       "official_domains": ["malaga.es", "bopmalaga.es"],
-      "requires_adjustment": true
+      "coverage_type": "landing",
+      "requires_adjustment": true,
+      "adjustment_reason": "Requiere adaptar el tablón/BOP y filtrar bases, beneficiarios y plazos; la portada no es suficiente."
     },
     {
       "id": "diputacion_sevilla",
@@ -78,7 +84,9 @@
       "province": "Sevilla",
       "url": "https://www.dipusevilla.es/",
       "official_domains": ["dipusevilla.es", "bopsevilla.dipusevilla.es"],
-      "requires_adjustment": true
+      "coverage_type": "landing",
+      "requires_adjustment": true,
+      "adjustment_reason": "Requiere adaptar el tablón/BOP y filtrar bases, beneficiarios y plazos; la portada no es suficiente."
     }
   ]
 }

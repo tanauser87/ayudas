@@ -45,6 +45,11 @@ def parse_args() -> argparse.Namespace:
         default=[],
         help="Limita la ejecución a una fuente; puede repetirse.",
     )
+    parser.add_argument(
+        "--experimental",
+        action="store_true",
+        help="Ejecuta también fuentes pendientes de adaptación.",
+    )
     return parser.parse_args()
 
 
@@ -62,8 +67,7 @@ def resolve_period(args: argparse.Namespace) -> tuple[date, date]:
 
 def write_run_log(path: Path, run_data: dict[str, object]) -> None:
     path.mkdir(parents=True, exist_ok=True)
-    timestamp = datetime.now().astimezone().strftime("%Y%m%dT%H%M%S")
-    (path / f"ejecucion_{timestamp}.json").write_text(
+    (path / "ultima_ejecucion.json").write_text(
         json.dumps(run_data, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
@@ -74,7 +78,14 @@ def main() -> int:
     start_date, end_date = resolve_period(args)
     config = load_configuration(args.config_dir)
     source_ids = set(args.source_id) or None
-    run = run_search(config, start_date, end_date, ROOT, source_ids=source_ids)
+    run = run_search(
+        config,
+        start_date,
+        end_date,
+        ROOT,
+        source_ids=source_ids,
+        include_experimental=args.experimental,
+    )
 
     history_path = ROOT / config["history_path"]
     data_path = ROOT / config["data_path"]
@@ -98,6 +109,8 @@ def main() -> int:
             "period": {"start": start_date.isoformat(), "end": end_date.isoformat()},
             "sources_checked": run.sources_checked,
             "sources_succeeded": run.sources_succeeded,
+            "source_statuses": [status.to_dict() for status in run.source_statuses],
+            "pending_sources": [status.to_dict() for status in run.pending_sources],
             "incidents": [incident.to_dict() for incident in run.incidents],
             "opportunities": len(opportunities),
             "report": str(report_path),

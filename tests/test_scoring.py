@@ -150,6 +150,29 @@ class ScoringTests(unittest.TestCase):
         self.assertEqual(item.priority, "Descartar")
         self.assertEqual(item.participation, "No elegible")
 
+    def test_generic_social_fit_does_not_pass_thematic_threshold(self) -> None:
+        item = opportunity(
+            "Programa de responsabilidad social para infancia y vulnerabilidad",
+            "Asociaciones sin ánimo de lucro que realizan educación genérica.",
+        )
+
+        apply_caribdis_scoring(item)
+
+        self.assertFalse(item.thematic_minimum_met)
+        self.assertIn(item.priority, {"Baja", "Descartar"})
+        self.assertLess(item.caribdis_score, 50)
+
+    def test_aepd_prize_is_discarded(self) -> None:
+        item = opportunity(
+            "Premios de la Agencia Española de Protección de Datos",
+            "Asociaciones y entidades que trabajen con menores.",
+        )
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.priority, "Descartar")
+        self.assertIn("premio de la AEPD", " ".join(item.risks))
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -15,7 +15,10 @@
       "organization": "Fundación la Caixa",
       "url": "https://fundacionlacaixa.org/es/convocatorias-sociales",
       "official_domains": ["fundacionlacaixa.org"],
-      "eligibility_hint": "Convocatorias para entidades privadas sin ánimo de lucro; revisar la edición de Andalucía."
+      "eligibility_hint": "Convocatorias para entidades privadas sin ánimo de lucro; revisar la edición de Andalucía.",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual; cada edición territorial debe verificarse en su página y bases.",
+      "include_landing": false
     },
     {
       "id": "caixabank_accion_social",
@@ -31,7 +34,10 @@
       "name": "Fundación Unicaja - Convocatorias",
       "organization": "Fundación Unicaja",
       "url": "https://www.fundacionunicaja.com/convocatorias/",
-      "official_domains": ["fundacionunicaja.com"]
+      "official_domains": ["fundacionunicaja.com"],
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual de convocatorias de Fundación Unicaja.",
+      "include_landing": false
     },
     {
       "id": "fundacion_once",

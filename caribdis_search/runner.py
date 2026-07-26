@@ -5,15 +5,20 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
-from .models import Incident, Opportunity, RunResult
+from .models import Incident, Opportunity, RunResult, SourceStatus
 from .scoring import apply_caribdis_scoring
 from .sources.base import BaseSource, SourceContext
 from .sources.bdns import BDNSSource
 from .sources.boe_boja import LegacyBoeBojaSource
 from .sources.generic import GenericPageSource
+from .sources.verified import VerifiedMetadataSource
 
 
-def create_sources(config: dict[str, Any], source_ids: set[str] | None = None) -> list[BaseSource]:
+def create_sources(
+    config: dict[str, Any],
+    source_ids: set[str] | None = None,
+    include_experimental: bool = False,
+) -> list[BaseSource]:
     sources: list[BaseSource] = []
     if config.get("legacy_boe_boja_enabled", True) and (not source_ids or "boe_boja" in source_ids):
         sources.append(LegacyBoeBojaSource())
@@ -22,11 +27,35 @@ def create_sources(config: dict[str, Any], source_ids: set[str] | None = None) -
             continue
         if source_ids and source_config["id"] not in source_ids:
             continue
+        if source_config.get("requires_adjustment", False) and not include_experimental:
+            continue
         if source_config["adapter"] == "bdns":
             sources.append(BDNSSource(source_config))
+        elif source_config["adapter"] == "verified":
+            sources.append(VerifiedMetadataSource(source_config))
         else:
             sources.append(GenericPageSource(source_config))
     return sources
+
+
+def pending_source_statuses(
+    config: dict[str, Any],
+    context: SourceContext,
+    source_ids: set[str] | None = None,
+    include_experimental: bool = False,
+) -> list[SourceStatus]:
+    if include_experimental:
+        return []
+    statuses: list[SourceStatus] = []
+    for source_config in config.get("sources", []):
+        if not source_config.get("enabled", True):
+            continue
+        if source_ids and source_config["id"] not in source_ids:
+            continue
+        if not source_config.get("requires_adjustment", False):
+            continue
+        statuses.append(GenericPageSource(source_config).source_status(context))
+    return statuses
 
 
 def run_sources(
@@ -37,6 +66,7 @@ def run_sources(
     started = datetime.now().astimezone().isoformat(timespec="seconds")
     result = RunResult(started_at=started)
     result.sources_checked = [source.name for source in sources]
+    result.source_statuses = [source.source_status(context) for source in sources]
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, min(max_workers, 12))) as executor:
         futures = {executor.submit(source.collect, context): source for source in sources}
@@ -78,6 +108,7 @@ def run_search(
     end_date: date,
     root: Path,
     source_ids: set[str] | None = None,
+    include_experimental: bool = False,
 ) -> RunResult:
     cache_dir = root / config.get("cache_directory", "informes_caribdis/cache")
     context = SourceContext(
@@ -87,5 +118,16 @@ def run_search(
         timeout=int(config.get("request_timeout_seconds", 20)),
         cache_dir=cache_dir,
     )
-    sources = create_sources(config, source_ids=source_ids)
-    return run_sources(sources, context, max_workers=int(config.get("max_workers", 6)))
+    sources = create_sources(
+        config,
+        source_ids=source_ids,
+        include_experimental=include_experimental,
+    )
+    result = run_sources(sources, context, max_workers=int(config.get("max_workers", 6)))
+    result.pending_sources = pending_source_statuses(
+        config,
+        context,
+        source_ids=source_ids,
+        include_experimental=include_experimental,
+    )
+    return result

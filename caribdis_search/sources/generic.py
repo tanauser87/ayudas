@@ -99,7 +99,9 @@ class GenericPageSource(BaseSource):
         parser.feed(landing_html)
         candidates: list[tuple[str, str]] = []
         seen: set[str] = set()
-        if is_candidate_link(parser.page_title or self.name, self.config["url"]):
+        if self.config.get("include_landing", False) and is_candidate_link(
+            parser.page_title or self.name, self.config["url"]
+        ):
             candidates.append((self.config["url"], parser.page_title or self.name))
             seen.add(self.config["url"])
         for url, title in parser.links:
@@ -128,6 +130,7 @@ class GenericPageSource(BaseSource):
                 continue
             opportunity = Opportunity(
                 id=hashlib.sha256(url.encode("utf-8")).hexdigest(),
+                source_id=self.id,
                 title=title,
                 organization=self.config.get("organization", self.name),
                 source=self.name,
@@ -138,11 +141,14 @@ class GenericPageSource(BaseSource):
                 municipality=self.config.get("municipality", "Dato no localizado"),
                 official_url=url,
                 summary=(
-                    f"{self.config.get('eligibility_hint', '')} "
-                    f"{self.config.get('consortium_hint', '')} "
+                    f"{self.config.get('eligibility_hint', '') if self.config.get('metadata_verified') else ''} "
+                    f"{self.config.get('consortium_hint', '') if self.config.get('metadata_verified') else ''} "
                     f"{clean_text(detail_html)[:1_000]}"
                 ).strip(),
                 checked_at=datetime.now().astimezone().isoformat(timespec="seconds"),
+                coverage_type=str(self.config.get("coverage_type", "current")),
+                coverage_note=str(self.config.get("coverage_note", "")),
+                metadata_verified=bool(self.config.get("metadata_verified", False)),
             )
             opportunities.append(enrich_opportunity(opportunity, detail_html, context.today))
             if pause:
@@ -175,6 +181,7 @@ class GenericPageSource(BaseSource):
             opportunities.append(
                 Opportunity(
                     id=hashlib.sha256(link.encode("utf-8")).hexdigest(),
+                    source_id=self.id,
                     title=title,
                     organization=self.config.get("organization", self.name),
                     source=self.name,
@@ -185,11 +192,15 @@ class GenericPageSource(BaseSource):
                     municipality=self.config.get("municipality", "Dato no localizado"),
                     official_url=link,
                     summary=(
-                        f"{self.config.get('eligibility_hint', '')} "
-                        f"{self.config.get('consortium_hint', '')} {summary}"
+                        f"{self.config.get('eligibility_hint', '') if self.config.get('metadata_verified') else ''} "
+                        f"{self.config.get('consortium_hint', '') if self.config.get('metadata_verified') else ''} "
+                        f"{summary}"
                     ).strip(),
                     raw_text=summary,
                     checked_at=datetime.now().astimezone().isoformat(timespec="seconds"),
+                    coverage_type=str(self.config.get("coverage_type", "rss")),
+                    coverage_note=str(self.config.get("coverage_note", "")),
+                    metadata_verified=bool(self.config.get("metadata_verified", False)),
                 )
             )
         return opportunities[: int(self.config.get("max_items", 20))]

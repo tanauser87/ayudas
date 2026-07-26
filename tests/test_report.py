@@ -37,6 +37,35 @@ class ReportTests(unittest.TestCase):
 
         self.assertEqual([entry.title for entry in ranked], ["Abierta alta", "Abierta media", "Próxima"])
 
+    def test_ranking_places_partner_calls_after_upcoming_direct_calls(self) -> None:
+        high = item("Abierta alta", "Abierta", 90, "2026-10-01")
+        medium = item("Abierta media", "Abierta", 60, "2026-09-01")
+        medium.priority = "Media"
+        upcoming = item(
+            "Próxima directa",
+            "Próxima",
+            80,
+            "2026-11-01",
+            participation="Vigilar próxima edición",
+        )
+        partner = item(
+            "Abierta con consorcio",
+            "Abierta",
+            95,
+            "2026-08-01",
+            participation="Socia de consorcio europeo",
+        )
+
+        ranked = ranked_opportunities(
+            [partner, upcoming, medium, high],
+            today=date(2026, 7, 26),
+        )
+
+        self.assertEqual(
+            [entry.title for entry in ranked],
+            ["Abierta alta", "Abierta media", "Próxima directa", "Abierta con consorcio"],
+        )
+
     def test_report_contains_all_sections_and_overwrites_file(self) -> None:
         run = RunResult(
             opportunities=[item("Ayuda marina", "Abierta", 90, "2026-09-30")],
@@ -82,6 +111,43 @@ class ReportTests(unittest.TestCase):
         self.assertIn("Ayuda válida", top_section)
         self.assertNotIn("Ayuda descartada", top_section)
         self.assertIn("Ayuda descartada", content.split("## 17.", 1)[1])
+
+    def test_discarded_items_appear_only_in_section_17(self) -> None:
+        valid = item("FECYT Cultura Científica", "Abierta", 80, "2026-09-16")
+        discarded = item("Premios AEPD", "Abierta", 0, "2026-08-01")
+        discarded.priority = "Descartar"
+        discarded.risks = ["premio de la AEPD sin encaje operativo CARIBDIS"]
+
+        content = render_report(
+            RunResult(opportunities=[valid, discarded]),
+            start_date=date(2026, 7, 1),
+            end_date=date(2026, 7, 26),
+            today=date(2026, 7, 26),
+        )
+        before_discarded = content.split("## 17. Ayudas descartadas y motivo", 1)[0]
+        discarded_section = content.split(
+            "## 17. Ayudas descartadas y motivo", 1
+        )[1].split("## 18.", 1)[0]
+        after_discarded = content.split("## 18.", 1)[1]
+
+        self.assertNotIn("Premios AEPD", before_discarded)
+        self.assertIn("Premios AEPD", discarded_section)
+        self.assertNotIn("Premios AEPD", after_discarded)
+
+    def test_low_without_thematic_fit_does_not_enter_top_10(self) -> None:
+        low = item("Infancia genérica", "Abierta", 49, "2026-09-30")
+        low.priority = "Baja"
+        low.thematic_minimum_met = False
+
+        content = render_report(
+            RunResult(opportunities=[low]),
+            start_date=date(2026, 7, 1),
+            end_date=date(2026, 7, 26),
+            today=date(2026, 7, 26),
+        )
+        top_section = content.split("## 3.", 1)[1].split("## 4.", 1)[0]
+
+        self.assertNotIn("Infancia genérica", top_section)
 
 
 if __name__ == "__main__":

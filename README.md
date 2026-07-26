@@ -37,7 +37,9 @@ La configuración inicial incluye:
 - Funding & Tenders, LIFE, Horizon Europe, Misiones, Biodiversa+, Erasmus+, Cuerpo Europeo de Solidaridad, POCTEP, Sudoe, Euro-MED, Atlantic Area, EMFAF, Europa Creativa, CERV, FSE+, FEDER y EUKI.
 - Fundación la Caixa, CaixaBank, Unicaja, ONCE, Carasso, Banco Santander, Ibercaja, Endesa, Naturgy, Moeve, Repsol, Telefónica y MAPFRE.
 
-Solo se consultan los dominios indicados en `official_domains`. Las fuentes con páginas dinámicas o sin un listado estable llevan `requires_adjustment: true`; el sistema registra el resultado real de la consulta y no inventa convocatorias ni datos.
+Solo se consultan los dominios indicados en `official_domains`. Cada fuente declara una cobertura `historical`, `api`, `rss`, `current` o `landing`. El informe muestra el alcance real y no atribuye 365 días de revisión a una portada que solo refleja su estado actual.
+
+Las fuentes con páginas dinámicas o sin un listado estable llevan `requires_adjustment: true`. Están desactivadas por defecto y aparecen en `Fuentes pendientes de adaptación`, sin producir oportunidades rankeadas. Solo se ejecutan deliberadamente con `--experimental`.
 
 ## Scoring CARIBDIS
 
@@ -75,6 +77,18 @@ La forma de participación distingue:
 
 Las concesiones directas nominativas, beneficiarios únicos, becas o premios personales, contratos, licitaciones y nombramientos se descartan. Las ayudas exclusivas de ayuntamientos, universidades, organismos públicos, empresas o sector pesquero no se eliminan automáticamente: se clasifican como oportunidades con socio cuando existe encaje para CARIBDIS.
 
+### Umbral temático mínimo
+
+Una ayuda solo puede alcanzar prioridad Media, Alta o Muy alta si acredita al menos uno de estos encajes:
+
+- conservación, biodiversidad, fauna, flora, hábitats, litoral, contaminación o restauración marina;
+- ciencia ciudadana, divulgación científica, cultura científica o educación ambiental;
+- talleres o actividades expresamente científicas o ambientales para menores, discapacidad, NEAE o colectivos vulnerables.
+
+Las menciones aisladas a infancia, vulnerabilidad, asociaciones, educación genérica o responsabilidad social no superan el umbral. Su puntuación queda limitada a 49 y su prioridad a Baja o Descartar.
+
+FECYT Cultura Científica utiliza el adaptador `verified`: la ficha 2026 se construye con fechas, beneficiarios y condiciones revisados en su portal y bases oficiales, no con palabras de una portada.
+
 ## Informe único
 
 El informe se sobrescribe en cada ejecución e incluye, en orden:
@@ -100,7 +114,7 @@ El informe se sobrescribe en cada ejecución e incluye, en orden:
 19. ranking completo;
 20. recomendaciones inmediatas.
 
-El ranking ordena por estado abierto, puntuación, cercanía del cierre, posibilidad de solicitud directa, cuantía y menor dificultad administrativa.
+El ranking ordena primero convocatorias abiertas y directas de prioridad Muy alta o Alta, después abiertas de prioridad Media, próximas o recurrentes y, a continuación, oportunidades que requieren socio. Las ayudas de prioridad Baja sin umbral temático no entran en los Top 10. Las descartadas aparecen exclusivamente en la sección 17.
 
 ## Histórico y cambios
 
@@ -142,10 +156,18 @@ Revisión histórica de 365 días:
 python buscador_caribdis.py --historical
 ```
 
+La opción fija el periodo solicitado, pero solo BOE/BOJA y las APIs con fechas y paginación pueden acreditar cobertura histórica completa. RSS, listados actuales y portadas informan su cobertura limitada en el propio informe.
+
 Diagnosticar una fuente concreta:
 
 ```shell
 python buscador_caribdis.py --source-id bdns
+```
+
+Ejecutar deliberadamente una fuente pendiente de adaptación:
+
+```shell
+python buscador_caribdis.py --source-id eu_funding_tenders --experimental
 ```
 
 Mantener únicamente la salida heredada de BOE/BOJA:
@@ -171,7 +193,13 @@ La ejecución manual permite:
 - `historical`;
 - `source_id` para diagnóstico.
 
-El workflow ejecuta las pruebas, conserva la revisión BOE/BOJA, actualiza el buscador global y solo crea un commit cuando cambian los informes. El resumen de GitHub Actions muestra oportunidades, fuentes correctas e incidencias.
+El workflow diario conserva la revisión BOE/BOJA, actualiza el buscador global y solo crea un commit cuando cambian los informes. El resumen de GitHub Actions muestra oportunidades, fuentes correctas e incidencias.
+
+El workflow independiente `Pruebas` se activa en `push` y `pull_request` y ejecuta únicamente:
+
+```shell
+python -m unittest -v
+```
 
 ## Añadir una fuente
 
@@ -200,6 +228,8 @@ Ejemplo:
   "territory": "Andalucía",
   "province": "Cádiz",
   "municipality": "Ejemplo",
+  "coverage_type": "current",
+  "coverage_note": "Listado oficial actual; no ofrece histórico completo.",
   "max_items": 20,
   "enabled": true
 }
@@ -212,6 +242,7 @@ Adaptadores disponibles:
 - `bdns`: API oficial de BDNS.
 - `html`: página de convocatorias o ayudas.
 - `rss`: feed RSS o Atom.
+- `verified`: ficha de convocatoria con metadatos revisados y páginas oficiales comprobadas.
 
 ## Robustez
 
@@ -223,7 +254,7 @@ Adaptadores disponibles:
 - Caché opcional por fuente mediante `cache_ttl_seconds`.
 - Continuación del proceso si una fuente falla.
 - `Dato no localizado` cuando la página no publica un valor.
-- Incidencias guardadas en el informe, en GitHub Actions y en `informes_caribdis/logs/`.
+- Incidencias guardadas en el informe, en GitHub Actions y en `informes_caribdis/logs/ultima_ejecucion.json`.
 
 ## Limitaciones conocidas
 

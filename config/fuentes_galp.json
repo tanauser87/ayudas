@@ -38,7 +38,10 @@
       "organization": "Grupo de Acción Local de Pesca de Cádiz",
       "province": "Cádiz",
       "url": "https://galpacadiz.com/convocatorias/",
-      "official_domains": ["galpacadiz.com"]
+      "official_domains": ["galpacadiz.com"],
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual de convocatorias GALPA Cádiz.",
+      "include_landing": false
     },
     {
       "id": "galpa_huelva",
@@ -46,7 +49,10 @@
       "organization": "Grupo de Acción Local del Sector Pesquero y Acuícola de Huelva",
       "province": "Huelva",
       "url": "https://galpahuelva.com/category/primera-convocatoria-2026/",
-      "official_domains": ["galpahuelva.com"]
+      "official_domains": ["galpahuelva.com"],
+      "coverage_type": "current",
+      "coverage_note": "Categoría oficial de la primera convocatoria GALPA Huelva 2026.",
+      "include_landing": false
     },
     {
       "id": "galpa_malaga",
@@ -55,7 +61,8 @@
       "province": "Málaga",
       "url": "https://www.pescamalaga.org/",
       "official_domains": ["pescamalaga.org"],
-      "requires_adjustment": true
+      "requires_adjustment": true,
+      "adjustment_reason": "La portada no ofrece un listado estable; requiere adaptar el repositorio documental o la convocatoria FEMPA."
     },
     {
       "id": "galpa_alboran",
@@ -64,7 +71,8 @@
       "province": "Granada / Almería",
       "url": "https://galpaalboran.org/",
       "official_domains": ["galpaalboran.org"],
-      "requires_adjustment": true
+      "requires_adjustment": true,
+      "adjustment_reason": "La portada no acredita convocatorias vigentes; requiere un adaptador del listado oficial."
     },
     {
       "id": "galpa_almeria_levante",
@@ -73,7 +81,8 @@
       "province": "Almería",
       "url": "https://almeriaalevante.es/",
       "official_domains": ["almeriaalevante.es"],
-      "requires_adjustment": true
+      "requires_adjustment": true,
+      "adjustment_reason": "La portada no acredita convocatorias vigentes; requiere un adaptador del listado oficial."
     }
   ]
 }

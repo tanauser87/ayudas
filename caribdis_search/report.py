@@ -17,6 +17,14 @@ STATUS_ORDER = {
     "cerrada": 4,
 }
 
+PRIORITY_ORDER = {
+    "muy alta": 0,
+    "alta": 1,
+    "media": 2,
+    "baja": 3,
+    "descartar": 4,
+}
+
 
 def normalize_text(value: str) -> str:
     normalized = unicodedata.normalize("NFKD", value or "")
@@ -58,14 +66,36 @@ def administrative_difficulty(opportunity: Opportunity) -> int:
 
 def ranking_key(opportunity: Opportunity, today: date | None = None) -> tuple[object, ...]:
     today = today or date.today()
-    status = STATUS_ORDER.get(normalize_text(opportunity.status), 3)
+    normalized_status = normalize_text(opportunity.status)
+    normalized_priority = normalize_text(opportunity.priority)
+    status = STATUS_ORDER.get(normalized_status, 3)
     close_date = parse_iso_date(opportunity.close_date)
     days_to_close = (close_date - today).days if close_date else 999_999
     direct_order = 0 if opportunity.participation == "Solicitud directa" else 1
+    partner = opportunity.participation in {
+        "Socia de ayuntamiento",
+        "Socia de universidad o centro científico",
+        "Socia de consorcio europeo",
+        "Solo con socio",
+    }
+    if normalized_status == "abierta" and normalized_priority in {"muy alta", "alta"} and not partner:
+        operational_bucket = 0
+    elif normalized_status == "abierta" and normalized_priority == "media" and not partner:
+        operational_bucket = 1
+    elif normalized_status in {"proxima", "cerrada recurrente"} and not partner:
+        operational_bucket = 2
+    elif partner:
+        operational_bucket = 3
+    elif normalized_status == "abierta":
+        operational_bucket = 4
+    else:
+        operational_bucket = 5
     amount = max(numeric_amount(opportunity.max_amount), numeric_amount(opportunity.total_budget))
     return (
-        status,
+        operational_bucket,
+        PRIORITY_ORDER.get(normalized_priority, 4),
         -opportunity.caribdis_score,
+        status,
         days_to_close,
         direct_order,
         -amount,
@@ -109,6 +139,62 @@ def render_compact_table(opportunities: list[Opportunity], limit: int | None = N
     return lines
 
 
+def render_discarded_table(opportunities: list[Opportunity]) -> list[str]:
+    if not opportunities:
+        return ["No se han localizado ayudas descartadas.", ""]
+    lines = [
+        "| Oportunidad | Organismo | Motivo del descarte |",
+        "|---|---|---|",
+    ]
+    for item in opportunities:
+        title = markdown_text(item.title)
+        link = f"[{title}]({item.official_url})" if item.official_url else title
+        reason = "; ".join(item.risks) or item.score_reason
+        lines.append(f"| {link} | {markdown_text(item.organization)} | {markdown_text(reason)} |")
+    lines.append("")
+    return lines
+
+
+def render_source_coverage(run: RunResult) -> list[str]:
+    labels = {
+        "historical": "Histórica",
+        "api": "API",
+        "rss": "RSS",
+        "current": "Actual",
+        "landing": "Página de portada",
+    }
+    if not run.source_statuses:
+        return ["No hay fuentes estables seleccionadas en esta ejecución.", ""]
+    lines = [
+        "| Fuente | Cobertura | Alcance real |",
+        "|---|---|---|",
+    ]
+    for status in run.source_statuses:
+        lines.append(
+            f"| {markdown_text(status.source_name)} | "
+            f"{labels.get(status.coverage_type, status.coverage_type)} | "
+            f"{markdown_text(status.coverage_note)} |"
+        )
+    lines.append("")
+    return lines
+
+
+def render_pending_sources(run: RunResult) -> list[str]:
+    if not run.pending_sources:
+        return ["No hay fuentes seleccionadas pendientes de adaptación.", ""]
+    lines = [
+        "Estas fuentes están desactivadas por defecto y no generan oportunidades rankeadas.",
+        "",
+        "| Fuente | Motivo |",
+        "|---|---|",
+    ]
+    for status in run.pending_sources:
+        reason = status.adjustment_reason or "El listado requiere un adaptador específico verificable."
+        lines.append(f"| {markdown_text(status.source_name)} | {markdown_text(reason)} |")
+    lines.append("")
+    return lines
+
+
 def render_detailed_opportunity(item: Opportunity, position: int) -> list[str]:
     risks = "; ".join(item.risks) if item.risks else "No se han identificado riesgos explícitos."
     warnings = "; ".join(item.warnings) if item.warnings else "Ninguna advertencia adicional."
@@ -122,6 +208,8 @@ def render_detailed_opportunity(item: Opportunity, position: int) -> list[str]:
         f"- Organismo: {item.organization}",
         f"- Tipo de organismo: {item.organization_type}",
         f"- Fuente: {item.source}",
+        f"- Cobertura de la fuente: {item.coverage_type} — {item.coverage_note or NOT_FOUND}",
+        f"- Metadatos verificados: {'Sí' if item.metadata_verified else 'No consta revisión completa'}",
         f"- Territorio: {item.territory}",
         f"- Provincia/municipio: {item.province} / {item.municipality}",
         f"- Presupuesto de la convocatoria: {item.total_budget}",
@@ -211,9 +299,13 @@ def render_report(
     today = today or date.today()
     ranked = ranked_opportunities(run.opportunities, today=today)
     eligible = _filter(ranked, lambda item: item.priority != "Descartar")
-    open_items = _filter(eligible, lambda item: normalize_text(item.status) == "abierta")
-    upcoming = _filter(eligible, lambda item: normalize_text(item.status) == "proxima")
-    recurrent = _filter(eligible, lambda item: normalize_text(item.status) == "cerrada recurrente")
+    top_eligible = _filter(
+        eligible,
+        lambda item: item.priority != "Baja" or item.thematic_minimum_met,
+    )
+    open_items = _filter(top_eligible, lambda item: normalize_text(item.status) == "abierta")
+    upcoming = _filter(top_eligible, lambda item: normalize_text(item.status) == "proxima")
+    recurrent = _filter(top_eligible, lambda item: normalize_text(item.status) == "cerrada recurrente")
     discarded = _filter(ranked, lambda item: item.priority == "Descartar")
 
     lines = [
@@ -236,9 +328,15 @@ def render_report(
         f"- Prioridad muy alta o alta: {sum(item.priority in {'Muy alta', 'Alta'} for item in ranked)}",
         f"- Incidencias: {len(run.incidents)}",
         "",
+        "### Cobertura real por fuente",
+        "",
+        *render_source_coverage(run),
         "### Fuentes con incidencias",
         "",
         *render_incidents(run.incidents),
+        "### Fuentes pendientes de adaptación",
+        "",
+        *render_pending_sources(run),
         "## 3. Top 10 ayudas abiertas para solicitar ahora",
         "",
         *render_compact_table(open_items, 10),
@@ -253,64 +351,71 @@ def render_report(
     grouped_sections: list[tuple[str, list[Opportunity]]] = [
         (
             "6. Ayudas de la Unión Europea",
-            _filter(ranked, lambda item: _contains(f"{item.source_group} {item.territory}", ["Europa", "Unión Europea"])),
+            _filter(eligible, lambda item: _contains(f"{item.source_group} {item.territory}", ["Europa", "Unión Europea"])),
         ),
         (
             "7. Ayudas estatales",
-            _filter(ranked, lambda item: _contains(f"{item.source_group} {item.territory}", ["Estatal", "España", "BDNS"])),
+            _filter(eligible, lambda item: _contains(f"{item.source_group} {item.territory}", ["Estatal", "España", "BDNS"])),
         ),
         (
             "8. Ayudas de la Junta de Andalucía",
-            _filter(ranked, lambda item: _contains(item.source_group, ["Junta de Andalucía", "BOJA"])),
+            _filter(eligible, lambda item: _contains(item.source_group, ["Junta de Andalucía", "BOJA"])),
         ),
         (
             "9. Ayudas de diputaciones andaluzas",
-            _filter(ranked, lambda item: _contains(item.source_group, ["Diputación"])),
+            _filter(eligible, lambda item: _contains(item.source_group, ["Diputación"])),
         ),
         (
             "10. Ayudas de ayuntamientos y entidades locales",
-            _filter(ranked, lambda item: _contains(item.source_group, ["Ayuntamiento", "Entidad local", "Municipal"])),
+            _filter(eligible, lambda item: _contains(item.source_group, ["Ayuntamiento", "Entidad local", "Municipal"])),
         ),
         (
             "11. Ayudas GALP/GALPA/FEMPA",
-            _filter(ranked, lambda item: _contains(f"{item.source_group} {item.title}", ["GALP", "GALPA", "FEMPA", "Pleamar"])),
+            _filter(eligible, lambda item: _contains(f"{item.source_group} {item.title}", ["GALP", "GALPA", "FEMPA", "Pleamar"])),
         ),
         (
             "12. Ayudas de fundaciones privadas",
-            _filter(ranked, lambda item: _contains(f"{item.source_group} {item.organization_type}", ["Fundación", "Privada", "RSC"])),
+            _filter(
+                eligible,
+                lambda item: _contains(
+                    f"{item.source_group} {item.organization_type}",
+                    ["Fundaciones privadas", "Fundación privada", "RSC"],
+                ),
+            ),
         ),
         (
             "13. Ayudas que CARIBDIS puede solicitar directamente",
-            _filter(ranked, lambda item: item.participation == "Solicitud directa"),
+            _filter(eligible, lambda item: item.participation == "Solicitud directa"),
         ),
         (
             "14. Ayudas que requieren ayuntamiento",
-            _filter(ranked, lambda item: item.participation == "Socia de ayuntamiento"),
+            _filter(eligible, lambda item: item.participation == "Socia de ayuntamiento"),
         ),
         (
             "15. Ayudas que requieren universidad o centro científico",
-            _filter(ranked, lambda item: item.participation == "Socia de universidad o centro científico"),
+            _filter(eligible, lambda item: item.participation == "Socia de universidad o centro científico"),
         ),
         (
             "16. Ayudas que requieren consorcio europeo",
-            _filter(ranked, lambda item: item.participation == "Socia de consorcio europeo"),
+            _filter(eligible, lambda item: item.participation == "Socia de consorcio europeo"),
         ),
         ("17. Ayudas descartadas y motivo", discarded),
     ]
     for heading, items in grouped_sections:
-        lines.extend([f"## {heading}", "", *render_compact_table(items)])
+        renderer = render_discarded_table if heading.startswith("17.") else render_compact_table
+        lines.extend([f"## {heading}", "", *renderer(items)])
 
     lines.extend(
         [
             "## 18. Calendario de próximos tres, seis y doce meses",
             "",
-            *render_calendar(ranked, today),
+            *render_calendar(eligible, today),
             "## 19. Ranking general completo",
             "",
         ]
     )
-    if ranked:
-        for position, item in enumerate(ranked, 1):
+    if eligible:
+        for position, item in enumerate(eligible, 1):
             lines.extend(render_detailed_opportunity(item, position))
     else:
         lines.extend(["No se han localizado oportunidades verificables.", ""])

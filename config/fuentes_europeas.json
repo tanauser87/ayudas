@@ -14,7 +14,10 @@
       "organization": "Comisión Europea",
       "url": "https://commission.europa.eu/funding-tenders/find-funding/find-calls-funding-topic_en",
       "official_domains": ["commission.europa.eu", "funding-tenders.ec.europa.eu"],
-      "requires_adjustment": true
+      "coverage_type": "landing",
+      "coverage_note": "Portal dinámico; la portada no constituye un listado verificable de topics.",
+      "requires_adjustment": true,
+      "adjustment_reason": "Requiere adaptar la API Search Funding & Tenders y sus filtros de elegibilidad, estado y paginación."
     },
     {
       "id": "eu_life",
@@ -22,7 +25,10 @@
       "organization": "CINEA - Comisión Europea",
       "url": "https://cinea.ec.europa.eu/programmes/life/life-calls-proposals_en",
       "official_domains": ["cinea.ec.europa.eu", "funding-tenders.ec.europa.eu"],
-      "eligibility_hint": "Entidades públicas o privadas legalmente constituidas en la Unión Europea."
+      "eligibility_hint": "Entidades públicas o privadas legalmente constituidas en la Unión Europea.",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial de convocatorias LIFE actuales; la elegibilidad se comprueba en cada topic.",
+      "include_landing": false
     },
     {
       "id": "eu_horizon",
@@ -55,7 +61,11 @@
       "organization": "Comisión Europea / EACEA",
       "url": "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-organisations",
       "official_domains": ["erasmus-plus.ec.europa.eu", "eacea.ec.europa.eu"],
-      "eligibility_hint": "Organizaciones sin ánimo de lucro pueden participar según la acción."
+      "eligibility_hint": "Organizaciones sin ánimo de lucro pueden participar según la acción.",
+      "coverage_type": "landing",
+      "coverage_note": "Página general de oportunidades, no listado histórico de convocatorias.",
+      "requires_adjustment": true,
+      "adjustment_reason": "Requiere adaptar las convocatorias EACEA y distinguir acción, ronda, plazo y elegibilidad."
     },
     {
       "id": "cuerpo_europeo_solidaridad",
@@ -63,7 +73,10 @@
       "organization": "Comisión Europea / EACEA",
       "url": "https://youth.europa.eu/solidarity/organisations/calls-for-proposals_en",
       "official_domains": ["youth.europa.eu", "eacea.ec.europa.eu"],
-      "eligibility_hint": "Organizaciones sin ánimo de lucro pueden participar según la acción."
+      "eligibility_hint": "Organizaciones sin ánimo de lucro pueden participar según la acción.",
+      "coverage_type": "current",
+      "coverage_note": "Página oficial de convocatorias vigentes del Cuerpo Europeo de Solidaridad.",
+      "include_landing": false
     },
     {
       "id": "interreg_poCTEP",
@@ -71,7 +84,10 @@
       "organization": "Programa Interreg POCTEP",
       "url": "https://www.poctep.eu/convocatorias/",
       "official_domains": ["poctep.eu"],
-      "consortium_hint": "Consorcio europeo internacional con socios de España y Portugal requerido."
+      "consortium_hint": "Consorcio europeo internacional con socios de España y Portugal requerido.",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual de convocatorias POCTEP.",
+      "include_landing": false
     },
     {
       "id": "interreg_sudoe",
@@ -79,7 +95,10 @@
       "organization": "Programa Interreg Sudoe",
       "url": "https://interreg-sudoe.eu/convocatorias/",
       "official_domains": ["interreg-sudoe.eu"],
-      "consortium_hint": "Consorcio europeo internacional requerido."
+      "consortium_hint": "Consorcio europeo internacional requerido.",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual de convocatorias Interreg Sudoe.",
+      "include_landing": false
     },
     {
       "id": "interreg_euromed",
@@ -87,7 +106,10 @@
       "organization": "Programa Interreg Euro-MED",
       "url": "https://interreg-euro-med.eu/en/calls-for-projects/",
       "official_domains": ["interreg-euro-med.eu"],
-      "consortium_hint": "Consorcio europeo internacional requerido."
+      "consortium_hint": "Consorcio europeo internacional requerido.",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual de convocatorias Interreg Euro-MED.",
+      "include_landing": false
     },
     {
       "id": "interreg_atlantic",
@@ -95,7 +117,10 @@
       "organization": "Programa Interreg Atlantic Area",
       "url": "https://www.atlanticarea.eu/for-applicants/calls/",
       "official_domains": ["atlanticarea.eu"],
-      "consortium_hint": "Consorcio europeo internacional requerido."
+      "consortium_hint": "Consorcio europeo internacional requerido.",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual de convocatorias Interreg Atlantic Area.",
+      "include_landing": false
     },
     {
       "id": "eu_emfaf",

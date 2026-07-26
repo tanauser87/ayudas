@@ -12,7 +12,7 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
-from ..models import Opportunity
+from ..models import Opportunity, SourceStatus
 
 
 USER_AGENT = (
@@ -139,6 +139,33 @@ class BaseSource:
     @property
     def name(self) -> str:
         return str(self.config["name"])
+
+    def source_status(self, context: SourceContext) -> SourceStatus:
+        coverage_type = str(self.config.get("coverage_type", "current"))
+        configured_note = str(self.config.get("coverage_note", "")).strip()
+        if coverage_type in {"historical", "api"}:
+            period_note = (
+                f"Consulta del periodo {context.start_date.isoformat()} a "
+                f"{context.end_date.isoformat()} con fechas y paginacion."
+            )
+        elif coverage_type == "rss":
+            period_note = (
+                "Solo elementos disponibles en el RSS; no acredita una revision "
+                "completa del periodo solicitado."
+            )
+        else:
+            period_note = (
+                "Solo estado actual de la pagina; no acredita una revision "
+                "historica completa del periodo solicitado."
+            )
+        return SourceStatus(
+            source_id=self.id,
+            source_name=self.name,
+            coverage_type=coverage_type,
+            coverage_note=" ".join(part for part in (configured_note, period_note) if part),
+            requires_adjustment=bool(self.config.get("requires_adjustment", False)),
+            adjustment_reason=str(self.config.get("adjustment_reason", "")),
+        )
 
     def collect(self, context: SourceContext) -> list[Opportunity]:
         raise NotImplementedError

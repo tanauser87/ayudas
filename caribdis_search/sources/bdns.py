@@ -74,7 +74,9 @@ class BDNSSource(BaseSource):
         opportunities: list[Opportunity] = []
         urls = [self.config["url"], *self.config.get("fallback_urls", [])]
         active_url = ""
-        for page in range(max(1, int(self.config.get("pages", 6)))):
+        page = 0
+        max_pages = max(1, int(self.config.get("max_pages", 100)))
+        while page < max_pages:
             payload = None
             errors: list[Exception] = []
             candidate_urls = (
@@ -89,8 +91,13 @@ class BDNSSource(BaseSource):
                         context,
                         self.config,
                         {
+                            "vpd": "GE",
+                            "fechaDesde": context.start_date.strftime("%d/%m/%Y"),
+                            "fechaHasta": context.end_date.strftime("%d/%m/%Y"),
                             "page": page,
                             "pageSize": int(self.config.get("page_size", 100)),
+                            "order": "fechaRecepcion",
+                            "direccion": "desc",
                         },
                     )
                     active_url = url
@@ -126,6 +133,7 @@ class BDNSSource(BaseSource):
                 opportunities.append(
                     Opportunity(
                         id=opportunity_id,
+                        source_id=self.id,
                         title=title,
                         organization=organization or "Sistema Nacional de Publicidad de Subvenciones",
                         source=self.name,
@@ -137,6 +145,15 @@ class BDNSSource(BaseSource):
                         official_url=url,
                         summary=f"Número BDNS: {number}. Administración convocante: {organization}.",
                         checked_at=datetime.now().astimezone().isoformat(timespec="seconds"),
+                        coverage_type="api",
+                        coverage_note="API oficial BDNS paginada y filtrada por fecha.",
                     )
                 )
+            content = payload.get("content", [])
+            if payload.get("last") is True or not content:
+                break
+            total_pages = payload.get("totalPages")
+            if isinstance(total_pages, int) and page + 1 >= total_pages:
+                break
+            page += 1
         return opportunities

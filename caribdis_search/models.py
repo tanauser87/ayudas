@@ -35,6 +35,7 @@ class ScoringBreakdown:
 @dataclass
 class Opportunity:
     id: str = ""
+    source_id: str = ""
     title: str = NOT_FOUND
     organization: str = NOT_FOUND
     source: str = NOT_FOUND
@@ -81,6 +82,10 @@ class Opportunity:
     changes: list[str] = field(default_factory=list)
     recurrent: bool = False
     estimated_next_call: str = NOT_FOUND
+    coverage_type: str = "current"
+    coverage_note: str = ""
+    metadata_verified: bool = False
+    thematic_minimum_met: bool = False
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -107,11 +112,25 @@ class Incident:
 
 
 @dataclass
+class SourceStatus:
+    source_id: str
+    source_name: str
+    coverage_type: str
+    coverage_note: str
+    requires_adjustment: bool = False
+    adjustment_reason: str = ""
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
 class RunResult:
     opportunities: list[Opportunity] = field(default_factory=list)
     incidents: list[Incident] = field(default_factory=list)
     sources_checked: list[str] = field(default_factory=list)
     sources_succeeded: list[str] = field(default_factory=list)
+    source_statuses: list[SourceStatus] = field(default_factory=list)
+    pending_sources: list[SourceStatus] = field(default_factory=list)
     started_at: str = ""
     finished_at: str = ""
-
