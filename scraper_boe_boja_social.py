@@ -9,6 +9,7 @@ un TXT diario acumulativo junto a un JSON de datos.
 from __future__ import annotations
 
 import argparse
+import csv
 import hashlib
 import html
 import json
@@ -33,6 +34,9 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parent
 DEFAULT_OUTPUT = ROOT / "informes_boe_boja_social"
 CUMULATIVE_TXT_FILENAME = "resultados_ayudas_sociales_boe_boja.txt"
+CARIBDIS_RANKING_FILENAME = "ranking_caribdis.md"
+CARIBDIS_JSON_FILENAME = "resultados_caribdis.json"
+CARIBDIS_CSV_FILENAME = "resultados_caribdis.csv"
 TZ = ZoneInfo("Europe/Madrid")
 
 USER_AGENT = "Mozilla/5.0"
@@ -146,6 +150,87 @@ LOCAL_ENTITY_ONLY_TERMS = [
     "municipios",
 ]
 
+CARIBDIS_KEYWORDS_BY_CATEGORY: dict[str, list[tuple[str, int]]] = {
+    "Conservación y biodiversidad marina": [
+        ("conservación marina", 20),
+        ("biodiversidad marina", 20),
+        ("fauna submarina", 18),
+        ("flora submarina", 18),
+        ("flora marina", 16),
+        ("fauna marina", 16),
+        ("hábitats marinos", 18),
+        ("ecosistemas submarinos", 18),
+        ("fondos marinos", 16),
+        ("praderas marinas", 18),
+        ("praderas submarinas", 18),
+        ("algas", 8),
+        ("medio marino", 14),
+        ("litoral", 8),
+        ("costas", 7),
+        ("playas", 6),
+        ("residuos marinos", 16),
+    ],
+    "Educación ambiental y cultura científica": [
+        ("ciencia ciudadana", 16),
+        ("cultura científica", 14),
+        ("divulgación científica", 14),
+        ("educación ambiental", 16),
+        ("talleres educativos", 12),
+        ("talleres", 5),
+    ],
+    "Inclusión social, infancia y juventud": [
+        ("infancia", 9),
+        ("menores", 9),
+        ("juventud", 8),
+        ("discapacidad", 11),
+        ("accesibilidad", 11),
+        ("NEAE", 13),
+        ("inclusión social", 11),
+        ("vulnerabilidad", 9),
+    ],
+    "Voluntariado ambiental": [
+        ("voluntariado ambiental", 15),
+    ],
+    "Ámbito andaluz": [
+        ("litoral andaluz", 16),
+        ("Andalucía", 13),
+        ("Sevilla", 6),
+        ("Málaga", 6),
+        ("Cádiz", 6),
+        ("Huelva", 6),
+        ("Almería", 4),
+        ("Granada", 4),
+        ("Córdoba", 3),
+        ("Jaén", 3),
+    ],
+}
+
+CARIBDIS_PARTNER_ONLY_RULES: list[tuple[str, str]] = [
+    (r"\b(?:solo|exclusivamente|unicamente)\s+(?:para\s+|a\s+)?empresas\b", "solo empresas"),
+    (r"\b(?:solo|exclusivamente|unicamente)\s+(?:para\s+|a\s+)?universidades\b", "solo universidades"),
+    (r"\b(?:solo|exclusivamente|unicamente)\s+(?:para\s+|a\s+)?ayuntamientos\b", "solo ayuntamientos"),
+    (r"\b(?:solo|exclusivamente|unicamente)\s+(?:para\s+|a\s+)?pescadores\b", "solo pescadores"),
+    (r"\b(?:solo|exclusivamente|unicamente)\s+(?:para\s+|a\s+)?buques\b", "solo buques"),
+]
+
+CARIBDIS_HARD_EXCLUSION_RULES: list[tuple[str, str]] = [
+    (
+        r"\bconcesion directa\b.{0,120}\b(?:a favor de|a la|al|para la|para el)\b",
+        "concesión directa a una entidad concreta",
+    ),
+    (r"\bbeneficiari[oa]\s+unic[oa]\b", "beneficiario único"),
+    (r"\bpremios?\s+personales?\b", "premios personales"),
+    (r"\bbecas?\s+personales?\b", "becas personales"),
+    (r"\bnombramientos?\b", "nombramientos"),
+    (r"\blicitaciones?\b", "licitaciones"),
+    (r"\bcontratacion publica\b", "contratación pública"),
+    (r"\binvestigacion\s+(?:pre)?doctoral\b", "investigación doctoral"),
+    (r"\binvestigacion\s+postdoctoral\b", "investigación postdoctoral"),
+    (r"\bcomercio exterior\b", "comercio exterior"),
+    (r"\bindustria(?:l|les)?\b", "industria"),
+    (r"\bdefensa\b", "defensa"),
+]
+
 DATE_RE = re.compile(
     r"\b(?:\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|\d{4}-\d{2}-\d{2}|"
     r"\d{1,2}\s+de\s+(?:enero|febrero|marzo|abril|mayo|junio|julio|agosto|"
@@ -202,7 +287,23 @@ class SocialGrant:
     beneficiary_hint: str
     matched_terms: list[str]
     score: int
+    caribdis_score: int
+    caribdis_priority: str
+    caribdis_fit: str
+    caribdis_reason: str
+    caribdis_category: str
+    caribdis_keywords: list[str]
     checked_at: str
+
+
+@dataclass(frozen=True)
+class CaribdisAssessment:
+    score: int
+    priority: str
+    fit: str
+    reason: str
+    category: str
+    keywords: list[str]
 
 
 class LinkParser(HTMLParser):
@@ -338,6 +439,165 @@ def term_present(normalized_text: str, term: str) -> bool:
         return normalized_term in normalized_text
     pattern = rf"(?<![a-z0-9]){re.escape(normalized_term)}(?![a-z0-9])"
     return re.search(pattern, normalized_text) is not None
+
+
+def regex_rule_matches(normalized_text: str, rules: list[tuple[str, str]]) -> list[str]:
+    labels: list[str] = []
+    for pattern, label in rules:
+        if re.search(pattern, normalized_text) and label not in labels:
+            labels.append(label)
+    return labels
+
+
+def caribdis_priority(score: int) -> str:
+    if score >= 75:
+        return "Alta"
+    if score >= 50:
+        return "Media"
+    if score >= 25:
+        return "Baja"
+    return "Descartar"
+
+
+def score_caribdis(notice: Notice, detail_text: str) -> CaribdisAssessment:
+    title_summary = f"{notice.title} {notice.summary} {notice.entity}"
+    full_text = f"{title_summary} {detail_text}"
+    normalized_title = normalize_text(title_summary)
+    normalized_full = normalize_text(full_text)
+
+    category_scores: dict[str, int] = {}
+    keywords: list[str] = []
+    title_bonus = 0
+    for category, weighted_terms in CARIBDIS_KEYWORDS_BY_CATEGORY.items():
+        category_score = 0
+        for term, weight in weighted_terms:
+            if not term_present(normalized_full, term):
+                continue
+            category_score += weight
+            if term not in keywords:
+                keywords.append(term)
+            if term_present(normalized_title, term):
+                title_bonus += max(2, weight // 2)
+        category_scores[category] = category_score
+
+    thematic_scores = {
+        category: score
+        for category, score in category_scores.items()
+        if category != "Ámbito andaluz" and score > 0
+    }
+    if thematic_scores:
+        category = max(thematic_scores, key=thematic_scores.get)
+    elif category_scores.get("Ámbito andaluz", 0):
+        category = "Ámbito andaluz"
+    else:
+        category = "Sin encaje temático"
+
+    score = 10 if has_any(title_summary, CORE_GRANT_TERMS) else 0
+    score += min(70, sum(category_scores.values()))
+    score += min(15, title_bonus)
+    if has_any(full_text, NONPROFIT_TERMS):
+        score += 10
+    if notice.source == "BOJA":
+        score += 8
+    score = min(100, score)
+
+    full_text_exclusions = {
+        "beneficiario único",
+        "premios personales",
+        "becas personales",
+        "investigación doctoral",
+        "investigación postdoctoral",
+    }
+    hard_exclusions: list[str] = []
+    for pattern, label in CARIBDIS_HARD_EXCLUSION_RULES:
+        text = normalized_full if label in full_text_exclusions else normalized_title
+        if re.search(pattern, text) and label not in hard_exclusions:
+            hard_exclusions.append(label)
+
+    andalusia_terms = CARIBDIS_KEYWORDS_BY_CATEGORY["Ámbito andaluz"]
+    mentions_andalusia = any(term_present(normalized_title, term) for term, _ in andalusia_terms)
+    for excluded_territory in ("Ceuta", "Melilla"):
+        if term_present(normalized_title, excluded_territory) and not mentions_andalusia:
+            hard_exclusions.append(f"ámbito exclusivo o centrado en {excluded_territory}")
+
+    partner_restrictions = regex_rule_matches(normalized_full, CARIBDIS_PARTNER_ONLY_RULES)
+    if hard_exclusions:
+        score = min(score, 20)
+        return CaribdisAssessment(
+            score=score,
+            priority="Descartar",
+            fit="No válida",
+            reason=f"No válida para CARIBDIS: {', '.join(hard_exclusions)}.",
+            category=category,
+            keywords=keywords,
+        )
+
+    if not keywords:
+        score = min(score, 20)
+
+    if partner_restrictions:
+        score = min(49, max(0, score - 20))
+        if score < 25:
+            return CaribdisAssessment(
+                score=score,
+                priority="Descartar",
+                fit="No válida",
+                reason=(
+                    "Sin encaje suficiente para CARIBDIS y con acceso restringido a "
+                    f"{', '.join(partner_restrictions)}."
+                ),
+                category=category,
+                keywords=keywords,
+            )
+        return CaribdisAssessment(
+            score=score,
+            priority="Baja",
+            fit="Solo con socio",
+            reason=(
+                f"Encaje en {category.lower()}, pero el acceso está restringido a "
+                f"{', '.join(partner_restrictions)}."
+            ),
+            category=category,
+            keywords=keywords,
+        )
+
+    priority = caribdis_priority(score)
+    if priority == "Descartar":
+        return CaribdisAssessment(
+            score=score,
+            priority=priority,
+            fit="No válida",
+            reason="No reúne suficientes señales temáticas o territoriales para CARIBDIS.",
+            category=category,
+            keywords=keywords,
+        )
+
+    is_regulatory_basis = has_any(title_summary, ["bases reguladoras"]) and not has_any(
+        title_summary,
+        ["convocatoria", "convocan", "extracto"],
+    )
+    keyword_reason = ", ".join(keywords[:4])
+    if is_regulatory_basis:
+        return CaribdisAssessment(
+            score=score,
+            priority=priority,
+            fit="Vigilar próxima edición",
+            reason=(
+                f"Encaje en {category.lower()} por {keyword_reason}; se han detectado "
+                "bases reguladoras sin convocatoria abierta identificable."
+            ),
+            category=category,
+            keywords=keywords,
+        )
+
+    return CaribdisAssessment(
+        score=score,
+        priority=priority,
+        fit="Directa",
+        reason=f"Encaje en {category.lower()} por {keyword_reason}.",
+        category=category,
+        keywords=keywords,
+    )
 
 
 def first_context(text: str, terms: list[str], width: int = 300) -> str:
@@ -564,7 +824,7 @@ def score_notice(notice: Notice, detail_text: str) -> tuple[int, list[str]]:
 
 def likely_candidate(notice: Notice) -> bool:
     haystack = f"{notice.title} {notice.summary} {notice.entity}"
-    return has_any(haystack, CORE_GRANT_TERMS + NONPROFIT_TERMS + SOCIAL_AREA_TERMS)
+    return has_any(haystack, CORE_GRANT_TERMS)
 
 
 def fetch_detail_text(notice: Notice, timeout: int, errors: list[str]) -> str:
@@ -619,7 +879,8 @@ def build_results(notices: list[Notice], timeout: int, errors: list[str]) -> lis
             continue
         detail = fetch_detail_text(notice, timeout, errors)
         score, terms = score_notice(notice, detail)
-        if score < 6:
+        caribdis = score_caribdis(notice, detail)
+        if score < 6 and not caribdis.keywords:
             continue
         key = hashlib.sha256(f"{notice.source}|{notice.url}".encode("utf-8")).hexdigest()
         if key in seen:
@@ -643,6 +904,12 @@ def build_results(notices: list[Notice], timeout: int, errors: list[str]) -> lis
                 ),
                 matched_terms=terms,
                 score=score,
+                caribdis_score=caribdis.score,
+                caribdis_priority=caribdis.priority,
+                caribdis_fit=caribdis.fit,
+                caribdis_reason=caribdis.reason,
+                caribdis_category=caribdis.category,
+                caribdis_keywords=caribdis.keywords,
                 checked_at=checked_at,
             )
         )
@@ -701,6 +968,12 @@ def render_txt(
                 f"Dia incorporado al TXT: {now:%Y-%m-%d}",
                 f"Beneficiarios/encaje detectado: {item.beneficiary_hint}",
                 f"Coincidencias: {', '.join(item.matched_terms)}",
+                f"Puntuacion CARIBDIS: {item.caribdis_score}/100",
+                f"Prioridad CARIBDIS: {item.caribdis_priority}",
+                f"Encaje CARIBDIS: {item.caribdis_fit}",
+                f"Motivo CARIBDIS: {item.caribdis_reason}",
+                f"Categoria tematica CARIBDIS: {item.caribdis_category}",
+                f"Palabras clave CARIBDIS: {', '.join(item.caribdis_keywords) or 'Ninguna'}",
                 f"Enlace oficial: {item.url}",
             ]
         )
@@ -748,6 +1021,88 @@ def render_summary(targets: list[date], results: list[SocialGrant], errors: list
     return "\n".join(lines).rstrip() + "\n"
 
 
+def markdown_cell(value: str) -> str:
+    return clean_text(value).replace("|", r"\|")
+
+
+def render_caribdis_ranking(targets: list[date], results: list[SocialGrant], errors: list[str]) -> str:
+    start_date = min(targets).isoformat()
+    end_date = max(targets).isoformat()
+    ranked = sorted(
+        unique_results(results),
+        key=lambda item: (-item.caribdis_score, item.title.lower(), item.url),
+    )
+    counts = {
+        priority: sum(item.caribdis_priority == priority for item in ranked)
+        for priority in ("Alta", "Media", "Baja", "Descartar")
+    }
+    lines = [
+        "# Ranking CARIBDIS",
+        "",
+        f"Periodo revisado: {start_date} a {end_date}.",
+        f"Generado: {datetime.now(TZ).isoformat(timespec='seconds')}.",
+        "",
+        (
+            f"- Total: {len(ranked)} | Alta: {counts['Alta']} | Media: {counts['Media']} | "
+            f"Baja: {counts['Baja']} | Descartar: {counts['Descartar']}"
+        ),
+        f"- Incidencias de consulta: {len(errors)}",
+        "",
+    ]
+    if not ranked:
+        lines.append("No se han localizado convocatorias con señales sociales o CARIBDIS en el periodo.")
+        return "\n".join(lines).rstrip() + "\n"
+
+    lines.extend(
+        [
+            "| # | Puntuación | Prioridad | Encaje | Categoría | Convocatoria | Motivo |",
+            "|---:|---:|---|---|---|---|---|",
+        ]
+    )
+    for index, item in enumerate(ranked, 1):
+        title = markdown_cell(item.title)
+        category = markdown_cell(item.caribdis_category)
+        reason = markdown_cell(item.caribdis_reason)
+        lines.append(
+            f"| {index} | {item.caribdis_score} | {item.caribdis_priority} | "
+            f"{item.caribdis_fit} | {category} | [{title}]({item.url}) | {reason} |"
+        )
+    if errors:
+        lines.extend(["", "## Incidencias", ""])
+        lines.extend(f"- {error}" for error in errors)
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def write_caribdis_outputs(
+    output: Path,
+    targets: list[date],
+    results: list[SocialGrant],
+    errors: list[str],
+) -> None:
+    ranked = sorted(
+        unique_results(results),
+        key=lambda item: (-item.caribdis_score, item.title.lower(), item.url),
+    )
+    ranking = render_caribdis_ranking(targets, ranked, errors)
+    (output / CARIBDIS_RANKING_FILENAME).write_text(ranking, encoding="utf-8")
+
+    json_payload = [asdict(item) for item in ranked]
+    (output / CARIBDIS_JSON_FILENAME).write_text(
+        json.dumps(json_payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    fieldnames = list(SocialGrant.__dataclass_fields__)
+    with (output / CARIBDIS_CSV_FILENAME).open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer.writeheader()
+        for item in ranked:
+            row = asdict(item)
+            row["matched_terms"] = "; ".join(item.matched_terms)
+            row["caribdis_keywords"] = "; ".join(item.caribdis_keywords)
+            writer.writerow(row)
+
+
 def write_outputs(output: Path, targets: list[date], results: list[SocialGrant], errors: list[str]) -> Path:
     output.mkdir(parents=True, exist_ok=True)
     txt_path = output / CUMULATIVE_TXT_FILENAME
@@ -767,6 +1122,7 @@ def write_outputs(output: Path, targets: list[date], results: list[SocialGrant],
     summary_env = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary_env:
         Path(summary_env).write_text(summary, encoding="utf-8")
+    write_caribdis_outputs(output, targets, results, errors)
     return txt_path
 
 
