@@ -1,0 +1,62 @@
+{
+  "defaults": {
+    "group": "Junta de Andalucía",
+    "adapter": "html",
+    "official_domains": ["juntadeandalucia.es"],
+    "organization_type": "Administración autonómica",
+    "territory": "Andalucía",
+    "max_items": 20,
+    "enabled": true
+  },
+  "sources": [
+    {
+      "id": "junta_sostenibilidad",
+      "name": "Junta - Sostenibilidad y Medio Ambiente",
+      "organization": "Consejería de Sostenibilidad y Medio Ambiente",
+      "url": "https://www.juntadeandalucia.es/organismos/sostenibilidadymedioambiente/servicios/procedimientos.html"
+    },
+    {
+      "id": "junta_inclusion",
+      "name": "Junta - Inclusión Social, Juventud, Familias e Igualdad",
+      "organization": "Consejería de Inclusión Social, Juventud, Familias e Igualdad",
+      "url": "https://www.juntadeandalucia.es/organismos/inclusionsocialjuventudfamiliaseigualdad/areas/subvenciones/subvenciones.html"
+    },
+    {
+      "id": "junta_educacion",
+      "name": "Junta - Desarrollo Educativo y Formación Profesional",
+      "organization": "Consejería de Desarrollo Educativo y Formación Profesional",
+      "url": "https://www.juntadeandalucia.es/organismos/desarrolloeducativoyformacionprofesional/servicios/procedimientos.html"
+    },
+    {
+      "id": "junta_empleo",
+      "name": "Junta - Empleo",
+      "organization": "Consejería de Empleo, Empresa y Trabajo Autónomo",
+      "url": "https://www.juntadeandalucia.es/organismos/empleoempresaytrabajoautonomo/servicios/procedimientos.html"
+    },
+    {
+      "id": "instituto_andaluz_juventud",
+      "name": "Instituto Andaluz de la Juventud - Ayudas a entidades",
+      "organization": "Instituto Andaluz de la Juventud",
+      "url": "https://www.juntadeandalucia.es/organismos/iaj/areas/ayudas-entidades-juveniles.html"
+    },
+    {
+      "id": "servicio_andaluz_empleo",
+      "name": "Servicio Andaluz de Empleo - Procedimientos",
+      "organization": "Servicio Andaluz de Empleo",
+      "url": "https://www.juntadeandalucia.es/organismos/sae/servicios/procedimientos.html"
+    },
+    {
+      "id": "aacid",
+      "name": "Agencia Andaluza de Cooperación - Subvenciones",
+      "organization": "Agencia Andaluza de Cooperación Internacional para el Desarrollo",
+      "url": "https://www.juntadeandalucia.es/organismos/aacid/areas/subvenciones.html"
+    },
+    {
+      "id": "junta_catalogo_procedimientos",
+      "name": "Junta - Catálogo general de procedimientos y servicios",
+      "organization": "Junta de Andalucía",
+      "url": "https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos.html",
+      "max_items": 30
+    }
+  ]
+}

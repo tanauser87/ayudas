@@ -15,6 +15,18 @@ class ConfigTests(unittest.TestCase):
         self.assertIn("fecyt", source_ids)
         self.assertEqual(len(source_ids), len(set(source_ids)))
         self.assertTrue(all(source["official_domains"] for source in config["sources"]))
+        self.assertEqual(
+            sum(source["group"] == "Diputaciones andaluzas" for source in config["sources"]),
+            8,
+        )
+        municipalities = {
+            source.get("municipality")
+            for source in config["sources"]
+            if source["group"] == "Ayuntamientos y entidades locales"
+        }
+        self.assertIn("Tarifa", municipalities)
+        self.assertIn("Nerja", municipalities)
+        self.assertIn("Pulpí", municipalities)
 
 
 if __name__ == "__main__":

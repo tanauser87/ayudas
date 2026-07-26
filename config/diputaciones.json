@@ -1,0 +1,84 @@
+{
+  "defaults": {
+    "group": "Diputaciones andaluzas",
+    "adapter": "html",
+    "organization_type": "Diputación provincial",
+    "territory": "Andalucía",
+    "max_items": 20,
+    "enabled": true
+  },
+  "sources": [
+    {
+      "id": "diputacion_almeria",
+      "name": "Diputación de Almería",
+      "organization": "Diputación Provincial de Almería",
+      "province": "Almería",
+      "url": "https://www.dipalme.org/",
+      "official_domains": ["dipalme.org"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "diputacion_cadiz",
+      "name": "Diputación de Cádiz",
+      "organization": "Diputación Provincial de Cádiz",
+      "province": "Cádiz",
+      "url": "https://www.dipucadiz.es/",
+      "official_domains": ["dipucadiz.es", "bopcadiz.es"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "diputacion_cordoba",
+      "name": "Diputación de Córdoba",
+      "organization": "Diputación Provincial de Córdoba",
+      "province": "Córdoba",
+      "url": "https://www.dipucordoba.es/",
+      "official_domains": ["dipucordoba.es", "bop.dipucordoba.es"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "diputacion_granada",
+      "name": "Diputación de Granada",
+      "organization": "Diputación Provincial de Granada",
+      "province": "Granada",
+      "url": "https://www.dipgra.es/",
+      "official_domains": ["dipgra.es", "bop.dipgra.es"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "diputacion_huelva",
+      "name": "Diputación de Huelva",
+      "organization": "Diputación Provincial de Huelva",
+      "province": "Huelva",
+      "url": "https://www.diphuelva.es/",
+      "official_domains": ["diphuelva.es"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "diputacion_jaen",
+      "name": "Diputación de Jaén",
+      "organization": "Diputación Provincial de Jaén",
+      "province": "Jaén",
+      "url": "https://www.dipujaen.es/",
+      "official_domains": ["dipujaen.es", "bop.dipujaen.es"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "diputacion_malaga",
+      "name": "Diputación de Málaga",
+      "organization": "Diputación Provincial de Málaga",
+      "province": "Málaga",
+      "url": "https://www.malaga.es/",
+      "official_domains": ["malaga.es", "bopmalaga.es"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "diputacion_sevilla",
+      "name": "Diputación de Sevilla",
+      "organization": "Diputación Provincial de Sevilla",
+      "province": "Sevilla",
+      "url": "https://www.dipusevilla.es/",
+      "official_domains": ["dipusevilla.es", "bopsevilla.dipusevilla.es"],
+      "requires_adjustment": true
+    }
+  ]
+}

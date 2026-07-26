@@ -49,9 +49,14 @@ def load_configuration(config_dir: Path) -> dict[str, Any]:
         if not path.exists():
             continue
         payload = load_json(path)
+        defaults: dict[str, Any] = {}
+        if isinstance(payload, dict):
+            defaults = payload.get("defaults", {})
+            payload = payload.get("sources", [])
         if not isinstance(payload, list):
-            raise ConfigError(f"{filename} debe contener una lista de fuentes")
-        for source in payload:
+            raise ConfigError(f"{filename} debe contener una lista de fuentes o un objeto con sources")
+        for raw_source in payload:
+            source = {**defaults, **raw_source} if isinstance(raw_source, dict) else raw_source
             if not isinstance(source, dict):
                 raise ConfigError(f"{filename} contiene una fuente no válida")
             validate_source(source, filename)
