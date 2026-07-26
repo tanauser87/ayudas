@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import time
 import urllib.error
 import urllib.parse
@@ -94,6 +95,12 @@ def decode_payload(payload: bytes) -> str:
 
 
 def fetch_text(url: str, context: SourceContext, source: dict[str, Any]) -> str:
+    cache_ttl = int(source.get("cache_ttl_seconds", 0))
+    cache_path = context.cache_dir / f"{hashlib.sha256(url.encode('utf-8')).hexdigest()}.cache"
+    if cache_ttl > 0 and cache_path.exists():
+        age = time.time() - cache_path.stat().st_mtime
+        if age <= cache_ttl:
+            return cache_path.read_text(encoding="utf-8")
     payload = fetch_bytes(
         url,
         timeout=int(source.get("timeout", context.timeout)),
@@ -101,7 +108,11 @@ def fetch_text(url: str, context: SourceContext, source: dict[str, Any]) -> str:
         retries=int(source.get("retries", 3)),
         respect_robots=bool(source.get("respect_robots", True)),
     )
-    return decode_payload(payload)
+    text = decode_payload(payload)
+    if cache_ttl > 0:
+        context.cache_dir.mkdir(parents=True, exist_ok=True)
+        cache_path.write_text(text, encoding="utf-8")
+    return text
 
 
 def fetch_json(url: str, context: SourceContext, source: dict[str, Any], params: dict[str, Any]) -> Any:
