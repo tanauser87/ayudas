@@ -35,6 +35,9 @@ class ConfigTests(unittest.TestCase):
         self.assertIn("interreg_poCTEP", source_ids)
         horizon = next(source for source in config["sources"] if source["id"] == "eu_horizon")
         self.assertIn("Consorcio europeo", horizon["consortium_hint"])
+        self.assertIn("fundacion_la_caixa", source_ids)
+        self.assertIn("fundacion_once", source_ids)
+        self.assertIn("fundacion_moeve", source_ids)
 
 
 if __name__ == "__main__":
