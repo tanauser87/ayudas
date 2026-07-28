@@ -130,6 +130,7 @@ class RunnerTests(unittest.TestCase):
         self.assertEqual(item.funding_percentage, 70)
         self.assertEqual(item.advance_percentage, 60)
         self.assertTrue(item.suitable_for_new_entity)
+        self.assertNotIn("Ayuda para personal", item.funding_purposes)
 
     @patch("caribdis_search.sources.verified.fetch_text", return_value="Página de error")
     def test_verified_source_rejects_unexpected_official_page(self, fetch_text_mock) -> None:

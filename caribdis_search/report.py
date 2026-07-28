@@ -25,6 +25,22 @@ PRIORITY_ORDER = {
     "descartar": 4,
 }
 
+CASHFLOW_ORDER = {
+    "bajo": 0,
+    "medio": 1,
+    "alto": 2,
+    "muy alto": 3,
+    "no evaluado": 4,
+}
+
+PARTNER_PARTICIPATIONS = {
+    "Socia de ayuntamiento",
+    "Socia de universidad o centro científico",
+    "Socia de consorcio europeo",
+    "Solo con socio",
+    "Participación mediante entidad socia",
+}
+
 
 def normalize_text(value: str) -> str:
     normalized = unicodedata.normalize("NFKD", value or "")
@@ -42,17 +58,6 @@ def parse_iso_date(value: str) -> date | None:
         return None
 
 
-def numeric_amount(value: str) -> float:
-    matches = re.findall(r"\d[\d.,]*", value or "")
-    if not matches:
-        return 0
-    cleaned = matches[0].replace(".", "").replace(",", ".")
-    try:
-        return float(cleaned)
-    except ValueError:
-        return 0
-
-
 def administrative_difficulty(opportunity: Opportunity) -> int:
     difficulty = len(opportunity.risks)
     if opportunity.consortium_required != NOT_FOUND:
@@ -68,37 +73,55 @@ def ranking_key(opportunity: Opportunity, today: date | None = None) -> tuple[ob
     today = today or date.today()
     normalized_status = normalize_text(opportunity.status)
     normalized_priority = normalize_text(opportunity.priority)
-    status = STATUS_ORDER.get(normalized_status, 3)
     close_date = parse_iso_date(opportunity.close_date)
     days_to_close = (close_date - today).days if close_date else 999_999
     direct_order = 0 if opportunity.participation == "Solicitud directa" else 1
-    partner = opportunity.participation in {
-        "Socia de ayuntamiento",
-        "Socia de universidad o centro científico",
-        "Socia de consorcio europeo",
-        "Solo con socio",
-    }
-    if normalized_status == "abierta" and normalized_priority in {"muy alta", "alta"} and not partner:
-        operational_bucket = 0
-    elif normalized_status == "abierta" and normalized_priority == "media" and not partner:
-        operational_bucket = 1
-    elif normalized_status in {"proxima", "cerrada recurrente"} and not partner:
-        operational_bucket = 2
-    elif partner:
-        operational_bucket = 3
-    elif normalized_status == "abierta":
-        operational_bucket = 4
-    else:
-        operational_bucket = 5
-    amount = max(numeric_amount(opportunity.max_amount), numeric_amount(opportunity.total_budget))
+    new_entity_order = {
+        True: 0,
+        None: 1,
+        False: 2,
+    }[opportunity.suitable_for_new_entity]
+    funding_text = normalize_text(
+        f"{opportunity.funding_instrument} {opportunity.summary} {opportunity.raw_text}"
+    )
+    non_repayable_order = (
+        0
+        if any(
+            term in funding_text
+            for term in [
+                "subvencion",
+                "a fondo perdido",
+                "donacion",
+                "patrocinio",
+                "convocatoria de fundacion",
+            ]
+        )
+        else 1
+    )
+    advance_order = (
+        0
+        if opportunity.advance_percentage is not None
+        and opportunity.advance_percentage > 0
+        else 1
+        if opportunity.advance_percentage is None
+        else 2
+    )
+    thematic_fit = (
+        opportunity.scoring.thematic_fit
+        + opportunity.scoring.social_educational_fit
+    )
     return (
-        operational_bucket,
-        PRIORITY_ORDER.get(normalized_priority, 4),
-        -opportunity.caribdis_score,
-        status,
-        days_to_close,
+        0 if normalized_status == "abierta" else 1,
         direct_order,
-        -amount,
+        PRIORITY_ORDER.get(normalized_priority, 4),
+        new_entity_order,
+        non_repayable_order,
+        advance_order,
+        CASHFLOW_ORDER.get(normalize_text(opportunity.cashflow_risk), 4),
+        -thematic_fit,
+        days_to_close,
+        -opportunity.caribdis_score,
+        STATUS_ORDER.get(normalized_status, 3),
         administrative_difficulty(opportunity),
         opportunity.title.lower(),
         opportunity.official_url,
@@ -134,6 +157,19 @@ def amount_or_not_found(value: float | None) -> str:
     if value is None:
         return NOT_FOUND
     return f"{value:,.2f} €".replace(",", " ").replace(".", ",")
+
+
+def payment_method(opportunity: Opportunity) -> str:
+    if opportunity.reimbursement_only is True:
+        return "Reembolso después de justificar"
+    if opportunity.advance_percentage is not None and opportunity.advance_percentage > 0:
+        return (
+            f"Anticipo del {opportunity.advance_percentage:g} %; "
+            f"liquidación restante: {NOT_FOUND}"
+        )
+    if opportunity.advance_payment != NOT_FOUND:
+        return opportunity.advance_payment
+    return NOT_FOUND
 
 
 def render_compact_table(opportunities: list[Opportunity], limit: int | None = None) -> list[str]:
@@ -175,19 +211,64 @@ def render_discarded_table(opportunities: list[Opportunity]) -> list[str]:
 def render_strategic_procedures(opportunities: list[Opportunity]) -> list[str]:
     if not opportunities:
         return ["No se han localizado trámites estratégicos verificables.", ""]
-    lines = [
-        "| Código | Trámite | Estado | Destinatarios | Asociación nueva |",
-        "|---|---|---|---|---|",
-    ]
-    for item in opportunities:
-        title = markdown_text(item.title)
-        link = f"[{title}]({item.official_url})" if item.official_url else title
-        lines.append(
-            f"| {markdown_text(item.procedure_code)} | {link} | {item.status} | "
-            f"{markdown_text(item.beneficiaries)} | "
-            f"{markdown_text(item.new_association_eligibility)} |"
+    lines: list[str] = []
+    for position, item in enumerate(opportunities, 1):
+        normalized = normalize_text(
+            f"{item.title} {item.summary} {item.procedure_topic}"
         )
-    lines.append("")
+        if any(term in normalized for term in ["flora", "fauna", "biodiversidad"]):
+            strength = (
+                "Puede acreditar capacidad técnica y colaboración institucional "
+                "en conservación de flora, fauna y biodiversidad."
+            )
+        elif any(term in normalized for term in ["voluntariado", "participacion"]):
+            strength = (
+                "Puede reforzar el reconocimiento y la capacidad operativa de "
+                "CARIBDIS en programas de voluntariado."
+            )
+        else:
+            strength = (
+                "Puede aportar una acreditación o inscripción útil para futuras "
+                "convocatorias y colaboraciones."
+            )
+        purpose = next(
+            (
+                value
+                for value in [
+                    item.summary,
+                    item.procedure_kind,
+                    item.procedure_topic,
+                ]
+                if value and value != NOT_FOUND
+            ),
+            NOT_FOUND,
+        )
+        documentation_parts = [
+            value
+            for value in [item.requirements, *item.forms]
+            if value and value != NOT_FOUND
+        ]
+        documentation = "; ".join(documentation_parts) or NOT_FOUND
+        recommendation = (
+            "Revisar requisitos y preparar la tramitación mientras permanezca abierto."
+            if normalize_text(item.status) == "abierta"
+            else "Vigilar su reapertura y preparar con antelación la documentación."
+        )
+        lines.extend(
+            [
+                f"### {position}. {item.title}",
+                "",
+                f"- Código: {item.procedure_code}",
+                f"- Organismo: {item.organization}",
+                f"- Finalidad: {purpose}",
+                f"- Por qué fortalece CARIBDIS: {strength}",
+                f"- Documentación y requisitos: {documentation}",
+                f"- Estado: {item.status}",
+                f"- Enlace oficial: {item.official_url or NOT_FOUND}",
+                f"- Recomendación: {recommendation}",
+                "",
+            ]
+        )
     return lines
 
 
@@ -278,6 +359,7 @@ def render_detailed_opportunity(item: Opportunity, position: int) -> list[str]:
         f"- Porcentaje de anticipo: {percentage_or_not_found(item.advance_percentage)}",
         f"- Aval para el anticipo: {boolean_or_not_found(item.advance_guarantee_required)}",
         f"- Pago solo tras justificar: {boolean_or_not_found(item.reimbursement_only)}",
+        f"- Forma de pago: {payment_method(item)}",
         f"- Gastos de funcionamiento: {boolean_or_not_found(item.operating_costs_eligible)}",
         f"- Gastos de personal: {boolean_or_not_found(item.staff_costs_eligible)}",
         f"- Equipamiento: {boolean_or_not_found(item.equipment_eligible)}",
@@ -333,6 +415,203 @@ def _filter(
     return [item for item in opportunities if predicate(item)]
 
 
+def _opportunity_text(item: Opportunity) -> str:
+    return " ".join(
+        [
+            item.title,
+            item.summary,
+            item.raw_text,
+            item.requirements,
+            item.eligible_expenses,
+            item.main_theme,
+            " ".join(item.caribdis_keywords),
+            " ".join(item.funding_purposes),
+        ]
+    )
+
+
+def _is_partner_opportunity(item: Opportunity) -> bool:
+    return item.participation in PARTNER_PARTICIPATIONS
+
+
+def _supports_association(item: Opportunity) -> bool:
+    return any(
+        value is True
+        for value in [
+            item.operating_costs_eligible,
+            item.staff_costs_eligible,
+            item.equipment_eligible,
+            item.rent_eligible,
+            item.insurance_eligible,
+            item.travel_eligible,
+        ]
+    ) or any(
+        purpose
+        in {
+            "Ayuda para funcionamiento",
+            "Ayuda para personal",
+            "Ayuda para equipamiento",
+            "Ayuda para sede",
+        }
+        for purpose in item.funding_purposes
+    )
+
+
+def render_numeric_summary(
+    ranked: list[Opportunity],
+    eligible: list[Opportunity],
+    strategic: list[Opportunity],
+    discarded: list[Opportunity],
+) -> list[str]:
+    financial = [item for item in ranked if not item.strategic_procedure]
+    counters = [
+        ("Oportunidades totales", len(ranked)),
+        (
+            "Solicitud directa",
+            sum(item.participation == "Solicitud directa" for item in eligible),
+        ),
+        ("Con socio", sum(_is_partner_opportunity(item) for item in eligible)),
+        (
+            "Aptas para entidad nueva",
+            sum(item.suitable_for_new_entity is True for item in eligible),
+        ),
+        (
+            "No aptas por antigüedad",
+            sum(
+                item.suitable_for_new_entity is False
+                and item.minimum_seniority != NOT_FOUND
+                for item in financial
+            ),
+        ),
+        (
+            "Abiertas",
+            sum(normalize_text(item.status) == "abierta" for item in eligible),
+        ),
+        (
+            "Próximas",
+            sum(normalize_text(item.status) == "proxima" for item in eligible),
+        ),
+        (
+            "Cerradas recurrentes",
+            sum(
+                normalize_text(item.status) == "cerrada recurrente"
+                for item in eligible
+            ),
+        ),
+        (
+            "Financiación del 100 %",
+            sum(
+                item.funding_percentage is not None
+                and item.funding_percentage >= 99.5
+                for item in eligible
+            ),
+        ),
+        (
+            "Con anticipo",
+            sum(
+                item.advance_percentage is not None
+                and item.advance_percentage > 0
+                for item in eligible
+            ),
+        ),
+        (
+            "Riesgo de tesorería alto o muy alto",
+            sum(item.cashflow_risk in {"Alto", "Muy alto"} for item in eligible),
+        ),
+        (
+            "Ayudas para funcionamiento",
+            sum(
+                item.operating_costs_eligible is True
+                or "Ayuda para funcionamiento" in item.funding_purposes
+                for item in eligible
+            ),
+        ),
+        (
+            "Ayudas para proyectos",
+            sum("Ayuda para proyecto" in item.funding_purposes for item in eligible),
+        ),
+        ("Trámites estratégicos", len(strategic)),
+        ("Descartadas", len(discarded)),
+    ]
+    lines = ["| Indicador | Total |", "|---|---:|"]
+    lines.extend(f"| {label} | {value} |" for label, value in counters)
+    lines.append("")
+    return lines
+
+
+def render_requirements_to_prepare(opportunities: list[Opportunity]) -> list[str]:
+    definitions: list[
+        tuple[str, Callable[[Opportunity], bool], str]
+    ] = [
+        (
+            "Inscripción en registros",
+            lambda item: _contains(
+                f"{item.requirements} {item.new_association_eligibility}",
+                ["inscripción", "registro"],
+            ),
+            "Identificar el registro oficial, reunir documentación y tramitarlo antes del plazo.",
+        ),
+        (
+            "Antigüedad",
+            lambda item: item.minimum_seniority != NOT_FOUND,
+            "Documentar la fecha de constitución y vigilar las ediciones futuras.",
+        ),
+        (
+            "Experiencia",
+            lambda item: item.previous_experience_required is True,
+            "Crear un historial verificable de actividades o valorar una entidad socia.",
+        ),
+        (
+            "Socio científico",
+            lambda item: item.participation
+            == "Socia de universidad o centro científico",
+            "Preparar una propuesta de colaboración con una universidad o centro científico.",
+        ),
+        (
+            "Socio municipal",
+            lambda item: item.participation == "Socia de ayuntamiento",
+            "Preparar una propuesta concreta para ayuntamientos del litoral andaluz.",
+        ),
+        (
+            "Certificado digital",
+            lambda item: _contains(_opportunity_text(item), ["certificado digital"]),
+            "Confirmar el certificado exigido y la representación electrónica.",
+        ),
+        (
+            "Plan de voluntariado",
+            lambda item: _contains(_opportunity_text(item), ["plan de voluntariado"]),
+            "Redactar y aprobar el plan cuando la convocatoria lo exija.",
+        ),
+        (
+            "Cofinanciación",
+            lambda item: (
+                item.cofinancing_percentage is not None
+                and item.cofinancing_percentage > 0
+            )
+            or item.cofinancing != NOT_FOUND,
+            "Definir fuentes propias o externas y un plan de tesorería verificable.",
+        ),
+    ]
+    lines = [
+        "| Requisito | Oportunidades afectadas | Preparación recomendada |",
+        "|---|---|---|",
+    ]
+    for label, predicate, recommendation in definitions:
+        matching = [item for item in opportunities if predicate(item)]
+        if matching:
+            titles = ", ".join(
+                f"[{markdown_text(item.title)}]({item.official_url})"
+                if item.official_url
+                else markdown_text(item.title)
+                for item in matching
+            )
+        else:
+            titles = NOT_FOUND
+        lines.append(f"| {label} | {titles} | {recommendation} |")
+    lines.append("")
+    return lines
+
+
 def _months_from_now(target: date, today: date) -> int:
     return (target.year - today.year) * 12 + target.month - today.month
 
@@ -384,12 +663,19 @@ def render_report(
 ) -> str:
     today = today or date.today()
     ranked = ranked_opportunities(run.opportunities, today=today)
-    eligible = _filter(ranked, lambda item: item.priority != "Descartar")
+    eligible = _filter(
+        ranked,
+        lambda item: item.priority != "Descartar" and not item.strategic_procedure,
+    )
     top_eligible = _filter(
         eligible,
         lambda item: item.priority != "Baja" or item.thematic_minimum_met,
     )
     open_items = _filter(top_eligible, lambda item: normalize_text(item.status) == "abierta")
+    direct_open = _filter(
+        open_items,
+        lambda item: item.participation == "Solicitud directa",
+    )
     upcoming = _filter(top_eligible, lambda item: normalize_text(item.status) == "proxima")
     recurrent = _filter(top_eligible, lambda item: normalize_text(item.status) == "cerrada recurrente")
     strategic = _filter(ranked, lambda item: item.strategic_procedure)
@@ -397,28 +683,122 @@ def render_report(
         ranked,
         lambda item: item.priority == "Descartar" and not item.strategic_procedure,
     )
+    new_entity_priority = _filter(
+        top_eligible,
+        lambda item: item.suitable_for_new_entity is True,
+    )
+    sustaining = _filter(eligible, _supports_association)
+    marine_scientific = _filter(
+        eligible,
+        lambda item: item.thematic_minimum_met
+        and _contains(
+            f"{item.main_theme} {_opportunity_text(item)}",
+            [
+                "marina",
+                "marino",
+                "submarina",
+                "submarino",
+                "litoral",
+                "ciencia ciudadana",
+                "divulgación científica",
+                "cultura científica",
+                "educación ambiental",
+            ],
+        ),
+    )
+    social_educational = _filter(
+        eligible,
+        lambda item: _contains(
+            f"{item.main_theme} {_opportunity_text(item)}",
+            [
+                "infancia",
+                "menores",
+                "juventud",
+                "discapacidad",
+                "NEAE",
+                "inclusión",
+                "vulnerabilidad",
+                "accesibilidad",
+            ],
+        ),
+    )
+    junta = _filter(
+        eligible,
+        lambda item: _contains(item.source_group, ["Junta de Andalucía", "BOJA"]),
+    )
+    provincial_local = _filter(
+        eligible,
+        lambda item: _contains(
+            item.source_group,
+            ["Diputación", "Ayuntamiento", "Entidad local", "Municipal"],
+        ),
+    )
+    state_bdns = _filter(
+        eligible,
+        lambda item: _contains(
+            f"{item.source_group} {item.territory}",
+            ["Estatal", "España", "BDNS"],
+        ),
+    )
+    european = _filter(
+        eligible,
+        lambda item: _contains(
+            f"{item.source_group} {item.territory}",
+            ["Europa", "Unión Europea"],
+        ),
+    )
+    private_funding = _filter(
+        eligible,
+        lambda item: _contains(
+            f"{item.source_group} {item.organization_type} {item.funding_instrument}",
+            [
+                "Fundación privada",
+                "Fundaciones privadas",
+                "Donación",
+                "Patrocinio",
+                "Convocatoria de fundación",
+                "Responsabilidad social corporativa",
+                "Apoyo en especie",
+            ],
+        ),
+    )
+    partner_items = _filter(eligible, _is_partner_opportunity)
+    not_ready = _filter(
+        eligible,
+        lambda item: item.suitable_for_new_entity is False
+        or item.participation == "Vigilar y preparar requisitos",
+    )
+    galp_fempa = _filter(
+        eligible,
+        lambda item: _contains(
+            f"{item.source_group} {item.title}",
+            ["GALP", "GALPA", "FEMPA", "Pleamar"],
+        ),
+    )
 
     lines = [
         "# INFORME ÚNICO DE AYUDAS CARIBDIS",
         "",
-        "## 1. Fecha y periodo revisado",
+        "## 1. Resumen ejecutivo",
+        "",
+        (
+            "> **CARIBDIS es una asociación andaluza sin ánimo de lucro de nueva "
+            "creación. Su viabilidad dependerá inicialmente en gran medida de "
+            "subvenciones, donaciones, patrocinios, cuotas y colaboraciones. Por "
+            "ello, este informe prioriza la financiación a fondo perdido, los "
+            "anticipos, la cobertura de gastos de funcionamiento y las "
+            "convocatorias viables para entidades nuevas.**"
+        ),
         "",
         f"- Ejecución: {datetime.now().astimezone().isoformat(timespec='seconds')}",
         f"- Periodo revisado: {start_date.isoformat()} a {end_date.isoformat()}",
         f"- Fuentes comprobadas: {len(run.sources_checked)}",
         f"- Fuentes consultadas con éxito: {len(run.sources_succeeded)}",
-        "",
-        "## 2. Resumen ejecutivo",
-        "",
-        f"- Oportunidades únicas: {len(ranked)}",
-        f"- Abiertas: {len(open_items)}",
-        f"- Próximas: {len(upcoming)}",
-        f"- Cerradas recurrentes: {len(recurrent)}",
-        f"- Trámites estratégicos no económicos: {len(strategic)}",
-        f"- Solicitud directa: {sum(item.participation == 'Solicitud directa' for item in ranked)}",
-        f"- Prioridad muy alta o alta: {sum(item.priority in {'Muy alta', 'Alta'} for item in ranked)}",
         f"- Incidencias: {len(run.incidents)}",
         "",
+        "### Resumen numérico",
+        "",
+        *render_numeric_summary(ranked, eligible, strategic, discarded),
         "### Cobertura real por fuente",
         "",
         *render_source_coverage(run),
@@ -428,104 +808,109 @@ def render_report(
         "### Fuentes pendientes de adaptación",
         "",
         *render_pending_sources(run),
-        "## 3. Top 10 ayudas abiertas para solicitar ahora",
+        "## 2. Ayudas abiertas que CARIBDIS puede solicitar directamente",
         "",
-        *render_compact_table(open_items, 10),
-        "## 4. Top 10 ayudas próximas o esperadas",
+        *render_compact_table(direct_open),
+        "## 3. Ayudas prioritarias para una asociación nueva",
+        "",
+        *render_compact_table(new_entity_priority),
+        "### Ayudas próximas o esperadas",
         "",
         *render_compact_table(upcoming, 10),
-        "## 5. Top 10 ayudas cerradas pero recurrentes",
+        "### Ayudas cerradas pero recurrentes",
         "",
         *render_compact_table(recurrent, 10),
+        "## 4. Ayudas para sostener la asociación",
+        "",
+        (
+            "Incluye oportunidades que cubren funcionamiento, personal, sede, "
+            "seguros, gestoría, equipamiento, desplazamientos o comunicación."
+        ),
+        "",
+        *render_compact_table(sustaining),
+        "## 5. Ayudas para proyectos marinos y científicos",
+        "",
+        *render_compact_table(marine_scientific),
+        "### Ayudas GALP, GALPA, FEMPA y Pleamar",
+        "",
+        *render_compact_table(galp_fempa),
+        "## 6. Ayudas para infancia, juventud, discapacidad, NEAE e inclusión",
+        "",
+        *render_compact_table(social_educational),
+        "## 7. Ayudas de la Junta de Andalucía",
+        "",
+        *render_compact_table(junta),
+        "## 8. Ayudas de diputaciones y ayuntamientos",
+        "",
+        *render_compact_table(provincial_local),
+        "## 9. Ayudas estatales y BDNS",
+        "",
+        *render_compact_table(state_bdns),
+        "## 10. Ayudas europeas",
+        "",
+        *render_compact_table(european),
+        "## 11. Donaciones, patrocinios y fundaciones privadas",
+        "",
+        *render_compact_table(private_funding),
+        "## 12. Ayudas que exigen socio",
+        "",
+        *render_compact_table(partner_items),
+        "## 13. Ayudas para las que CARIBDIS todavía no cumple requisitos",
+        "",
+        *render_compact_table(not_ready),
+        "## 14. Requisitos que deben prepararse",
+        "",
+        *render_requirements_to_prepare(eligible),
+        "## 15. Trámites estratégicos para fortalecer CARIBDIS — no son ayudas económicas",
+        "",
+        *render_strategic_procedures(strategic),
+        "## 16. Ayudas descartadas y motivo",
+        "",
+        *render_discarded_table(discarded),
+        "## 17. Calendario de próximos 3, 6 y 12 meses",
+        "",
+        *render_calendar(eligible, today),
+        "## 18. Ranking general",
+        "",
     ]
-
-    grouped_sections: list[tuple[str, list[Opportunity]]] = [
-        (
-            "6. Ayudas de la Unión Europea",
-            _filter(eligible, lambda item: _contains(f"{item.source_group} {item.territory}", ["Europa", "Unión Europea"])),
-        ),
-        (
-            "7. Ayudas estatales",
-            _filter(eligible, lambda item: _contains(f"{item.source_group} {item.territory}", ["Estatal", "España", "BDNS"])),
-        ),
-        (
-            "8. Ayudas de la Junta de Andalucía",
-            _filter(eligible, lambda item: _contains(item.source_group, ["Junta de Andalucía", "BOJA"])),
-        ),
-        (
-            "9. Ayudas de diputaciones andaluzas",
-            _filter(eligible, lambda item: _contains(item.source_group, ["Diputación"])),
-        ),
-        (
-            "10. Ayudas de ayuntamientos y entidades locales",
-            _filter(eligible, lambda item: _contains(item.source_group, ["Ayuntamiento", "Entidad local", "Municipal"])),
-        ),
-        (
-            "11. Ayudas GALP/GALPA/FEMPA",
-            _filter(eligible, lambda item: _contains(f"{item.source_group} {item.title}", ["GALP", "GALPA", "FEMPA", "Pleamar"])),
-        ),
-        (
-            "12. Ayudas de fundaciones privadas",
-            _filter(
-                eligible,
-                lambda item: _contains(
-                    f"{item.source_group} {item.organization_type}",
-                    ["Fundaciones privadas", "Fundación privada", "RSC"],
-                ),
-            ),
-        ),
-        (
-            "13. Ayudas que CARIBDIS puede solicitar directamente",
-            _filter(eligible, lambda item: item.participation == "Solicitud directa"),
-        ),
-        (
-            "14. Ayudas que requieren ayuntamiento",
-            _filter(eligible, lambda item: item.participation == "Socia de ayuntamiento"),
-        ),
-        (
-            "15. Ayudas que requieren universidad o centro científico",
-            _filter(eligible, lambda item: item.participation == "Socia de universidad o centro científico"),
-        ),
-        (
-            "16. Ayudas que requieren consorcio europeo",
-            _filter(eligible, lambda item: item.participation == "Socia de consorcio europeo"),
-        ),
-        ("17. Ayudas descartadas y motivo", discarded),
-    ]
-    for heading, items in grouped_sections:
-        renderer = render_discarded_table if heading.startswith("17.") else render_compact_table
-        lines.extend([f"## {heading}", "", *renderer(items)])
-
-    lines.extend(
-        [
-            "## Trámites estratégicos para fortalecer CARIBDIS — no son ayudas económicas",
-            "",
-            *render_strategic_procedures(strategic),
-            "## 18. Calendario de próximos tres, seis y doce meses",
-            "",
-            *render_calendar(eligible, today),
-            "## 19. Ranking general completo",
-            "",
-        ]
-    )
     if eligible:
         for position, item in enumerate(eligible, 1):
             lines.extend(render_detailed_opportunity(item, position))
     else:
         lines.extend(["No se han localizado oportunidades verificables.", ""])
 
-    immediate = [item for item in open_items if item.priority in {"Muy alta", "Alta"}][:5]
-    lines.extend(["## 20. Recomendaciones de actuación inmediata", ""])
+    immediate = [
+        item
+        for item in direct_open
+        if item.priority in {"Muy alta", "Alta"}
+        and item.suitable_for_new_entity is not False
+    ][:5]
+    lines.extend(["## 19. Recomendaciones de actuación inmediata", ""])
     if immediate:
         for item in immediate:
             lines.append(
                 f"- Revisar hoy [{item.title}]({item.official_url}) y confirmar "
-                f"beneficiarios, presupuesto y documentación antes de {item.close_date}."
+                f"beneficiarios, tesorería y documentación antes de {item.close_date}."
             )
     else:
         lines.append(
             "- No hay ayudas abiertas de prioridad alta verificadas; revisar las próximas "
             "ediciones y resolver primero las incidencias de fuentes."
+        )
+    if sustaining:
+        lines.append(
+            "- Priorizar las ayudas de funcionamiento y elaborar un presupuesto anual "
+            "de seguros, gestoría, sede, personal, materiales y desplazamientos."
+        )
+    if not_ready:
+        lines.append(
+            "- Preparar los requisitos identificados en la sección 14 antes de la "
+            "siguiente edición o formalizar una participación mediante entidad socia."
+        )
+    if any(normalize_text(item.status) == "abierta" for item in strategic):
+        lines.append(
+            "- Revisar los trámites estratégicos abiertos de la sección 15; no aportan "
+            "financiación, pero pueden mejorar la elegibilidad futura de CARIBDIS."
         )
     lines.append("")
     return "\n".join(lines).rstrip() + "\n"

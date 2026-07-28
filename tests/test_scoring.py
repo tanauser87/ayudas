@@ -263,6 +263,14 @@ class FinancialScoringTests(unittest.TestCase):
         self.assertTrue(item.rent_eligible)
         self.assertIn("Ayuda para funcionamiento", item.funding_purposes)
 
+    def test_scientific_communication_does_not_imply_operating_costs(self) -> None:
+        item = self.financial_opportunity()
+        item.raw_text = "Proyecto de comunicación social de la ciencia marina."
+
+        apply_caribdis_scoring(item)
+
+        self.assertIsNone(item.operating_costs_eligible)
+
     def test_staff_funding_is_identified(self) -> None:
         item = self.financial_opportunity()
         item.eligible_expenses = "Son subvencionables los gastos de personal y salarios."

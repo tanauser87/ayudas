@@ -439,7 +439,11 @@ def infer_financial_attributes(opportunity: Opportunity, text: str | None = None
         elif opportunity.advance_percentage is not None and opportunity.advance_percentage > 0:
             opportunity.reimbursement_only = False
 
-    expense_text = f"{opportunity.eligible_expenses} {combined}"
+    expense_text = (
+        opportunity.eligible_expenses
+        if opportunity.eligible_expenses != NOT_FOUND
+        else ""
+    )
     for field_name, terms in EXPENSE_TERMS.items():
         if getattr(opportunity, field_name) is None:
             setattr(opportunity, field_name, _infer_expense_flag(expense_text, terms))
@@ -500,8 +504,11 @@ def infer_financial_attributes(opportunity: Opportunity, text: str | None = None
             opportunity.suitable_for_new_entity = False
 
     purposes = list(opportunity.funding_purposes)
+    purpose_text = normalize_text(
+        f"{opportunity.title} {opportunity.summary} {opportunity.eligible_expenses}"
+    )
     for purpose, terms in PURPOSE_TERMS:
-        if any(contains_term(normalized, term) for term in terms):
+        if any(contains_term(purpose_text, term) for term in terms):
             purposes.append(purpose)
     if opportunity.european_funds:
         purposes.append("Financiación europea")

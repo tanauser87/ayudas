@@ -3,7 +3,7 @@ import unittest
 from datetime import date
 from pathlib import Path
 
-from caribdis_search.models import Opportunity, RunResult
+from caribdis_search.models import Opportunity, RunResult, ScoringBreakdown
 from caribdis_search.report import ranked_opportunities, render_report, write_report
 
 
@@ -14,14 +14,31 @@ def item(
     close_date: str,
     participation: str = "Solicitud directa",
 ) -> Opportunity:
+    if score >= 85:
+        priority = "Muy alta"
+    elif score >= 70:
+        priority = "Alta"
+    elif score >= 50:
+        priority = "Media"
+    elif score >= 25:
+        priority = "Baja"
+    else:
+        priority = "Descartar"
     return Opportunity(
         title=title,
         status=status,
         caribdis_score=score,
-        priority="Alta",
+        priority=priority,
         close_date=close_date,
         participation=participation,
         official_url=f"https://example.org/{title.lower()}",
+        funding_instrument="Subvención",
+        funding_percentage=70,
+        cofinancing_percentage=30,
+        advance_percentage=40,
+        cashflow_risk="Medio",
+        suitable_for_new_entity=True,
+        thematic_minimum_met=True,
     )
 
 
@@ -37,7 +54,7 @@ class ReportTests(unittest.TestCase):
 
         self.assertEqual([entry.title for entry in ranked], ["Abierta alta", "Abierta media", "Próxima"])
 
-    def test_ranking_places_partner_calls_after_upcoming_direct_calls(self) -> None:
+    def test_ranking_places_all_open_calls_before_upcoming_calls(self) -> None:
         high = item("Abierta alta", "Abierta", 90, "2026-10-01")
         medium = item("Abierta media", "Abierta", 60, "2026-09-01")
         medium.priority = "Media"
@@ -63,7 +80,7 @@ class ReportTests(unittest.TestCase):
 
         self.assertEqual(
             [entry.title for entry in ranked],
-            ["Abierta alta", "Abierta media", "Próxima directa", "Abierta con consorcio"],
+            ["Abierta alta", "Abierta media", "Abierta con consorcio", "Próxima directa"],
         )
 
     def test_report_contains_all_sections_and_overwrites_file(self) -> None:
@@ -86,10 +103,29 @@ class ReportTests(unittest.TestCase):
 
             content = path.read_text(encoding="utf-8")
             self.assertNotIn("contenido anterior", content)
-            self.assertIn("## 3. Top 10 ayudas abiertas para solicitar ahora", content)
-            self.assertIn("## 17. Ayudas descartadas y motivo", content)
-            self.assertIn("## 19. Ranking general completo", content)
-            self.assertIn("## 20. Recomendaciones de actuación inmediata", content)
+            headings = [
+                "## 1. Resumen ejecutivo",
+                "## 2. Ayudas abiertas que CARIBDIS puede solicitar directamente",
+                "## 3. Ayudas prioritarias para una asociación nueva",
+                "## 4. Ayudas para sostener la asociación",
+                "## 5. Ayudas para proyectos marinos y científicos",
+                "## 6. Ayudas para infancia, juventud, discapacidad, NEAE e inclusión",
+                "## 7. Ayudas de la Junta de Andalucía",
+                "## 8. Ayudas de diputaciones y ayuntamientos",
+                "## 9. Ayudas estatales y BDNS",
+                "## 10. Ayudas europeas",
+                "## 11. Donaciones, patrocinios y fundaciones privadas",
+                "## 12. Ayudas que exigen socio",
+                "## 13. Ayudas para las que CARIBDIS todavía no cumple requisitos",
+                "## 14. Requisitos que deben prepararse",
+                "## 15. Trámites estratégicos para fortalecer CARIBDIS",
+                "## 16. Ayudas descartadas y motivo",
+                "## 17. Calendario de próximos 3, 6 y 12 meses",
+                "## 18. Ranking general",
+                "## 19. Recomendaciones de actuación inmediata",
+            ]
+            for heading in headings:
+                self.assertIn(heading, content)
             self.assertIn("### 1. Ayuda marina", content)
 
     def test_discarded_items_do_not_appear_in_open_top(self) -> None:
@@ -105,14 +141,14 @@ class ReportTests(unittest.TestCase):
             today=date(2026, 7, 26),
         )
         top_section = content.split(
-            "## 3. Top 10 ayudas abiertas para solicitar ahora", 1
-        )[1].split("## 4.", 1)[0]
+            "## 2. Ayudas abiertas que CARIBDIS puede solicitar directamente", 1
+        )[1].split("## 3.", 1)[0]
 
         self.assertIn("Ayuda válida", top_section)
         self.assertNotIn("Ayuda descartada", top_section)
-        self.assertIn("Ayuda descartada", content.split("## 17.", 1)[1])
+        self.assertIn("Ayuda descartada", content.split("## 16.", 1)[1])
 
-    def test_discarded_items_appear_only_in_section_17(self) -> None:
+    def test_discarded_items_appear_only_in_section_16(self) -> None:
         valid = item("FECYT Cultura Científica", "Abierta", 80, "2026-09-16")
         discarded = item("Premios AEPD", "Abierta", 0, "2026-08-01")
         discarded.priority = "Descartar"
@@ -124,11 +160,11 @@ class ReportTests(unittest.TestCase):
             end_date=date(2026, 7, 26),
             today=date(2026, 7, 26),
         )
-        before_discarded = content.split("## 17. Ayudas descartadas y motivo", 1)[0]
+        before_discarded = content.split("## 16. Ayudas descartadas y motivo", 1)[0]
         discarded_section = content.split(
-            "## 17. Ayudas descartadas y motivo", 1
-        )[1].split("## 18.", 1)[0]
-        after_discarded = content.split("## 18.", 1)[1]
+            "## 16. Ayudas descartadas y motivo", 1
+        )[1].split("## 17.", 1)[0]
+        after_discarded = content.split("## 17.", 1)[1]
 
         self.assertNotIn("Premios AEPD", before_discarded)
         self.assertIn("Premios AEPD", discarded_section)
@@ -170,11 +206,11 @@ class ReportTests(unittest.TestCase):
             today=date(2026, 7, 26),
         )
         discarded_section = content.split(
-            "## 17. Ayudas descartadas y motivo", 1
-        )[1].split("## Trámites estratégicos", 1)[0]
+            "## 16. Ayudas descartadas y motivo", 1
+        )[1].split("## 17.", 1)[0]
         strategic_section = content.split(
-            "## Trámites estratégicos para fortalecer CARIBDIS", 1
-        )[1].split("## 18.", 1)[0]
+            "## 15. Trámites estratégicos para fortalecer CARIBDIS", 1
+        )[1].split("## 16.", 1)[0]
 
         self.assertNotIn(strategic.title, discarded_section)
         self.assertIn(strategic.title, strategic_section)
@@ -198,6 +234,113 @@ class ReportTests(unittest.TestCase):
         self.assertIn("Riesgo de tesorería", content)
         self.assertIn("Porcentaje financiado: 70 %", content)
         self.assertIn("Gastos de funcionamiento: Sí", content)
+        self.assertIn("Apta para entidad nueva: Sí", content)
+
+    def test_summary_contains_new_nonprofit_financial_message(self) -> None:
+        content = render_report(
+            RunResult(opportunities=[]),
+            start_date=date(2026, 7, 1),
+            end_date=date(2026, 7, 26),
+            today=date(2026, 7, 26),
+        )
+
+        self.assertIn(
+            "CARIBDIS es una asociación andaluza sin ánimo de lucro de nueva creación",
+            content,
+        )
+        self.assertIn("financiación a fondo perdido", content)
+        self.assertIn("cobertura de gastos de funcionamiento", content)
+        for counter in [
+            "Oportunidades totales",
+            "Solicitud directa",
+            "Con socio",
+            "Aptas para entidad nueva",
+            "No aptas por antigüedad",
+            "Financiación del 100 %",
+            "Con anticipo",
+            "Riesgo de tesorería alto o muy alto",
+            "Trámites estratégicos",
+            "Descartadas",
+        ]:
+            self.assertIn(counter, content)
+
+    def test_sustaining_and_private_funding_have_separate_sections(self) -> None:
+        operating = item(
+            "Ayuda para seguros y gestoría",
+            "Abierta",
+            80,
+            "2026-09-30",
+        )
+        operating.operating_costs_eligible = True
+        operating.insurance_eligible = True
+        donation = item("Donación marina", "Abierta", 75, "2026-10-15")
+        donation.funding_instrument = "Donación"
+        donation.source_group = "Fundaciones privadas"
+
+        content = render_report(
+            RunResult(opportunities=[operating, donation]),
+            start_date=date(2026, 7, 1),
+            end_date=date(2026, 7, 26),
+            today=date(2026, 7, 26),
+        )
+        sustaining = content.split(
+            "## 4. Ayudas para sostener la asociación", 1
+        )[1].split("## 5.", 1)[0]
+        private = content.split(
+            "## 11. Donaciones, patrocinios y fundaciones privadas", 1
+        )[1].split("## 12.", 1)[0]
+
+        self.assertIn(operating.title, sustaining)
+        self.assertIn(donation.title, private)
+
+    def test_ranking_prefers_fit_over_amount(self) -> None:
+        strong_fit = item("Encaje marino", "Abierta", 80, "2026-09-30")
+        strong_fit.scoring = ScoringBreakdown(
+            thematic_fit=25,
+            social_educational_fit=5,
+        )
+        strong_fit.max_amount = "10.000 EUR"
+        large_generic = item("Importe elevado", "Abierta", 80, "2026-09-30")
+        large_generic.scoring = ScoringBreakdown(thematic_fit=5)
+        large_generic.max_amount = "2.000.000 EUR"
+
+        ranked = ranked_opportunities(
+            [large_generic, strong_fit],
+            today=date(2026, 7, 26),
+        )
+
+        self.assertEqual(ranked[0].title, "Encaje marino")
+
+    def test_open_direct_new_entity_is_ranked_first(self) -> None:
+        direct_new = item("Directa nueva", "Abierta", 75, "2026-10-30")
+        partner_high = item(
+            "Con socio",
+            "Abierta",
+            95,
+            "2026-08-30",
+            participation="Socia de consorcio europeo",
+        )
+        partner_high.suitable_for_new_entity = False
+        upcoming = item("Próxima", "Próxima", 99, "2026-08-01")
+
+        ranked = ranked_opportunities(
+            [partner_high, upcoming, direct_new],
+            today=date(2026, 7, 26),
+        )
+
+        self.assertEqual(
+            [entry.title for entry in ranked],
+            ["Directa nueva", "Con socio", "Próxima"],
+        )
+
+    def test_repository_has_one_main_markdown_report(self) -> None:
+        repository_root = Path(__file__).resolve().parents[1]
+        reports = sorted(
+            path.name
+            for path in (repository_root / "informes_caribdis").glob("*.md")
+        )
+
+        self.assertEqual(reports, ["INFORME_UNICO_AYUDAS_CARIBDIS.md"])
 
 
 if __name__ == "__main__":
