@@ -112,6 +112,34 @@ presupuesto, importes y porcentajes, cofinanciación, anticipo, aval, gastos,
 duración, bases, sede electrónica, publicaciones en diarios oficiales y fondos
 europeos. Los valores no publicados se mantienen como `Dato no localizado`.
 
+### Integración del Catálogo de Procedimientos de la Junta
+
+La fuente única `junta_catalogo_procedimientos` usa el adaptador
+`junta_procedures`; ya no rastrea el catálogo HTML como fuente genérica. Antes de
+consultar datos valida la especificación
+[OpenAPI oficial](https://datos.juntadeandalucia.es/api/v0/procedures/openapi.json)
+y utiliza exclusivamente estas operaciones documentadas:
+
+- `GET /api/v0/procedures/get/search_paginations`, con la familia oficial
+  `Familia 2. Subvenciones, becas y premios`;
+- `GET /api/v0/procedures/{bid}`, para verificar y enriquecer cada ficha;
+- `GET /api/v0/procedures/get/search_paginations_ffee`, para fondos europeos.
+
+La búsqueda recorre `paginacion.totalPaginas`, prefiltra los listados ligeros y
+prioriza watchlist, procedimientos abiertos, fondos europeos y mayor encaje
+temático antes de solicitar detalles. `max_detail_items` limita de forma
+configurable el número de fichas enriquecidas y cualquier truncamiento queda
+registrado como incidencia.
+
+`procedure_watchlist` se define en `config/fuentes_andalucia.json` y puede
+ampliarse sin modificar Python. Los códigos solo se incorporan cuando el
+endpoint de detalle devuelve exactamente un registro con el mismo identificador.
+
+Las subvenciones se integran en el ranking financiero. Las inscripciones,
+registros, autorizaciones, acreditaciones y habilitaciones se marcan como
+trámites estratégicos, reciben puntuación financiera cero y aparecen únicamente
+en `Trámites estratégicos para fortalecer CARIBDIS — no son ayudas económicas`.
+
 ## Informe único
 
 El informe se sobrescribe en cada ejecución e incluye, en orden:
@@ -137,15 +165,20 @@ El informe se sobrescribe en cada ejecución e incluye, en orden:
 19. ranking completo;
 20. recomendaciones inmediatas.
 
+Además, incluye una sección independiente de trámites estratégicos no económicos
+entre los descartes financieros y el calendario.
+
 El ranking ordena primero convocatorias abiertas y directas de prioridad Muy alta o Alta, después abiertas de prioridad Media, próximas o recurrentes y, a continuación, oportunidades que requieren socio. Las ayudas de prioridad Baja sin umbral temático no entran en los Top 10. Las descartadas aparecen exclusivamente en la sección 17.
 
 ## Histórico y cambios
 
 `informes_caribdis/historico_caribdis.json` conserva el histórico estructurado. El sistema:
 
-- deduplica, por orden, mediante número BDNS, identificador BOE/BOJA, URL oficial
-  canónica y combinación normalizada de organismo, título y fecha;
-- fusiona los metadatos de BDNS, BOE y BOJA sin perder sus enlaces ni referencias;
+- deduplica, por orden, mediante código de procedimiento, número BDNS,
+  identificador BOE/BOJA, URL oficial canónica y combinación normalizada de
+  organismo, título y fecha;
+- fusiona los metadatos de la API de la Junta, BDNS, BOE y BOJA sin perder sus
+  enlaces ni referencias;
 - detecta cambios de apertura, cierre, presupuesto, importe y estado;
 - marca reaperturas;
 - compara títulos equivalentes de distintas ediciones;
@@ -187,6 +220,12 @@ Diagnosticar una fuente concreta:
 
 ```shell
 python buscador_caribdis.py --source-id bdns
+```
+
+Diagnosticar solo el Catálogo de Procedimientos de la Junta:
+
+```shell
+python buscador_caribdis.py --source-id junta_catalogo_procedimientos
 ```
 
 Ejecutar deliberadamente una fuente pendiente de adaptación:
@@ -265,6 +304,7 @@ Los archivos con muchas fuentes admiten `defaults` y `sources`, como `config/ayu
 Adaptadores disponibles:
 
 - `bdns`: API oficial de BDNS.
+- `junta_procedures`: OpenAPI y API oficial del Catálogo de Procedimientos de la Junta.
 - `html`: página de convocatorias o ayudas.
 - `rss`: feed RSS o Atom.
 - `verified`: ficha de convocatoria con metadatos revisados y páginas oficiales comprobadas.
@@ -288,5 +328,7 @@ Adaptadores disponibles:
 - PDF escaneados, formularios con autenticación y buscadores JavaScript pueden no exponer datos.
 - La elegibilidad, cofinanciación y gastos deben confirmarse siempre en el enlace oficial.
 - Las fuentes privadas pueden cambiar su estructura o condiciones sin aviso.
+- La API de procedimientos refleja el catálogo actual y no acepta filtros
+  históricos por fecha; no acredita por sí sola una revisión completa de 365 días.
 
 La arquitectura y decisiones de compatibilidad están documentadas en `docs/ARQUITECTURA.md`.

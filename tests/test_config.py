@@ -92,6 +92,12 @@ class ConfigTests(unittest.TestCase):
                 "infosubvenciones.es",
             }.issubset(bdns["official_domains"])
         )
+        junta = configured["junta_catalogo_procedimientos"]
+        self.assertEqual(junta["adapter"], "junta_procedures")
+        self.assertEqual(junta["coverage_type"], "api")
+        self.assertEqual(len(junta["procedure_watchlist"]), 9)
+        self.assertIn("15802", junta["procedure_watchlist"])
+        self.assertIn("datos.juntadeandalucia.es", junta["official_domains"])
 
 
 if __name__ == "__main__":

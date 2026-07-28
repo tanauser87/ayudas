@@ -155,6 +155,25 @@ def render_discarded_table(opportunities: list[Opportunity]) -> list[str]:
     return lines
 
 
+def render_strategic_procedures(opportunities: list[Opportunity]) -> list[str]:
+    if not opportunities:
+        return ["No se han localizado trámites estratégicos verificables.", ""]
+    lines = [
+        "| Código | Trámite | Estado | Destinatarios | Asociación nueva |",
+        "|---|---|---|---|---|",
+    ]
+    for item in opportunities:
+        title = markdown_text(item.title)
+        link = f"[{title}]({item.official_url})" if item.official_url else title
+        lines.append(
+            f"| {markdown_text(item.procedure_code)} | {link} | {item.status} | "
+            f"{markdown_text(item.beneficiaries)} | "
+            f"{markdown_text(item.new_association_eligibility)} |"
+        )
+    lines.append("")
+    return lines
+
+
 def render_source_coverage(run: RunResult) -> list[str]:
     labels = {
         "historical": "Histórica",
@@ -204,6 +223,8 @@ def render_detailed_opportunity(item: Opportunity, position: int) -> list[str]:
     european_funds = ", ".join(item.european_funds) or NOT_FOUND
     aid_instruments = ", ".join(item.aid_instruments) or NOT_FOUND
     administrative_events = ", ".join(item.administrative_events) or NOT_FOUND
+    forms = "; ".join(item.forms) or NOT_FOUND
+    legal_bases = "; ".join(item.legal_bases) or NOT_FOUND
     return [
         f"### {position}. {item.title} — {item.caribdis_score}/100 — PRIORIDAD {item.priority.upper()}",
         "",
@@ -211,15 +232,19 @@ def render_detailed_opportunity(item: Opportunity, position: int) -> list[str]:
         f"- Apertura: {value_or_not_found(item.open_date)}",
         f"- Plazo: {value_or_not_found(item.close_date)}",
         f"- Organismo: {item.organization}",
+        f"- Consejería: {item.counseling}",
         f"- Tipo de organismo: {item.organization_type}",
         f"- Fuente: {item.source}",
         f"- Cobertura de la fuente: {item.coverage_type} — {item.coverage_note or NOT_FOUND}",
         f"- Metadatos verificados: {'Sí' if item.metadata_verified else 'No consta revisión completa'}",
         f"- Número BDNS: {item.bdns_number}",
-        f"- Identificadores BOE/BOJA: {official_identifiers}",
+        f"- Código de procedimiento: {item.procedure_code}",
+        f"- Identificadores oficiales: {official_identifiers}",
         f"- Fecha de registro: {item.registered_date}",
         f"- Tipo de registro: {item.record_type}",
         f"- Solicitabilidad: {item.solicitability}",
+        f"- Familia/tema/actividad: {item.procedure_family} / {item.procedure_topic} / {item.procedure_activity}",
+        f"- Tipo de procedimiento: {item.procedure_kind}",
         f"- Territorio: {item.territory}",
         f"- Nivel administrativo/comunidad autónoma: {item.administrative_level} / {item.autonomous_community}",
         f"- Provincia/municipio: {item.province} / {item.municipality}",
@@ -230,6 +255,7 @@ def render_detailed_opportunity(item: Opportunity, position: int) -> list[str]:
         f"- Anticipo: {item.advance_payment}",
         f"- ¿Puede pedirla CARIBDIS directamente?: {item.participation}",
         f"- Beneficiarios: {item.beneficiaries}",
+        f"- Elegibilidad de una asociación nueva: {item.new_association_eligibility}",
         f"- Requisitos: {item.requirements}",
         f"- Antigüedad/experiencia: {item.seniority_requirements} / {item.experience_requirements}",
         f"- Necesidad de socios/consorcio: {item.partners_required} / {item.consortium_required}",
@@ -239,6 +265,10 @@ def render_detailed_opportunity(item: Opportunity, position: int) -> list[str]:
         f"- Fondos europeos: {european_funds}",
         f"- Instrumentos de ayuda: {aid_instruments}",
         f"- Eventos administrativos: {administrative_events}",
+        f"- Plazo administrativo: {item.application_deadline}",
+        f"- Formularios: {forms}",
+        f"- Normas y bases: {legal_bases}",
+        f"- Información de contacto: {item.contact_information}",
         f"- Temática principal: {item.main_theme}",
         f"- Palabras clave: {keywords}",
         f"- Motivo de la puntuación: {item.score_reason}",
@@ -324,7 +354,11 @@ def render_report(
     open_items = _filter(top_eligible, lambda item: normalize_text(item.status) == "abierta")
     upcoming = _filter(top_eligible, lambda item: normalize_text(item.status) == "proxima")
     recurrent = _filter(top_eligible, lambda item: normalize_text(item.status) == "cerrada recurrente")
-    discarded = _filter(ranked, lambda item: item.priority == "Descartar")
+    strategic = _filter(ranked, lambda item: item.strategic_procedure)
+    discarded = _filter(
+        ranked,
+        lambda item: item.priority == "Descartar" and not item.strategic_procedure,
+    )
 
     lines = [
         "# INFORME ÚNICO DE AYUDAS CARIBDIS",
@@ -342,6 +376,7 @@ def render_report(
         f"- Abiertas: {len(open_items)}",
         f"- Próximas: {len(upcoming)}",
         f"- Cerradas recurrentes: {len(recurrent)}",
+        f"- Trámites estratégicos no económicos: {len(strategic)}",
         f"- Solicitud directa: {sum(item.participation == 'Solicitud directa' for item in ranked)}",
         f"- Prioridad muy alta o alta: {sum(item.priority in {'Muy alta', 'Alta'} for item in ranked)}",
         f"- Incidencias: {len(run.incidents)}",
@@ -425,6 +460,9 @@ def render_report(
 
     lines.extend(
         [
+            "## Trámites estratégicos para fortalecer CARIBDIS — no son ayudas económicas",
+            "",
+            *render_strategic_procedures(strategic),
             "## 18. Calendario de próximos tres, seis y doce meses",
             "",
             *render_calendar(eligible, today),

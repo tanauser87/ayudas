@@ -43,6 +43,7 @@ caribdis_search/
     base.py              contrato común de fuente
     boe_boja.py          adaptador del scraper heredado
     bdns.py              API oficial de publicidad de subvenciones
+    junta_procedures.py  OpenAPI y API del catálogo de procedimientos de la Junta
     generic.py           páginas HTML/RSS oficiales configurables
 config/
   caribdis.json
@@ -65,7 +66,9 @@ informes_caribdis/
 2. Cada adaptador devuelve oportunidades normalizadas o incidencias; un fallo no detiene los demás.
 3. Los extractores completan únicamente datos explícitos y usan `Dato no localizado` en caso contrario.
 4. El scoring calcula siete bloques con los máximos 25, 25, 15, 10, 10, 10 y 5.
-5. El histórico fusiona resultados por identificador estable, detecta cambios y estima recurrencia solo cuando existen antecedentes.
+5. El histórico fusiona por código de procedimiento, BDNS, BOE/BOJA, URL o
+   metadatos normalizados; detecta cambios y estima recurrencia solo cuando
+   existen antecedentes.
 6. El informe ordena por estado, puntuación, cercanía del cierre, solicitud directa, cuantía y dificultad.
 7. El TXT BOE/BOJA sigue escribiéndose mediante el comando heredado.
 
@@ -76,7 +79,7 @@ Cada fuente configurada tiene como mínimo:
 - `id`, `name`, `group` y `organization_type`.
 - `url` oficial y `official_domains`.
 - `territory`, `province` y `municipality` cuando proceda.
-- `adapter`: `boe_boja`, `bdns`, `html` o `rss`.
+- `adapter`: `boe_boja`, `bdns`, `junta_procedures`, `html`, `rss` o `verified`.
 - `enabled`, `timeout`, `max_items` y `rate_limit_seconds`.
 
 El adaptador debe:
@@ -86,6 +89,10 @@ El adaptador debe:
 - devolver enlaces oficiales normalizados;
 - registrar el error y continuar si no puede consultar la fuente;
 - evitar técnicas de evasión o automatización contrarias a los términos de uso.
+
+`junta_procedures` valida el OpenAPI oficial antes de consultar la búsqueda
+paginada, el detalle y la búsqueda de fondos europeos. Los trámites de registro,
+autorización, acreditación o habilitación se separan del ranking financiero.
 
 ## Compatibilidad
 

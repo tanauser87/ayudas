@@ -42,6 +42,10 @@ def canonical_url(url: str) -> str:
 
 def stable_id(opportunity: Opportunity) -> str:
     populate_official_identity(opportunity)
+    if opportunity.procedure_code != NOT_FOUND:
+        return hashlib.sha256(
+            f"junta-procedure|{opportunity.procedure_code}".encode("utf-8")
+        ).hexdigest()
     if opportunity.bdns_number != NOT_FOUND:
         return hashlib.sha256(
             f"bdns|{opportunity.bdns_number}".encode("utf-8")
@@ -73,6 +77,8 @@ LIST_FIELDS = {
     "official_links",
     "european_funds",
     "aid_instruments",
+    "forms",
+    "legal_bases",
     "administrative_events",
     "caribdis_keywords",
     "risks",
@@ -86,6 +92,7 @@ BOOLEAN_FIELDS = {
     "thematic_minimum_met",
     "is_new",
     "recurrent",
+    "strategic_procedure",
 }
 
 
@@ -130,6 +137,14 @@ def _fallback_identity(opportunity: Opportunity) -> tuple[str, str, str] | None:
 def same_official_opportunity(left: Opportunity, right: Opportunity) -> bool:
     populate_official_identity(left)
     populate_official_identity(right)
+    left_procedure = (
+        left.procedure_code if left.procedure_code != NOT_FOUND else ""
+    )
+    right_procedure = (
+        right.procedure_code if right.procedure_code != NOT_FOUND else ""
+    )
+    if left_procedure and right_procedure:
+        return left_procedure == right_procedure
     left_bdns = left.bdns_number if left.bdns_number != NOT_FOUND else ""
     right_bdns = right.bdns_number if right.bdns_number != NOT_FOUND else ""
     if left_bdns and right_bdns:
@@ -181,6 +196,8 @@ def _merge_opportunities(left: Opportunity, right: Opportunity) -> Opportunity:
             if value and value != NOT_FOUND
         )
     )
+    if primary.strategic_procedure:
+        primary.financial_opportunity = False
     populate_official_identity(primary)
     primary.id = stable_id(primary)
     return primary
@@ -190,13 +207,21 @@ def deduplicate(opportunities: list[Opportunity]) -> list[Opportunity]:
     unique: list[Opportunity] = []
     for opportunity in opportunities:
         populate_official_identity(opportunity)
-        for index, existing in enumerate(unique):
-            if same_official_opportunity(existing, opportunity):
-                unique[index] = _merge_opportunities(existing, opportunity)
+        merged = opportunity
+        while True:
+            remaining: list[Opportunity] = []
+            merged_any = False
+            for existing in unique:
+                if same_official_opportunity(existing, merged):
+                    merged = _merge_opportunities(existing, merged)
+                    merged_any = True
+                else:
+                    remaining.append(existing)
+            unique = remaining
+            if not merged_any:
                 break
-        else:
-            opportunity.id = stable_id(opportunity)
-            unique.append(opportunity)
+        merged.id = stable_id(merged)
+        unique.append(merged)
     return unique
 
 

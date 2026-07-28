@@ -143,10 +143,18 @@ class BaseSource:
     def source_status(self, context: SourceContext) -> SourceStatus:
         coverage_type = str(self.config.get("coverage_type", "current"))
         configured_note = str(self.config.get("coverage_note", "")).strip()
-        if coverage_type in {"historical", "api"}:
+        if coverage_type == "historical" or (
+            coverage_type == "api"
+            and bool(self.config.get("supports_date_filter", False))
+        ):
             period_note = (
                 f"Consulta del periodo {context.start_date.isoformat()} a "
                 f"{context.end_date.isoformat()} con fechas y paginacion."
+            )
+        elif coverage_type == "api":
+            period_note = (
+                "API paginada del estado actual; no ofrece un filtro historico "
+                "por fechas que acredite todo el periodo solicitado."
             )
         elif coverage_type == "rss":
             period_note = (

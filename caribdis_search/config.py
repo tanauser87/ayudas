@@ -36,8 +36,33 @@ def validate_source(source: dict[str, Any], filename: str) -> None:
         raise ConfigError(f"{filename} / {source.get('id', 'sin id')}: faltan {', '.join(missing)}")
     if not source["official_domains"]:
         raise ConfigError(f"{filename} / {source['id']}: official_domains no puede estar vacío")
-    if source["adapter"] not in {"bdns", "html", "rss", "verified"}:
+    if source["adapter"] not in {
+        "bdns",
+        "html",
+        "junta_procedures",
+        "rss",
+        "verified",
+    }:
         raise ConfigError(f"{filename} / {source['id']}: adaptador no soportado")
+    if source["adapter"] == "junta_procedures":
+        junta_required = {
+            "detail_api_url",
+            "eu_funds_url",
+            "front_detail_api_url",
+            "openapi_url",
+            "procedure_watchlist",
+            "public_url_template",
+        }
+        junta_missing = sorted(junta_required - source.keys())
+        if junta_missing:
+            raise ConfigError(
+                f"{filename} / {source['id']}: faltan metadatos Junta "
+                f"{', '.join(junta_missing)}"
+            )
+        if not isinstance(source["procedure_watchlist"], list):
+            raise ConfigError(
+                f"{filename} / {source['id']}: procedure_watchlist debe ser una lista"
+            )
     if source.get("coverage_type") not in {"historical", "api", "rss", "current", "landing"}:
         raise ConfigError(f"{filename} / {source['id']}: coverage_type no válido")
 
@@ -63,7 +88,12 @@ def load_configuration(config_dir: Path) -> dict[str, Any]:
                 raise ConfigError(f"{filename} contiene una fuente no válida")
             source.setdefault(
                 "coverage_type",
-                {"bdns": "api", "rss": "rss", "verified": "current"}.get(
+                {
+                    "bdns": "api",
+                    "junta_procedures": "api",
+                    "rss": "rss",
+                    "verified": "current",
+                }.get(
                     str(source.get("adapter")), "current"
                 ),
             )

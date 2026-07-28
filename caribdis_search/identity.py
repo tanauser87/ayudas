@@ -7,6 +7,25 @@ from .extractors import clean_text
 from .models import NOT_FOUND, Opportunity
 
 
+def extract_procedure_code(*values: Any) -> str:
+    for value in values:
+        if value is None:
+            continue
+        text = clean_text(str(value))
+        if text.isdigit() and len(text) >= 3:
+            return text
+        for pattern in (
+            r"\bJUNTA-PROC-(\d{3,12})\b",
+            r"\bc[oó]digo\s+(?:del\s+)?procedimiento\s*[:#-]?\s*(\d{3,12})\b",
+            r"\bprocedimiento\s+(?:n[úu]m(?:ero)?\.?|#)\s*(\d{3,12})\b",
+            r"/procedimientos/detalle/(\d{3,12})\.html\b",
+        ):
+            match = re.search(pattern, text, re.I)
+            if match:
+                return match.group(1)
+    return NOT_FOUND
+
+
 def extract_bdns_number(*values: Any) -> str:
     for value in values:
         if value is None:
@@ -50,8 +69,7 @@ def extract_official_identifiers(*values: Any) -> list[str]:
 
 
 def populate_official_identity(opportunity: Opportunity) -> Opportunity:
-    values = [
-        opportunity.bdns_number,
+    common_values = [
         opportunity.title,
         opportunity.summary,
         opportunity.raw_text,
@@ -60,12 +78,25 @@ def populate_official_identity(opportunity: Opportunity) -> Opportunity:
         *opportunity.official_links,
         *opportunity.official_identifiers,
     ]
-    bdns_number = extract_bdns_number(*values)
+    procedure_code = extract_procedure_code(
+        opportunity.procedure_code,
+        *common_values,
+    )
+    if procedure_code != NOT_FOUND:
+        opportunity.procedure_code = procedure_code
+        procedure_identifier = f"JUNTA-PROC-{procedure_code}"
+        if procedure_identifier not in opportunity.official_identifiers:
+            opportunity.official_identifiers.insert(0, procedure_identifier)
+    bdns_number = extract_bdns_number(
+        opportunity.bdns_number,
+        *common_values,
+    )
     if bdns_number != NOT_FOUND:
         opportunity.bdns_number = bdns_number
     opportunity.official_identifiers = list(
         dict.fromkeys(
-            opportunity.official_identifiers + extract_official_identifiers(*values)
+            opportunity.official_identifiers
+            + extract_official_identifiers(*common_values)
         )
     )
     if opportunity.source and opportunity.source != NOT_FOUND:

@@ -37,11 +37,13 @@ class Opportunity:
     id: str = ""
     source_id: str = ""
     source_references: list[str] = field(default_factory=list)
+    procedure_code: str = NOT_FOUND
     bdns_number: str = NOT_FOUND
     official_identifiers: list[str] = field(default_factory=list)
     official_links: list[str] = field(default_factory=list)
     title: str = NOT_FOUND
     organization: str = NOT_FOUND
+    counseling: str = NOT_FOUND
     source: str = NOT_FOUND
     source_group: str = NOT_FOUND
     organization_type: str = NOT_FOUND
@@ -75,6 +77,17 @@ class Opportunity:
     duration: str = NOT_FOUND
     european_funds: list[str] = field(default_factory=list)
     aid_instruments: list[str] = field(default_factory=list)
+    procedure_family: str = NOT_FOUND
+    procedure_topic: str = NOT_FOUND
+    procedure_activity: str = NOT_FOUND
+    procedure_kind: str = NOT_FOUND
+    application_deadline: str = NOT_FOUND
+    forms: list[str] = field(default_factory=list)
+    legal_bases: list[str] = field(default_factory=list)
+    contact_information: str = NOT_FOUND
+    new_association_eligibility: str = NOT_FOUND
+    financial_opportunity: bool = True
+    strategic_procedure: bool = False
     record_type: str = "Convocatoria"
     solicitability: str = "Pendiente de verificar"
     administrative_events: list[str] = field(default_factory=list)

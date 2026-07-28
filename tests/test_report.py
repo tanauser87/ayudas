@@ -149,6 +149,36 @@ class ReportTests(unittest.TestCase):
 
         self.assertNotIn("Infancia genérica", top_section)
 
+    def test_strategic_procedure_has_separate_non_financial_section(self) -> None:
+        strategic = item(
+            "Inscripción de entidad colaboradora",
+            "Abierta",
+            0,
+            "Dato no localizado",
+        )
+        strategic.priority = "Descartar"
+        strategic.strategic_procedure = True
+        strategic.financial_opportunity = False
+        strategic.procedure_code = "15802"
+        strategic.beneficiaries = "Asociaciones y organizaciones"
+        strategic.new_association_eligibility = "No aplica como ayuda económica."
+
+        content = render_report(
+            RunResult(opportunities=[strategic]),
+            start_date=date(2026, 7, 1),
+            end_date=date(2026, 7, 26),
+            today=date(2026, 7, 26),
+        )
+        discarded_section = content.split(
+            "## 17. Ayudas descartadas y motivo", 1
+        )[1].split("## Trámites estratégicos", 1)[0]
+        strategic_section = content.split(
+            "## Trámites estratégicos para fortalecer CARIBDIS", 1
+        )[1].split("## 18.", 1)[0]
+
+        self.assertNotIn(strategic.title, discarded_section)
+        self.assertIn(strategic.title, strategic_section)
+
 
 if __name__ == "__main__":
     unittest.main()

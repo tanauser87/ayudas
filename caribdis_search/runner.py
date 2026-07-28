@@ -11,6 +11,7 @@ from .sources.base import BaseSource, SourceContext
 from .sources.bdns import BDNSSource
 from .sources.boe_boja import LegacyBoeBojaSource
 from .sources.generic import GenericPageSource
+from .sources.junta_procedures import JuntaProceduresSource
 from .sources.verified import VerifiedMetadataSource
 
 
@@ -31,6 +32,8 @@ def create_sources(
             continue
         if source_config["adapter"] == "bdns":
             sources.append(BDNSSource(source_config))
+        elif source_config["adapter"] == "junta_procedures":
+            sources.append(JuntaProceduresSource(source_config))
         elif source_config["adapter"] == "verified":
             sources.append(VerifiedMetadataSource(source_config))
         else:

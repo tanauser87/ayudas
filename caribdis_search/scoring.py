@@ -386,6 +386,10 @@ def score_caribdis(opportunity: Opportunity, today: date | None = None) -> tuple
             opportunity.requirements,
             opportunity.record_type,
             opportunity.solicitability,
+            opportunity.procedure_family,
+            opportunity.procedure_topic,
+            opportunity.procedure_activity,
+            opportunity.procedure_kind,
             opportunity.source_group,
             opportunity.territory,
         ]
@@ -418,6 +422,13 @@ def score_caribdis(opportunity: Opportunity, today: date | None = None) -> tuple
     normalized_text = normalize_text(text)
     normalized_solicitability = normalize_text(opportunity.solicitability)
     normalized_record_type = normalize_text(opportunity.record_type)
+    if not opportunity.financial_opportunity or opportunity.strategic_procedure:
+        hard_invalid = True
+        eligibility = 0
+        participation = "No elegible"
+        eligibility_risks.append(
+            "trámite estratégico o registro sin financiación económica"
+        )
     if normalized_solicitability in {
         "no solicitables",
         "concesion directa",

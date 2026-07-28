@@ -30,6 +30,7 @@
     "cache_ttl_seconds": 1800,
     "coverage_type": "api",
     "coverage_note": "API oficial con filtros fechaDesde/fechaHasta y paginación completa.",
+    "supports_date_filter": true,
     "respect_robots": false,
     "enabled": true
   },
