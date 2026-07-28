@@ -671,6 +671,10 @@ def render_report(
         eligible,
         lambda item: item.priority != "Baja" or item.thematic_minimum_met,
     )
+    top_eligible_ids = {id(item) for item in top_eligible}
+    low_generic_ranking = [
+        item for item in eligible if id(item) not in top_eligible_ids
+    ]
     open_items = _filter(top_eligible, lambda item: normalize_text(item.status) == "abierta")
     direct_open = _filter(
         open_items,
@@ -873,11 +877,48 @@ def render_report(
         "## 18. Ranking general",
         "",
     ]
-    if eligible:
-        for position, item in enumerate(eligible, 1):
+    if top_eligible:
+        for position, item in enumerate(top_eligible, 1):
             lines.extend(render_detailed_opportunity(item, position))
+        if low_generic_ranking:
+            lines.extend(
+                [
+                    "### Otras oportunidades de prioridad Baja fuera del Top CARIBDIS",
+                    "",
+                    (
+                        "No superan el umbral temático y se conservan solo para "
+                        "consulta secundaria."
+                    ),
+                    "",
+                ]
+            )
+            start_position = max(11, len(top_eligible) + 1)
+            for position, item in enumerate(
+                low_generic_ranking,
+                start=start_position,
+            ):
+                lines.extend(render_detailed_opportunity(item, position))
     else:
-        lines.extend(["No se han localizado oportunidades verificables.", ""])
+        lines.extend(
+            [
+                "No se han localizado oportunidades con encaje suficiente para el Top CARIBDIS.",
+                "",
+            ]
+        )
+        if low_generic_ranking:
+            lines.extend(
+                [
+                    "### Otras oportunidades de prioridad Baja fuera del Top CARIBDIS",
+                    "",
+                    (
+                        "No superan el umbral temático y se conservan solo para "
+                        "consulta secundaria."
+                    ),
+                    "",
+                ]
+            )
+            for position, item in enumerate(low_generic_ranking, start=11):
+                lines.extend(render_detailed_opportunity(item, position))
 
     immediate = [
         item

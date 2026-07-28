@@ -253,6 +253,26 @@ class JuntaProceduresTests(unittest.TestCase):
         self.assertEqual(item.status, "Cerrada")
         self.assertEqual(item.solicitability, "Referencia histórica")
 
+    def test_nominative_procedure_is_not_solicitable(self) -> None:
+        record = detail_fixture(
+            title=(
+                "Subvenciones nominativas iniciadas de oficio por la "
+                "Administración autonómica"
+            ),
+        )
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            item = self.source()._build_opportunity(
+                record,
+                self.context(Path(temporary_directory)),
+            )
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.record_type, "Concesión directa")
+        self.assertEqual(item.solicitability, "Concesión directa")
+        self.assertEqual(item.priority, "Descartar")
+        self.assertEqual(item.participation, "No elegible")
+
     def test_detects_fempa(self) -> None:
         with tempfile.TemporaryDirectory() as temporary_directory:
             item = self.source()._build_opportunity(

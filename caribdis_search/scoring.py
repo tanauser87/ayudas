@@ -889,6 +889,8 @@ def score_caribdis(
         opportunity,
         participation,
     )
+    if hard_invalid:
+        participation = "No elegible"
     eligibility_risks.extend(new_entity_risks)
     if new_entity_invalid:
         hard_invalid = True

@@ -111,10 +111,13 @@ class ScoringTests(unittest.TestCase):
             "Subvención nominativa Museo Ejemplo 2026",
             "Entidad beneficiaria identificada.",
         )
+        item.suitable_for_new_entity = False
+        item.recurrent = True
 
         apply_caribdis_scoring(item)
 
         self.assertEqual(item.caribdis_score, 0)
+        self.assertEqual(item.priority, "Descartar")
         self.assertEqual(item.participation, "No elegible")
 
     def test_personal_scholarship_is_discarded(self) -> None:

@@ -43,6 +43,7 @@
     "metadata_url": "https://www.convocatoria.fecyt.es/publico/bases/bases.aspx",
     "official_domains": ["fecyt.es", "convocatoria.fecyt.es"],
     "verification_terms": ["2026", "cultura científica"],
+    "cache_ttl_seconds": 1800,
     "organization": "Fundación Española para la Ciencia y la Tecnología",
     "organization_type": "Fundación pública",
     "territory": "España",

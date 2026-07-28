@@ -12,13 +12,29 @@ from .base import BaseSource, SourceContext, SourceError, fetch_text
 class VerifiedMetadataSource(BaseSource):
     """Build a call from reviewed metadata after checking its official pages."""
 
+    def __init__(self, config: dict[str, object]) -> None:
+        super().__init__(config)
+        self.errors: list[str] = []
+
     def collect(self, context: SourceContext) -> list[Opportunity]:
+        self.errors = []
         metadata = dict(self.config["opportunity"])
         pages = [str(self.config["url"])]
         metadata_url = str(self.config.get("metadata_url", "")).strip()
         if metadata_url and metadata_url not in pages:
             pages.append(metadata_url)
-        page_text = " ".join(fetch_text(url, context, self.config) for url in pages)
+        page_parts: list[str] = []
+        for url in pages:
+            try:
+                page_parts.append(fetch_text(url, context, self.config))
+            except Exception as exc:
+                self.errors.append(f"{url}: {type(exc).__name__}: {exc}")
+        if not page_parts:
+            raise SourceError(
+                "No se pudo verificar ninguna página oficial: "
+                + "; ".join(self.errors)
+            )
+        page_text = " ".join(page_parts)
         normalized_page = normalize_text(page_text)
         missing_terms = [
             term

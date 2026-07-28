@@ -9,7 +9,7 @@ from caribdis_search.config import load_configuration
 from caribdis_search.models import Opportunity
 from caribdis_search.runner import create_sources, pending_source_statuses, run_sources
 from caribdis_search.scoring import apply_caribdis_scoring
-from caribdis_search.sources.base import BaseSource, SourceContext
+from caribdis_search.sources.base import BaseSource, SourceContext, SourceError
 from caribdis_search.sources.verified import VerifiedMetadataSource
 
 
@@ -131,6 +131,35 @@ class RunnerTests(unittest.TestCase):
         self.assertEqual(item.advance_percentage, 60)
         self.assertTrue(item.suitable_for_new_entity)
         self.assertNotIn("Ayuda para personal", item.funding_purposes)
+
+    @patch("caribdis_search.sources.verified.fetch_text")
+    def test_verified_source_uses_another_official_page_after_timeout(
+        self,
+        fetch_text_mock,
+    ) -> None:
+        fetch_text_mock.side_effect = [
+            SourceError("timeout de portada"),
+            "Convocatoria 2026 de cultura científica.",
+        ]
+        root = Path(__file__).resolve().parents[1]
+        config = load_configuration(root / "config")
+        fecyt_config = next(
+            source for source in config["sources"] if source["id"] == "fecyt"
+        )
+        source = VerifiedMetadataSource(fecyt_config)
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            context = SourceContext(
+                start_date=date(2026, 7, 1),
+                end_date=date(2026, 7, 27),
+                today=date(2026, 7, 27),
+                timeout=1,
+                cache_dir=Path(temporary_directory),
+            )
+            item = source.collect(context)[0]
+
+        self.assertTrue(item.metadata_verified)
+        self.assertEqual(len(source.errors), 1)
+        self.assertIn("timeout de portada", source.errors[0])
 
     @patch("caribdis_search.sources.verified.fetch_text", return_value="Página de error")
     def test_verified_source_rejects_unexpected_official_page(self, fetch_text_mock) -> None:

@@ -1,26 +1,84 @@
 {
-  "started_at": "2026-07-27T01:42:10+02:00",
-  "finished_at": "2026-07-27T01:42:44+02:00",
+  "started_at": "2026-07-29T00:36:12+02:00",
+  "finished_at": "2026-07-29T00:40:58+02:00",
   "period": {
-    "start": "2026-07-20",
-    "end": "2026-07-27"
+    "start": "2026-06-29",
+    "end": "2026-07-28"
   },
   "sources_checked": [
     "BOE y BOJA",
     "Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS)",
-    "FECYT - Cultura Científica 2026"
+    "FECYT - Cultura Científica 2026",
+    "Fundación Biodiversidad - Convocatorias",
+    "MITECO - Ayudas y subvenciones",
+    "Ministerio de Derechos Sociales - Subvenciones",
+    "INJUVE - Convocatorias",
+    "Ministerio de Ciencia - Convocatorias",
+    "Agencia Estatal de Investigación - Convocatorias",
+    "Ministerio de Educación - Becas, ayudas y subvenciones",
+    "Ministerio de Cultura - Becas, ayudas y subvenciones",
+    "Programa Pleamar - Convocatorias",
+    "Junta - Sostenibilidad y Medio Ambiente",
+    "Junta - Inclusión Social, Juventud, Familias e Igualdad",
+    "Junta - Desarrollo Educativo y Formación Profesional",
+    "Junta - Empleo",
+    "Instituto Andaluz de la Juventud - Ayudas a entidades",
+    "Servicio Andaluz de Empleo - Procedimientos",
+    "Agencia Andaluza de Cooperación - Subvenciones",
+    "Junta - API del Catálogo de Procedimientos y Servicios",
+    "Junta de Andalucía - Grupos GALPA",
+    "Junta de Andalucía - Ayudas FEMPA",
+    "Junta de Andalucía - Procedimiento de ayudas GALPA",
+    "GALPA Cádiz - Convocatorias",
+    "GALPA Huelva - Convocatorias",
+    "Programa LIFE - Convocatorias",
+    "Horizon Europe - Convocatorias",
+    "Misiones de Horizon Europe",
+    "Cuerpo Europeo de Solidaridad - Convocatorias",
+    "Interreg España-Portugal POCTEP - Convocatorias",
+    "Interreg Sudoe - Convocatorias",
+    "Interreg Euro-MED - Convocatorias",
+    "Interreg Atlantic Area - Convocatorias",
+    "EMFAF/FEMPA europeo - Convocatorias",
+    "Europa Creativa - Convocatorias",
+    "CERV - Ciudadanos, Igualdad, Derechos y Valores",
+    "Fundación la Caixa - Convocatorias sociales",
+    "Fundación Unicaja - Convocatorias",
+    "Fundación ONCE - Convocatorias de ayudas",
+    "Fundación Daniel y Nina Carasso - Convocatorias"
   ],
   "sources_succeeded": [
     "FECYT - Cultura Científica 2026",
+    "Fundación Biodiversidad - Convocatorias",
     "Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS)",
-    "BOE y BOJA"
+    "MITECO - Ayudas y subvenciones",
+    "INJUVE - Convocatorias",
+    "Ministerio de Cultura - Becas, ayudas y subvenciones",
+    "Ministerio de Ciencia - Convocatorias",
+    "Agencia Estatal de Investigación - Convocatorias",
+    "Ministerio de Educación - Becas, ayudas y subvenciones",
+    "Programa Pleamar - Convocatorias",
+    "BOE y BOJA",
+    "Junta - API del Catálogo de Procedimientos y Servicios",
+    "GALPA Cádiz - Convocatorias",
+    "Programa LIFE - Convocatorias",
+    "GALPA Huelva - Convocatorias",
+    "Cuerpo Europeo de Solidaridad - Convocatorias",
+    "Horizon Europe - Convocatorias",
+    "Misiones de Horizon Europe",
+    "Interreg Sudoe - Convocatorias",
+    "Interreg España-Portugal POCTEP - Convocatorias",
+    "Fundación ONCE - Convocatorias de ayudas",
+    "Fundación Unicaja - Convocatorias",
+    "Fundación la Caixa - Convocatorias sociales",
+    "Fundación Daniel y Nina Carasso - Convocatorias"
   ],
   "source_statuses": [
     {
       "source_id": "boe_boja",
       "source_name": "BOE y BOJA",
       "coverage_type": "historical",
-      "coverage_note": "Consulta diaria por fecha en los diarios oficiales BOE y BOJA. Consulta del periodo 2026-07-20 a 2026-07-27 con fechas y paginacion.",
+      "coverage_note": "Consulta diaria por fecha en los diarios oficiales BOE y BOJA. Consulta del periodo 2026-06-29 a 2026-07-28 con fechas y paginacion.",
       "requires_adjustment": false,
       "adjustment_reason": ""
     },
@@ -28,7 +86,7 @@
       "source_id": "bdns",
       "source_name": "Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS)",
       "coverage_type": "api",
-      "coverage_note": "API oficial con filtros fechaDesde/fechaHasta y paginación completa. Consulta del periodo 2026-07-20 a 2026-07-27 con fechas y paginacion.",
+      "coverage_note": "API oficial con filtros fechaDesde/fechaHasta y paginación completa. Consulta del periodo 2026-06-29 a 2026-07-28 con fechas y paginacion.",
       "requires_adjustment": false,
       "adjustment_reason": ""
     },
@@ -39,9 +97,361 @@
       "coverage_note": "Ficha de la convocatoria 2026 contrastada con el portal y las bases oficiales de FECYT. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
       "requires_adjustment": false,
       "adjustment_reason": ""
+    },
+    {
+      "source_id": "fundacion_biodiversidad",
+      "source_name": "Fundación Biodiversidad - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual de convocatorias; se siguen únicamente páginas de convocatoria, no la portada. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "miteco",
+      "source_name": "MITECO - Ayudas y subvenciones",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "derechos_sociales",
+      "source_name": "Ministerio de Derechos Sociales - Subvenciones",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "injuve",
+      "source_name": "INJUVE - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ministerio_ciencia",
+      "source_name": "Ministerio de Ciencia - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "agencia_estatal_investigacion",
+      "source_name": "Agencia Estatal de Investigación - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ministerio_educacion",
+      "source_name": "Ministerio de Educación - Becas, ayudas y subvenciones",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ministerio_cultura",
+      "source_name": "Ministerio de Cultura - Becas, ayudas y subvenciones",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "programa_pleamar",
+      "source_name": "Programa Pleamar - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "junta_sostenibilidad",
+      "source_name": "Junta - Sostenibilidad y Medio Ambiente",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "junta_inclusion",
+      "source_name": "Junta - Inclusión Social, Juventud, Familias e Igualdad",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "junta_educacion",
+      "source_name": "Junta - Desarrollo Educativo y Formación Profesional",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "junta_empleo",
+      "source_name": "Junta - Empleo",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "instituto_andaluz_juventud",
+      "source_name": "Instituto Andaluz de la Juventud - Ayudas a entidades",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "servicio_andaluz_empleo",
+      "source_name": "Servicio Andaluz de Empleo - Procedimientos",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "aacid",
+      "source_name": "Agencia Andaluza de Cooperación - Subvenciones",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "junta_catalogo_procedimientos",
+      "source_name": "Junta - API del Catálogo de Procedimientos y Servicios",
+      "coverage_type": "api",
+      "coverage_note": "OpenAPI y API oficial paginada del catálogo actual, sin filtro histórico por fechas. API paginada del estado actual; no ofrece un filtro historico por fechas que acredite todo el periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "junta_directorio_galpa",
+      "source_name": "Junta de Andalucía - Grupos GALPA",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "junta_ayudas_fempa",
+      "source_name": "Junta de Andalucía - Ayudas FEMPA",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "junta_procedimiento_galpa",
+      "source_name": "Junta de Andalucía - Procedimiento de ayudas GALPA",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "galpa_cadiz",
+      "source_name": "GALPA Cádiz - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual de convocatorias GALPA Cádiz. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "galpa_huelva",
+      "source_name": "GALPA Huelva - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Categoría oficial de la primera convocatoria GALPA Huelva 2026. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "eu_life",
+      "source_name": "Programa LIFE - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial de convocatorias LIFE actuales; la elegibilidad se comprueba en cada topic. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "eu_horizon",
+      "source_name": "Horizon Europe - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "eu_missions",
+      "source_name": "Misiones de Horizon Europe",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "cuerpo_europeo_solidaridad",
+      "source_name": "Cuerpo Europeo de Solidaridad - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Página oficial de convocatorias vigentes del Cuerpo Europeo de Solidaridad. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "interreg_poCTEP",
+      "source_name": "Interreg España-Portugal POCTEP - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual de convocatorias POCTEP. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "interreg_sudoe",
+      "source_name": "Interreg Sudoe - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual de convocatorias Interreg Sudoe. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "interreg_euromed",
+      "source_name": "Interreg Euro-MED - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual de convocatorias Interreg Euro-MED. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "interreg_atlantic",
+      "source_name": "Interreg Atlantic Area - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual de convocatorias Interreg Atlantic Area. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "eu_emfaf",
+      "source_name": "EMFAF/FEMPA europeo - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "eu_creative",
+      "source_name": "Europa Creativa - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "eu_cerv",
+      "source_name": "CERV - Ciudadanos, Igualdad, Derechos y Valores",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "fundacion_la_caixa",
+      "source_name": "Fundación la Caixa - Convocatorias sociales",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual; cada edición territorial debe verificarse en su página y bases. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "fundacion_unicaja",
+      "source_name": "Fundación Unicaja - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual de convocatorias de Fundación Unicaja. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "fundacion_once",
+      "source_name": "Fundación ONCE - Convocatorias de ayudas",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "fundacion_carasso",
+      "source_name": "Fundación Daniel y Nina Carasso - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": false,
+      "adjustment_reason": ""
     }
   ],
   "pending_sources": [
+    {
+      "source_id": "diputacion_almeria",
+      "source_name": "Diputación de Almería",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "diputacion_cadiz",
+      "source_name": "Diputación de Cádiz",
+      "coverage_type": "landing",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": "Requiere adaptar el tablón/BOP y filtrar bases, beneficiarios y plazos; la portada no es suficiente."
+    },
+    {
+      "source_id": "diputacion_cordoba",
+      "source_name": "Diputación de Córdoba",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "diputacion_granada",
+      "source_name": "Diputación de Granada",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "diputacion_huelva",
+      "source_name": "Diputación de Huelva",
+      "coverage_type": "landing",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": "Requiere adaptar el tablón/BOP y filtrar bases, beneficiarios y plazos; la portada no es suficiente."
+    },
+    {
+      "source_id": "diputacion_jaen",
+      "source_name": "Diputación de Jaén",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "diputacion_malaga",
+      "source_name": "Diputación de Málaga",
+      "coverage_type": "landing",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": "Requiere adaptar el tablón/BOP y filtrar bases, beneficiarios y plazos; la portada no es suficiente."
+    },
     {
       "source_id": "diputacion_sevilla",
       "source_name": "Diputación de Sevilla",
@@ -51,15 +461,720 @@
       "adjustment_reason": "Requiere adaptar el tablón/BOP y filtrar bases, beneficiarios y plazos; la portada no es suficiente."
     },
     {
+      "source_id": "ayto_sevilla",
+      "source_name": "Ayuntamiento de Sevilla",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_malaga",
+      "source_name": "Ayuntamiento de Málaga",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_cadiz",
+      "source_name": "Ayuntamiento de Cádiz",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_huelva",
+      "source_name": "Ayuntamiento de Huelva",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_almeria",
+      "source_name": "Ayuntamiento de Almería",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_granada",
+      "source_name": "Ayuntamiento de Granada",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_cordoba",
+      "source_name": "Ayuntamiento de Córdoba",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_jaen",
+      "source_name": "Ayuntamiento de Jaén",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_sanlucar",
+      "source_name": "Ayuntamiento de Sanlúcar de Barrameda",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_chipiona",
+      "source_name": "Ayuntamiento de Chipiona",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_rota",
+      "source_name": "Ayuntamiento de Rota",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_el_puerto",
+      "source_name": "Ayuntamiento de El Puerto de Santa María",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_puerto_real",
+      "source_name": "Ayuntamiento de Puerto Real",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_san_fernando",
+      "source_name": "Ayuntamiento de San Fernando",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_chiclana",
+      "source_name": "Ayuntamiento de Chiclana de la Frontera",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_conil",
+      "source_name": "Ayuntamiento de Conil de la Frontera",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_barbate",
+      "source_name": "Ayuntamiento de Barbate",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_tarifa",
+      "source_name": "Ayuntamiento de Tarifa",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_algeciras",
+      "source_name": "Ayuntamiento de Algeciras",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_la_linea",
+      "source_name": "Ayuntamiento de La Línea de la Concepción",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_los_barrios",
+      "source_name": "Ayuntamiento de Los Barrios",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_san_roque",
+      "source_name": "Ayuntamiento de San Roque",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_manilva",
+      "source_name": "Ayuntamiento de Manilva",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_casares",
+      "source_name": "Ayuntamiento de Casares",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_estepona",
+      "source_name": "Ayuntamiento de Estepona",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_marbella",
+      "source_name": "Ayuntamiento de Marbella",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_mijas",
+      "source_name": "Ayuntamiento de Mijas",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_fuengirola",
+      "source_name": "Ayuntamiento de Fuengirola",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_benalmadena",
+      "source_name": "Ayuntamiento de Benalmádena",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_torremolinos",
+      "source_name": "Ayuntamiento de Torremolinos",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_rincon_victoria",
+      "source_name": "Ayuntamiento de Rincón de la Victoria",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_velez_malaga",
+      "source_name": "Ayuntamiento de Vélez-Málaga",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_algarrobo",
+      "source_name": "Ayuntamiento de Algarrobo",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_torrox",
+      "source_name": "Ayuntamiento de Torrox",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_nerja",
+      "source_name": "Ayuntamiento de Nerja",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_ayamonte",
+      "source_name": "Ayuntamiento de Ayamonte",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_isla_cristina",
+      "source_name": "Ayuntamiento de Isla Cristina",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_lepe",
+      "source_name": "Ayuntamiento de Lepe",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_cartaya",
+      "source_name": "Ayuntamiento de Cartaya",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_punta_umbria",
+      "source_name": "Ayuntamiento de Punta Umbría",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_palos",
+      "source_name": "Ayuntamiento de Palos de la Frontera",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_moguer",
+      "source_name": "Ayuntamiento de Moguer",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_almonte",
+      "source_name": "Ayuntamiento de Almonte",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_adra",
+      "source_name": "Ayuntamiento de Adra",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_el_ejido",
+      "source_name": "Ayuntamiento de El Ejido",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_roquetas",
+      "source_name": "Ayuntamiento de Roquetas de Mar",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_nijar",
+      "source_name": "Ayuntamiento de Níjar",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_carboneras",
+      "source_name": "Ayuntamiento de Carboneras",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_mojacar",
+      "source_name": "Ayuntamiento de Mojácar",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_garrucha",
+      "source_name": "Ayuntamiento de Garrucha",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_vera",
+      "source_name": "Ayuntamiento de Vera",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_cuevas_almanzora",
+      "source_name": "Ayuntamiento de Cuevas del Almanzora",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_pulpi",
+      "source_name": "Ayuntamiento de Pulpí",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_dos_hermanas",
+      "source_name": "Ayuntamiento de Dos Hermanas",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_alcala_guadaira",
+      "source_name": "Ayuntamiento de Alcalá de Guadaíra",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "ayto_la_rinconada",
+      "source_name": "Ayuntamiento de La Rinconada",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "galpa_malaga",
+      "source_name": "GALPA Málaga - Grupo de Desarrollo Pesquero",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": "La portada no ofrece un listado estable; requiere adaptar el repositorio documental o la convocatoria FEMPA."
+    },
+    {
+      "source_id": "galpa_alboran",
+      "source_name": "GALPA Alborán - Granada y Poniente Almeriense",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": "La portada no acredita convocatorias vigentes; requiere un adaptador del listado oficial."
+    },
+    {
+      "source_id": "galpa_almeria_levante",
+      "source_name": "GALPA Almería a Levante",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": "La portada no acredita convocatorias vigentes; requiere un adaptador del listado oficial."
+    },
+    {
       "source_id": "eu_funding_tenders",
       "source_name": "Comisión Europea - Funding & Tenders",
       "coverage_type": "landing",
       "coverage_note": "Portal dinámico; la portada no constituye un listado verificable de topics. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
       "requires_adjustment": true,
       "adjustment_reason": "Requiere adaptar la API Search Funding & Tenders y sus filtros de elegibilidad, estado y paginación."
+    },
+    {
+      "source_id": "biodiversa_plus",
+      "source_name": "Biodiversa+ - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "erasmus_plus",
+      "source_name": "Erasmus+ - Oportunidades para organizaciones",
+      "coverage_type": "landing",
+      "coverage_note": "Página general de oportunidades, no listado histórico de convocatorias. Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": "Requiere adaptar las convocatorias EACEA y distinguir acción, ronda, plazo y elegibilidad."
+    },
+    {
+      "source_id": "eu_esf_plus",
+      "source_name": "Fondo Social Europeo Plus - Financiación",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "eu_feder",
+      "source_name": "FEDER - Financiación regional",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "euki",
+      "source_name": "European Climate Initiative - Project Financing",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "caixabank_accion_social",
+      "source_name": "CaixaBank - Acción social",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "fundacion_banco_santander",
+      "source_name": "Fundación Banco Santander - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "fundacion_ibercaja",
+      "source_name": "Fundación Ibercaja - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "fundacion_endesa",
+      "source_name": "Fundación Endesa - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "fundacion_naturgy",
+      "source_name": "Fundación Naturgy",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "fundacion_moeve",
+      "source_name": "Fundación Moeve - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "fundacion_repsol",
+      "source_name": "Fundación Repsol - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "fundacion_telefonica",
+      "source_name": "Fundación Telefónica - Convocatorias",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
+    },
+    {
+      "source_id": "fundacion_mapfre",
+      "source_name": "Fundación MAPFRE - Premios y ayudas",
+      "coverage_type": "current",
+      "coverage_note": "Solo estado actual de la pagina; no acredita una revision historica completa del periodo solicitado.",
+      "requires_adjustment": true,
+      "adjustment_reason": ""
     }
   ],
-  "incidents": [],
-  "opportunities": 56,
+  "incidents": [
+    {
+      "source_id": "derechos_sociales",
+      "source_name": "Ministerio de Derechos Sociales - Subvenciones",
+      "message": "SourceError: No se pudo consultar https://www.dsca.gob.es/es/derechos-sociales/subvenciones: HTTP Error 404: Not Found",
+      "checked_at": "2026-07-29T00:36:24+02:00"
+    },
+    {
+      "source_id": "junta_inclusion",
+      "source_name": "Junta - Inclusión Social, Juventud, Familias e Igualdad",
+      "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/inclusionsocialjuventudfamiliaseigualdad/areas/subvenciones/subvenciones.html: The read operation timed out",
+      "checked_at": "2026-07-29T00:37:46+02:00"
+    },
+    {
+      "source_id": "junta_sostenibilidad",
+      "source_name": "Junta - Sostenibilidad y Medio Ambiente",
+      "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/sostenibilidadymedioambiente/servicios/procedimientos.html: The read operation timed out",
+      "checked_at": "2026-07-29T00:37:46+02:00"
+    },
+    {
+      "source_id": "junta_educacion",
+      "source_name": "Junta - Desarrollo Educativo y Formación Profesional",
+      "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/desarrolloeducativoyformacionprofesional/servicios/procedimientos.html: The read operation timed out",
+      "checked_at": "2026-07-29T00:37:50+02:00"
+    },
+    {
+      "source_id": "junta_catalogo_procedimientos",
+      "source_name": "Junta - API del Catálogo de Procedimientos y Servicios",
+      "message": "Prefiltrado Junta: 807 candidatos; se enriquecen los 100 prioritarios. Amplíe max_detail_items para revisar más fichas.",
+      "checked_at": "2026-07-29T00:37:53+02:00"
+    },
+    {
+      "source_id": "junta_empleo",
+      "source_name": "Junta - Empleo",
+      "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/empleoempresaytrabajoautonomo/servicios/procedimientos.html: The read operation timed out",
+      "checked_at": "2026-07-29T00:37:56+02:00"
+    },
+    {
+      "source_id": "instituto_andaluz_juventud",
+      "source_name": "Instituto Andaluz de la Juventud - Ayudas a entidades",
+      "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/iaj/areas/ayudas-entidades-juveniles.html: The read operation timed out",
+      "checked_at": "2026-07-29T00:37:58+02:00"
+    },
+    {
+      "source_id": "servicio_andaluz_empleo",
+      "source_name": "Servicio Andaluz de Empleo - Procedimientos",
+      "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/sae/servicios/procedimientos.html: The read operation timed out",
+      "checked_at": "2026-07-29T00:38:40+02:00"
+    },
+    {
+      "source_id": "aacid",
+      "source_name": "Agencia Andaluza de Cooperación - Subvenciones",
+      "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/aacid/areas/subvenciones.html: The read operation timed out",
+      "checked_at": "2026-07-29T00:38:51+02:00"
+    },
+    {
+      "source_id": "junta_directorio_galpa",
+      "source_name": "Junta de Andalucía - Grupos GALPA",
+      "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/agriculturapescaaguaydesarrollorural/areas/pesca-acuicultura/gdp/paginas/info-galpa.html: The read operation timed out",
+      "checked_at": "2026-07-29T00:38:56+02:00"
+    },
+    {
+      "source_id": "junta_ayudas_fempa",
+      "source_name": "Junta de Andalucía - Ayudas FEMPA",
+      "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/agriculturapescaaguaydesarrollorural/areas/pesca-acuicultura/ayudas-pesqueras/paginas/ayudas-fempa.html: The read operation timed out",
+      "checked_at": "2026-07-29T00:38:58+02:00"
+    },
+    {
+      "source_id": "junta_procedimiento_galpa",
+      "source_name": "Junta de Andalucía - Procedimiento de ayudas GALPA",
+      "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/25430.html: The read operation timed out",
+      "checked_at": "2026-07-29T00:39:01+02:00"
+    },
+    {
+      "source_id": "interreg_atlantic",
+      "source_name": "Interreg Atlantic Area - Convocatorias",
+      "message": "SourceError: No se pudo consultar https://www.atlanticarea.eu/for-applicants/calls/: HTTP Error 404: Not Found",
+      "checked_at": "2026-07-29T00:39:04+02:00"
+    },
+    {
+      "source_id": "interreg_euromed",
+      "source_name": "Interreg Euro-MED - Convocatorias",
+      "message": "SourceError: No se pudo consultar https://interreg-euro-med.eu/en/calls-for-projects/: HTTP Error 404: Not Found",
+      "checked_at": "2026-07-29T00:39:05+02:00"
+    },
+    {
+      "source_id": "eu_emfaf",
+      "source_name": "EMFAF/FEMPA europeo - Convocatorias",
+      "message": "SourceError: No se pudo consultar https://cinea.ec.europa.eu/programmes/european-maritime-fisheries-and-aquaculture-fund/emfaf-calls-proposals_en: HTTP Error 404: Not Found",
+      "checked_at": "2026-07-29T00:39:07+02:00"
+    },
+    {
+      "source_id": "eu_creative",
+      "source_name": "Europa Creativa - Convocatorias",
+      "message": "SourceError: No se pudo consultar https://culture.ec.europa.eu/creative-europe/creative-europe-calls: HTTP Error 404: Not Found",
+      "checked_at": "2026-07-29T00:39:11+02:00"
+    },
+    {
+      "source_id": "eu_cerv",
+      "source_name": "CERV - Ciudadanos, Igualdad, Derechos y Valores",
+      "message": "SourceError: No se pudo consultar https://commission.europa.eu/strategy-and-policy/eu-budget/eu-funding-programmes/citizens-equality-rights-and-values-programme/citizens-equality-rights-and-values-programme-funding_en: HTTP Error 404: Not Found",
+      "checked_at": "2026-07-29T00:39:12+02:00"
+    },
+    {
+      "source_id": "fundacion_la_caixa",
+      "source_name": "Fundación la Caixa - Convocatorias sociales",
+      "message": "https://fundacionlacaixa.org/es/convocatorias-sociales-andalucia: SourceError: No se pudo consultar https://fundacionlacaixa.org/es/convocatorias-sociales-andalucia: HTTP Error 403: Forbidden",
+      "checked_at": "2026-07-29T00:40:20+02:00"
+    },
+    {
+      "source_id": "fundacion_la_caixa",
+      "source_name": "Fundación la Caixa - Convocatorias sociales",
+      "message": "https://fundacionlacaixa.org/es/convocatorias-sociales-baleares: SourceError: No se pudo consultar https://fundacionlacaixa.org/es/convocatorias-sociales-baleares: HTTP Error 403: Forbidden",
+      "checked_at": "2026-07-29T00:40:20+02:00"
+    },
+    {
+      "source_id": "fundacion_la_caixa",
+      "source_name": "Fundación la Caixa - Convocatorias sociales",
+      "message": "https://fundacionlacaixa.org/es/convocatorias-sociales-la-rioja: SourceError: No se pudo consultar https://fundacionlacaixa.org/es/convocatorias-sociales-la-rioja: HTTP Error 403: Forbidden",
+      "checked_at": "2026-07-29T00:40:20+02:00"
+    }
+  ],
+  "opportunities": 507,
   "report": "C:\\Users\\Tanau\\Documents\\caribdis\\ayudas_repo\\informes_caribdis\\INFORME_UNICO_AYUDAS_CARIBDIS.md"
 }

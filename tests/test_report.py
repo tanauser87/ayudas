@@ -171,19 +171,39 @@ class ReportTests(unittest.TestCase):
         self.assertNotIn("Premios AEPD", after_discarded)
 
     def test_low_without_thematic_fit_does_not_enter_top_10(self) -> None:
-        low = item("Infancia genérica", "Abierta", 49, "2026-09-30")
-        low.priority = "Baja"
-        low.thematic_minimum_met = False
+        high = item("FECYT Cultura Científica", "Abierta", 80, "2026-09-16")
+        lows = []
+        for index in range(1, 11):
+            low = item(
+                f"Infancia genérica {index}",
+                "Abierta",
+                49,
+                "2026-09-30",
+            )
+            low.priority = "Baja"
+            low.thematic_minimum_met = False
+            lows.append(low)
 
         content = render_report(
-            RunResult(opportunities=[low]),
+            RunResult(opportunities=[*lows, high]),
             start_date=date(2026, 7, 1),
             end_date=date(2026, 7, 26),
             today=date(2026, 7, 26),
         )
         top_section = content.split("## 3.", 1)[1].split("## 4.", 1)[0]
+        ranking_section = content.split("## 18. Ranking general", 1)[1].split(
+            "## 19.",
+            1,
+        )[0]
 
         self.assertNotIn("Infancia genérica", top_section)
+        self.assertIn("### 1. FECYT Cultura Científica", ranking_section)
+        self.assertNotIn("### 2. Infancia genérica", ranking_section)
+        self.assertIn("### 11. Infancia genérica", ranking_section)
+        self.assertIn(
+            "Otras oportunidades de prioridad Baja fuera del Top CARIBDIS",
+            ranking_section,
+        )
 
     def test_strategic_procedure_has_separate_non_financial_section(self) -> None:
         strategic = item(

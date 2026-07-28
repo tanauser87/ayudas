@@ -322,6 +322,23 @@ def _procedure_kind(record: dict[str, Any]) -> tuple[str, bool, bool]:
     return "Procedimiento administrativo", False, strategic
 
 
+def _non_competitive_record_type(text: str) -> str | None:
+    normalized = normalize_text(text)
+    if any(
+        term in normalized
+        for term in (
+            "concesion directa",
+            "subvencion nominativa",
+            "subvenciones nominativas",
+            "beneficiario unico",
+        )
+    ):
+        return "Concesión directa"
+    if "convenio con destinatario identificado" in normalized:
+        return "Convenio con destinatario identificado"
+    return None
+
+
 def _new_association_eligibility(
     recipients: str,
     requirements: str,
@@ -575,6 +592,7 @@ class JuntaProceduresSource(BaseSource):
         text = _record_text(record)
         title = clean_text(str(record.get("title") or record.get("name") or ""))
         procedure_kind, financial, strategic = _procedure_kind(record)
+        non_competitive_type = _non_competitive_record_type(text)
         recurrent = _is_recurrent(record)
         open_date, close_date = _deadline_window(record)
         status = _status(record, open_date, recurrent, context.today)
@@ -609,10 +627,13 @@ class JuntaProceduresSource(BaseSource):
         ) or NOT_FOUND
         solicitability = "Trámite estratégico no económico"
         if financial:
-            solicitability = {
-                "Abierta": "Solicitable",
-                "Próxima": "Pendiente de apertura",
-            }.get(status, "Referencia histórica")
+            if non_competitive_type:
+                solicitability = "Concesión directa"
+            else:
+                solicitability = {
+                    "Abierta": "Solicitable",
+                    "Próxima": "Pendiente de apertura",
+                }.get(status, "Referencia histórica")
 
         return Opportunity(
             id=hashlib.sha256(
@@ -702,7 +723,8 @@ class JuntaProceduresSource(BaseSource):
             ),
             financial_opportunity=financial,
             strategic_procedure=strategic,
-            record_type=(
+            record_type=non_competitive_type
+            or (
                 f"Procedimiento de {procedure_kind.lower()}"
                 if financial
                 else "Trámite estratégico"
