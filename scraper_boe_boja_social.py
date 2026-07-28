@@ -22,7 +22,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 from datetime import date, datetime, timedelta
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
@@ -294,6 +294,9 @@ class SocialGrant:
     caribdis_category: str
     caribdis_keywords: list[str]
     checked_at: str
+    bdns_number: str = ""
+    official_identifiers: list[str] = field(default_factory=list)
+    raw_text: str = ""
 
 
 @dataclass(frozen=True)
@@ -869,6 +872,32 @@ def extract_close_date(text: str) -> str:
     return "No publicada expresamente; revisar el texto oficial"
 
 
+def extract_bdns_number(text: str) -> str:
+    match = re.search(
+        r"\b(?:c[oó]digo\s+)?BDNS(?:\s*\(Identif\.?\))?"
+        r"\s*(?:n[úu]m(?:ero)?\.?|[:#-])?\s*(\d{4,12})\b",
+        clean_text(text),
+        re.I,
+    )
+    return match.group(1) if match else ""
+
+
+def extract_official_identifiers(text: str) -> list[str]:
+    identifiers = [
+        match.upper()
+        for match in re.findall(r"\bBOE-[A-Z]-\d{4}-\d+\b", clean_text(text), re.I)
+    ]
+    identifiers.extend(
+        match.upper()
+        for match in re.findall(
+            r"\bBOJA-\d{4}-\d+(?:-\d+)?\b",
+            clean_text(text),
+            re.I,
+        )
+    )
+    return list(dict.fromkeys(identifiers))
+
+
 def build_results(notices: list[Notice], timeout: int, errors: list[str]) -> list[SocialGrant]:
     checked_at = datetime.now(TZ).isoformat(timespec="seconds")
     results: list[SocialGrant] = []
@@ -911,6 +940,11 @@ def build_results(notices: list[Notice], timeout: int, errors: list[str]) -> lis
                 caribdis_category=caribdis.category,
                 caribdis_keywords=caribdis.keywords,
                 checked_at=checked_at,
+                bdns_number=extract_bdns_number(combined_text),
+                official_identifiers=extract_official_identifiers(
+                    f"{notice.url} {notice.pdf_url} {combined_text}"
+                ),
+                raw_text=combined_text[:30_000],
             )
         )
     results.sort(key=lambda item: (-item.score, item.source, item.title.lower()))

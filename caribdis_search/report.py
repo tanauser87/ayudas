@@ -199,6 +199,11 @@ def render_detailed_opportunity(item: Opportunity, position: int) -> list[str]:
     risks = "; ".join(item.risks) if item.risks else "No se han identificado riesgos explícitos."
     warnings = "; ".join(item.warnings) if item.warnings else "Ninguna advertencia adicional."
     keywords = ", ".join(item.caribdis_keywords) if item.caribdis_keywords else "Ninguna."
+    official_identifiers = ", ".join(item.official_identifiers) or NOT_FOUND
+    official_links = ", ".join(item.official_links) or NOT_FOUND
+    european_funds = ", ".join(item.european_funds) or NOT_FOUND
+    aid_instruments = ", ".join(item.aid_instruments) or NOT_FOUND
+    administrative_events = ", ".join(item.administrative_events) or NOT_FOUND
     return [
         f"### {position}. {item.title} — {item.caribdis_score}/100 — PRIORIDAD {item.priority.upper()}",
         "",
@@ -210,7 +215,13 @@ def render_detailed_opportunity(item: Opportunity, position: int) -> list[str]:
         f"- Fuente: {item.source}",
         f"- Cobertura de la fuente: {item.coverage_type} — {item.coverage_note or NOT_FOUND}",
         f"- Metadatos verificados: {'Sí' if item.metadata_verified else 'No consta revisión completa'}",
+        f"- Número BDNS: {item.bdns_number}",
+        f"- Identificadores BOE/BOJA: {official_identifiers}",
+        f"- Fecha de registro: {item.registered_date}",
+        f"- Tipo de registro: {item.record_type}",
+        f"- Solicitabilidad: {item.solicitability}",
         f"- Territorio: {item.territory}",
+        f"- Nivel administrativo/comunidad autónoma: {item.administrative_level} / {item.autonomous_community}",
         f"- Provincia/municipio: {item.province} / {item.municipality}",
         f"- Presupuesto de la convocatoria: {item.total_budget}",
         f"- Importe máximo por proyecto: {item.max_amount}",
@@ -219,9 +230,15 @@ def render_detailed_opportunity(item: Opportunity, position: int) -> list[str]:
         f"- Anticipo: {item.advance_payment}",
         f"- ¿Puede pedirla CARIBDIS directamente?: {item.participation}",
         f"- Beneficiarios: {item.beneficiaries}",
+        f"- Requisitos: {item.requirements}",
+        f"- Antigüedad/experiencia: {item.seniority_requirements} / {item.experience_requirements}",
         f"- Necesidad de socios/consorcio: {item.partners_required} / {item.consortium_required}",
+        f"- Necesidad de aval: {item.guarantee_requirements}",
         f"- Gastos subvencionables: {item.eligible_expenses}",
         f"- Duración: {item.duration}",
+        f"- Fondos europeos: {european_funds}",
+        f"- Instrumentos de ayuda: {aid_instruments}",
+        f"- Eventos administrativos: {administrative_events}",
         f"- Temática principal: {item.main_theme}",
         f"- Palabras clave: {keywords}",
         f"- Motivo de la puntuación: {item.score_reason}",
@@ -229,6 +246,7 @@ def render_detailed_opportunity(item: Opportunity, position: int) -> list[str]:
         f"- Proyecto recomendado: {item.recommended_project}",
         f"- Advertencias: {warnings}",
         f"- Enlace oficial: {item.official_url or NOT_FOUND}",
+        f"- Otros enlaces oficiales: {official_links}",
         f"- Bases: {item.bases_url}",
         f"- Sede electrónica: {item.application_url}",
         "",

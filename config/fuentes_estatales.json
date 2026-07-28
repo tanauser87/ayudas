@@ -5,16 +5,29 @@
     "group": "Estatal - BDNS",
     "adapter": "bdns",
     "url": "https://www.infosubvenciones.gob.es/bdnstrans/api/convocatorias/busqueda",
+    "detail_api_url": "https://www.infosubvenciones.gob.es/bdnstrans/api/convocatorias",
     "fallback_urls": [
       "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/busqueda",
       "https://wwwpre.infosubvenciones.es/bdnstrans/api/convocatorias/busqueda"
     ],
+    "detail_api_fallback_urls": [
+      "https://www.infosubvenciones.es/bdnstrans/api/convocatorias"
+    ],
     "detail_url": "https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/{numeroConvocatoria}",
-    "official_domains": ["infosubvenciones.gob.es", "infosubvenciones.es"],
+    "catalog_metadata_url": "https://datos.gob.es/es/catalogo/e05250001-base-de-datos-nacional-de-subvenciones",
+    "portal_url": "https://www.subvenciones.gob.es/bdnstrans/GE/es/inicio",
+    "swagger_url": "https://www.infosubvenciones.es/bdnstrans/doc/swagger",
+    "update_frequency": "daily",
+    "official_domains": [
+      "subvenciones.gob.es",
+      "infosubvenciones.gob.es",
+      "infosubvenciones.es"
+    ],
     "organization_type": "Administración General del Estado",
     "accept": "application/json",
-    "max_pages": 100,
+    "max_pages": 1000,
     "page_size": 100,
+    "cache_ttl_seconds": 1800,
     "coverage_type": "api",
     "coverage_note": "API oficial con filtros fechaDesde/fechaHasta y paginación completa.",
     "respect_robots": false,

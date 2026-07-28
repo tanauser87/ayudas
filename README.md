@@ -89,6 +89,29 @@ Las menciones aisladas a infancia, vulnerabilidad, asociaciones, educación gen�
 
 FECYT Cultura Científica utiliza el adaptador `verified`: la ficha 2026 se construye con fechas, beneficiarios y condiciones revisados en su portal y bases oficiales, no con palabras de una portada.
 
+### Integración BDNS
+
+La fuente `bdns` consulta la API REST oficial documentada por el Sistema Nacional
+de Publicidad de Subvenciones. Mantiene filtros `fechaDesde` y `fechaHasta`,
+paginación completa, timeout, reintentos y caché temporal. Sus referencias
+oficiales son:
+
+- [Ficha del conjunto de datos](https://datos.gob.es/es/catalogo/e05250001-base-de-datos-nacional-de-subvenciones)
+- [Portal público de subvenciones](https://www.subvenciones.gob.es/bdnstrans/GE/es/inicio)
+- [Documentación Swagger](https://www.infosubvenciones.es/bdnstrans/doc/swagger)
+
+La búsqueda no descarga indiscriminadamente todas las fichas. Primero aplica un
+prefiltro de elegibilidad social y encaje ambiental, marino, científico,
+educativo o inclusivo. Solo las coincidencias potenciales se enriquecen mediante
+su ficha API oficial. Un fallo de detalle se registra como incidencia y conserva
+el resultado básico, sin detener la paginación.
+
+El enriquecimiento puede incorporar número BDNS, organismo y nivel
+administrativo, ámbito territorial, fechas, estado, beneficiarios, requisitos,
+presupuesto, importes y porcentajes, cofinanciación, anticipo, aval, gastos,
+duración, bases, sede electrónica, publicaciones en diarios oficiales y fondos
+europeos. Los valores no publicados se mantienen como `Dato no localizado`.
+
 ## Informe único
 
 El informe se sobrescribe en cada ejecución e incluye, en orden:
@@ -120,7 +143,9 @@ El ranking ordena primero convocatorias abiertas y directas de prioridad Muy alt
 
 `informes_caribdis/historico_caribdis.json` conserva el histórico estructurado. El sistema:
 
-- deduplica por URL oficial canónica e identificador de fuente;
+- deduplica, por orden, mediante número BDNS, identificador BOE/BOJA, URL oficial
+  canónica y combinación normalizada de organismo, título y fecha;
+- fusiona los metadatos de BDNS, BOE y BOJA sin perder sus enlaces ni referencias;
 - detecta cambios de apertura, cierre, presupuesto, importe y estado;
 - marca reaperturas;
 - compara títulos equivalentes de distintas ediciones;

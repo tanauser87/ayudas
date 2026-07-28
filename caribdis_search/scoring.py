@@ -383,6 +383,9 @@ def score_caribdis(opportunity: Opportunity, today: date | None = None) -> tuple
             opportunity.summary,
             opportunity.raw_text,
             opportunity.beneficiaries,
+            opportunity.requirements,
+            opportunity.record_type,
+            opportunity.solicitability,
             opportunity.source_group,
             opportunity.territory,
         ]
@@ -413,6 +416,19 @@ def score_caribdis(opportunity: Opportunity, today: date | None = None) -> tuple
         eligibility_risks.append("ámbito territorial fuera de Andalucía, España o la Unión Europea")
     normalized_title = normalize_text(opportunity.title)
     normalized_text = normalize_text(text)
+    normalized_solicitability = normalize_text(opportunity.solicitability)
+    normalized_record_type = normalize_text(opportunity.record_type)
+    if normalized_solicitability in {
+        "no solicitables",
+        "concesion directa",
+        "convocatoria ya resuelta",
+    } or normalized_record_type == "bases reguladoras sin convocatoria abierta":
+        hard_invalid = True
+        eligibility = 0
+        participation = "No elegible"
+        eligibility_risks.append(
+            f"registro BDNS no solicitable: {opportunity.record_type}"
+        )
     if (
         "agencia espanola de proteccion de datos" in normalized_text
         and "premio" in normalized_text

@@ -12,6 +12,7 @@ class ConfigTests(unittest.TestCase):
 
         source_ids = [source["id"] for source in config["sources"]]
         self.assertIn("bdns", source_ids)
+        self.assertEqual(source_ids.count("bdns"), 1)
         self.assertIn("fecyt", source_ids)
         self.assertEqual(len(source_ids), len(set(source_ids)))
         self.assertTrue(all(source["official_domains"] for source in config["sources"]))
@@ -68,6 +69,29 @@ class ConfigTests(unittest.TestCase):
         configured = {source["id"]: source for source in config["sources"]}
         self.assertTrue(priority_ids.issubset(configured))
         self.assertTrue(all(configured[source_id]["coverage_type"] for source_id in priority_ids))
+        bdns = configured["bdns"]
+        self.assertEqual(
+            bdns["catalog_metadata_url"],
+            "https://datos.gob.es/es/catalogo/e05250001-base-de-datos-nacional-de-subvenciones",
+        )
+        self.assertEqual(
+            bdns["portal_url"],
+            "https://www.subvenciones.gob.es/bdnstrans/GE/es/inicio",
+        )
+        self.assertEqual(
+            bdns["swagger_url"],
+            "https://www.infosubvenciones.es/bdnstrans/doc/swagger",
+        )
+        self.assertEqual(bdns["update_frequency"], "daily")
+        self.assertEqual(bdns["coverage_type"], "api")
+        self.assertGreater(bdns["cache_ttl_seconds"], 0)
+        self.assertTrue(
+            {
+                "subvenciones.gob.es",
+                "infosubvenciones.gob.es",
+                "infosubvenciones.es",
+            }.issubset(bdns["official_domains"])
+        )
 
 
 if __name__ == "__main__":

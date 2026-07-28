@@ -27,6 +27,56 @@ class HistoryTests(unittest.TestCase):
         self.assertEqual(len(result), 1)
         self.assertEqual(result[0].max_amount, "50.000 €")
 
+    def test_deduplicates_bdns_and_boe_and_preserves_both_sources(self) -> None:
+        bdns = Opportunity(
+            source_id="bdns",
+            source="BDNS",
+            source_references=["BDNS"],
+            bdns_number="905627",
+            official_identifiers=["BOE-B-2026-12345"],
+            title="Ayudas para biodiversidad marina",
+            organization="Ministerio para la Transición Ecológica",
+            published_date="2026-07-24",
+            official_url="https://www.subvenciones.gob.es/convocatoria/905627",
+            total_budget="150.000 EUR",
+            detail_enriched=True,
+        )
+        boe = Opportunity(
+            source_id="boe_boja",
+            source="BOE",
+            source_references=["BOE"],
+            title="Extracto de ayudas para biodiversidad marina",
+            organization="Ministerio para la Transición Ecológica",
+            published_date="2026-07-24",
+            official_url="https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-12345",
+            raw_text="BDNS (Identif.): 905627. CVE BOE-B-2026-12345.",
+        )
+
+        result = deduplicate([boe, bdns])
+
+        self.assertEqual(len(result), 1)
+        self.assertEqual(result[0].bdns_number, "905627")
+        self.assertEqual(set(result[0].source_references), {"BDNS", "BOE"})
+        self.assertIn("BOE-B-2026-12345", result[0].official_identifiers)
+        self.assertIn(boe.official_url, result[0].official_links)
+        self.assertEqual(result[0].total_budget, "150.000 EUR")
+
+    def test_does_not_deduplicate_only_by_title(self) -> None:
+        first = Opportunity(
+            title="Ayudas para educación ambiental",
+            organization="Diputación de Cádiz",
+            published_date="2026-07-20",
+        )
+        second = Opportunity(
+            title=first.title,
+            organization="Diputación de Huelva",
+            published_date="2026-07-21",
+        )
+
+        result = deduplicate([first, second])
+
+        self.assertEqual(len(result), 2)
+
     def test_detects_deadline_change(self) -> None:
         previous = Opportunity(
             id="same",

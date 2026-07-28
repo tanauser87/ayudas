@@ -6,6 +6,7 @@ from datetime import timedelta
 import scraper_boe_boja_social as legacy
 
 from ..extractors import extract_status
+from ..identity import extract_bdns_number, extract_official_identifiers
 from ..models import NOT_FOUND, Opportunity
 from .base import BaseSource, SourceContext
 
@@ -39,10 +40,28 @@ class LegacyBoeBojaSource(BaseSource):
                     f"{item.source}|{item.url}".encode("utf-8")
                 ).hexdigest()
                 combined = f"{item.title} {item.beneficiary_hint} {' '.join(item.matched_terms)}"
+                raw_text = item.raw_text or combined
+                bdns_number = extract_bdns_number(item.bdns_number, raw_text)
+                official_identifiers = list(
+                    dict.fromkeys(
+                        item.official_identifiers
+                        + extract_official_identifiers(
+                            item.url,
+                            item.pdf_url,
+                            raw_text,
+                        )
+                    )
+                )
                 opportunities.append(
                     Opportunity(
                         id=opportunity_id,
                         source_id=self.id,
+                        source_references=[item.source],
+                        bdns_number=bdns_number,
+                        official_identifiers=official_identifiers,
+                        official_links=[
+                            value for value in [item.url, item.pdf_url] if value
+                        ],
                         title=item.title,
                         organization=item.entity,
                         source=item.source,
@@ -61,7 +80,7 @@ class LegacyBoeBojaSource(BaseSource):
                         bases_url=item.pdf_url or NOT_FOUND,
                         beneficiaries=item.beneficiary_hint,
                         summary=combined,
-                        raw_text=combined,
+                        raw_text=raw_text,
                         checked_at=item.checked_at,
                         coverage_type="historical",
                         coverage_note="Edicion diaria oficial consultada por fecha.",

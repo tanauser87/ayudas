@@ -36,14 +36,21 @@ class ScoringBreakdown:
 class Opportunity:
     id: str = ""
     source_id: str = ""
+    source_references: list[str] = field(default_factory=list)
+    bdns_number: str = NOT_FOUND
+    official_identifiers: list[str] = field(default_factory=list)
+    official_links: list[str] = field(default_factory=list)
     title: str = NOT_FOUND
     organization: str = NOT_FOUND
     source: str = NOT_FOUND
     source_group: str = NOT_FOUND
     organization_type: str = NOT_FOUND
     territory: str = NOT_FOUND
+    administrative_level: str = NOT_FOUND
+    autonomous_community: str = NOT_FOUND
     province: str = NOT_FOUND
     municipality: str = NOT_FOUND
+    registered_date: str = NOT_FOUND
     published_date: str = NOT_FOUND
     open_date: str = NOT_FOUND
     close_date: str = NOT_FOUND
@@ -57,12 +64,21 @@ class Opportunity:
     cofinancing: str = NOT_FOUND
     advance_payment: str = NOT_FOUND
     beneficiaries: str = NOT_FOUND
+    requirements: str = NOT_FOUND
     seniority_requirements: str = NOT_FOUND
+    experience_requirements: str = NOT_FOUND
     staff_requirements: str = NOT_FOUND
     partners_required: str = NOT_FOUND
     consortium_required: str = NOT_FOUND
     eligible_expenses: str = NOT_FOUND
+    guarantee_requirements: str = NOT_FOUND
     duration: str = NOT_FOUND
+    european_funds: list[str] = field(default_factory=list)
+    aid_instruments: list[str] = field(default_factory=list)
+    record_type: str = "Convocatoria"
+    solicitability: str = "Pendiente de verificar"
+    administrative_events: list[str] = field(default_factory=list)
+    detail_enriched: bool = False
     summary: str = ""
     raw_text: str = ""
     caribdis_score: int = 0

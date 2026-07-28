@@ -10,6 +10,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
+from .identity import populate_official_identity
 from .models import NOT_FOUND, Opportunity
 
 
@@ -40,10 +41,19 @@ def canonical_url(url: str) -> str:
 
 
 def stable_id(opportunity: Opportunity) -> str:
+    populate_official_identity(opportunity)
+    if opportunity.bdns_number != NOT_FOUND:
+        return hashlib.sha256(
+            f"bdns|{opportunity.bdns_number}".encode("utf-8")
+        ).hexdigest()
     if opportunity.id:
         return opportunity.id
+    if opportunity.official_identifiers:
+        basis = f"official|{opportunity.official_identifiers[0]}"
+        return hashlib.sha256(basis.encode("utf-8")).hexdigest()
     basis = canonical_url(opportunity.official_url) or (
-        f"{opportunity.source}|{normalize_text(opportunity.title)}|{opportunity.published_date}"
+        f"{normalize_text(opportunity.organization)}|"
+        f"{normalize_text(opportunity.title)}|{opportunity.published_date}"
     )
     return hashlib.sha256(basis.encode("utf-8")).hexdigest()
 
@@ -51,28 +61,143 @@ def stable_id(opportunity: Opportunity) -> str:
 def information_score(opportunity: Opportunity) -> int:
     data = opportunity.to_dict()
     return sum(
-        value not in ("", NOT_FOUND, [], {}, None)
+        value not in ("", NOT_FOUND, [], {}, None, False, 0)
         for key, value in data.items()
-        if key not in {"raw_text", "changes"}
+        if key not in {"raw_text", "changes", "scoring"}
     )
 
 
+LIST_FIELDS = {
+    "source_references",
+    "official_identifiers",
+    "official_links",
+    "european_funds",
+    "aid_instruments",
+    "administrative_events",
+    "caribdis_keywords",
+    "risks",
+    "warnings",
+    "changes",
+}
+
+BOOLEAN_FIELDS = {
+    "detail_enriched",
+    "metadata_verified",
+    "thematic_minimum_met",
+    "is_new",
+    "recurrent",
+}
+
+
+def _known(value: Any) -> bool:
+    return value not in ("", NOT_FOUND, [], {}, None, False, 0)
+
+
+def _identity_urls(opportunity: Opportunity) -> set[str]:
+    values = [
+        opportunity.official_url,
+        *opportunity.official_links,
+    ]
+    return {
+        canonical
+        for value in values
+        if value and value != NOT_FOUND
+        if (canonical := canonical_url(value))
+    }
+
+
+def _identity_date(opportunity: Opportunity) -> str:
+    for value in (
+        opportunity.published_date,
+        opportunity.registered_date,
+        opportunity.open_date,
+    ):
+        match = re.search(r"\b\d{4}-\d{2}-\d{2}\b", value or "")
+        if match:
+            return match.group(0)
+    return ""
+
+
+def _fallback_identity(opportunity: Opportunity) -> tuple[str, str, str] | None:
+    organization = normalize_text(opportunity.organization)
+    title = normalize_text(opportunity.title)
+    published = _identity_date(opportunity)
+    if not organization or not title or not published:
+        return None
+    return organization, title, published
+
+
+def same_official_opportunity(left: Opportunity, right: Opportunity) -> bool:
+    populate_official_identity(left)
+    populate_official_identity(right)
+    left_bdns = left.bdns_number if left.bdns_number != NOT_FOUND else ""
+    right_bdns = right.bdns_number if right.bdns_number != NOT_FOUND else ""
+    if left_bdns and right_bdns:
+        return left_bdns == right_bdns
+    if set(left.official_identifiers) & set(right.official_identifiers):
+        return True
+    if _identity_urls(left) & _identity_urls(right):
+        return True
+    left_fallback = _fallback_identity(left)
+    return bool(left_fallback and left_fallback == _fallback_identity(right))
+
+
+def _merge_opportunities(left: Opportunity, right: Opportunity) -> Opportunity:
+    left_score = information_score(left) + (50 if left.detail_enriched else 0)
+    right_score = information_score(right) + (50 if right.detail_enriched else 0)
+    if right_score > left_score:
+        primary, secondary = deepcopy(right), left
+    else:
+        primary, secondary = deepcopy(left), right
+
+    for field_name in Opportunity.__dataclass_fields__:
+        primary_value = getattr(primary, field_name)
+        secondary_value = getattr(secondary, field_name)
+        if field_name in LIST_FIELDS:
+            setattr(
+                primary,
+                field_name,
+                list(dict.fromkeys([*primary_value, *secondary_value])),
+            )
+        elif field_name in BOOLEAN_FIELDS:
+            setattr(primary, field_name, bool(primary_value or secondary_value))
+        elif field_name in {"raw_text", "summary"}:
+            if len(str(secondary_value or "")) > len(str(primary_value or "")):
+                setattr(primary, field_name, secondary_value)
+        elif not _known(primary_value) and _known(secondary_value):
+            setattr(primary, field_name, deepcopy(secondary_value))
+
+    links = [
+        *primary.official_links,
+        left.official_url,
+        right.official_url,
+        left.bases_url,
+        right.bases_url,
+    ]
+    primary.official_links = list(
+        dict.fromkeys(
+            value
+            for value in links
+            if value and value != NOT_FOUND
+        )
+    )
+    populate_official_identity(primary)
+    primary.id = stable_id(primary)
+    return primary
+
+
 def deduplicate(opportunities: list[Opportunity]) -> list[Opportunity]:
-    unique: dict[str, Opportunity] = {}
-    url_index: dict[str, str] = {}
+    unique: list[Opportunity] = []
     for opportunity in opportunities:
-        opportunity.id = stable_id(opportunity)
-        url = canonical_url(opportunity.official_url)
-        existing_id = url_index.get(url) if url else None
-        key = existing_id or opportunity.id
-        existing = unique.get(key)
-        if existing is None or information_score(opportunity) > information_score(existing):
-            if existing_id and opportunity.id != existing_id:
-                opportunity.id = existing_id
-            unique[key] = opportunity
-        if url:
-            url_index[url] = key
-    return list(unique.values())
+        populate_official_identity(opportunity)
+        for index, existing in enumerate(unique):
+            if same_official_opportunity(existing, opportunity):
+                unique[index] = _merge_opportunities(existing, opportunity)
+                break
+        else:
+            opportunity.id = stable_id(opportunity)
+            unique.append(opportunity)
+    return unique
 
 
 def empty_history() -> dict[str, Any]:
