@@ -65,6 +65,26 @@ class Opportunity:
     financing_rate: str = NOT_FOUND
     cofinancing: str = NOT_FOUND
     advance_payment: str = NOT_FOUND
+    funding_instrument: str = NOT_FOUND
+    funding_percentage: float | None = None
+    cofinancing_percentage: float | None = None
+    advance_percentage: float | None = None
+    advance_guarantee_required: bool | None = None
+    reimbursement_only: bool | None = None
+    operating_costs_eligible: bool | None = None
+    staff_costs_eligible: bool | None = None
+    equipment_eligible: bool | None = None
+    rent_eligible: bool | None = None
+    insurance_eligible: bool | None = None
+    travel_eligible: bool | None = None
+    minimum_seniority: str = NOT_FOUND
+    previous_experience_required: bool | None = None
+    minimum_project_budget: float | None = None
+    audit_required: bool | None = None
+    cashflow_risk: str = "No evaluado"
+    suitable_for_new_entity: bool | None = None
+    financial_viability_reason: str = NOT_FOUND
+    funding_purposes: list[str] = field(default_factory=list)
     beneficiaries: str = NOT_FOUND
     requirements: str = NOT_FOUND
     seniority_requirements: str = NOT_FOUND

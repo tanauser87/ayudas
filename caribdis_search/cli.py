@@ -95,7 +95,11 @@ def main() -> int:
     opportunities = deduplicate(run.opportunities)
     apply_recurrence(opportunities, history)
     for opportunity in opportunities:
-        apply_caribdis_scoring(opportunity, today=date.today())
+        apply_caribdis_scoring(
+            opportunity,
+            today=date.today(),
+            entity_profile=config.get("entity_profile"),
+        )
     history = update_history(opportunities, history, checked_at)
     save_history(history_path, history)
     save_current_data(data_path, opportunities)

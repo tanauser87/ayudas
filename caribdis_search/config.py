@@ -20,6 +20,30 @@ class ConfigError(ValueError):
     pass
 
 
+def validate_entity_profile(profile: Any) -> None:
+    if not isinstance(profile, dict):
+        raise ConfigError("caribdis.json / entity_profile debe ser un objeto")
+    required = {
+        "name",
+        "legal_form",
+        "stage",
+        "profit_distribution",
+        "financial_dependency",
+        "has_large_reserves",
+        "can_advance_large_expenses",
+        "preferred_funding",
+    }
+    missing = sorted(required - profile.keys())
+    if missing:
+        raise ConfigError(
+            "caribdis.json / entity_profile: faltan " + ", ".join(missing)
+        )
+    if not isinstance(profile["preferred_funding"], list):
+        raise ConfigError(
+            "caribdis.json / entity_profile / preferred_funding debe ser una lista"
+        )
+
+
 def load_json(path: Path) -> Any:
     try:
         return json.loads(path.read_text(encoding="utf-8"))
@@ -69,6 +93,7 @@ def validate_source(source: dict[str, Any], filename: str) -> None:
 
 def load_configuration(config_dir: Path) -> dict[str, Any]:
     settings = load_json(config_dir / "caribdis.json")
+    validate_entity_profile(settings.get("entity_profile"))
     sources: list[dict[str, Any]] = []
     seen_ids: set[str] = set()
     for filename in CONFIG_FILES:

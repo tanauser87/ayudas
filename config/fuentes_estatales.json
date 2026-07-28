@@ -60,6 +60,14 @@
       "max_amount": "100.000 EUR",
       "financing_rate": "Hasta el 70 % del presupuesto del proyecto",
       "advance_payment": "Anticipo del 60 % tras la resolución",
+      "funding_instrument": "Subvención",
+      "funding_percentage": 70,
+      "cofinancing_percentage": 30,
+      "advance_percentage": 60,
+      "suitable_for_new_entity": true,
+      "funding_purposes": [
+        "Ayuda para proyecto"
+      ],
       "beneficiaries": "Personas jurídicas públicas o privadas españolas, incluidas entidades sin ánimo de lucro, que contribuyan a la educación, difusión y divulgación científicas y lo recojan en sus estatutos u objeto social.",
       "partners_required": "No se exige socio con carácter general.",
       "consortium_required": "No se exige consorcio con carácter general.",

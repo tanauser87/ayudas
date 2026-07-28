@@ -179,6 +179,26 @@ class ReportTests(unittest.TestCase):
         self.assertNotIn(strategic.title, discarded_section)
         self.assertIn(strategic.title, strategic_section)
 
+    def test_report_shows_financial_viability_and_cashflow_risk(self) -> None:
+        opportunity = item("Ayuda de funcionamiento", "Abierta", 80, "2026-09-30")
+        opportunity.funding_instrument = "Subvención"
+        opportunity.funding_percentage = 70
+        opportunity.advance_percentage = 40
+        opportunity.cashflow_risk = "Medio"
+        opportunity.financial_viability_reason = "Financiación del 70 % y anticipo del 40 %."
+        opportunity.operating_costs_eligible = True
+
+        content = render_report(
+            RunResult(opportunities=[opportunity]),
+            start_date=date(2026, 7, 1),
+            end_date=date(2026, 7, 26),
+            today=date(2026, 7, 26),
+        )
+
+        self.assertIn("Riesgo de tesorería", content)
+        self.assertIn("Porcentaje financiado: 70 %", content)
+        self.assertIn("Gastos de funcionamiento: Sí", content)
+
 
 if __name__ == "__main__":
     unittest.main()

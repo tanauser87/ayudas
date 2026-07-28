@@ -66,6 +66,30 @@ class VerifiedMetadataSource(BaseSource):
                 financing_rate=str(metadata.get("financing_rate", NOT_FOUND)),
                 cofinancing=str(metadata.get("cofinancing", NOT_FOUND)),
                 advance_payment=str(metadata.get("advance_payment", NOT_FOUND)),
+                funding_instrument=str(metadata.get("funding_instrument", NOT_FOUND)),
+                funding_percentage=metadata.get("funding_percentage"),
+                cofinancing_percentage=metadata.get("cofinancing_percentage"),
+                advance_percentage=metadata.get("advance_percentage"),
+                advance_guarantee_required=metadata.get(
+                    "advance_guarantee_required"
+                ),
+                reimbursement_only=metadata.get("reimbursement_only"),
+                operating_costs_eligible=metadata.get("operating_costs_eligible"),
+                staff_costs_eligible=metadata.get("staff_costs_eligible"),
+                equipment_eligible=metadata.get("equipment_eligible"),
+                rent_eligible=metadata.get("rent_eligible"),
+                insurance_eligible=metadata.get("insurance_eligible"),
+                travel_eligible=metadata.get("travel_eligible"),
+                minimum_seniority=str(
+                    metadata.get("minimum_seniority", NOT_FOUND)
+                ),
+                previous_experience_required=metadata.get(
+                    "previous_experience_required"
+                ),
+                minimum_project_budget=metadata.get("minimum_project_budget"),
+                audit_required=metadata.get("audit_required"),
+                suitable_for_new_entity=metadata.get("suitable_for_new_entity"),
+                funding_purposes=list(metadata.get("funding_purposes", [])),
                 beneficiaries=str(metadata.get("beneficiaries", NOT_FOUND)),
                 partners_required=str(metadata.get("partners_required", NOT_FOUND)),
                 consortium_required=str(metadata.get("consortium_required", NOT_FOUND)),

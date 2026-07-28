@@ -120,19 +120,36 @@ def value_or_not_found(value: str) -> str:
     return value if value and value.strip() else NOT_FOUND
 
 
+def percentage_or_not_found(value: float | None) -> str:
+    return f"{value:g} %" if value is not None else NOT_FOUND
+
+
+def boolean_or_not_found(value: bool | None) -> str:
+    if value is None:
+        return NOT_FOUND
+    return "Sí" if value else "No"
+
+
+def amount_or_not_found(value: float | None) -> str:
+    if value is None:
+        return NOT_FOUND
+    return f"{value:,.2f} €".replace(",", " ").replace(".", ",")
+
+
 def render_compact_table(opportunities: list[Opportunity], limit: int | None = None) -> list[str]:
     selected = opportunities[:limit] if limit is not None else opportunities
     if not selected:
         return ["No se han localizado oportunidades en esta sección.", ""]
     lines = [
-        "| Puntuación | Prioridad | Estado | Participación | Oportunidad | Cierre |",
-        "|---:|---|---|---|---|---|",
+        "| Puntuación | Prioridad | Estado | Riesgo de tesorería | Participación | Oportunidad | Cierre |",
+        "|---:|---|---|---|---|---|---|",
     ]
     for item in selected:
         title = markdown_text(item.title)
         link = f"[{title}]({item.official_url})" if item.official_url else title
         lines.append(
             f"| {item.caribdis_score} | {item.priority} | {item.status} | "
+            f"{item.cashflow_risk} | "
             f"{item.participation} | {link} | {value_or_not_found(item.close_date)} |"
         )
     lines.append("")
@@ -222,6 +239,7 @@ def render_detailed_opportunity(item: Opportunity, position: int) -> list[str]:
     official_links = ", ".join(item.official_links) or NOT_FOUND
     european_funds = ", ".join(item.european_funds) or NOT_FOUND
     aid_instruments = ", ".join(item.aid_instruments) or NOT_FOUND
+    funding_purposes = ", ".join(item.funding_purposes) or NOT_FOUND
     administrative_events = ", ".join(item.administrative_events) or NOT_FOUND
     forms = "; ".join(item.forms) or NOT_FOUND
     legal_bases = "; ".join(item.legal_bases) or NOT_FOUND
@@ -253,6 +271,26 @@ def render_detailed_opportunity(item: Opportunity, position: int) -> list[str]:
         f"- Financiación: {item.financing_rate}",
         f"- Cofinanciación: {item.cofinancing}",
         f"- Anticipo: {item.advance_payment}",
+        f"- Instrumento financiero: {item.funding_instrument}",
+        f"- Finalidad de la financiación: {funding_purposes}",
+        f"- Porcentaje financiado: {percentage_or_not_found(item.funding_percentage)}",
+        f"- Porcentaje de cofinanciación: {percentage_or_not_found(item.cofinancing_percentage)}",
+        f"- Porcentaje de anticipo: {percentage_or_not_found(item.advance_percentage)}",
+        f"- Aval para el anticipo: {boolean_or_not_found(item.advance_guarantee_required)}",
+        f"- Pago solo tras justificar: {boolean_or_not_found(item.reimbursement_only)}",
+        f"- Gastos de funcionamiento: {boolean_or_not_found(item.operating_costs_eligible)}",
+        f"- Gastos de personal: {boolean_or_not_found(item.staff_costs_eligible)}",
+        f"- Equipamiento: {boolean_or_not_found(item.equipment_eligible)}",
+        f"- Alquiler de sede: {boolean_or_not_found(item.rent_eligible)}",
+        f"- Seguros: {boolean_or_not_found(item.insurance_eligible)}",
+        f"- Desplazamientos: {boolean_or_not_found(item.travel_eligible)}",
+        f"- Antigüedad mínima estructurada: {item.minimum_seniority}",
+        f"- Experiencia previa obligatoria: {boolean_or_not_found(item.previous_experience_required)}",
+        f"- Presupuesto mínimo del proyecto: {amount_or_not_found(item.minimum_project_budget)}",
+        f"- Auditoría obligatoria: {boolean_or_not_found(item.audit_required)}",
+        f"- Apta para entidad nueva: {boolean_or_not_found(item.suitable_for_new_entity)}",
+        f"- Riesgo de tesorería: {item.cashflow_risk}",
+        f"- Motivo de viabilidad financiera: {item.financial_viability_reason}",
         f"- ¿Puede pedirla CARIBDIS directamente?: {item.participation}",
         f"- Beneficiarios: {item.beneficiaries}",
         f"- Elegibilidad de una asociación nueva: {item.new_association_eligibility}",

@@ -65,6 +65,7 @@ def run_sources(
     sources: list[BaseSource],
     context: SourceContext,
     max_workers: int = 6,
+    entity_profile: dict[str, object] | None = None,
 ) -> RunResult:
     started = datetime.now().astimezone().isoformat(timespec="seconds")
     result = RunResult(started_at=started)
@@ -100,7 +101,11 @@ def run_sources(
                 )
 
     for opportunity in result.opportunities:
-        apply_caribdis_scoring(opportunity, today=context.today)
+        apply_caribdis_scoring(
+            opportunity,
+            today=context.today,
+            entity_profile=entity_profile,
+        )
     result.finished_at = datetime.now().astimezone().isoformat(timespec="seconds")
     return result
 
@@ -126,7 +131,12 @@ def run_search(
         source_ids=source_ids,
         include_experimental=include_experimental,
     )
-    result = run_sources(sources, context, max_workers=int(config.get("max_workers", 6)))
+    result = run_sources(
+        sources,
+        context,
+        max_workers=int(config.get("max_workers", 6)),
+        entity_profile=config.get("entity_profile"),
+    )
     result.pending_sources = pending_source_statuses(
         config,
         context,

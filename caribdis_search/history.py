@@ -77,6 +77,7 @@ LIST_FIELDS = {
     "official_links",
     "european_funds",
     "aid_instruments",
+    "funding_purposes",
     "forms",
     "legal_bases",
     "administrative_events",
@@ -84,6 +85,24 @@ LIST_FIELDS = {
     "risks",
     "warnings",
     "changes",
+}
+
+OPTIONAL_FINANCIAL_FIELDS = {
+    "funding_percentage",
+    "cofinancing_percentage",
+    "advance_percentage",
+    "advance_guarantee_required",
+    "reimbursement_only",
+    "operating_costs_eligible",
+    "staff_costs_eligible",
+    "equipment_eligible",
+    "rent_eligible",
+    "insurance_eligible",
+    "travel_eligible",
+    "previous_experience_required",
+    "minimum_project_budget",
+    "audit_required",
+    "suitable_for_new_entity",
 }
 
 BOOLEAN_FIELDS = {
@@ -176,6 +195,9 @@ def _merge_opportunities(left: Opportunity, right: Opportunity) -> Opportunity:
             )
         elif field_name in BOOLEAN_FIELDS:
             setattr(primary, field_name, bool(primary_value or secondary_value))
+        elif field_name in OPTIONAL_FINANCIAL_FIELDS:
+            if primary_value is None and secondary_value is not None:
+                setattr(primary, field_name, deepcopy(secondary_value))
         elif field_name in {"raw_text", "summary"}:
             if len(str(secondary_value or "")) > len(str(primary_value or "")):
                 setattr(primary, field_name, secondary_value)

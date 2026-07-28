@@ -174,5 +174,172 @@ class ScoringTests(unittest.TestCase):
         self.assertIn("premio de la AEPD", " ".join(item.risks))
 
 
+class FinancialScoringTests(unittest.TestCase):
+    def financial_opportunity(self) -> Opportunity:
+        item = opportunity(
+            "Ayuda para biodiversidad marina y educación ambiental",
+            "Asociaciones sin ánimo de lucro.",
+        )
+        item.suitable_for_new_entity = True
+        return item
+
+    def test_fully_funded_grant_scores_five_out_of_five(self) -> None:
+        item = self.financial_opportunity()
+        item.funding_percentage = 100
+        item.cofinancing_percentage = 0
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.scoring.viability, 5)
+        self.assertEqual(item.funding_instrument, "Subvención")
+        self.assertIn("financiación del 100 %", item.financial_viability_reason)
+
+    def test_seventy_percent_with_advance_scores_four(self) -> None:
+        item = self.financial_opportunity()
+        item.funding_percentage = 70
+        item.cofinancing_percentage = 30
+        item.advance_percentage = 40
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.scoring.viability, 4)
+        self.assertEqual(item.cashflow_risk, "Medio")
+
+    def test_cofinancing_over_thirty_percent_is_severe(self) -> None:
+        item = self.financial_opportunity()
+        item.funding_percentage = 60
+        item.cofinancing_percentage = 40
+        item.advance_percentage = 0
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.scoring.viability, 1)
+        self.assertEqual(item.cashflow_risk, "Muy alto")
+
+    def test_reimbursement_after_justification_has_high_cashflow_risk(self) -> None:
+        item = self.financial_opportunity()
+        item.funding_percentage = 100
+        item.advance_percentage = 0
+        item.reimbursement_only = True
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.scoring.viability, 2)
+        self.assertEqual(item.cashflow_risk, "Alto")
+        self.assertIn("tras la justificación", item.financial_viability_reason)
+
+    def test_two_year_seniority_is_not_suitable_for_new_entity(self) -> None:
+        item = self.financial_opportunity()
+        item.suitable_for_new_entity = None
+        item.minimum_seniority = "Antigüedad mínima de dos años"
+
+        apply_caribdis_scoring(item)
+
+        self.assertFalse(item.suitable_for_new_entity)
+        self.assertEqual(item.scoring.viability, 1)
+        self.assertEqual(item.participation, "No elegible")
+
+    def test_previous_experience_is_not_suitable_for_new_entity(self) -> None:
+        item = self.financial_opportunity()
+        item.suitable_for_new_entity = None
+        item.previous_experience_required = True
+
+        apply_caribdis_scoring(item)
+
+        self.assertFalse(item.suitable_for_new_entity)
+        self.assertEqual(item.scoring.viability, 1)
+        self.assertEqual(item.priority, "Descartar")
+
+    def test_operating_grant_is_identified(self) -> None:
+        item = self.financial_opportunity()
+        item.eligible_expenses = (
+            "Gastos de funcionamiento, administración, gestoría, seguros y alquiler."
+        )
+
+        apply_caribdis_scoring(item)
+
+        self.assertTrue(item.operating_costs_eligible)
+        self.assertTrue(item.insurance_eligible)
+        self.assertTrue(item.rent_eligible)
+        self.assertIn("Ayuda para funcionamiento", item.funding_purposes)
+
+    def test_staff_funding_is_identified(self) -> None:
+        item = self.financial_opportunity()
+        item.eligible_expenses = "Son subvencionables los gastos de personal y salarios."
+
+        apply_caribdis_scoring(item)
+
+        self.assertTrue(item.staff_costs_eligible)
+        self.assertIn("Ayuda para personal", item.funding_purposes)
+
+    def test_equipment_funding_is_identified(self) -> None:
+        item = self.financial_opportunity()
+        item.eligible_expenses = "Equipamiento científico y material inventariable."
+
+        apply_caribdis_scoring(item)
+
+        self.assertTrue(item.equipment_eligible)
+        self.assertIn("Ayuda para equipamiento", item.funding_purposes)
+
+    def test_donation_is_not_classified_as_public_grant(self) -> None:
+        item = self.financial_opportunity()
+        item.raw_text = "Donación privada para un proyecto de ciencia ciudadana marina."
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.funding_instrument, "Donación")
+        self.assertEqual(item.scoring.funding_type, 9)
+
+    def test_sponsorship_is_not_classified_as_public_grant(self) -> None:
+        item = self.financial_opportunity()
+        item.raw_text = "Patrocinio empresarial para divulgación científica marina."
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.funding_instrument, "Patrocinio")
+        self.assertEqual(item.scoring.funding_type, 8)
+
+    def test_call_can_be_explicitly_suitable_for_new_entity(self) -> None:
+        item = self.financial_opportunity()
+
+        apply_caribdis_scoring(item)
+
+        self.assertTrue(item.suitable_for_new_entity)
+        self.assertEqual(item.participation, "Solicitud directa")
+        self.assertNotEqual(item.priority, "Descartar")
+
+    def test_call_can_be_explicitly_unsuitable_for_new_entity(self) -> None:
+        item = self.financial_opportunity()
+        item.suitable_for_new_entity = False
+        item.minimum_seniority = "Antigüedad mínima de dos años"
+
+        apply_caribdis_scoring(item)
+
+        self.assertFalse(item.suitable_for_new_entity)
+        self.assertEqual(item.participation, "No elegible")
+        self.assertEqual(item.priority, "Descartar")
+
+    def test_recurrent_call_with_obtainable_requirements_is_monitored(self) -> None:
+        item = self.financial_opportunity()
+        item.suitable_for_new_entity = False
+        item.minimum_seniority = "Antigüedad mínima de un año"
+        item.recurrent = True
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.participation, "Vigilar y preparar requisitos")
+        self.assertNotEqual(item.priority, "Descartar")
+
+    def test_consolidated_partner_path_is_preserved(self) -> None:
+        item = self.financial_opportunity()
+        item.suitable_for_new_entity = False
+        item.partners_required = "Debe participar con una entidad socia consolidada."
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.participation, "Participación mediante entidad socia")
+        self.assertNotEqual(item.priority, "Descartar")
+
+
 if __name__ == "__main__":
     unittest.main()

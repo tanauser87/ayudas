@@ -23,6 +23,14 @@ CARIBDIS es una asociación andaluza sin ánimo de lucro dedicada a:
 - inclusión social y voluntariado ambiental;
 - proyectos en Andalucía, especialmente Sevilla, Málaga, Cádiz, Huelva, Almería y el litoral andaluz.
 
+El perfil financiero está definido en `config/caribdis.json`. CARIBDIS se
+considera una entidad de nueva creación, sin reparto de beneficios, sin grandes
+reservas y sin capacidad inicial para adelantar gastos elevados. Se priorizan
+subvenciones a fondo perdido, financiación cercana al 100 %, anticipos,
+cofinanciación reducida, gastos de funcionamiento, personal, seguros,
+desplazamientos, equipamiento, alquiler, donaciones y patrocinios. Los ingresos
+se destinan íntegramente a los fines de la asociación.
+
 ## Fuentes
 
 La configuración inicial incluye:
@@ -73,9 +81,39 @@ La forma de participación distingue:
 - `Socia de universidad o centro científico`
 - `Socia de consorcio europeo`
 - `Vigilar próxima edición`
+- `Vigilar y preparar requisitos`
+- `Participación mediante entidad socia`
 - `No elegible`
 
 Las concesiones directas nominativas, beneficiarios únicos, becas o premios personales, contratos, licitaciones y nombramientos se descartan. Las ayudas exclusivas de ayuntamientos, universidades, organismos públicos, empresas o sector pesquero no se eliminan automáticamente: se clasifican como oportunidades con socio cuando existe encaje para CARIBDIS.
+
+### Viabilidad financiera
+
+La viabilidad financiera mantiene un máximo de 5 puntos dentro del total de 100.
+Valora el porcentaje financiado, la cofinanciación, el anticipo, los avales, el
+momento del pago, los gastos elegibles, el presupuesto mínimo, la auditoría, la
+antigüedad, la experiencia y la aptitud para una entidad nueva.
+
+- `5/5`: financiación total o sin condiciones adversas publicadas, sin barreras
+  conocidas; cualquier dato no publicado queda señalado para confirmación.
+- `4/5`: financiación de aproximadamente el 70 % o superior con anticipo y
+  condiciones asumibles.
+- `2/5` o `3/5`: pago posterior, cofinanciación moderada, requisitos elevados o
+  necesidad de socio.
+- `0/5` o `1/5`: cofinanciación superior al 30 %, aval, antigüedad o experiencia
+  obligatorias, auditoría costosa o presupuesto mínimo elevado.
+
+El informe muestra además un riesgo de tesorería `Bajo`, `Medio`, `Alto` o
+`Muy alto`. La falta de un dato no se interpreta como incumplimiento. Una
+entidad nueva solo se marca como no elegible cuando existe un requisito oficial
+incompatible; las siguientes ediciones se clasifican como
+`Vigilar y preparar requisitos` y las vías con una organización consolidada como
+`Participación mediante entidad socia`.
+
+El instrumento financiero diferencia subvención, donación, patrocinio, premio,
+convenio, contrato, convocatoria de fundación, responsabilidad social
+corporativa y apoyo en especie. También se identifican ayudas para proyecto,
+funcionamiento, personal, equipamiento, sede y financiación europea.
 
 ### Umbral temático mínimo
 

@@ -10,6 +10,16 @@ class ConfigTests(unittest.TestCase):
 
         config = load_configuration(repository_root / "config")
 
+        profile = config["entity_profile"]
+        self.assertEqual(profile["name"], "CARIBDIS")
+        self.assertEqual(profile["stage"], "Nueva creación")
+        self.assertFalse(profile["profit_distribution"])
+        self.assertFalse(profile["has_large_reserves"])
+        self.assertFalse(profile["can_advance_large_expenses"])
+        self.assertIn("Subvenciones a fondo perdido", profile["preferred_funding"])
+        self.assertIn("Patrocinios", profile["initial_funding_sources"])
+        self.assertIn("Seguros", profile["operating_needs"])
+
         source_ids = [source["id"] for source in config["sources"]]
         self.assertIn("bdns", source_ids)
         self.assertEqual(source_ids.count("bdns"), 1)

@@ -126,6 +126,10 @@ class RunnerTests(unittest.TestCase):
         self.assertIn(item.priority, {"Muy alta", "Alta"})
         self.assertTrue(item.metadata_verified)
         self.assertEqual(item.close_date, "2026-09-16")
+        self.assertEqual(item.funding_instrument, "Subvención")
+        self.assertEqual(item.funding_percentage, 70)
+        self.assertEqual(item.advance_percentage, 60)
+        self.assertTrue(item.suitable_for_new_entity)
 
     @patch("caribdis_search.sources.verified.fetch_text", return_value="Página de error")
     def test_verified_source_rejects_unexpected_official_page(self, fetch_text_mock) -> None:
