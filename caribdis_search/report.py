@@ -472,6 +472,24 @@ def render_numeric_summary(
         ),
         ("Con socio", sum(_is_partner_opportunity(item) for item in eligible)),
         (
+            "Exigen ayuntamiento",
+            sum(item.participation == "Socia de ayuntamiento" for item in eligible),
+        ),
+        (
+            "Exigen universidad o centro científico",
+            sum(
+                item.participation == "Socia de universidad o centro científico"
+                for item in eligible
+            ),
+        ),
+        (
+            "Exigen consorcio europeo",
+            sum(
+                item.participation == "Socia de consorcio europeo"
+                for item in eligible
+            ),
+        ),
+        (
             "Aptas para entidad nueva",
             sum(item.suitable_for_new_entity is True for item in eligible),
         ),
@@ -523,6 +541,22 @@ def render_numeric_summary(
             sum(
                 item.operating_costs_eligible is True
                 or "Ayuda para funcionamiento" in item.funding_purposes
+                for item in eligible
+            ),
+        ),
+        (
+            "Ayudas para personal",
+            sum(
+                item.staff_costs_eligible is True
+                or "Ayuda para personal" in item.funding_purposes
+                for item in eligible
+            ),
+        ),
+        (
+            "Ayudas para materiales o equipamiento",
+            sum(
+                item.equipment_eligible is True
+                or "Ayuda para equipamiento" in item.funding_purposes
                 for item in eligible
             ),
         ),
@@ -692,6 +726,21 @@ def render_report(
         lambda item: item.suitable_for_new_entity is True,
     )
     sustaining = _filter(eligible, _supports_association)
+    operating_support = _filter(
+        eligible,
+        lambda item: item.operating_costs_eligible is True
+        or "Ayuda para funcionamiento" in item.funding_purposes,
+    )
+    staff_support = _filter(
+        eligible,
+        lambda item: item.staff_costs_eligible is True
+        or "Ayuda para personal" in item.funding_purposes,
+    )
+    equipment_support = _filter(
+        eligible,
+        lambda item: item.equipment_eligible is True
+        or "Ayuda para equipamiento" in item.funding_purposes,
+    )
     marine_scientific = _filter(
         eligible,
         lambda item: item.thematic_minimum_met
@@ -767,6 +816,19 @@ def render_report(
         ),
     )
     partner_items = _filter(eligible, _is_partner_opportunity)
+    municipal_partner = _filter(
+        eligible,
+        lambda item: item.participation == "Socia de ayuntamiento",
+    )
+    scientific_partner = _filter(
+        eligible,
+        lambda item: item.participation
+        == "Socia de universidad o centro científico",
+    )
+    european_consortium = _filter(
+        eligible,
+        lambda item: item.participation == "Socia de consorcio europeo",
+    )
     not_ready = _filter(
         eligible,
         lambda item: item.suitable_for_new_entity is False
@@ -832,6 +894,15 @@ def render_report(
         ),
         "",
         *render_compact_table(sustaining),
+        "### Funcionamiento",
+        "",
+        *render_compact_table(operating_support),
+        "### Personal",
+        "",
+        *render_compact_table(staff_support),
+        "### Materiales y equipamiento",
+        "",
+        *render_compact_table(equipment_support),
         "## 5. Ayudas para proyectos marinos y científicos",
         "",
         *render_compact_table(marine_scientific),
@@ -859,6 +930,15 @@ def render_report(
         "## 12. Ayudas que exigen socio",
         "",
         *render_compact_table(partner_items),
+        "### Socia de ayuntamiento",
+        "",
+        *render_compact_table(municipal_partner),
+        "### Socia de universidad o centro científico",
+        "",
+        *render_compact_table(scientific_partner),
+        "### Socia de consorcio europeo",
+        "",
+        *render_compact_table(european_consortium),
         "## 13. Ayudas para las que CARIBDIS todavía no cumple requisitos",
         "",
         *render_compact_table(not_ready),

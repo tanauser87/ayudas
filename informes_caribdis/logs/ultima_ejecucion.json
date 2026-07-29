@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-07-29T00:36:12+02:00",
-  "finished_at": "2026-07-29T00:40:58+02:00",
+  "started_at": "2026-07-29T02:30:34+02:00",
+  "finished_at": "2026-07-29T02:38:47+02:00",
   "period": {
     "start": "2026-06-29",
     "end": "2026-07-28"
@@ -50,28 +50,28 @@
   "sources_succeeded": [
     "FECYT - Cultura Científica 2026",
     "Fundación Biodiversidad - Convocatorias",
-    "Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS)",
     "MITECO - Ayudas y subvenciones",
     "INJUVE - Convocatorias",
-    "Ministerio de Cultura - Becas, ayudas y subvenciones",
     "Ministerio de Ciencia - Convocatorias",
     "Agencia Estatal de Investigación - Convocatorias",
+    "Ministerio de Cultura - Becas, ayudas y subvenciones",
     "Ministerio de Educación - Becas, ayudas y subvenciones",
     "Programa Pleamar - Convocatorias",
+    "Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS)",
     "BOE y BOJA",
-    "Junta - API del Catálogo de Procedimientos y Servicios",
-    "GALPA Cádiz - Convocatorias",
-    "Programa LIFE - Convocatorias",
     "GALPA Huelva - Convocatorias",
+    "Junta - API del Catálogo de Procedimientos y Servicios",
+    "Programa LIFE - Convocatorias",
     "Cuerpo Europeo de Solidaridad - Convocatorias",
     "Horizon Europe - Convocatorias",
     "Misiones de Horizon Europe",
-    "Interreg Sudoe - Convocatorias",
     "Interreg España-Portugal POCTEP - Convocatorias",
+    "Interreg Sudoe - Convocatorias",
     "Fundación ONCE - Convocatorias de ayudas",
-    "Fundación Unicaja - Convocatorias",
+    "GALPA Cádiz - Convocatorias",
+    "Fundación Daniel y Nina Carasso - Convocatorias",
     "Fundación la Caixa - Convocatorias sociales",
-    "Fundación Daniel y Nina Carasso - Convocatorias"
+    "Fundación Unicaja - Convocatorias"
   ],
   "source_statuses": [
     {
@@ -1058,123 +1058,111 @@
       "source_id": "derechos_sociales",
       "source_name": "Ministerio de Derechos Sociales - Subvenciones",
       "message": "SourceError: No se pudo consultar https://www.dsca.gob.es/es/derechos-sociales/subvenciones: HTTP Error 404: Not Found",
-      "checked_at": "2026-07-29T00:36:24+02:00"
-    },
-    {
-      "source_id": "junta_inclusion",
-      "source_name": "Junta - Inclusión Social, Juventud, Familias e Igualdad",
-      "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/inclusionsocialjuventudfamiliaseigualdad/areas/subvenciones/subvenciones.html: The read operation timed out",
-      "checked_at": "2026-07-29T00:37:46+02:00"
+      "checked_at": "2026-07-29T02:30:41+02:00"
     },
     {
       "source_id": "junta_sostenibilidad",
       "source_name": "Junta - Sostenibilidad y Medio Ambiente",
       "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/sostenibilidadymedioambiente/servicios/procedimientos.html: The read operation timed out",
-      "checked_at": "2026-07-29T00:37:46+02:00"
+      "checked_at": "2026-07-29T02:32:29+02:00"
+    },
+    {
+      "source_id": "junta_inclusion",
+      "source_name": "Junta - Inclusión Social, Juventud, Familias e Igualdad",
+      "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/inclusionsocialjuventudfamiliaseigualdad/areas/subvenciones/subvenciones.html: The read operation timed out",
+      "checked_at": "2026-07-29T02:32:40+02:00"
     },
     {
       "source_id": "junta_educacion",
       "source_name": "Junta - Desarrollo Educativo y Formación Profesional",
       "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/desarrolloeducativoyformacionprofesional/servicios/procedimientos.html: The read operation timed out",
-      "checked_at": "2026-07-29T00:37:50+02:00"
-    },
-    {
-      "source_id": "junta_catalogo_procedimientos",
-      "source_name": "Junta - API del Catálogo de Procedimientos y Servicios",
-      "message": "Prefiltrado Junta: 807 candidatos; se enriquecen los 100 prioritarios. Amplíe max_detail_items para revisar más fichas.",
-      "checked_at": "2026-07-29T00:37:53+02:00"
+      "checked_at": "2026-07-29T02:32:42+02:00"
     },
     {
       "source_id": "junta_empleo",
       "source_name": "Junta - Empleo",
       "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/empleoempresaytrabajoautonomo/servicios/procedimientos.html: The read operation timed out",
-      "checked_at": "2026-07-29T00:37:56+02:00"
+      "checked_at": "2026-07-29T02:32:55+02:00"
     },
     {
       "source_id": "instituto_andaluz_juventud",
       "source_name": "Instituto Andaluz de la Juventud - Ayudas a entidades",
       "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/iaj/areas/ayudas-entidades-juveniles.html: The read operation timed out",
-      "checked_at": "2026-07-29T00:37:58+02:00"
+      "checked_at": "2026-07-29T02:33:34+02:00"
     },
     {
       "source_id": "servicio_andaluz_empleo",
       "source_name": "Servicio Andaluz de Empleo - Procedimientos",
       "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/sae/servicios/procedimientos.html: The read operation timed out",
-      "checked_at": "2026-07-29T00:38:40+02:00"
+      "checked_at": "2026-07-29T02:33:44+02:00"
     },
     {
       "source_id": "aacid",
       "source_name": "Agencia Andaluza de Cooperación - Subvenciones",
       "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/aacid/areas/subvenciones.html: The read operation timed out",
-      "checked_at": "2026-07-29T00:38:51+02:00"
+      "checked_at": "2026-07-29T02:33:46+02:00"
     },
     {
       "source_id": "junta_directorio_galpa",
       "source_name": "Junta de Andalucía - Grupos GALPA",
       "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/agriculturapescaaguaydesarrollorural/areas/pesca-acuicultura/gdp/paginas/info-galpa.html: The read operation timed out",
-      "checked_at": "2026-07-29T00:38:56+02:00"
+      "checked_at": "2026-07-29T02:34:00+02:00"
+    },
+    {
+      "source_id": "junta_catalogo_procedimientos",
+      "source_name": "Junta - API del Catálogo de Procedimientos y Servicios",
+      "message": "Prefiltrado Junta: 807 candidatos; se enriquecen los 100 prioritarios. Amplíe max_detail_items para revisar más fichas.",
+      "checked_at": "2026-07-29T02:34:02+02:00"
     },
     {
       "source_id": "junta_ayudas_fempa",
       "source_name": "Junta de Andalucía - Ayudas FEMPA",
       "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/agriculturapescaaguaydesarrollorural/areas/pesca-acuicultura/ayudas-pesqueras/paginas/ayudas-fempa.html: The read operation timed out",
-      "checked_at": "2026-07-29T00:38:58+02:00"
+      "checked_at": "2026-07-29T02:34:39+02:00"
     },
     {
       "source_id": "junta_procedimiento_galpa",
       "source_name": "Junta de Andalucía - Procedimiento de ayudas GALPA",
       "message": "SourceError: No se pudo consultar https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/25430.html: The read operation timed out",
-      "checked_at": "2026-07-29T00:39:01+02:00"
+      "checked_at": "2026-07-29T02:34:40+02:00"
     },
     {
       "source_id": "interreg_atlantic",
       "source_name": "Interreg Atlantic Area - Convocatorias",
       "message": "SourceError: No se pudo consultar https://www.atlanticarea.eu/for-applicants/calls/: HTTP Error 404: Not Found",
-      "checked_at": "2026-07-29T00:39:04+02:00"
-    },
-    {
-      "source_id": "interreg_euromed",
-      "source_name": "Interreg Euro-MED - Convocatorias",
-      "message": "SourceError: No se pudo consultar https://interreg-euro-med.eu/en/calls-for-projects/: HTTP Error 404: Not Found",
-      "checked_at": "2026-07-29T00:39:05+02:00"
+      "checked_at": "2026-07-29T02:34:47+02:00"
     },
     {
       "source_id": "eu_emfaf",
       "source_name": "EMFAF/FEMPA europeo - Convocatorias",
       "message": "SourceError: No se pudo consultar https://cinea.ec.europa.eu/programmes/european-maritime-fisheries-and-aquaculture-fund/emfaf-calls-proposals_en: HTTP Error 404: Not Found",
-      "checked_at": "2026-07-29T00:39:07+02:00"
+      "checked_at": "2026-07-29T02:34:48+02:00"
+    },
+    {
+      "source_id": "interreg_euromed",
+      "source_name": "Interreg Euro-MED - Convocatorias",
+      "message": "SourceError: No se pudo consultar https://interreg-euro-med.eu/en/calls-for-projects/: HTTP Error 404: Not Found",
+      "checked_at": "2026-07-29T02:34:48+02:00"
     },
     {
       "source_id": "eu_creative",
       "source_name": "Europa Creativa - Convocatorias",
       "message": "SourceError: No se pudo consultar https://culture.ec.europa.eu/creative-europe/creative-europe-calls: HTTP Error 404: Not Found",
-      "checked_at": "2026-07-29T00:39:11+02:00"
+      "checked_at": "2026-07-29T02:34:54+02:00"
     },
     {
       "source_id": "eu_cerv",
       "source_name": "CERV - Ciudadanos, Igualdad, Derechos y Valores",
       "message": "SourceError: No se pudo consultar https://commission.europa.eu/strategy-and-policy/eu-budget/eu-funding-programmes/citizens-equality-rights-and-values-programme/citizens-equality-rights-and-values-programme-funding_en: HTTP Error 404: Not Found",
-      "checked_at": "2026-07-29T00:39:12+02:00"
+      "checked_at": "2026-07-29T02:34:54+02:00"
     },
     {
       "source_id": "fundacion_la_caixa",
       "source_name": "Fundación la Caixa - Convocatorias sociales",
-      "message": "https://fundacionlacaixa.org/es/convocatorias-sociales-andalucia: SourceError: No se pudo consultar https://fundacionlacaixa.org/es/convocatorias-sociales-andalucia: HTTP Error 403: Forbidden",
-      "checked_at": "2026-07-29T00:40:20+02:00"
-    },
-    {
-      "source_id": "fundacion_la_caixa",
-      "source_name": "Fundación la Caixa - Convocatorias sociales",
-      "message": "https://fundacionlacaixa.org/es/convocatorias-sociales-baleares: SourceError: No se pudo consultar https://fundacionlacaixa.org/es/convocatorias-sociales-baleares: HTTP Error 403: Forbidden",
-      "checked_at": "2026-07-29T00:40:20+02:00"
-    },
-    {
-      "source_id": "fundacion_la_caixa",
-      "source_name": "Fundación la Caixa - Convocatorias sociales",
-      "message": "https://fundacionlacaixa.org/es/convocatorias-sociales-la-rioja: SourceError: No se pudo consultar https://fundacionlacaixa.org/es/convocatorias-sociales-la-rioja: HTTP Error 403: Forbidden",
-      "checked_at": "2026-07-29T00:40:20+02:00"
+      "message": "https://fundacionlacaixa.org/es/convocatorias-sociales-castilla-la-mancha: SourceError: No se pudo consultar https://fundacionlacaixa.org/es/convocatorias-sociales-castilla-la-mancha: HTTP Error 403: Forbidden",
+      "checked_at": "2026-07-29T02:37:15+02:00"
     }
   ],
-  "opportunities": 507,
+  "opportunities": 509,
   "report": "C:\\Users\\Tanau\\Documents\\caribdis\\ayudas_repo\\informes_caribdis\\INFORME_UNICO_AYUDAS_CARIBDIS.md"
 }

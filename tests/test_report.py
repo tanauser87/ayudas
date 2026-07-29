@@ -274,11 +274,17 @@ class ReportTests(unittest.TestCase):
             "Oportunidades totales",
             "Solicitud directa",
             "Con socio",
+            "Exigen ayuntamiento",
+            "Exigen universidad o centro científico",
+            "Exigen consorcio europeo",
             "Aptas para entidad nueva",
             "No aptas por antigüedad",
             "Financiación del 100 %",
             "Con anticipo",
             "Riesgo de tesorería alto o muy alto",
+            "Ayudas para funcionamiento",
+            "Ayudas para personal",
+            "Ayudas para materiales o equipamiento",
             "Trámites estratégicos",
             "Descartadas",
         ]:
@@ -312,6 +318,71 @@ class ReportTests(unittest.TestCase):
 
         self.assertIn(operating.title, sustaining)
         self.assertIn(donation.title, private)
+
+    def test_report_separates_operating_staff_and_equipment_support(self) -> None:
+        operating = item("Ayuda de funcionamiento", "Abierta", 80, "2026-09-30")
+        operating.operating_costs_eligible = True
+        staff = item("Ayuda de personal", "Abierta", 80, "2026-09-30")
+        staff.staff_costs_eligible = True
+        equipment = item("Ayuda de equipamiento", "Abierta", 80, "2026-09-30")
+        equipment.equipment_eligible = True
+
+        content = render_report(
+            RunResult(opportunities=[operating, staff, equipment]),
+            start_date=date(2026, 7, 1),
+            end_date=date(2026, 7, 26),
+            today=date(2026, 7, 26),
+        )
+
+        self.assertIn("### Funcionamiento", content)
+        self.assertIn("### Personal", content)
+        self.assertIn("### Materiales y equipamiento", content)
+        self.assertIn(operating.title, content.split("### Funcionamiento", 1)[1])
+        self.assertIn(staff.title, content.split("### Personal", 1)[1])
+        self.assertIn(equipment.title, content.split("### Materiales y equipamiento", 1)[1])
+
+    def test_report_separates_partner_types(self) -> None:
+        municipality = item(
+            "Proyecto municipal",
+            "Abierta",
+            80,
+            "2026-09-30",
+            participation="Socia de ayuntamiento",
+        )
+        science = item(
+            "Proyecto científico",
+            "Abierta",
+            80,
+            "2026-09-30",
+            participation="Socia de universidad o centro científico",
+        )
+        europe = item(
+            "Proyecto europeo",
+            "Abierta",
+            80,
+            "2026-09-30",
+            participation="Socia de consorcio europeo",
+        )
+
+        content = render_report(
+            RunResult(opportunities=[municipality, science, europe]),
+            start_date=date(2026, 7, 1),
+            end_date=date(2026, 7, 26),
+            today=date(2026, 7, 26),
+        )
+
+        self.assertIn("### Socia de ayuntamiento", content)
+        self.assertIn("### Socia de universidad o centro científico", content)
+        self.assertIn("### Socia de consorcio europeo", content)
+        self.assertIn(municipality.title, content.split("### Socia de ayuntamiento", 1)[1])
+        self.assertIn(
+            science.title,
+            content.split("### Socia de universidad o centro científico", 1)[1],
+        )
+        self.assertIn(
+            europe.title,
+            content.split("### Socia de consorcio europeo", 1)[1],
+        )
 
     def test_ranking_prefers_fit_over_amount(self) -> None:
         strong_fit = item("Encaje marino", "Abierta", 80, "2026-09-30")

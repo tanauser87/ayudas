@@ -40,8 +40,13 @@ def canonical_url(url: str) -> str:
     )
 
 
-def stable_id(opportunity: Opportunity) -> str:
-    populate_official_identity(opportunity)
+def stable_id(
+    opportunity: Opportunity,
+    *,
+    identity_populated: bool = False,
+) -> str:
+    if not identity_populated:
+        populate_official_identity(opportunity)
     if opportunity.procedure_code != NOT_FOUND:
         return hashlib.sha256(
             f"junta-procedure|{opportunity.procedure_code}".encode("utf-8")
@@ -153,9 +158,10 @@ def _fallback_identity(opportunity: Opportunity) -> tuple[str, str, str] | None:
     return organization, title, published
 
 
-def same_official_opportunity(left: Opportunity, right: Opportunity) -> bool:
-    populate_official_identity(left)
-    populate_official_identity(right)
+def _same_prepared_official_opportunity(
+    left: Opportunity,
+    right: Opportunity,
+) -> bool:
     left_procedure = (
         left.procedure_code if left.procedure_code != NOT_FOUND else ""
     )
@@ -174,6 +180,52 @@ def same_official_opportunity(left: Opportunity, right: Opportunity) -> bool:
         return True
     left_fallback = _fallback_identity(left)
     return bool(left_fallback and left_fallback == _fallback_identity(right))
+
+
+def same_official_opportunity(left: Opportunity, right: Opportunity) -> bool:
+    populate_official_identity(left)
+    populate_official_identity(right)
+    return _same_prepared_official_opportunity(left, right)
+
+
+def _identity_keys(opportunity: Opportunity) -> set[tuple[str, object]]:
+    keys: set[tuple[str, object]] = set()
+    if opportunity.procedure_code != NOT_FOUND:
+        keys.add(("procedure", opportunity.procedure_code))
+    if opportunity.bdns_number != NOT_FOUND:
+        keys.add(("bdns", opportunity.bdns_number))
+    keys.update(
+        ("official", identifier)
+        for identifier in opportunity.official_identifiers
+    )
+    keys.update(("url", url) for url in _identity_urls(opportunity))
+    fallback = _fallback_identity(opportunity)
+    if fallback:
+        keys.add(("fallback", fallback))
+    return keys
+
+
+def _add_to_identity_index(
+    index: dict[tuple[str, object], set[int]],
+    position: int,
+    opportunity: Opportunity,
+) -> None:
+    for key in _identity_keys(opportunity):
+        index.setdefault(key, set()).add(position)
+
+
+def _remove_from_identity_index(
+    index: dict[tuple[str, object], set[int]],
+    position: int,
+    opportunity: Opportunity,
+) -> None:
+    for key in _identity_keys(opportunity):
+        positions = index.get(key)
+        if not positions:
+            continue
+        positions.discard(position)
+        if not positions:
+            del index[key]
 
 
 def _merge_opportunities(left: Opportunity, right: Opportunity) -> Opportunity:
@@ -221,30 +273,40 @@ def _merge_opportunities(left: Opportunity, right: Opportunity) -> Opportunity:
     if primary.strategic_procedure:
         primary.financial_opportunity = False
     populate_official_identity(primary)
-    primary.id = stable_id(primary)
+    primary.id = stable_id(primary, identity_populated=True)
     return primary
 
 
 def deduplicate(opportunities: list[Opportunity]) -> list[Opportunity]:
-    unique: list[Opportunity] = []
+    unique: list[Opportunity | None] = []
+    index: dict[tuple[str, object], set[int]] = {}
     for opportunity in opportunities:
         populate_official_identity(opportunity)
         merged = opportunity
-        while True:
-            remaining: list[Opportunity] = []
-            merged_any = False
-            for existing in unique:
-                if same_official_opportunity(existing, merged):
-                    merged = _merge_opportunities(existing, merged)
-                    merged_any = True
-                else:
-                    remaining.append(existing)
-            unique = remaining
-            if not merged_any:
+        while unique:
+            candidate_positions: set[int] = set()
+            for key in _identity_keys(merged):
+                candidate_positions.update(index.get(key, set()))
+            matching_positions = [
+                position
+                for position in sorted(candidate_positions)
+                if unique[position] is not None
+                and _same_prepared_official_opportunity(unique[position], merged)
+            ]
+            if not matching_positions:
                 break
-        merged.id = stable_id(merged)
+            for position in matching_positions:
+                existing = unique[position]
+                if existing is None:
+                    continue
+                _remove_from_identity_index(index, position, existing)
+                unique[position] = None
+                merged = _merge_opportunities(existing, merged)
+        merged.id = stable_id(merged, identity_populated=True)
+        position = len(unique)
         unique.append(merged)
-    return unique
+        _add_to_identity_index(index, position, merged)
+    return [opportunity for opportunity in unique if opportunity is not None]
 
 
 def empty_history() -> dict[str, Any]:

@@ -1,5 +1,7 @@
 import unittest
+from unittest.mock import patch
 
+from caribdis_search import history as history_module
 from caribdis_search.history import (
     apply_recurrence,
     deduplicate,
@@ -76,6 +78,31 @@ class HistoryTests(unittest.TestCase):
         result = deduplicate([first, second])
 
         self.assertEqual(len(result), 2)
+
+    def test_deduplication_does_not_reextract_every_pair(self) -> None:
+        opportunities = [
+            Opportunity(
+                title=f"Convocatoria ambiental {index}",
+                organization="Organismo de prueba",
+                published_date="2026-07-20",
+                official_url=f"https://example.org/convocatoria/{index}",
+                raw_text="biodiversidad marina " * 1_000,
+            )
+            for index in range(80)
+        ]
+
+        with patch.object(
+            history_module,
+            "populate_official_identity",
+            wraps=history_module.populate_official_identity,
+        ) as populate_mock:
+            result = deduplicate(opportunities)
+
+        self.assertEqual(len(result), len(opportunities))
+        self.assertLessEqual(
+            populate_mock.call_count,
+            len(opportunities) * 2,
+        )
 
     def test_detects_deadline_change(self) -> None:
         previous = Opportunity(

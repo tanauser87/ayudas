@@ -131,6 +131,30 @@ class ScoringTests(unittest.TestCase):
         self.assertEqual(item.caribdis_score, 0)
         self.assertEqual(item.priority, "Descartar")
 
+    def test_collaboration_scholarship_title_is_discarded(self) -> None:
+        item = opportunity(
+            "Becas de Colaboración en Departamentos Universitarios",
+            "Estudiantes universitarios.",
+        )
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.caribdis_score, 0)
+        self.assertEqual(item.priority, "Descartar")
+        self.assertIn("beca personal", item.risks)
+
+    def test_postdoctoral_research_contracts_are_discarded(self) -> None:
+        item = opportunity(
+            "Convocatoria de 30 contratos de investigadores postdoctorales",
+            "Universidades y centros de investigación.",
+        )
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.caribdis_score, 0)
+        self.assertEqual(item.priority, "Descartar")
+        self.assertIn("investigación doctoral o postdoctoral", item.risks)
+
     def test_non_competitive_direct_grant_is_discarded(self) -> None:
         item = opportunity(
             "Concesión directa de subvenciones a diversas entidades sociales",
@@ -340,6 +364,18 @@ class FinancialScoringTests(unittest.TestCase):
 
         self.assertEqual(item.participation, "Vigilar y preparar requisitos")
         self.assertNotEqual(item.priority, "Descartar")
+
+    def test_closed_recurrent_partner_call_is_marked_for_next_edition(self) -> None:
+        item = self.financial_opportunity()
+        item.status = "Cerrada recurrente"
+        item.recurrent = True
+        item.beneficiaries = "Consorcio europeo internacional requerido."
+
+        apply_caribdis_scoring(item)
+
+        self.assertEqual(item.participation, "Vigilar próxima edición")
+        self.assertNotEqual(item.priority, "Descartar")
+        self.assertIn("exige consorcio internacional", item.risks)
 
     def test_consolidated_partner_path_is_preserved(self) -> None:
         item = self.financial_opportunity()

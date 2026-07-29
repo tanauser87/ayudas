@@ -161,11 +161,16 @@ HARD_EXCLUSIONS = [
     (r"\bsubvenci(?:ón|on)(?:es)?\s+nominativa", "subvención nominativa"),
     (r"\bconvenio(?:\s+de\s+colaboración)?\s+(?:con|entre)\b", "convenio con destinatario identificado"),
     (r"\bconvocatoria\s+de\s+.{0,35}\bbecas?\b", "beca personal"),
+    (r"\bbecas?\s+de\s+colaboración\b", "beca personal"),
     (r"\b(?:beca|premio)s?\s+(?:personal|individual)", "beca o premio personal"),
     (r"\bpremio\b.{0,100}\bpersona\b", "premio dirigido a una persona"),
     (r"\b(?:icex|comercio exterior|exportación e inversiones)\b", "comercio exterior"),
     (
         r"\b(?:contratos?|ayudas?|investigación)\s+(?:pre|post)doctorales?\b",
+        "investigación doctoral o postdoctoral",
+    ),
+    (
+        r"\bcontratos?\b.{0,80}\b(?:pre|post)doctorales?\b",
         "investigación doctoral o postdoctoral",
     ),
     (r"\b(?:ministerio|industria)\s+de\s+defensa\b", "sector de defensa"),
@@ -981,8 +986,11 @@ def score_caribdis(
             "no alcanza el umbral temático CARIBDIS; el encaje social o educativo es genérico"
         )
     priority = "Descartar" if hard_invalid else priority_for_score(score)
-    if (
-        normalize_text(opportunity.status) in {"proxima", "cerrada recurrente"}
+    normalized_status = normalize_text(opportunity.status)
+    if normalized_status == "cerrada recurrente" and not hard_invalid:
+        participation = "Vigilar próxima edición"
+    elif (
+        normalized_status == "proxima"
         and not hard_invalid
         and participation == "Solicitud directa"
     ):

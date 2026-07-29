@@ -4,31 +4,36 @@
 
 > **CARIBDIS es una asociación andaluza sin ánimo de lucro de nueva creación. Su viabilidad dependerá inicialmente en gran medida de subvenciones, donaciones, patrocinios, cuotas y colaboraciones. Por ello, este informe prioriza la financiación a fondo perdido, los anticipos, la cobertura de gastos de funcionamiento y las convocatorias viables para entidades nuevas.**
 
-- Ejecución: 2026-07-29T01:01:53+02:00
+- Ejecución: 2026-07-29T02:57:15+02:00
 - Periodo revisado: 2026-06-29 a 2026-07-28
 - Fuentes comprobadas: 40
 - Fuentes consultadas con éxito: 24
-- Incidencias: 20
+- Incidencias: 18
 
 ### Resumen numérico
 
 | Indicador | Total |
 |---|---:|
-| Oportunidades totales | 507 |
-| Solicitud directa | 68 |
-| Con socio | 102 |
+| Oportunidades totales | 509 |
+| Solicitud directa | 66 |
+| Con socio | 91 |
+| Exigen ayuntamiento | 0 |
+| Exigen universidad o centro científico | 0 |
+| Exigen consorcio europeo | 0 |
 | Aptas para entidad nueva | 19 |
 | No aptas por antigüedad | 4 |
-| Abiertas | 41 |
-| Próximas | 4 |
+| Abiertas | 40 |
+| Próximas | 3 |
 | Cerradas recurrentes | 15 |
 | Financiación del 100 % | 0 |
 | Con anticipo | 1 |
 | Riesgo de tesorería alto o muy alto | 4 |
 | Ayudas para funcionamiento | 7 |
-| Ayudas para proyectos | 69 |
+| Ayudas para personal | 0 |
+| Ayudas para materiales o equipamiento | 1 |
+| Ayudas para proyectos | 70 |
 | Trámites estratégicos | 2 |
-| Descartadas | 322 |
+| Descartadas | 327 |
 
 ### Cobertura real por fuente
 
@@ -78,25 +83,23 @@
 ### Fuentes con incidencias
 
 - Ministerio de Derechos Sociales - Subvenciones: SourceError: No se pudo consultar https://www.dsca.gob.es/es/derechos-sociales/subvenciones: HTTP Error 404: Not Found
-- Junta - Inclusión Social, Juventud, Familias e Igualdad: SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/inclusionsocialjuventudfamiliaseigualdad/areas/subvenciones/subvenciones.html: The read operation timed out
 - Junta - Sostenibilidad y Medio Ambiente: SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/sostenibilidadymedioambiente/servicios/procedimientos.html: The read operation timed out
+- Junta - Inclusión Social, Juventud, Familias e Igualdad: SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/inclusionsocialjuventudfamiliaseigualdad/areas/subvenciones/subvenciones.html: The read operation timed out
 - Junta - Desarrollo Educativo y Formación Profesional: SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/desarrolloeducativoyformacionprofesional/servicios/procedimientos.html: The read operation timed out
-- Junta - API del Catálogo de Procedimientos y Servicios: Prefiltrado Junta: 807 candidatos; se enriquecen los 100 prioritarios. Amplíe max_detail_items para revisar más fichas.
 - Junta - Empleo: SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/empleoempresaytrabajoautonomo/servicios/procedimientos.html: The read operation timed out
 - Instituto Andaluz de la Juventud - Ayudas a entidades: SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/iaj/areas/ayudas-entidades-juveniles.html: The read operation timed out
 - Servicio Andaluz de Empleo - Procedimientos: SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/sae/servicios/procedimientos.html: The read operation timed out
 - Agencia Andaluza de Cooperación - Subvenciones: SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/aacid/areas/subvenciones.html: The read operation timed out
 - Junta de Andalucía - Grupos GALPA: SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/agriculturapescaaguaydesarrollorural/areas/pesca-acuicultura/gdp/paginas/info-galpa.html: The read operation timed out
+- Junta - API del Catálogo de Procedimientos y Servicios: Prefiltrado Junta: 807 candidatos; se enriquecen los 100 prioritarios. Amplíe max_detail_items para revisar más fichas.
 - Junta de Andalucía - Ayudas FEMPA: SourceError: No se pudo consultar https://www.juntadeandalucia.es/organismos/agriculturapescaaguaydesarrollorural/areas/pesca-acuicultura/ayudas-pesqueras/paginas/ayudas-fempa.html: The read operation timed out
 - Junta de Andalucía - Procedimiento de ayudas GALPA: SourceError: No se pudo consultar https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/25430.html: The read operation timed out
 - Interreg Atlantic Area - Convocatorias: SourceError: No se pudo consultar https://www.atlanticarea.eu/for-applicants/calls/: HTTP Error 404: Not Found
-- Interreg Euro-MED - Convocatorias: SourceError: No se pudo consultar https://interreg-euro-med.eu/en/calls-for-projects/: HTTP Error 404: Not Found
 - EMFAF/FEMPA europeo - Convocatorias: SourceError: No se pudo consultar https://cinea.ec.europa.eu/programmes/european-maritime-fisheries-and-aquaculture-fund/emfaf-calls-proposals_en: HTTP Error 404: Not Found
+- Interreg Euro-MED - Convocatorias: SourceError: No se pudo consultar https://interreg-euro-med.eu/en/calls-for-projects/: HTTP Error 404: Not Found
 - Europa Creativa - Convocatorias: SourceError: No se pudo consultar https://culture.ec.europa.eu/creative-europe/creative-europe-calls: HTTP Error 404: Not Found
 - CERV - Ciudadanos, Igualdad, Derechos y Valores: SourceError: No se pudo consultar https://commission.europa.eu/strategy-and-policy/eu-budget/eu-funding-programmes/citizens-equality-rights-and-values-programme/citizens-equality-rights-and-values-programme-funding_en: HTTP Error 404: Not Found
-- Fundación la Caixa - Convocatorias sociales: https://fundacionlacaixa.org/es/convocatorias-sociales-andalucia: SourceError: No se pudo consultar https://fundacionlacaixa.org/es/convocatorias-sociales-andalucia: HTTP Error 403: Forbidden
-- Fundación la Caixa - Convocatorias sociales: https://fundacionlacaixa.org/es/convocatorias-sociales-baleares: SourceError: No se pudo consultar https://fundacionlacaixa.org/es/convocatorias-sociales-baleares: HTTP Error 403: Forbidden
-- Fundación la Caixa - Convocatorias sociales: https://fundacionlacaixa.org/es/convocatorias-sociales-la-rioja: SourceError: No se pudo consultar https://fundacionlacaixa.org/es/convocatorias-sociales-la-rioja: HTTP Error 403: Forbidden
+- Fundación la Caixa - Convocatorias sociales: https://fundacionlacaixa.org/es/convocatorias-sociales-castilla-la-mancha: SourceError: No se pudo consultar https://fundacionlacaixa.org/es/convocatorias-sociales-castilla-la-mancha: HTTP Error 403: Forbidden
 
 ### Fuentes pendientes de adaptación
 
@@ -207,7 +210,7 @@ No se han localizado oportunidades en esta sección.
 
 | Puntuación | Prioridad | Estado | Riesgo de tesorería | Participación | Oportunidad | Cierre |
 |---:|---|---|---|---|---|---|
-| 42 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria Medio Ambiente - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-medio-ambiente/) | Dato no localizado |
+| 42 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatoria Medio Ambiente - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-medio-ambiente/) | Dato no localizado |
 
 ## 4. Ayudas para sostener la asociación
 
@@ -224,6 +227,28 @@ Incluye oportunidades que cubren funcionamiento, personal, sede, seguros, gestor
 | 49 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Subvenciones a entidades privadas para programas que se desarrollen en el marco de la Solidaridad y Garantía Alimentaria de Andalucía/Línea 7/Bases Reguladoras 2021.](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/24580.html) | Dato no localizado |
 | 30 | Baja | Desconocida | Medio | Solo con socio | [Resolución de 2 de julio de 2026, de la Dirección General de Política Interior, por la que se publican las subvenciones estatales anuales, para atender los gastos de funcionamiento ordinario a las diferentes formaciones políticas con representación en el Congreso de los Diputados, durante el segundo trimestre del ejercicio 2026.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15282) | No publicada expresamente; revisar el texto oficial |
 
+### Funcionamiento
+
+| Puntuación | Prioridad | Estado | Riesgo de tesorería | Participación | Oportunidad | Cierre |
+|---:|---|---|---|---|---|---|
+| 49 | Baja | Abierta | Medio | Vigilar y preparar requisitos | [Subvenciones a entidades locales para sufragar los gastos de instalación y de funcionamiento de cajeros automáticos](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/25569.html) | Dato no localizado |
+| 49 | Baja | Desconocida | Medio | Solicitud directa | [Subvenciones Injuve asociaciones juveniles \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/programas-injuve/subvenciones-injuve) | Dato no localizado |
+| 49 | Baja | Desconocida | Medio | Solicitud directa | [Extracto de la Resolución del Instituto de la Juventud, por la que se convoca la concesión de subvenciones para el mantenimiento y funcionamiento de asociaciones juveniles, organizaciones juveniles y entidades prestadoras de servicios a la juventud de ámbito estatal, para el año 2026.](https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-22341) | No publicada expresamente; revisar el texto oficial |
+| 47 | Baja | Desconocida | Medio | Solicitud directa | [Extracto de la resolución de 25 de junio de 2026 de la Secretaría de Estado de Economía Social, por la que se aprueba la convocatoria para la concesión de subvenciones a proyectos de economía social y de RSE y para gastos de funcionamiento](https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-22418) | No publicada como fecha cerrada; plazo indicado: un mes |
+| 49 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Subvenciones institucionales para programas y mantenimiento en el ámbito de la discapacidad / Línea 5 / Bases Reguladoras 2021](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/24564.html) | Dato no localizado |
+| 49 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Subvenciones a entidades privadas para programas que se desarrollen en el marco de la Solidaridad y Garantía Alimentaria de Andalucía/Línea 7/Bases Reguladoras 2021.](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/24580.html) | Dato no localizado |
+| 30 | Baja | Desconocida | Medio | Solo con socio | [Resolución de 2 de julio de 2026, de la Dirección General de Política Interior, por la que se publican las subvenciones estatales anuales, para atender los gastos de funcionamiento ordinario a las diferentes formaciones políticas con representación en el Congreso de los Diputados, durante el segundo trimestre del ejercicio 2026.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15282) | No publicada expresamente; revisar el texto oficial |
+
+### Personal
+
+No se han localizado oportunidades en esta sección.
+
+### Materiales y equipamiento
+
+| Puntuación | Prioridad | Estado | Riesgo de tesorería | Participación | Oportunidad | Cierre |
+|---:|---|---|---|---|---|---|
+| 49 | Baja | Abierta | Medio | Solicitud directa | [Subvenciones dirigidas al fomento del deporte para personas con discapacidad para la adquisición de equipamiento y material deportivo inventariables en la actividad desarrollada por los clubes deportivos y secciones deportivas de Andalucía (FDD)](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/24973.html) | Dato no localizado |
+
 ## 5. Ayudas para proyectos marinos y científicos
 
 | Puntuación | Prioridad | Estado | Riesgo de tesorería | Participación | Oportunidad | Cierre |
@@ -231,6 +256,7 @@ Incluye oportunidades que cubren funcionamiento, personal, sede, seguros, gestor
 | 80 | Alta | Abierta | Medio | Solicitud directa | [Convocatoria de ayudas para el fomento de la cultura científica y de la innovación 2026](https://info.convocatoria.fecyt.es/) | 2026-09-16 |
 | 44 | Baja | Abierta | Medio | Solo con socio | [Convocatorias Sociales por territorio - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-territorio) | Dato no localizado |
 | 77 | Alta | Desconocida | Medio | Solicitud directa | [Ayudas y subvenciones](https://www.miteco.gob.es/es/biodiversidad/ayudas-y-subvenciones.html) | Dato no localizado |
+| 70 | Alta | Desconocida | Medio | Solicitud directa | [Convocatoria Social Andalucía - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-andalucia) | Dato no localizado |
 | 73 | Alta | Desconocida | Alto | Solicitud directa | [Convocatoria 2025 \| Pleamar](https://www.programapleamar.es/Convocatoria%202025) | Dato no localizado |
 | 69 | Media | Desconocida | Medio | Solicitud directa | [Convocatorias Sociales - Qué hacemos - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-descripcion) | Dato no localizado |
 | 65 | Media | Desconocida | Medio | Solicitud directa | [CaixaProinfancia - Convocatoria entidades - Fundación "la Caixa"](https://fundacionlacaixa.org/es/pobreza-infantil-convocatoria-entidades) | Dato no localizado |
@@ -239,7 +265,7 @@ Incluye oportunidades que cubren funcionamiento, personal, sede, seguros, gestor
 | 44 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias de Proyectos Sociales - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales) | Dato no localizado |
 | 43 | Baja | Desconocida | Medio | Solo con socio | [Ayudas y subvenciones](https://www.miteco.gob.es/es/agua/ayudas-y-subvenciones.html) | Dato no localizado |
 | 41 | Baja | Desconocida | Medio | Solo con socio | [Buscador de convocatorias - Fundación Biodiversidad](https://fundacion-biodiversidad.es/buscador-de-convocatorias/) | Dato no localizado |
-| 42 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria Medio Ambiente - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-medio-ambiente/) | Dato no localizado |
+| 42 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatoria Medio Ambiente - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-medio-ambiente/) | Dato no localizado |
 | 40 | Baja | Desconocida | Medio | Solo con socio | [Publicada la Propuesta Provisional de Resolución de las ayudas GALPA Huelva de la convocatoria de febrero de 2026 - GALPA HUELVA](https://galpahuelva.com/publicada-la-propuesta-provisional-de-resolucion-de-las-ayudas-galpa-huelva-de-la-convocatoria-de-febrero-de-2026/) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solo con socio | [Pleamar \| Pleamar](https://programapleamar.es/empleamar/empleamar-objetivos-convocatorias-y-resultados) | Dato no localizado |
 | 43 | Baja | Desconocida | Medio | Solo con socio | [Pleamar](https://programapleamar.es/) | Dato no localizado |
@@ -303,7 +329,6 @@ Incluye oportunidades que cubren funcionamiento, personal, sede, seguros, gestor
 | 49 | Baja | Abierta | Medio | Solicitud directa | [El Ayuntamiento de Elche convoca plazas de Portero/a de Grupo Escolar \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias/becas-empleo/el-ayuntamiento-de-elche-convoca-plazas-de-portero/a-de-grupo-escolar) | 2026-08-05 |
 | 49 | Baja | Abierta | Medio | Solicitud directa | [Concurso de fotografía digital “Conoce el patrimonio de la Vía Verde de la Sierra” \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias/premios/concurso-de-fotografia-digital-conoce-el-patrimonio-de-la-via-verde-de-la-sierra) | 2026-08-16 |
 | 49 | Baja | Abierta | Medio | Solicitud directa | [El Ayuntamiento de Córdoba convoca plazas de Ordenanza \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias/becas-empleo/el-ayuntamiento-de-cordoba-convoca-plazas-de-ordenanza) | 2026-08-17 |
-| 49 | Baja | Abierta | Medio | Solicitud directa | [Becas de Colaboración en Departamentos Universitarios \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias/becas-empleo/becas-de-colaboracion-en-departamentos-universitarios) | 2026-09-22 |
 | 49 | Baja | Abierta | Medio | Solicitud directa | [Ayuda tramitación electrónica \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/conocenos/tramitacion-electronica) | Dato no localizado |
 | 47 | Baja | Abierta | Medio | Solo con socio | [CONVOCATORIA ENTIDADES PSICOSOCIAL \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-entidades-psicosocial) | 2026-09-16 |
 | 47 | Baja | Abierta | Medio | Solo con socio | [CONVOCATORIA ENTIDADES UNO A UNO \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-entidades-uno-a-uno) | 2026-09-16 |
@@ -317,6 +342,7 @@ Incluye oportunidades que cubren funcionamiento, personal, sede, seguros, gestor
 | 49 | Baja | Abierta | Medio | Vigilar y preparar requisitos | [Subvenciones a entidades locales para sufragar los gastos de instalación y de funcionamiento de cajeros automáticos](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/25569.html) | Dato no localizado |
 | 49 | Baja | Abierta | Medio | Vigilar y preparar requisitos | [Subvenciones para el impulso de la actividad económica, a través de proyectos de investigación industrial y desarrollo experimental, proyectos de inversión para el crecimiento y mejora de la competitividad de las PYMES y proyectos de puesta en marcha de pequeñas empresas, por parte de la Agencia Empresarial para la Transformación y el Desarrollo Económico (TRADE). Línea c): Proyectos de puesta en marcha de pequeñas empresas en Andalucía.](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/25607.html) | Dato no localizado |
 | 77 | Alta | Desconocida | Medio | Solicitud directa | [Ayudas y subvenciones](https://www.miteco.gob.es/es/biodiversidad/ayudas-y-subvenciones.html) | Dato no localizado |
+| 70 | Alta | Desconocida | Medio | Solicitud directa | [Convocatoria Social Andalucía - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-andalucia) | Dato no localizado |
 | 73 | Alta | Desconocida | Alto | Solicitud directa | [Convocatoria 2025 \| Pleamar](https://www.programapleamar.es/Convocatoria%202025) | Dato no localizado |
 | 69 | Media | Desconocida | Medio | Solicitud directa | [Convocatorias Sociales - Qué hacemos - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-descripcion) | Dato no localizado |
 | 65 | Media | Desconocida | Medio | Solicitud directa | [CaixaProinfancia - Convocatoria entidades - Fundación "la Caixa"](https://fundacionlacaixa.org/es/pobreza-infantil-convocatoria-entidades) | Dato no localizado |
@@ -326,10 +352,8 @@ Incluye oportunidades que cubren funcionamiento, personal, sede, seguros, gestor
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Proyectos y solicitudes de ayuda \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/que-hacemos/proyectos-y-solicitudes-de-ayuda) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Convocatoria Pleamar 2020 \| Pleamar](https://www.programapleamar.es/convocatoria-pleamar-2020) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Ayudas Injuve para la Creación Joven \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/programas-injuve/ayudas-injuve-creacion-joven) | Dato no localizado |
-| 49 | Baja | Desconocida | Medio | Solicitud directa | [Convocatorias becas / empleo \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/convocatorias/becas) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Convocatorias cursos \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/convocatorias/cursos) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Convocatorias premios \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/convocatorias/premios) | Dato no localizado |
-| 49 | Baja | Desconocida | Medio | Solicitud directa | [Convocatorias \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Premios Injuve de Periodismo y Comunicación \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/programas-injuve/premios-periodismo-joven) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Premios Nacionales de Juventud \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/programas-injuve/premios-nacionales-juventud) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Subvenciones Injuve asociaciones juveniles \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/programas-injuve/subvenciones-injuve) | Dato no localizado |
@@ -345,9 +369,9 @@ Incluye oportunidades que cubren funcionamiento, personal, sede, seguros, gestor
 | 49 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Subvenciones a entidades privadas para programas que se desarrollen en el marco de la Solidaridad y Garantía Alimentaria de Andalucía/Línea 7/Bases Reguladoras 2021.](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/24580.html) | Dato no localizado |
 | 49 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Subvenciones destinadas a programas para la promoción, sensibilización y formación del voluntariado y para la gestión de centros de recursos para el voluntariado y las asociaciones / Línea 12 / Bases Reguladoras 2021](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/24468.html) | Dato no localizado |
 | 44 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias de Proyectos Sociales - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales) | Dato no localizado |
-| 42 | Baja | Cerrada recurrente | Medio | Solo con socio | [Movimiento asociativo POISES 2018 - 2020 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatorias-de-ayudas/movimiento-asociativo-poises-2018-2020) | 2020-11-30 |
+| 42 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Movimiento asociativo POISES 2018 - 2020 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatorias-de-ayudas/movimiento-asociativo-poises-2018-2020) | 2020-11-30 |
 | 43 | Baja | Desconocida | Medio | Solo con socio | [Ayudas y subvenciones](https://www.miteco.gob.es/es/agua/ayudas-y-subvenciones.html) | Dato no localizado |
-| 42 | Baja | Cerrada recurrente | Medio | Solo con socio | [POISES Psicosocial 2020 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatorias-de-ayudas/poises-psicosocial-2020) | Dato no localizado |
+| 42 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [POISES Psicosocial 2020 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatorias-de-ayudas/poises-psicosocial-2020) | Dato no localizado |
 | 42 | Baja | Desconocida | Medio | Solo con socio | [Premios obtenidos por la Fundación ONCE en el ejercicio 2006 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/premios-obtenidos-por-la-fundacion-once-en-el-ejercicio-2006) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias cofinanciadas por el Fondo Social Europeo \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatorias-cofinanciadas-por-el-fondo-social-europeo) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias Emprendimiento \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-personas/convocatorias-emprendimiento) | Dato no localizado |
@@ -356,15 +380,15 @@ Incluye oportunidades que cubren funcionamiento, personal, sede, seguros, gestor
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Formularios de solicitud (Convocatoria General) \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatoria-general/formularios-de-solicitud-convocatoria-general) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Justificación de proyectos (información) \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatoria-general/justificacion-de-proyectos-informacion) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Procedimiento de tramitación de la solicitud \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatoria-general/procedimiento-de-tramitacion-de-la-solicitud) | Dato no localizado |
-| 44 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria Acción Social - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-accion-social/) | Dato no localizado |
+| 44 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatoria Acción Social - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-accion-social/) | Dato no localizado |
 | 41 | Baja | Desconocida | Medio | Solo con socio | [Buscador de convocatorias - Fundación Biodiversidad](https://fundacion-biodiversidad.es/buscador-de-convocatorias/) | Dato no localizado |
 | 38 | Baja | Desconocida | Medio | Solo con socio | [Convocatoria Pleamar 2017 \| Pleamar](https://programapleamar.es/convocatoria-pleamar-2017) | Dato no localizado |
 | 38 | Baja | Desconocida | Medio | Solo con socio | [Convocatoria Pleamar 2018 \| Pleamar](http://www.programapleamar.es/convocatoria-pleamar-2018) | Dato no localizado |
 | 38 | Baja | Desconocida | Medio | Solo con socio | [Convocatoria Pleamar 2021 \| Pleamar](https://www.programapleamar.es/convocatoria-pleamar-2021) | Dato no localizado |
 | 49 | Baja | Próxima | Medio | Vigilar próxima edición | [Resolución Dirección de la Fundación Biodiversidad, que aprueba publicación de convocatoria de subvenciones para el fomento de actuaciones de desarrollo y consolidación de la infraestructura verde de ciudades españolas, cofinanciada por el FEDER.](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/921561) | 2026-10-29 |
-| 37 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatorias anteriores (FSE) Uno a Uno \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/convocatorias-anteriores-fse-uno-uno) | 2022-09-30 |
-| 37 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatorias anteriores (FSE) Psicosocial \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/convocatorias-anteriores-fse-psicosocial) | 2023-09-30 |
-| 37 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria general \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-general) | 2026-06-30 |
+| 37 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatorias anteriores (FSE) Uno a Uno \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/convocatorias-anteriores-fse-uno-uno) | 2022-09-30 |
+| 37 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatorias anteriores (FSE) Psicosocial \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/convocatorias-anteriores-fse-psicosocial) | 2023-09-30 |
+| 37 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatoria general \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-general) | 2026-06-30 |
 | 34 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias de axuda \| Fundación ONCE](https://www.fundaciononce.es/gl/que-facemos/proxectos-e-solicitudes-de-axuda/convocatorias-de-axuda) | Dato no localizado |
 | 34 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias de ayudas \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas) | Dato no localizado |
 | 49 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Redes de Investigación 2026 \| Agencia Estatal de Investigación Buscar](https://www.aei.gob.es/convocatorias/buscador-convocatorias/redes-investigacion-2026) | Dato no localizado |
@@ -417,7 +441,7 @@ Incluye oportunidades que cubren funcionamiento, personal, sede, seguros, gestor
 | 27 | Baja | Desconocida | Medio | Solo con socio | [Resolución de 29 de junio de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de modificación parcial del VIII Convenio marco estatal de servicios de atención a las personas dependientes y desarrollo de la promoción de la autonomía personal (residencias privadas de personas mayores y del servicio de ayuda a domicilio).](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15441) | No publicada como fecha cerrada; plazo indicado: treinta días hábiles |
 | 39 | Baja | Desconocida | Muy alto | Solo con socio | [3ª convocatoria (abierta) - Interreg Sudoe](https://interreg-sudoe.eu/3a-convocatoria/) | 2023-03-31 |
 | 29 | Baja | Desconocida | Muy alto | Solo con socio | [4ª convocatoria (abierta) - Interreg Sudoe](https://interreg-sudoe.eu/4a-convocatoria/) | Dato no localizado |
-| 49 | Baja | Cerrada recurrente | Medio | Vigilar y preparar requisitos | [Subvenciones destinadas a entidades privadas para la realización de programas de ámbito provincial de interés general para atender fines sociales con cargo a la asignación tributaria del 0,7% del impuesto sobre la renta de las personas físicas y del impuesto sobre sociedades. Línea 4. Bases Reguladoras 2024.](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/25536.html) | Dato no localizado |
+| 49 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Subvenciones destinadas a entidades privadas para la realización de programas de ámbito provincial de interés general para atender fines sociales con cargo a la asignación tributaria del 0,7% del impuesto sobre la renta de las personas físicas y del impuesto sobre sociedades. Línea 4. Bases Reguladoras 2024.](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/25536.html) | Dato no localizado |
 
 ## 7. Ayudas de la Junta de Andalucía
 
@@ -449,7 +473,7 @@ Incluye oportunidades que cubren funcionamiento, personal, sede, seguros, gestor
 | 49 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Subvenciones institucionales para programas y mantenimiento en el ámbito de la discapacidad / Línea 5 / Bases Reguladoras 2021](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/24564.html) | Dato no localizado |
 | 49 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Subvenciones a entidades privadas para programas que se desarrollen en el marco de la Solidaridad y Garantía Alimentaria de Andalucía/Línea 7/Bases Reguladoras 2021.](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/24580.html) | Dato no localizado |
 | 49 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Subvenciones destinadas a programas para la promoción, sensibilización y formación del voluntariado y para la gestión de centros de recursos para el voluntariado y las asociaciones / Línea 12 / Bases Reguladoras 2021](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/24468.html) | Dato no localizado |
-| 49 | Baja | Cerrada recurrente | Medio | Vigilar y preparar requisitos | [Subvenciones destinadas a entidades privadas para la realización de programas de ámbito provincial de interés general para atender fines sociales con cargo a la asignación tributaria del 0,7% del impuesto sobre la renta de las personas físicas y del impuesto sobre sociedades. Línea 4. Bases Reguladoras 2024.](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/25536.html) | Dato no localizado |
+| 49 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Subvenciones destinadas a entidades privadas para la realización de programas de ámbito provincial de interés general para atender fines sociales con cargo a la asignación tributaria del 0,7% del impuesto sobre la renta de las personas físicas y del impuesto sobre sociedades. Línea 4. Bases Reguladoras 2024.](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/25536.html) | Dato no localizado |
 
 ## 8. Ayudas de diputaciones y ayuntamientos
 
@@ -468,7 +492,6 @@ No se han localizado oportunidades en esta sección.
 | 49 | Baja | Abierta | Medio | Solicitud directa | [El Ayuntamiento de Elche convoca plazas de Portero/a de Grupo Escolar \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias/becas-empleo/el-ayuntamiento-de-elche-convoca-plazas-de-portero/a-de-grupo-escolar) | 2026-08-05 |
 | 49 | Baja | Abierta | Medio | Solicitud directa | [Concurso de fotografía digital “Conoce el patrimonio de la Vía Verde de la Sierra” \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias/premios/concurso-de-fotografia-digital-conoce-el-patrimonio-de-la-via-verde-de-la-sierra) | 2026-08-16 |
 | 49 | Baja | Abierta | Medio | Solicitud directa | [El Ayuntamiento de Córdoba convoca plazas de Ordenanza \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias/becas-empleo/el-ayuntamiento-de-cordoba-convoca-plazas-de-ordenanza) | 2026-08-17 |
-| 49 | Baja | Abierta | Medio | Solicitud directa | [Becas de Colaboración en Departamentos Universitarios \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias/becas-empleo/becas-de-colaboracion-en-departamentos-universitarios) | 2026-09-22 |
 | 49 | Baja | Abierta | Medio | Solicitud directa | [Ayuda tramitación electrónica \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/conocenos/tramitacion-electronica) | Dato no localizado |
 | 47 | Baja | Abierta | Medio | Solo con socio | [CONVOCATORIA ENTIDADES PSICOSOCIAL \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-entidades-psicosocial) | 2026-09-16 |
 | 47 | Baja | Abierta | Medio | Solo con socio | [CONVOCATORIA ENTIDADES UNO A UNO \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-entidades-uno-a-uno) | 2026-09-16 |
@@ -478,6 +501,7 @@ No se han localizado oportunidades en esta sección.
 | 41 | Baja | Abierta | Medio | Solo con socio | [Orden TES/726/2026, de 3 de julio, por la que se distribuyen territorialmente los créditos para la financiación de las acciones en materia de prevención de riesgos laborales de ámbito territorial, financiadas con cargo a los Presupuestos Generales del Estado, a las comunidades autónomas con competencias asumidas, para el ejercicio 2026.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15369) | 31 de marzo de 2027 |
 | 38 | Baja | Abierta | Medio | Solo con socio | [Orden TES/743/2026, de 13 de julio, por la que se distribuyen territorialmente para el ejercicio económico de 2026, para su gestión por las comunidades autónomas con competencias asumidas, créditos del ámbito laboral financiados con cargo a los Presupuestos Generales del Estado.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16073) | 31 de marzo de 2027 |
 | 77 | Alta | Desconocida | Medio | Solicitud directa | [Ayudas y subvenciones](https://www.miteco.gob.es/es/biodiversidad/ayudas-y-subvenciones.html) | Dato no localizado |
+| 70 | Alta | Desconocida | Medio | Solicitud directa | [Convocatoria Social Andalucía - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-andalucia) | Dato no localizado |
 | 73 | Alta | Desconocida | Alto | Solicitud directa | [Convocatoria 2025 \| Pleamar](https://www.programapleamar.es/Convocatoria%202025) | Dato no localizado |
 | 69 | Media | Desconocida | Medio | Solicitud directa | [Convocatorias Sociales - Qué hacemos - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-descripcion) | Dato no localizado |
 | 65 | Media | Desconocida | Medio | Solicitud directa | [CaixaProinfancia - Convocatoria entidades - Fundación "la Caixa"](https://fundacionlacaixa.org/es/pobreza-infantil-convocatoria-entidades) | Dato no localizado |
@@ -488,10 +512,8 @@ No se han localizado oportunidades en esta sección.
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Proyectos y solicitudes de ayuda \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/que-hacemos/proyectos-y-solicitudes-de-ayuda) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Convocatoria Pleamar 2020 \| Pleamar](https://www.programapleamar.es/convocatoria-pleamar-2020) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Ayudas Injuve para la Creación Joven \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/programas-injuve/ayudas-injuve-creacion-joven) | Dato no localizado |
-| 49 | Baja | Desconocida | Medio | Solicitud directa | [Convocatorias becas / empleo \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/convocatorias/becas) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Convocatorias cursos \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/convocatorias/cursos) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Convocatorias premios \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/convocatorias/premios) | Dato no localizado |
-| 49 | Baja | Desconocida | Medio | Solicitud directa | [Convocatorias \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Premios Injuve de Periodismo y Comunicación \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/programas-injuve/premios-periodismo-joven) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Premios Nacionales de Juventud \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/programas-injuve/premios-nacionales-juventud) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Subvenciones Injuve asociaciones juveniles \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/programas-injuve/subvenciones-injuve) | Dato no localizado |
@@ -519,9 +541,9 @@ No se han localizado oportunidades en esta sección.
 | 35 | Baja | Cerrada | Medio | Solicitud directa | [Resolución urgente Nº 5040 de 24/07/2026, del Teniente de Alcalde Delegado del Área de Barrios y Colectivos de Atención Preferente, Derechos Sociales, Empleo, Familia, Igualdad y Asociaciones por el que se convoca “Sevilla Solidaria 2027"](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/921698) | Dato no localizado |
 | 35 | Baja | Cerrada | Medio | Solicitud directa | [Resolución urgente Nº 5040 de 24/07/2026, del Teniente de Alcalde Delegado del Área de Barrios y Colectivos de Atención Preferente, Derechos Sociales, Empleo, Familia, Igualdad y Asociaciones por el que se convoca “Sevilla Solidaria 2027"](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/921784) | Dato no localizado |
 | 44 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias de Proyectos Sociales - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales) | Dato no localizado |
-| 42 | Baja | Cerrada recurrente | Medio | Solo con socio | [Movimiento asociativo POISES 2018 - 2020 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatorias-de-ayudas/movimiento-asociativo-poises-2018-2020) | 2020-11-30 |
+| 42 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Movimiento asociativo POISES 2018 - 2020 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatorias-de-ayudas/movimiento-asociativo-poises-2018-2020) | 2020-11-30 |
 | 43 | Baja | Desconocida | Medio | Solo con socio | [Ayudas y subvenciones](https://www.miteco.gob.es/es/agua/ayudas-y-subvenciones.html) | Dato no localizado |
-| 42 | Baja | Cerrada recurrente | Medio | Solo con socio | [POISES Psicosocial 2020 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatorias-de-ayudas/poises-psicosocial-2020) | Dato no localizado |
+| 42 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [POISES Psicosocial 2020 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatorias-de-ayudas/poises-psicosocial-2020) | Dato no localizado |
 | 42 | Baja | Desconocida | Medio | Solo con socio | [Premios obtenidos por la Fundación ONCE en el ejercicio 2006 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/premios-obtenidos-por-la-fundacion-once-en-el-ejercicio-2006) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias cofinanciadas por el Fondo Social Europeo \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatorias-cofinanciadas-por-el-fondo-social-europeo) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias Emprendimiento \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-personas/convocatorias-emprendimiento) | Dato no localizado |
@@ -530,16 +552,16 @@ No se han localizado oportunidades en esta sección.
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Formularios de solicitud (Convocatoria General) \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatoria-general/formularios-de-solicitud-convocatoria-general) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Justificación de proyectos (información) \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatoria-general/justificacion-de-proyectos-informacion) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Procedimiento de tramitación de la solicitud \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatoria-general/procedimiento-de-tramitacion-de-la-solicitud) | Dato no localizado |
-| 44 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria Acción Social - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-accion-social/) | Dato no localizado |
+| 44 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatoria Acción Social - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-accion-social/) | Dato no localizado |
 | 41 | Baja | Desconocida | Medio | Solo con socio | [Buscador de convocatorias - Fundación Biodiversidad](https://fundacion-biodiversidad.es/buscador-de-convocatorias/) | Dato no localizado |
-| 42 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria Medio Ambiente - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-medio-ambiente/) | Dato no localizado |
+| 42 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatoria Medio Ambiente - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-medio-ambiente/) | Dato no localizado |
 | 38 | Baja | Desconocida | Medio | Solo con socio | [Convocatoria Pleamar 2017 \| Pleamar](https://programapleamar.es/convocatoria-pleamar-2017) | Dato no localizado |
 | 38 | Baja | Desconocida | Medio | Solo con socio | [Convocatoria Pleamar 2018 \| Pleamar](http://www.programapleamar.es/convocatoria-pleamar-2018) | Dato no localizado |
 | 38 | Baja | Desconocida | Medio | Solo con socio | [Convocatoria Pleamar 2021 \| Pleamar](https://www.programapleamar.es/convocatoria-pleamar-2021) | Dato no localizado |
 | 49 | Baja | Próxima | Medio | Vigilar próxima edición | [Resolución Dirección de la Fundación Biodiversidad, que aprueba publicación de convocatoria de subvenciones para el fomento de actuaciones de desarrollo y consolidación de la infraestructura verde de ciudades españolas, cofinanciada por el FEDER.](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/921561) | 2026-10-29 |
-| 37 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatorias anteriores (FSE) Uno a Uno \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/convocatorias-anteriores-fse-uno-uno) | 2022-09-30 |
-| 37 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatorias anteriores (FSE) Psicosocial \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/convocatorias-anteriores-fse-psicosocial) | 2023-09-30 |
-| 37 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria general \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-general) | 2026-06-30 |
+| 37 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatorias anteriores (FSE) Uno a Uno \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/convocatorias-anteriores-fse-uno-uno) | 2022-09-30 |
+| 37 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatorias anteriores (FSE) Psicosocial \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/convocatorias-anteriores-fse-psicosocial) | 2023-09-30 |
+| 37 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatoria general \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-general) | 2026-06-30 |
 | 34 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias de axuda \| Fundación ONCE](https://www.fundaciononce.es/gl/que-facemos/proxectos-e-solicitudes-de-axuda/convocatorias-de-axuda) | Dato no localizado |
 | 34 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias de ayudas \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas) | Dato no localizado |
 | 36 | Baja | Próxima | Medio | Solo con socio | [Resolución de la Dirección de la Fundación Biodiversidad por la que se aprueba la publicación de la convocatoria de subvenciones, en régimen de concurrencia competitiva, para la dotación de refugios climáticos en el marco de la Red de Refugios Climáticos.](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/921531) | 2026-10-15 |
@@ -557,10 +579,9 @@ No se han localizado oportunidades en esta sección.
 | 29 | Baja | Desconocida | Medio | Solo con socio | [Subvenciones para financiar medidas de apoyo institucional a los sindicatos del ámbito universitario 2025](https://www.ciencia.gob.es/Convocatorias/2025/SindicatosUNI2025.html) | Dato no localizado |
 | 28 | Baja | Desconocida | Medio | Solo con socio | [Resolución de 21 de mayo de 2026, aprobada por la Comisión Mixta para las Relaciones con el Tribunal de Cuentas, en relación con el Informe de fiscalización de las aportaciones percibidas por las fundaciones y demás entidades vinculadas o dependientes de los partidos políticos y de los gastos de programas y actividades de estas financiados con cargo a subvenciones públicas, ejercicios 2021 y 2022.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15347) | No publicada como fecha cerrada; plazo indicado: tres mes |
 | 35 | Baja | Próxima | Medio | Solo con socio | [V Edición del premio Cátedra de Joventut de la UV al mejor trabajo Fin de Ciclo, Fin de Grado, Fin de Máster y Tesis Doctoral sobre juventud](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/918049) | 2026-09-15 |
-| 33 | Baja | Próxima | Medio | Solo con socio | [Convocatoria de 30 contratos de investigadores postdoctorales para la excelencia científica en el desarrollo del Plan Propio de I+D+i, cofinanciada por el Fondo Social Europeo Plus (FSE+) 2026-2028](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/921745) | 2026-09-20 |
-| 31 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria general - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-general/) | Dato no localizado |
-| 31 | Baja | Cerrada recurrente | Medio | Solo con socio | [Presenta tu proyecto - Fundación Unicaja](https://www.fundacionunicaja.com/convocatorias/) | Dato no localizado |
-| 29 | Baja | Cerrada recurrente | Medio | Solo con socio | [Premios - Fundación Unicaja](https://www.fundacionunicaja.com/premios/) | Dato no localizado |
+| 31 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatoria general - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-general/) | Dato no localizado |
+| 31 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Presenta tu proyecto - Fundación Unicaja](https://www.fundacionunicaja.com/convocatorias/) | Dato no localizado |
+| 29 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Premios - Fundación Unicaja](https://www.fundacionunicaja.com/premios/) | Dato no localizado |
 | 27 | Baja | Desconocida | Medio | Solo con socio | [Orden ECM/747/2026, de 13 de julio, por la que se aprueban las bases reguladoras de concesión de subvenciones para la realización de proyectos de investigación para el Consejo de la Productividad de España.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16084) | No publicada como fecha cerrada; plazo indicado: diez días hábiles |
 | 25 | Baja | Desconocida | Medio | Solo con socio | [Ver las bases](https://www.fundacionunicaja.com/wp-content/uploads/2024/07/Bases-XXVI-Premio-Fundacion-Unicaja-de-Artesania.pdf) | Dato no localizado |
 | 25 | Baja | Desconocida | Medio | Solo con socio | [Ver las bases](https://www.fundacionunicaja.com/wp-content/uploads/2024/07/Triptico-Premio-Salud-y-Mar.pdf) | Dato no localizado |
@@ -623,6 +644,7 @@ No se han localizado oportunidades en esta sección.
 | 47 | Baja | Abierta | Medio | Solo con socio | [CONVOCATORIA ENTIDADES UNO A UNO \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-entidades-uno-a-uno) | 2026-09-16 |
 | 42 | Baja | Abierta | Medio | Solo con socio | [Convocatoria Empleo Público \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-empleo-publico) | 2026-09-30 |
 | 44 | Baja | Abierta | Medio | Solo con socio | [Convocatorias Sociales por territorio - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-territorio) | Dato no localizado |
+| 70 | Alta | Desconocida | Medio | Solicitud directa | [Convocatoria Social Andalucía - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-andalucia) | Dato no localizado |
 | 69 | Media | Desconocida | Medio | Solicitud directa | [Convocatorias Sociales - Qué hacemos - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-descripcion) | Dato no localizado |
 | 65 | Media | Desconocida | Medio | Solicitud directa | [CaixaProinfancia - Convocatoria entidades - Fundación "la Caixa"](https://fundacionlacaixa.org/es/pobreza-infantil-convocatoria-entidades) | Dato no localizado |
 | 49 | Baja | Desconocida | Medio | Solicitud directa | [Premios obtenidos por la Fundación ONCE \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/quienes-somos/premios-obtenidos-por-la-fundacion-once) | Dato no localizado |
@@ -630,8 +652,8 @@ No se han localizado oportunidades en esta sección.
 | 47 | Baja | Desconocida | Medio | Solicitud directa | [Fundación Daniel & Nina Carasso](https://fondationcarasso.org/es/convocatorias/tiina-transformacion-e-impacto-a-traves-de-la-inversion-en-alimentacion-y-arte-2024/) | Dato no localizado |
 | 47 | Baja | Desconocida | Medio | Solicitud directa | [Fundación Daniel & Nina Carasso](https://fondationcarasso.org/es/convocatorias/tiina-transformacion-e-impacto-a-traves-de-la-inversion-en-alimentacion-y-arte/) | Dato no localizado |
 | 44 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias de Proyectos Sociales - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales) | Dato no localizado |
-| 42 | Baja | Cerrada recurrente | Medio | Solo con socio | [Movimiento asociativo POISES 2018 - 2020 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatorias-de-ayudas/movimiento-asociativo-poises-2018-2020) | 2020-11-30 |
-| 42 | Baja | Cerrada recurrente | Medio | Solo con socio | [POISES Psicosocial 2020 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatorias-de-ayudas/poises-psicosocial-2020) | Dato no localizado |
+| 42 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Movimiento asociativo POISES 2018 - 2020 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatorias-de-ayudas/movimiento-asociativo-poises-2018-2020) | 2020-11-30 |
+| 42 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [POISES Psicosocial 2020 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatorias-de-ayudas/poises-psicosocial-2020) | Dato no localizado |
 | 42 | Baja | Desconocida | Medio | Solo con socio | [Premios obtenidos por la Fundación ONCE en el ejercicio 2006 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/premios-obtenidos-por-la-fundacion-once-en-el-ejercicio-2006) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias cofinanciadas por el Fondo Social Europeo \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatorias-cofinanciadas-por-el-fondo-social-europeo) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias Emprendimiento \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-personas/convocatorias-emprendimiento) | Dato no localizado |
@@ -640,17 +662,17 @@ No se han localizado oportunidades en esta sección.
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Formularios de solicitud (Convocatoria General) \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatoria-general/formularios-de-solicitud-convocatoria-general) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Justificación de proyectos (información) \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatoria-general/justificacion-de-proyectos-informacion) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Procedimiento de tramitación de la solicitud \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatoria-general/procedimiento-de-tramitacion-de-la-solicitud) | Dato no localizado |
-| 44 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria Acción Social - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-accion-social/) | Dato no localizado |
-| 42 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria Medio Ambiente - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-medio-ambiente/) | Dato no localizado |
-| 37 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatorias anteriores (FSE) Uno a Uno \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/convocatorias-anteriores-fse-uno-uno) | 2022-09-30 |
-| 37 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatorias anteriores (FSE) Psicosocial \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/convocatorias-anteriores-fse-psicosocial) | 2023-09-30 |
-| 37 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria general \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-general) | 2026-06-30 |
+| 44 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatoria Acción Social - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-accion-social/) | Dato no localizado |
+| 42 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatoria Medio Ambiente - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-medio-ambiente/) | Dato no localizado |
+| 37 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatorias anteriores (FSE) Uno a Uno \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/convocatorias-anteriores-fse-uno-uno) | 2022-09-30 |
+| 37 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatorias anteriores (FSE) Psicosocial \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/convocatorias-anteriores-fse-psicosocial) | 2023-09-30 |
+| 37 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatoria general \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-general) | 2026-06-30 |
 | 34 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias de axuda \| Fundación ONCE](https://www.fundaciononce.es/gl/que-facemos/proxectos-e-solicitudes-de-axuda/convocatorias-de-axuda) | Dato no localizado |
 | 34 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias de ayudas \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas) | Dato no localizado |
 | 28 | Baja | Desconocida | Medio | Solo con socio | [Resolución de 21 de mayo de 2026, aprobada por la Comisión Mixta para las Relaciones con el Tribunal de Cuentas, en relación con el Informe de fiscalización de las aportaciones percibidas por las fundaciones y demás entidades vinculadas o dependientes de los partidos políticos y de los gastos de programas y actividades de estas financiados con cargo a subvenciones públicas, ejercicios 2021 y 2022.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15347) | No publicada como fecha cerrada; plazo indicado: tres mes |
-| 31 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria general - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-general/) | Dato no localizado |
-| 31 | Baja | Cerrada recurrente | Medio | Solo con socio | [Presenta tu proyecto - Fundación Unicaja](https://www.fundacionunicaja.com/convocatorias/) | Dato no localizado |
-| 29 | Baja | Cerrada recurrente | Medio | Solo con socio | [Premios - Fundación Unicaja](https://www.fundacionunicaja.com/premios/) | Dato no localizado |
+| 31 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Convocatoria general - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-general/) | Dato no localizado |
+| 31 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Presenta tu proyecto - Fundación Unicaja](https://www.fundacionunicaja.com/convocatorias/) | Dato no localizado |
+| 29 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Premios - Fundación Unicaja](https://www.fundacionunicaja.com/premios/) | Dato no localizado |
 | 25 | Baja | Desconocida | Medio | Solo con socio | [Ver las bases](https://www.fundacionunicaja.com/wp-content/uploads/2024/07/Bases-XXVI-Premio-Fundacion-Unicaja-de-Artesania.pdf) | Dato no localizado |
 | 25 | Baja | Desconocida | Medio | Solo con socio | [Ver las bases](https://www.fundacionunicaja.com/wp-content/uploads/2024/07/Triptico-Premio-Salud-y-Mar.pdf) | Dato no localizado |
 
@@ -667,9 +689,7 @@ No se han localizado oportunidades en esta sección.
 | 38 | Baja | Abierta | Medio | Solo con socio | [Orden TES/743/2026, de 13 de julio, por la que se distribuyen territorialmente para el ejercicio económico de 2026, para su gestión por las comunidades autónomas con competencias asumidas, créditos del ámbito laboral financiados con cargo a los Presupuestos Generales del Estado.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16073) | 31 de marzo de 2027 |
 | 45 | Baja | Abierta | Medio | Solo con socio | [Ayudas para promoción del vino en mercados de terceros países.](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/2139.html) | Dato no localizado |
 | 44 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias de Proyectos Sociales - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales) | Dato no localizado |
-| 42 | Baja | Cerrada recurrente | Medio | Solo con socio | [Movimiento asociativo POISES 2018 - 2020 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatorias-de-ayudas/movimiento-asociativo-poises-2018-2020) | 2020-11-30 |
 | 43 | Baja | Desconocida | Medio | Solo con socio | [Ayudas y subvenciones](https://www.miteco.gob.es/es/agua/ayudas-y-subvenciones.html) | Dato no localizado |
-| 42 | Baja | Cerrada recurrente | Medio | Solo con socio | [POISES Psicosocial 2020 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatorias-de-ayudas/poises-psicosocial-2020) | Dato no localizado |
 | 42 | Baja | Desconocida | Medio | Solo con socio | [Premios obtenidos por la Fundación ONCE en el ejercicio 2006 \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/premios-obtenidos-por-la-fundacion-once-en-el-ejercicio-2006) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias cofinanciadas por el Fondo Social Europeo \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatorias-cofinanciadas-por-el-fondo-social-europeo) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias Emprendimiento \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-personas/convocatorias-emprendimiento) | Dato no localizado |
@@ -678,16 +698,11 @@ No se han localizado oportunidades en esta sección.
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Formularios de solicitud (Convocatoria General) \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatoria-general/formularios-de-solicitud-convocatoria-general) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Justificación de proyectos (información) \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatoria-general/justificacion-de-proyectos-informacion) | Dato no localizado |
 | 39 | Baja | Desconocida | Medio | Solo con socio | [Procedimiento de tramitación de la solicitud \| Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad](https://www.fundaciononce.es/es/convocatoria-general/procedimiento-de-tramitacion-de-la-solicitud) | Dato no localizado |
-| 44 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria Acción Social - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-accion-social/) | Dato no localizado |
 | 41 | Baja | Desconocida | Medio | Solo con socio | [Buscador de convocatorias - Fundación Biodiversidad](https://fundacion-biodiversidad.es/buscador-de-convocatorias/) | Dato no localizado |
-| 42 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria Medio Ambiente - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-medio-ambiente/) | Dato no localizado |
 | 38 | Baja | Desconocida | Medio | Solo con socio | [Convocatoria Pleamar 2017 \| Pleamar](https://programapleamar.es/convocatoria-pleamar-2017) | Dato no localizado |
 | 38 | Baja | Desconocida | Medio | Solo con socio | [Convocatoria Pleamar 2018 \| Pleamar](http://www.programapleamar.es/convocatoria-pleamar-2018) | Dato no localizado |
 | 38 | Baja | Desconocida | Medio | Solo con socio | [Convocatoria Pleamar 2021 \| Pleamar](https://www.programapleamar.es/convocatoria-pleamar-2021) | Dato no localizado |
 | 40 | Baja | Desconocida | Medio | Solo con socio | [Publicada la Propuesta Provisional de Resolución de las ayudas GALPA Huelva de la convocatoria de febrero de 2026 - GALPA HUELVA](https://galpahuelva.com/publicada-la-propuesta-provisional-de-resolucion-de-las-ayudas-galpa-huelva-de-la-convocatoria-de-febrero-de-2026/) | Dato no localizado |
-| 37 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatorias anteriores (FSE) Uno a Uno \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/convocatorias-anteriores-fse-uno-uno) | 2022-09-30 |
-| 37 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatorias anteriores (FSE) Psicosocial \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/convocatorias-anteriores-fse-psicosocial) | 2023-09-30 |
-| 37 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria general \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-general) | 2026-06-30 |
 | 34 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias de axuda \| Fundación ONCE](https://www.fundaciononce.es/gl/que-facemos/proxectos-e-solicitudes-de-axuda/convocatorias-de-axuda) | Dato no localizado |
 | 34 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias de ayudas \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas) | Dato no localizado |
 | 37 | Baja | Desconocida | Medio | Solo con socio | [Convocatorias - GALPA HUELVA](https://galpahuelva.com/convocatorias/) | Dato no localizado |
@@ -705,10 +720,6 @@ No se han localizado oportunidades en esta sección.
 | 29 | Baja | Desconocida | Medio | Solo con socio | [Subvenciones para financiar medidas de apoyo institucional a los sindicatos del ámbito universitario 2025](https://www.ciencia.gob.es/Convocatorias/2025/SindicatosUNI2025.html) | Dato no localizado |
 | 28 | Baja | Desconocida | Medio | Solo con socio | [Resolución de 21 de mayo de 2026, aprobada por la Comisión Mixta para las Relaciones con el Tribunal de Cuentas, en relación con el Informe de fiscalización de las aportaciones percibidas por las fundaciones y demás entidades vinculadas o dependientes de los partidos políticos y de los gastos de programas y actividades de estas financiados con cargo a subvenciones públicas, ejercicios 2021 y 2022.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15347) | No publicada como fecha cerrada; plazo indicado: tres mes |
 | 35 | Baja | Próxima | Medio | Solo con socio | [V Edición del premio Cátedra de Joventut de la UV al mejor trabajo Fin de Ciclo, Fin de Grado, Fin de Máster y Tesis Doctoral sobre juventud](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/918049) | 2026-09-15 |
-| 33 | Baja | Próxima | Medio | Solo con socio | [Convocatoria de 30 contratos de investigadores postdoctorales para la excelencia científica en el desarrollo del Plan Propio de I+D+i, cofinanciada por el Fondo Social Europeo Plus (FSE+) 2026-2028](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/921745) | 2026-09-20 |
-| 31 | Baja | Cerrada recurrente | Medio | Solo con socio | [Convocatoria general - Fundación Unicaja](https://www.fundacionunicaja.com/convocatoria-general/) | Dato no localizado |
-| 31 | Baja | Cerrada recurrente | Medio | Solo con socio | [Presenta tu proyecto - Fundación Unicaja](https://www.fundacionunicaja.com/convocatorias/) | Dato no localizado |
-| 29 | Baja | Cerrada recurrente | Medio | Solo con socio | [Premios - Fundación Unicaja](https://www.fundacionunicaja.com/premios/) | Dato no localizado |
 | 27 | Baja | Desconocida | Medio | Solo con socio | [Orden ECM/747/2026, de 13 de julio, por la que se aprueban las bases reguladoras de concesión de subvenciones para la realización de proyectos de investigación para el Consejo de la Productividad de España.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16084) | No publicada como fecha cerrada; plazo indicado: diez días hábiles |
 | 25 | Baja | Desconocida | Medio | Solo con socio | [Ver las bases](https://www.fundacionunicaja.com/wp-content/uploads/2024/07/Bases-XXVI-Premio-Fundacion-Unicaja-de-Artesania.pdf) | Dato no localizado |
 | 25 | Baja | Desconocida | Medio | Solo con socio | [Ver las bases](https://www.fundacionunicaja.com/wp-content/uploads/2024/07/Triptico-Premio-Salud-y-Mar.pdf) | Dato no localizado |
@@ -761,6 +772,18 @@ No se han localizado oportunidades en esta sección.
 | 39 | Baja | Desconocida | Muy alto | Solo con socio | [3ª convocatoria (abierta) - Interreg Sudoe](https://interreg-sudoe.eu/3a-convocatoria/) | 2023-03-31 |
 | 29 | Baja | Desconocida | Muy alto | Solo con socio | [4ª convocatoria (abierta) - Interreg Sudoe](https://interreg-sudoe.eu/4a-convocatoria/) | Dato no localizado |
 
+### Socia de ayuntamiento
+
+No se han localizado oportunidades en esta sección.
+
+### Socia de universidad o centro científico
+
+No se han localizado oportunidades en esta sección.
+
+### Socia de consorcio europeo
+
+No se han localizado oportunidades en esta sección.
+
 ## 13. Ayudas para las que CARIBDIS todavía no cumple requisitos
 
 | Puntuación | Prioridad | Estado | Riesgo de tesorería | Participación | Oportunidad | Cierre |
@@ -773,7 +796,7 @@ No se han localizado oportunidades en esta sección.
 | 49 | Baja | Abierta | Medio | Vigilar y preparar requisitos | [Premios Blas Infante de estudio e investigación sobre Administración Pública.](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/10956.html) | Dato no localizado |
 | 49 | Baja | Abierta | Medio | Vigilar y preparar requisitos | [Subvención excepcional a la Corporación Tecnológica de Andalucía para el desarrollo del programa de financiación de proyectos de investigación, desarrollo e innovación tecnológica 2010-2013](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/25173.html) | Dato no localizado |
 | 45 | Baja | Abierta | Medio | Solo con socio | [Ayudas para promoción del vino en mercados de terceros países.](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/2139.html) | Dato no localizado |
-| 49 | Baja | Cerrada recurrente | Medio | Vigilar y preparar requisitos | [Subvenciones destinadas a entidades privadas para la realización de programas de ámbito provincial de interés general para atender fines sociales con cargo a la asignación tributaria del 0,7% del impuesto sobre la renta de las personas físicas y del impuesto sobre sociedades. Línea 4. Bases Reguladoras 2024.](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/25536.html) | Dato no localizado |
+| 49 | Baja | Cerrada recurrente | Medio | Vigilar próxima edición | [Subvenciones destinadas a entidades privadas para la realización de programas de ámbito provincial de interés general para atender fines sociales con cargo a la asignación tributaria del 0,7% del impuesto sobre la renta de las personas físicas y del impuesto sobre sociedades. Línea 4. Bases Reguladoras 2024.](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/25536.html) | Dato no localizado |
 
 ## 14. Requisitos que deben prepararse
 
@@ -839,6 +862,7 @@ No se han localizado oportunidades en esta sección.
 | [Subvención nominativa para gastos de capital de la fundación Parque Tecnológico de la Salud de Granada](https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/24545.html) | Secretaría General de Investigación e Innovación | concesión directa no competitiva; subvención nominativa; registro BDNS no solicitable: Concesión directa; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio; exige experiencia previa |
 | [Resolución de 13 de julio de 2026, de la Secretaría de Estado de Derechos Sociales, por la que se publica el Convenio con la Comunidad Autónoma de Galicia, para establecer las condiciones de la ayuda correspondiente a operaciones en el marco del Programa de Inclusión Social, Garantía Infantil y Lucha contra la Pobreza, cofinanciado con el Fondo Social Europeo plus (FSE+).](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16087) | MINISTERIO DE DERECHOS SOCIALES, CONSUMO Y AGENDA 2030 | convenio con destinatario identificado; nombramiento; convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [Real Decreto 565/2026, de 8 de julio, por el que se regula la concesión directa de subvenciones del Instituto de las Mujeres, O.A., a diversas entidades.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15032) | MINISTERIO DE IGUALDAD | concesión directa no competitiva; nombramiento; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
+| [Becas de Colaboración en Departamentos Universitarios \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias/becas-empleo/becas-de-colaboracion-en-departamentos-universitarios) | Instituto de la Juventud | beca personal; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [Real Decreto 609/2026, de 22 de julio, por el que se regula la concesión directa de ayudas a la compra de vehículos eléctricos y electrificados (Programa Auto+).](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16010) | MINISTERIO DE INDUSTRIA Y TURISMO | concesión directa no competitiva; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [Real Decreto 591/2026, de 15 de julio, por el que se regula la concesión directa de una subvención a la Comunidad Autónoma de Canarias para la financiación del funcionamiento de plantas potabilizadoras de agua situadas en su territorio.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15459) | MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO | concesión directa no competitiva; convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [Real Decreto 614/2026, de 22 de julio, por el que se regula la concesión directa de subvenciones a entidades relacionadas con el patrimonio cultural y las bellas artes en el año 2026.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16014) | MINISTERIO DE CULTURA | concesión directa no competitiva; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
@@ -904,7 +928,6 @@ No se han localizado oportunidades en esta sección.
 | [Convocatoria Social Canarias - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-canarias) | Fundación la Caixa | convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; sin condiciones financieras adversas publicadas; porcentaje por confirmar |
 | [Convocatoria Social Cantabria - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-cantabria) | Fundación la Caixa | convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; sin condiciones financieras adversas publicadas; porcentaje por confirmar |
 | [Convocatoria Social Castilla y León - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-castilla-leon) | Fundación la Caixa | convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; sin condiciones financieras adversas publicadas; porcentaje por confirmar |
-| [Convocatoria Social Castilla-La Mancha - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-castilla-la-mancha) | Fundación la Caixa | convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; sin condiciones financieras adversas publicadas; porcentaje por confirmar |
 | [Convocatoria Social Cataluña - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-cataluna) | Fundación la Caixa | convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; sin condiciones financieras adversas publicadas; porcentaje por confirmar |
 | [Convocatoria Social Ceuta y Melilla - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-ceuta-melilla) | Fundación la Caixa | convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; sin condiciones financieras adversas publicadas; porcentaje por confirmar |
 | [Convocatoria Social Com.Foral Navarra - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-navarra) | Fundación la Caixa | convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; sin condiciones financieras adversas publicadas; porcentaje por confirmar |
@@ -912,6 +935,8 @@ No se han localizado oportunidades en esta sección.
 | [Convocatoria Social Comunitat Valenciana - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-com-valenciana) | Fundación la Caixa | convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; sin condiciones financieras adversas publicadas; porcentaje por confirmar |
 | [Convocatoria Social Extremadura - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-extremadura) | Fundación la Caixa | convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; sin condiciones financieras adversas publicadas; porcentaje por confirmar |
 | [Convocatoria Social Galicia - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-galicia) | Fundación la Caixa | convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; sin condiciones financieras adversas publicadas; porcentaje por confirmar |
+| [Convocatoria Social Islas Baleares - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-baleares) | Fundación la Caixa | convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; sin condiciones financieras adversas publicadas; porcentaje por confirmar |
+| [Convocatoria Social La Rioja - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-la-rioja) | Fundación la Caixa | convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; sin condiciones financieras adversas publicadas; porcentaje por confirmar |
 | [Convocatoria Social País Vasco - Fundación "la Caixa"](https://fundacionlacaixa.org/es/convocatorias-sociales-pais-vasco) | Fundación la Caixa | convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; sin condiciones financieras adversas publicadas; porcentaje por confirmar |
 | [Recursos económicos y subvenciones Reto Demográfico](https://www.miteco.gob.es/es/reto-demografico/recursos-economicos-subvenciones.html) | Ministerio para la Transición Ecológica y el Reto Demográfico | concesión directa no competitiva; subvención nominativa; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [Orden SND/677/2026, de 26 de junio, por la que se aprueban las bases reguladoras y convocatoria 2026 para la selección de operaciones «Tardes con Plan 2», en el marco del Programa de Inclusión Social, Garantía Infantil y Lucha contra la Pobreza, cofinanciado con el Fondo Social Europeo Plus (FSE+).](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14638) | MINISTERIO DE SANIDAD | nombramiento; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
@@ -933,6 +958,8 @@ No se han localizado oportunidades en esta sección.
 | [Línea FID 2025](https://www.ciencia.gob.es/Convocatorias/FEDER2021-2027/FID2025.html) | Ministerio de Ciencia, Innovación y Universidades | contratación pública; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio; exige coordinación de consorcio |
 | [Resolución de 8 de julio de 2026, de la Agencia Española de Protección de Datos, por la que se aprueban las bases reguladoras y se convoca el Premio de Investigación en Ciencias Puras y Aplicadas en Protección de Datos Personales «Ángela Ruiz Robles», para el año 2026.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15844) | AGENCIA ESPAÑOLA DE PROTECCIÓN DE DATOS | beca o premio personal; premio dirigido a una persona; premio de la AEPD sin encaje operativo CARIBDIS; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [Convocatorias Ayudas Juventud, Injuve-Femp \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/programas-injuve/ayudas-femp) | Instituto de la Juventud | convenio con destinatario identificado; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
+| [Convocatorias becas / empleo \| Injuve, Instituto de la Juventud.](https://www.injuve.es/index.php/convocatorias/becas) | Instituto de la Juventud | beca personal; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
+| [Convocatorias \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias) | Instituto de la Juventud | beca personal; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [Corrección de errores de la Resolución de 21 de julio de 2026, de la Dirección Gerencia del Servicio Andaluz de Empleo, de modificación de la Resolución de 10 de abril de 2026, de la Dirección Gerencia del Servicio Andaluz de Empleo, por la que se efectúa la convocatoria, para el ejercicio 2026, de las subvenciones en régimen de concurrencia competitiva de los programas de orientación profesional y acompañamiento a la inserción, regulados en la Orden de 18 de octubre de 2016 (BOJA núm. 143, de 27 de julio de 2026).](https://www.juntadeandalucia.es/boja/2026/214302/1.html) | Consejería de Empleo, Empresa y Trabajo Autónomo | contratación pública; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [Orden ISM/704/2026, de 8 de julio, por la que se aprueban las bases reguladoras para la concesión de becas con el fin de sufragar los gastos ocasionados por la preparación de las pruebas selectivas de ingreso por turno libre en los Cuerpos y escalas adscritos al Ministerio de Inclusión, Seguridad Social y Migraciones.](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15123) | MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES | beca personal; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [Anuncio de 21 de julio de 2026, de la Delegación Territorial de Empleo, Empresa y Trabajo Autónomo en Granada, mediante el que se publica relación de solicitantes de Ayuda de Formación Profesional para el Empleo, a los que no ha sido posible notificar propuesta provisional de resolución de beca.](https://www.juntadeandalucia.es/boja/2026/143/51.html) | Consejería de Empleo, Empresa y Trabajo Autónomo | contratación pública; nombramiento; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
@@ -1013,7 +1040,7 @@ No se han localizado oportunidades en esta sección.
 | [Fundación Daniel & Nina Carasso](https://fondationcarasso.org/es/convocatorias/daniel-carasso-fellowship-2025/) | Fundación Daniel y Nina Carasso | elegibilidad de asociaciones no confirmada; plazo vencido sin recurrencia confirmada; no alcanza el umbral temático CARIBDIS; el encaje social o educativo es genérico; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [Resolución de la Vicerrectora de Igualdad, Inclusión y Justicia Social, de fecha 15 de julio de 2026, por la que se aprueba la Convocatoria de Ayudas para el Apoyo Socioeducativo en el Barrio de las Palmeras de la Universidad de Córdoba.](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/919904) | OTROS / UNIVERSIDAD DE CÓRDOBA | elegibilidad de asociaciones no confirmada; plazo vencido sin recurrencia confirmada; no alcanza el umbral temático CARIBDIS; el encaje social o educativo es genérico; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [Resolución de la Vicerrectora de Igualdad, Inclusión y Compromiso Social por la que se publican las BBRR y se convocan ayudas para estudiantes de grado, máster y doctorado refugiadas/os o demandantes de protección internacional en el curso 2026/2027](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/920516) | OTROS / UNIVERSIDAD DE GRANADA | elegibilidad de asociaciones no confirmada; plazo vencido sin recurrencia confirmada; no alcanza el umbral temático CARIBDIS; el encaje social o educativo es genérico; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
-| [Resolución de 17 de julio de 2026, del Vicerrectorado de Estudiantes, Inclusión, Igualdad y Compromiso Social por la que se convocan 27 becas de colaboración en los Institutos de Investigación y Centros Propios que figuran en el Anexo de la convocatoria.](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/920037) | OTROS / UNIVERSIDAD DE SALAMANCA | beca o premio personal; registro BDNS no solicitable: Beca personal; plazo vencido sin recurrencia confirmada; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
+| [Resolución de 17 de julio de 2026, del Vicerrectorado de Estudiantes, Inclusión, Igualdad y Compromiso Social por la que se convocan 27 becas de colaboración en los Institutos de Investigación y Centros Propios que figuran en el Anexo de la convocatoria.](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/920037) | OTROS / UNIVERSIDAD DE SALAMANCA | beca personal; beca o premio personal; registro BDNS no solicitable: Beca personal; plazo vencido sin recurrencia confirmada; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [Resolución de 9 de julio de 2026 de la D.G. de Participación e Inclusión Educativa, por la que se convocan los premios anuales EDUCACIUDAD, que se conceden a los municipios distinguidos por su compromiso con la educación 2026](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/917862) | AUTONOMICA / ANDALUCÍA / CONSEJERÍA DE DESARROLLO EDUCATIVO Y FORMACIÓN PROFESIONAL | elegibilidad de asociaciones no confirmada; plazo vencido sin recurrencia confirmada; no alcanza el umbral temático CARIBDIS; el encaje social o educativo es genérico; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [Convenio con el Club Deportivo Salesianos para la ejecución del proyecto Deporte e Inclusión Club Deportivo Salesianos](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/921199) | LOCAL / DIPUTACIÓN PROV. DE CÓRDOBA / DIPUTACIÓN PROVINCIAL DE CÓRDOBA | concesión directa no competitiva; convenio con destinatario identificado; registro BDNS no solicitable: Concesión directa; plazo vencido sin recurrencia confirmada; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [SUBVENCIÓN DIRECTA EXCEPCIONAL DE LA DIPUTACIÓN PROVINCIAL DE HUELVA A LA ASOCIACIÓN ESPAÑA CON ACNUR PARA LA EJECUCIÓN DEL PROYECTO DE PROTECCIÓN Y AYUDA HUMANITARIA PARA LA POBLACIÓN DESPLAZADA EN SUDÁN DEL SUR A ACUSA DEL CONFLICTO EN SUDÁN.](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/920835) | LOCAL / DIPUTACIÓN PROV. DE HUELVA / DIPUTACIÓN PROVINCIAL DE HUELVA | concesión directa no competitiva; registro BDNS no solicitable: Concesión directa; plazo vencido sin recurrencia confirmada; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
@@ -1037,6 +1064,7 @@ No se han localizado oportunidades en esta sección.
 | [CONVENIO DE COLABORACIÓN CON LA ASOCIACIÓN DE COMERCIANTES AUTÓNOMOS AMBULANTES DE CÓRDOBA (COMACOR), Y DE CONCESIÓN DE SUBVENCIÓN PARA EL DESARROLLO DEL PROYECTO “ESPACIO DE CONCILIACIÓN FAMILIAR PARA HIJOS E HIJAS DE VENDEDORAS AMBULANTES"](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/920594) | LOCAL / CÓRDOBA / AYUNTAMIENTO DE CÓRDOBA | concesión directa no competitiva; convenio con destinatario identificado; registro BDNS no solicitable: Concesión directa; plazo vencido sin recurrencia confirmada; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [Resolución de 21 de julio de 2026 de ICEX España Exportación e Inversiones, E.P.E. por la que se convoca concesión de ayudas para la Participación Agrupada en la Feria_Asociación ANPIC León (México) del 21 al 23 de octubre de 2026.](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/921022) | ESTADO / MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA / ICEX ESPAÑA EXPORTACIÓN E INVERSIONES, EP E. | concesión directa no competitiva; comercio exterior; registro BDNS no solicitable: Concesión directa; plazo vencido sin recurrencia confirmada; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [SUBVENCION ASOCIACION PROV. DE AUTISMO Y OTROS TGD DE JAEN JUAN MARTOS PEREZ PARA ESCUELA DE VERANO](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/918378) | LOCAL / DIPUTACIÓN PROV. DE JAÉN / DIPUTACIÓN PROVINCIAL DE JAÉN | concesión directa no competitiva; registro BDNS no solicitable: Concesión directa; plazo vencido sin recurrencia confirmada; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
+| [Convocatoria de 30 contratos de investigadores postdoctorales para la excelencia científica en el desarrollo del Plan Propio de I+D+i, cofinanciada por el Fondo Social Europeo Plus (FSE+) 2026-2028](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/921745) | OTROS / UNIVERSIDAD DE CASTILLA-LA MANCHA | investigación doctoral o postdoctoral; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [CONVOCATORIA DE AYUDAS A PYMES DE CC.AA. DE EXTREMADURA PARA LA PARTICIPACION EN VISITA PROFESIONAL WEB SUMMIT 2026 Lisboa (PORTUGAL) DEL 9 AL 12 DE NOVIEMBRE 2026, EN EL MARCO DEL PROGRAMA PYME GLOBAL 2026, COFINANCIADO POR FEDER](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/919738) | OTROS / CÁMARA DE COMERCIO DE BADAJOZ | elegibilidad de asociaciones no confirmada; convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; plazo vencido sin recurrencia confirmada; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [CONVOCATORIA DE AYUDAS A PYMES DE CC.AA. DE EXTREMADURA PARA LA PARTICIPACION EN VISITA PROFESIONAL FERIA PLMA CHICAGO 2026 (EE.UU) DEL 15 AL 17 DE NOVIEMBRE DE 2026, EN EL MARCO DEL PROGRAMA PYME GLOBAL 2026,COFINANCIADO POR FEDER](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/919741) | OTROS / CÁMARA DE COMERCIO DE BADAJOZ | elegibilidad de asociaciones no confirmada; convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; plazo vencido sin recurrencia confirmada; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
 | [CONVOCATORIA DE AYUDAS A PYMES DE CC.AA. DE EXTREMADURA PARA LA PARTICIPACION EN LA VISITA PROFESIONAL A LA FERIA MEDICA Dusseldorf (Alemania) DEL 16 AL 19 DE NOVIEMBRE DE 2026, EN EL MARCO DEL PROGRAMA PYME GLOBAL 2026, COFINANCIADO POR FEDER](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/919745) | OTROS / CÁMARA DE COMERCIO DE BADAJOZ | elegibilidad de asociaciones no confirmada; convocatoria territorial exclusiva de otra comunidad o ciudad autónoma; plazo vencido sin recurrencia confirmada; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio |
@@ -1154,7 +1182,6 @@ No se han localizado oportunidades en esta sección.
 | 49 | Baja | Abierta | Medio | Solicitud directa | [El Ayuntamiento de Elche convoca plazas de Portero/a de Grupo Escolar \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias/becas-empleo/el-ayuntamiento-de-elche-convoca-plazas-de-portero/a-de-grupo-escolar) | 2026-08-05 |
 | 49 | Baja | Abierta | Medio | Solicitud directa | [Concurso de fotografía digital “Conoce el patrimonio de la Vía Verde de la Sierra” \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias/premios/concurso-de-fotografia-digital-conoce-el-patrimonio-de-la-via-verde-de-la-sierra) | 2026-08-16 |
 | 49 | Baja | Abierta | Medio | Solicitud directa | [El Ayuntamiento de Córdoba convoca plazas de Ordenanza \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias/becas-empleo/el-ayuntamiento-de-cordoba-convoca-plazas-de-ordenanza) | 2026-08-17 |
-| 49 | Baja | Abierta | Medio | Solicitud directa | [Becas de Colaboración en Departamentos Universitarios \| Injuve, Instituto de la Juventud.](https://www.injuve.es/convocatorias/becas-empleo/becas-de-colaboracion-en-departamentos-universitarios) | 2026-09-22 |
 | 47 | Baja | Abierta | Medio | Solo con socio | [CONVOCATORIA ENTIDADES PSICOSOCIAL \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-entidades-psicosocial) | 2026-09-16 |
 | 47 | Baja | Abierta | Medio | Solo con socio | [CONVOCATORIA ENTIDADES UNO A UNO \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-entidades-uno-a-uno) | 2026-09-16 |
 | 42 | Baja | Abierta | Medio | Solo con socio | [Convocatoria Empleo Público \| Fundación ONCE](https://www.fundaciononce.es/es/convocatorias-de-ayudas/para-entidades/convocatoria-empleo-publico) | 2026-09-30 |
@@ -1163,7 +1190,6 @@ No se han localizado oportunidades en esta sección.
 | 49 | Baja | Próxima | Medio | Vigilar próxima edición | [Resolución Dirección de la Fundación Biodiversidad, que aprueba publicación de convocatoria de subvenciones para el fomento de actuaciones de desarrollo y consolidación de la infraestructura verde de ciudades españolas, cofinanciada por el FEDER.](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/921561) | 2026-10-29 |
 | 36 | Baja | Próxima | Medio | Solo con socio | [Resolución de la Dirección de la Fundación Biodiversidad por la que se aprueba la publicación de la convocatoria de subvenciones, en régimen de concurrencia competitiva, para la dotación de refugios climáticos en el marco de la Red de Refugios Climáticos.](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/921531) | 2026-10-15 |
 | 35 | Baja | Próxima | Medio | Solo con socio | [V Edición del premio Cátedra de Joventut de la UV al mejor trabajo Fin de Ciclo, Fin de Grado, Fin de Máster y Tesis Doctoral sobre juventud](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/918049) | 2026-09-15 |
-| 33 | Baja | Próxima | Medio | Solo con socio | [Convocatoria de 30 contratos de investigadores postdoctorales para la excelencia científica en el desarrollo del Plan Propio de I+D+i, cofinanciada por el Fondo Social Europeo Plus (FSE+) 2026-2028](https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/921745) | 2026-09-20 |
 
 ### Próximos 6 meses
 
@@ -1400,7 +1426,82 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://www.miteco.gob.es/es/ministerio/fondos-europeos/life/convocatorias/convocatorias-abiertas.html
 - Sede electrónica: https://sede.miteco.gob.es/
 
-### 4. Convocatoria 2025 | Pleamar — 73/100 — PRIORIDAD ALTA
+### 4. Convocatoria Social Andalucía - Fundación "la Caixa" — 70/100 — PRIORIDAD ALTA
+
+- Estado: Desconocida
+- Apertura: Dato no localizado
+- Plazo: Dato no localizado
+- Organismo: Fundación la Caixa
+- Consejería: Dato no localizado
+- Tipo de organismo: Fundación privada
+- Fuente: Fundación la Caixa - Convocatorias sociales
+- Cobertura de la fuente: current — Listado oficial actual; cada edición territorial debe verificarse en su página y bases.
+- Metadatos verificados: No consta revisión completa
+- Número BDNS: Dato no localizado
+- Código de procedimiento: Dato no localizado
+- Identificadores oficiales: Dato no localizado
+- Fecha de registro: Dato no localizado
+- Tipo de registro: Convocatoria
+- Solicitabilidad: Pendiente de verificar
+- Familia/tema/actividad: Dato no localizado / Dato no localizado / Dato no localizado
+- Tipo de procedimiento: Dato no localizado
+- Territorio: España
+- Nivel administrativo/comunidad autónoma: Dato no localizado / Dato no localizado
+- Provincia/municipio: Dato no localizado / Dato no localizado
+- Presupuesto de la convocatoria: Dato no localizado
+- Importe máximo por proyecto: Dato no localizado
+- Financiación: Dato no localizado
+- Cofinanciación: Dato no localizado
+- Anticipo: Dato no localizado
+- Instrumento financiero: Convocatoria de fundación
+- Finalidad de la financiación: Ayuda para proyecto
+- Porcentaje financiado: Dato no localizado
+- Porcentaje de cofinanciación: Dato no localizado
+- Porcentaje de anticipo: Dato no localizado
+- Aval para el anticipo: Dato no localizado
+- Pago solo tras justificar: Dato no localizado
+- Forma de pago: Dato no localizado
+- Gastos de funcionamiento: Dato no localizado
+- Gastos de personal: Dato no localizado
+- Equipamiento: Dato no localizado
+- Alquiler de sede: Dato no localizado
+- Seguros: Dato no localizado
+- Desplazamientos: Dato no localizado
+- Antigüedad mínima estructurada: Dato no localizado
+- Experiencia previa obligatoria: Dato no localizado
+- Presupuesto mínimo del proyecto: Dato no localizado
+- Auditoría obligatoria: Dato no localizado
+- Apta para entidad nueva: Dato no localizado
+- Riesgo de tesorería: Medio
+- Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar.
+- ¿Puede pedirla CARIBDIS directamente?: Solicitud directa
+- Beneficiarios: Dato no localizado
+- Elegibilidad de una asociación nueva: Dato no localizado
+- Requisitos: Dato no localizado
+- Antigüedad/experiencia: Dato no localizado / Dato no localizado
+- Necesidad de socios/consorcio: ciolaboral Oportunidades educativas para la equidad Acceso a recursos residenciales temporales Convivencia intercultural y cohesión social Promoción y protección de la salud y la salud mental Prevención de las violencias y las adicciones Cultura como motor par / Dato no localizado
+- Necesidad de aval: Dato no localizado
+- Gastos subvencionables: Dato no localizado
+- Duración: Dato no localizado
+- Fondos europeos: Dato no localizado
+- Instrumentos de ayuda: Convocatoria de fundación
+- Eventos administrativos: Dato no localizado
+- Plazo administrativo: Dato no localizado
+- Formularios: Dato no localizado
+- Normas y bases: Dato no localizado
+- Información de contacto: Dato no localizado
+- Temática principal: Inclusión, infancia y juventud
+- Palabras clave: divulgación científica, infancia, vulnerabilidad, vulnerabilidad social, discapacidad, inclusión, inclusión social
+- Motivo de la puntuación: Elegibilidad 25/25, temática 5/25, social/educativa 15/15, territorio 10/10, financiación 8/10, estado/plazo 2/10 y viabilidad financiera 5/5. Viabilidad: sin condiciones financieras adversas publicadas; porcentaje por confirmar.
+- Requisitos o riesgos: sin condiciones financieras adversas publicadas; porcentaje por confirmar
+- Proyecto recomendado: Océano Inclusivo: talleres científicos marinos para menores, alumnado NEAE y jóvenes en situación de vulnerabilidad.
+- Advertencias: Ninguna advertencia adicional.
+- Enlace oficial: https://fundacionlacaixa.org/es/convocatorias-sociales-andalucia
+- Otros enlaces oficiales: Dato no localizado
+- Bases: https://fundacionlacaixa.org/es/pobreza-infantil-convocatoria-entidades
+- Sede electrónica: https://fundacionlacaixa.org/es/politica-ciencia-abierta
+
+### 5. Convocatoria 2025 | Pleamar — 73/100 — PRIORIDAD ALTA
 
 - Estado: Desconocida
 - Apertura: 2025-07-28
@@ -1475,7 +1576,7 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://www.programapleamar.es/convocatorias
 - Sede electrónica: https://fundacion-biodiversidad.es/wp-content/uploads/2025/05/Guia-presentacion-solicitudes-CA2025.pdf
 
-### 5. Convocatorias Sociales - Qué hacemos - Fundación "la Caixa" — 69/100 — PRIORIDAD MEDIA
+### 6. Convocatorias Sociales - Qué hacemos - Fundación "la Caixa" — 69/100 — PRIORIDAD MEDIA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -1550,7 +1651,7 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://fundacionlacaixa.org/es/pobreza-infantil-convocatoria-entidades
 - Sede electrónica: https://fundacionlacaixa.org/es/politica-ciencia-abierta
 
-### 6. CaixaProinfancia - Convocatoria entidades - Fundación "la Caixa" — 65/100 — PRIORIDAD MEDIA
+### 7. CaixaProinfancia - Convocatoria entidades - Fundación "la Caixa" — 65/100 — PRIORIDAD MEDIA
 
 - Estado: Desconocida
 - Apertura: 2024-12-17
@@ -1625,7 +1726,7 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://fundacionlacaixa.org/es/pobreza-infantil-convocatoria-entidades
 - Sede electrónica: https://fundacionlacaixa.org/es/politica-ciencia-abierta
 
-### 7. Orden CNU/671/2026, de 29 de junio, por la que se aprueban las bases reguladoras para la concesión de ayudas públicas correspondientes a varios programas y subprogramas del Plan Estatal de Investigación Científica y Técnica y de Innovación 2024-2027, cuya gestión corresponde a la Agencia Estatal de Investigación. — 54/100 — PRIORIDAD MEDIA
+### 8. Orden CNU/671/2026, de 29 de junio, por la que se aprueban las bases reguladoras para la concesión de ayudas públicas correspondientes a varios programas y subprogramas del Plan Estatal de Investigación Científica y Técnica y de Innovación 2024-2027, cuya gestión corresponde a la Agencia Estatal de Investigación. — 54/100 — PRIORIDAD MEDIA
 
 - Estado: Desconocida
 - Apertura: No publicada expresamente; publicacion oficial: 2026-07-03
@@ -1700,7 +1801,7 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://www.boe.es/boe/dias/2026/07/03/pdfs/BOE-A-2026-14489.pdf
 - Sede electrónica: Dato no localizado
 
-### 8. Convocatoria 2023 | Pleamar — 69/100 — PRIORIDAD MEDIA
+### 9. Convocatoria 2023 | Pleamar — 69/100 — PRIORIDAD MEDIA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -1775,7 +1876,7 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://programapleamar.es/convocatorias
 - Sede electrónica: https://fundacion-biodiversidad.es/wp-content/uploads/2023/11/Guia-presentacion-solicitudes-CA2023-ACTUALIZADO.pdf
 
-### 9. Convocatorias de Proyectos Sociales - Fundación "la Caixa" — 44/100 — PRIORIDAD BAJA
+### 10. Convocatorias de Proyectos Sociales - Fundación "la Caixa" — 44/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -1850,7 +1951,7 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://fundacionlacaixa.org/es/pobreza-infantil-convocatoria-entidades
 - Sede electrónica: https://fundacionlacaixa.org/es/politica-ciencia-abierta
 
-### 10. Ayudas y subvenciones — 43/100 — PRIORIDAD BAJA
+### 11. Ayudas y subvenciones — 43/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -1925,7 +2026,7 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://www.miteco.gob.es/es/agua/temas/pertes/perte-ciclo-agua-primera-convocatoria-subvenciones-2022.html
 - Sede electrónica: https://sede.miteco.gob.es/
 
-### 11. Buscador de convocatorias - Fundación Biodiversidad — 41/100 — PRIORIDAD BAJA
+### 12. Buscador de convocatorias - Fundación Biodiversidad — 41/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -2000,7 +2101,7 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://fundacion-biodiversidad.es/buscador-de-convocatorias/
 - Sede electrónica: https://fundacion-biodiversidad.es/lineas-de-actuacion/generacion-y-gestion-del-conocimiento/
 
-### 12. Convocatoria Medio Ambiente - Fundación Unicaja — 42/100 — PRIORIDAD BAJA
+### 13. Convocatoria Medio Ambiente - Fundación Unicaja — 42/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada recurrente
 - Apertura: Dato no localizado
@@ -2048,7 +2149,7 @@ No se han localizado oportunidades en esta sección.
 - Apta para entidad nueva: Dato no localizado
 - Riesgo de tesorería: Medio
 - Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio.
-- ¿Puede pedirla CARIBDIS directamente?: Solo con socio
+- ¿Puede pedirla CARIBDIS directamente?: Vigilar próxima edición
 - Beneficiarios: Dato no localizado
 - Elegibilidad de una asociación nueva: Dato no localizado
 - Requisitos: Dato no localizado
@@ -2075,7 +2176,7 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://www.fundacionunicaja.com/wp-content/uploads/2025/10/Bases-Convocatoria-Proyectos-Medio-Ambiente-Fundacion-Unicaja.pdf
 - Sede electrónica: https://www.fundacionunicaja.com/protocolo-de-gestion/
 
-### 13. Publicada la Propuesta Provisional de Resolución de las ayudas GALPA Huelva de la convocatoria de febrero de 2026 - GALPA HUELVA — 40/100 — PRIORIDAD BAJA
+### 14. Publicada la Propuesta Provisional de Resolución de las ayudas GALPA Huelva de la convocatoria de febrero de 2026 - GALPA HUELVA — 40/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -2150,7 +2251,7 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://galpahuelva.com/convocatorias/
 - Sede electrónica: Dato no localizado
 
-### 14. Pleamar | Pleamar — 49/100 — PRIORIDAD BAJA
+### 15. Pleamar | Pleamar — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -2225,7 +2326,7 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://programapleamar.es/convocatorias
 - Sede electrónica: Dato no localizado
 
-### 15. Pleamar — 43/100 — PRIORIDAD BAJA
+### 16. Pleamar — 43/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -2300,7 +2401,7 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://programapleamar.es/convocatorias
 - Sede electrónica: Dato no localizado
 
-### 16. Fundación Biodiversidad | Pleamar — 36/100 — PRIORIDAD BAJA
+### 17. Fundación Biodiversidad | Pleamar — 36/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -2375,7 +2476,7 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://programapleamar.es/convocatorias
 - Sede electrónica: Dato no localizado
 
-### 17. Ayudas y financiación — 31/100 — PRIORIDAD BAJA
+### 18. Ayudas y financiación — 31/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -2450,7 +2551,7 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://www.miteco.gob.es/es/energia/renovables/subastas-convocatorias.html
 - Sede electrónica: https://sede.miteco.gob.es/
 
-### 18. Plataformas Tecnológicas | Agencia Estatal de Investigación Buscar — 33/100 — PRIORIDAD BAJA
+### 19. Plataformas Tecnológicas | Agencia Estatal de Investigación Buscar — 33/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -2525,7 +2626,7 @@ No se han localizado oportunidades en esta sección.
 - Bases: https://www.aei.gob.es/convocatorias
 - Sede electrónica: https://www.aei.gob.es/ayudas-concedidas/gestiona-tu-ayuda
 
-### 19. Convocatorias - Fundación Biodiversidad — 30/100 — PRIORIDAD BAJA
+### 20. Convocatorias - Fundación Biodiversidad — 30/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -2604,7 +2705,7 @@ No se han localizado oportunidades en esta sección.
 
 No superan el umbral temático y se conservan solo para consulta secundaria.
 
-### 20. Subvenciones dirigidas al fomento del deporte para personas con discapacidad para la adquisición de equipamiento y material deportivo inventariables en la actividad desarrollada por los clubes deportivos y secciones deportivas de Andalucía (FDD) — 49/100 — PRIORIDAD BAJA
+### 21. Subvenciones dirigidas al fomento del deporte para personas con discapacidad para la adquisición de equipamiento y material deportivo inventariables en la actividad desarrollada por los clubes deportivos y secciones deportivas de Andalucía (FDD) — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: Dato no localizado
@@ -2679,7 +2780,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://juntadeandalucia.es/eboja/2022/214/BOJA22-214-00016-17633-01_00270877.pdf
 - Sede electrónica: https://www.juntadeandalucia.es/deporte/dpweb/buscadorOV
 
-### 21. Subvenciones públicas para el desarrollo de oferta de formación profesional para el empleo dirigidas prioritariamente a personas trabajadoras, desempleadas y ocupadas. — 49/100 — PRIORIDAD BAJA
+### 22. Subvenciones públicas para el desarrollo de oferta de formación profesional para el empleo dirigidas prioritariamente a personas trabajadoras, desempleadas y ocupadas. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: Dato no localizado
@@ -2754,7 +2855,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://juntadeandalucia.es/eboja/2019/249/BOJA19-249-00043-19196-01_00167289.pdf
 - Sede electrónica: https://ws151.juntadeandalucia.es/ords/r/profeus/adm_home/
 
-### 22. Subvenciones dirigidas al fomento de empleo de personas con problemas de adicciones en proceso de incorporación social «Programa Arquímedes». — 49/100 — PRIORIDAD BAJA
+### 23. Subvenciones dirigidas al fomento de empleo de personas con problemas de adicciones en proceso de incorporación social «Programa Arquímedes». — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: Dato no localizado
@@ -2829,7 +2930,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://juntadeandalucia.es/eboja/2021/136/BOJA21-136-00002-11918-01_00195745.pdf
 - Sede electrónica: https://ws050.juntadeandalucia.es/vea/accesoDirecto/CSA
 
-### 23. Subvenciones a balsas de riego con objetivos ambientales, operación 68431_01, financiadas con el Fondo Europeo Agrícola de Desarrollo Rural, en el marco del Plan Estratégico de la Política Agrícola Común 2023 - 2027, del Reino de España. — 49/100 — PRIORIDAD BAJA
+### 24. Subvenciones a balsas de riego con objetivos ambientales, operación 68431_01, financiadas con el Fondo Europeo Agrícola de Desarrollo Rural, en el marco del Plan Estratégico de la Política Agrícola Común 2023 - 2027, del Reino de España. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: Dato no localizado
@@ -2904,7 +3005,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://juntadeandalucia.es/eboja/2025/172/index.html
 - Sede electrónica: https://ws219.juntadeandalucia.es/vea-web/accesoDirecto/VEA/T2549900
 
-### 24. Fomento de la participación para Confederaciones y Federaciones del Alumnado en Andalucía. — 49/100 — PRIORIDAD BAJA
+### 25. Fomento de la participación para Confederaciones y Federaciones del Alumnado en Andalucía. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: Dato no localizado
@@ -2979,7 +3080,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: http://juntadeandalucia.es/boja/2011/95/d1.pdf
 - Sede electrónica: https://ws094.juntadeandalucia.es/V_virtual/SolicitarTicket?v=PEIT&id=1422
 
-### 25. Mediación intercultural de ámbito regional en centros docentes públicos. — 49/100 — PRIORIDAD BAJA
+### 26. Mediación intercultural de ámbito regional en centros docentes públicos. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: Dato no localizado
@@ -3054,7 +3155,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: http://juntadeandalucia.es/boja/2011/95/d1.pdf
 - Sede electrónica: https://ws094.juntadeandalucia.es/V_virtual/SolicitarTicket?v=PEIT&id=1444
 
-### 26. Aportación Económica COTEC — 49/100 — PRIORIDAD BAJA
+### 27. Aportación Económica COTEC — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: Dato no localizado
@@ -3129,7 +3230,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://juntadeandalucia.es/organismos/haciendayfinanciacioneuropea/areas/presupuestos/presupuesto-2021.html
 - Sede electrónica: https://ws050.juntadeandalucia.es/vea/accesoDirecto?codProcedimiento=PEG_VEA&otrosParametros=eyJpZFByb2NlZGltaWVudG8iOjQ1ODB9
 
-### 27. Ayudas a los sectores de las frutas y hortalizas y de las frutas y hortalizas transformadas Reglamento 2021/2115 (Aprobación Programas Operativos y Pago de las Ayudas). — 49/100 — PRIORIDAD BAJA
+### 28. Ayudas a los sectores de las frutas y hortalizas y de las frutas y hortalizas transformadas Reglamento 2021/2115 (Aprobación Programas Operativos y Pago de las Ayudas). — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: Dato no localizado
@@ -3204,7 +3305,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/buscar/pdf/2017/BOE-A-2017-6015-consolidado.pdf
 - Sede electrónica: https://ws142.juntadeandalucia.es/agriculturaypesca/proa/
 
-### 28. Ayudas para el almacenamiento privado de carne de bovino — 49/100 — PRIORIDAD BAJA
+### 29. Ayudas para el almacenamiento privado de carne de bovino — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: Dato no localizado
@@ -3279,7 +3380,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://juntadeandalucia.es/boja/2020/223/BOJA20-223-00005-14001-01_00181264.pdf
 - Sede electrónica: https://ws094.juntadeandalucia.es/V_virtual/SolicitarTicket?v=PEIT&id=3336
 
-### 29. Creación y regulación de la concesión del Premio al Mérito en la Educación en la Comunidad Autónoma de Andalucía — 49/100 — PRIORIDAD BAJA
+### 30. Creación y regulación de la concesión del Premio al Mérito en la Educación en la Comunidad Autónoma de Andalucía — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: Dato no localizado
@@ -3354,7 +3455,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://juntadeandalucia.es/eboja/2025/91/BOJA25-091-00006-6736-01_00320336.pdf
 - Sede electrónica: https://ws050.juntadeandalucia.es/vea/accesoDirecto?codProcedimiento=PEG_VEA&otrosParametros=eyJpZFByb2NlZGltaWVudG8iOjQ0Mn0=
 
-### 30. Decreto 60/2022, de 27 de abril, por el que se crean y regulan los Premios Andalucía de la Cultura — 49/100 — PRIORIDAD BAJA
+### 31. Decreto 60/2022, de 27 de abril, por el que se crean y regulan los Premios Andalucía de la Cultura — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: Dato no localizado
@@ -3429,7 +3530,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://juntadeandalucia.es/eboja/2023/47/BOJA23-047-00009-4434-01_00279500.pdf
 - Sede electrónica: https://ws094.juntadeandalucia.es/V_virtual/SolicitarTicket?v=PEIT&id=6696
 
-### 31. Subvenciones excepcionales en materia de Comunidades Andaluzas. Ejercicio 2024. — 49/100 — PRIORIDAD BAJA
+### 32. Subvenciones excepcionales en materia de Comunidades Andaluzas. Ejercicio 2024. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: Dato no localizado
@@ -3504,7 +3605,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/eli/es/l/2003/11/17/38/con
 - Sede electrónica: https://ws050.juntadeandalucia.es/vea/accesoDirecto?codProcedimiento=PEG_VEA&otrosParametros=eyJpZFByb2NlZGltaWVudG8iOjE2MDU0fQ==
 
-### 32. Ayudas a los sectores de las frutas y hortalizas y de las frutas y hortalizas transformadas Reglamento 1308/2013 (Aprobación Programas Operativos y Pago de las Ayudas) — 49/100 — PRIORIDAD BAJA
+### 33. Ayudas a los sectores de las frutas y hortalizas y de las frutas y hortalizas transformadas Reglamento 1308/2013 (Aprobación Programas Operativos y Pago de las Ayudas) — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: Dato no localizado
@@ -3579,7 +3680,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/buscar/pdf/2010/BOE-A-2010-5303-consolidado.pdf
 - Sede electrónica: https://ws142.juntadeandalucia.es/agriculturaypesca/proa/
 
-### 33. Ayudas para el almacenamiento privado de carne de ovino-caprino — 49/100 — PRIORIDAD BAJA
+### 34. Ayudas para el almacenamiento privado de carne de ovino-caprino — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: Dato no localizado
@@ -3654,7 +3755,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/doue/2014/255/L00059-00124.pdf
 - Sede electrónica: https://ws094.juntadeandalucia.es/V_virtual/SolicitarTicket?v=PEIT&id=3337
 
-### 34. Premios Andalucía de Fundaciones — 49/100 — PRIORIDAD BAJA
+### 35. Premios Andalucía de Fundaciones — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: Dato no localizado
@@ -3729,7 +3830,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/buscar/pdf/2015/BOE-A-2015-10565-consolidado.pdf
 - Sede electrónica: https://ws094.juntadeandalucia.es/V_virtual/SolicitarTicket?v=PEIT&id=16237
 
-### 35. La Universidad Carlos III convoca plazas en la Escala Auxiliar Administrativa | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
+### 36. La Universidad Carlos III convoca plazas en la Escala Auxiliar Administrativa | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: 2026-07-06
@@ -3804,7 +3905,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.injuve.es/programas-injuve/ayudas-injuve-creacion-joven
 - Sede electrónica: https://juventudeinfancia.sede.gob.es/
 
-### 36. La Universidad Carlos III de Madrid convoca plazas de la Escala de Gestión | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
+### 37. La Universidad Carlos III de Madrid convoca plazas de la Escala de Gestión | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: 2026-07-07
@@ -3879,7 +3980,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.injuve.es/programas-injuve/ayudas-injuve-creacion-joven
 - Sede electrónica: https://juventudeinfancia.sede.gob.es/
 
-### 37. I Premio SGAE Urban Gata Cattana | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
+### 38. I Premio SGAE Urban Gata Cattana | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: 2026-07-23
@@ -3954,7 +4055,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.injuve.es/index.php/programas-injuve/ayudas-injuve-creacion-joven
 - Sede electrónica: https://juventudeinfancia.sede.gob.es/
 
-### 38. Premios Núñez de Prado | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
+### 39. Premios Núñez de Prado | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: 2026-07-23
@@ -4029,7 +4130,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.injuve.es/programas-injuve/ayudas-injuve-creacion-joven
 - Sede electrónica: https://juventudeinfancia.sede.gob.es/
 
-### 39. V edición del Concurso de Pintura "Ventanas al arte y al Moscatel" | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
+### 40. V edición del Concurso de Pintura "Ventanas al arte y al Moscatel" | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: 2026-07-23
@@ -4104,7 +4205,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.injuve.es/programas-injuve/ayudas-injuve-creacion-joven
 - Sede electrónica: https://juventudeinfancia.sede.gob.es/
 
-### 40. El Ayuntamiento de Elche convoca plazas de Portero/a de Grupo Escolar | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
+### 41. El Ayuntamiento de Elche convoca plazas de Portero/a de Grupo Escolar | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: 2026-07-23
@@ -4179,7 +4280,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.injuve.es/programas-injuve/ayudas-injuve-creacion-joven
 - Sede electrónica: https://juventudeinfancia.sede.gob.es/
 
-### 41. Concurso de fotografía digital “Conoce el patrimonio de la Vía Verde de la Sierra” | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
+### 42. Concurso de fotografía digital “Conoce el patrimonio de la Vía Verde de la Sierra” | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: 2026-07-23
@@ -4251,10 +4352,10 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Advertencias: Ninguna advertencia adicional.
 - Enlace oficial: https://www.injuve.es/convocatorias/premios/concurso-de-fotografia-digital-conoce-el-patrimonio-de-la-via-verde-de-la-sierra
 - Otros enlaces oficiales: Dato no localizado
-- Bases: https://www.injuve.es/index.php/programas-injuve/ayudas-injuve-creacion-joven
+- Bases: https://www.injuve.es/programas-injuve/ayudas-injuve-creacion-joven
 - Sede electrónica: https://juventudeinfancia.sede.gob.es/
 
-### 42. El Ayuntamiento de Córdoba convoca plazas de Ordenanza | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
+### 43. El Ayuntamiento de Córdoba convoca plazas de Ordenanza | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Abierta
 - Apertura: 2026-07-21
@@ -4325,81 +4426,6 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Proyecto recomendado: Océano Inclusivo: talleres científicos marinos para menores, alumnado NEAE y jóvenes en situación de vulnerabilidad.
 - Advertencias: Ninguna advertencia adicional.
 - Enlace oficial: https://www.injuve.es/convocatorias/becas-empleo/el-ayuntamiento-de-cordoba-convoca-plazas-de-ordenanza
-- Otros enlaces oficiales: Dato no localizado
-- Bases: https://www.injuve.es/programas-injuve/ayudas-injuve-creacion-joven
-- Sede electrónica: https://juventudeinfancia.sede.gob.es/
-
-### 43. Becas de Colaboración en Departamentos Universitarios | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
-
-- Estado: Abierta
-- Apertura: 2026-07-21
-- Plazo: 2026-09-22
-- Organismo: Instituto de la Juventud
-- Consejería: Dato no localizado
-- Tipo de organismo: Organismo público
-- Fuente: INJUVE - Convocatorias
-- Cobertura de la fuente: current — Dato no localizado
-- Metadatos verificados: No consta revisión completa
-- Número BDNS: Dato no localizado
-- Código de procedimiento: Dato no localizado
-- Identificadores oficiales: Dato no localizado
-- Fecha de registro: Dato no localizado
-- Tipo de registro: Convocatoria
-- Solicitabilidad: Pendiente de verificar
-- Familia/tema/actividad: Dato no localizado / Dato no localizado / Dato no localizado
-- Tipo de procedimiento: Dato no localizado
-- Territorio: España
-- Nivel administrativo/comunidad autónoma: Dato no localizado / Dato no localizado
-- Provincia/municipio: Dato no localizado / Dato no localizado
-- Presupuesto de la convocatoria: Dato no localizado
-- Importe máximo por proyecto: Dato no localizado
-- Financiación: Dato no localizado
-- Cofinanciación: Dato no localizado
-- Anticipo: Dato no localizado
-- Instrumento financiero: Premio
-- Finalidad de la financiación: Dato no localizado
-- Porcentaje financiado: Dato no localizado
-- Porcentaje de cofinanciación: Dato no localizado
-- Porcentaje de anticipo: Dato no localizado
-- Aval para el anticipo: Dato no localizado
-- Pago solo tras justificar: Dato no localizado
-- Forma de pago: Dato no localizado
-- Gastos de funcionamiento: Dato no localizado
-- Gastos de personal: Dato no localizado
-- Equipamiento: Dato no localizado
-- Alquiler de sede: Dato no localizado
-- Seguros: Dato no localizado
-- Desplazamientos: Dato no localizado
-- Antigüedad mínima estructurada: Dato no localizado
-- Experiencia previa obligatoria: Dato no localizado
-- Presupuesto mínimo del proyecto: Dato no localizado
-- Auditoría obligatoria: Dato no localizado
-- Apta para entidad nueva: Dato no localizado
-- Riesgo de tesorería: Medio
-- Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar.
-- ¿Puede pedirla CARIBDIS directamente?: Solicitud directa
-- Beneficiarios: beneficiarios de la ayuda deberán prestar su colaboración a razón de tres horas diarias durante siete meses y medio a contar desde la fecha de incorporación al departamento correspondiente como becario de colaboración. Enlaces externos: Visitar la web de la convocatoria Aviso legal / Protección de datos / Accesibilidad Menú ayuda a la navegación Ayuda a la navegación MAPA WEB Toda la actualidad Resumen de nuestros programas Actualidad del Observatorio Actualidad Información Juvenil Información sobre el CEULAJ CANAL DEL INFORMANTE MALAS PRÁCTICA
-- Elegibilidad de una asociación nueva: Dato no localizado
-- Requisitos: Dato no localizado
-- Antigüedad/experiencia: Dato no localizado / Dato no localizado
-- Necesidad de socios/consorcio: Dato no localizado / Dato no localizado
-- Necesidad de aval: Dato no localizado
-- Gastos subvencionables: Dato no localizado
-- Duración: Dato no localizado
-- Fondos europeos: Dato no localizado
-- Instrumentos de ayuda: Premio
-- Eventos administrativos: Dato no localizado
-- Plazo administrativo: Dato no localizado
-- Formularios: Dato no localizado
-- Normas y bases: Dato no localizado
-- Información de contacto: Dato no localizado
-- Temática principal: Inclusión, infancia y juventud
-- Palabras clave: infancia, juventud, accesibilidad
-- Motivo de la puntuación: Elegibilidad 25/25, temática 0/25, social/educativa 8/15, territorio 7/10, financiación 7/10, estado/plazo 10/10 y viabilidad financiera 5/5; no supera el umbral temático y la prioridad queda limitada a Baja. Viabilidad: sin condiciones financieras adversas publicadas; porcentaje por confirmar.
-- Requisitos o riesgos: no alcanza el umbral temático CARIBDIS; el encaje social o educativo es genérico; sin condiciones financieras adversas publicadas; porcentaje por confirmar
-- Proyecto recomendado: Océano Inclusivo: talleres científicos marinos para menores, alumnado NEAE y jóvenes en situación de vulnerabilidad.
-- Advertencias: Ninguna advertencia adicional.
-- Enlace oficial: https://www.injuve.es/convocatorias/becas-empleo/becas-de-colaboracion-en-departamentos-universitarios
 - Otros enlaces oficiales: Dato no localizado
 - Bases: https://www.injuve.es/programas-injuve/ayudas-injuve-creacion-joven
 - Sede electrónica: https://juventudeinfancia.sede.gob.es/
@@ -5904,82 +5930,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.injuve.es/programas-injuve/ayudas-injuve-creacion-joven
 - Sede electrónica: https://juventudeinfancia.sede.gob.es/
 
-### 64. Convocatorias becas / empleo | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
-
-- Estado: Desconocida
-- Apertura: Dato no localizado
-- Plazo: Dato no localizado
-- Organismo: Instituto de la Juventud
-- Consejería: Dato no localizado
-- Tipo de organismo: Organismo público
-- Fuente: INJUVE - Convocatorias
-- Cobertura de la fuente: current — Dato no localizado
-- Metadatos verificados: No consta revisión completa
-- Número BDNS: Dato no localizado
-- Código de procedimiento: Dato no localizado
-- Identificadores oficiales: Dato no localizado
-- Fecha de registro: Dato no localizado
-- Tipo de registro: Convocatoria
-- Solicitabilidad: Pendiente de verificar
-- Familia/tema/actividad: Dato no localizado / Dato no localizado / Dato no localizado
-- Tipo de procedimiento: Dato no localizado
-- Territorio: España
-- Nivel administrativo/comunidad autónoma: Dato no localizado / Dato no localizado
-- Provincia/municipio: Dato no localizado / Dato no localizado
-- Presupuesto de la convocatoria: Dato no localizado
-- Importe máximo por proyecto: Dato no localizado
-- Financiación: Dato no localizado
-- Cofinanciación: Dato no localizado
-- Anticipo: Dato no localizado
-- Instrumento financiero: Premio
-- Finalidad de la financiación: Dato no localizado
-- Porcentaje financiado: Dato no localizado
-- Porcentaje de cofinanciación: Dato no localizado
-- Porcentaje de anticipo: Dato no localizado
-- Aval para el anticipo: Dato no localizado
-- Pago solo tras justificar: Dato no localizado
-- Forma de pago: Dato no localizado
-- Gastos de funcionamiento: Dato no localizado
-- Gastos de personal: Dato no localizado
-- Equipamiento: Dato no localizado
-- Alquiler de sede: Dato no localizado
-- Seguros: Dato no localizado
-- Desplazamientos: Dato no localizado
-- Antigüedad mínima estructurada: Dato no localizado
-- Experiencia previa obligatoria: Dato no localizado
-- Presupuesto mínimo del proyecto: Dato no localizado
-- Auditoría obligatoria: Dato no localizado
-- Apta para entidad nueva: Dato no localizado
-- Riesgo de tesorería: Medio
-- Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar.
-- ¿Puede pedirla CARIBDIS directamente?: Solicitud directa
-- Beneficiarios: Dato no localizado
-- Elegibilidad de una asociación nueva: Dato no localizado
-- Requisitos: Dato no localizado
-- Antigüedad/experiencia: Dato no localizado / Dato no localizado
-- Necesidad de socios/consorcio: Dato no localizado / Dato no localizado
-- Necesidad de aval: Dato no localizado
-- Gastos subvencionables: Dato no localizado
-- Duración: Dato no localizado
-- Fondos europeos: Dato no localizado
-- Instrumentos de ayuda: Premio
-- Eventos administrativos: Dato no localizado
-- Plazo administrativo: Dato no localizado
-- Formularios: Dato no localizado
-- Normas y bases: Dato no localizado
-- Información de contacto: Dato no localizado
-- Temática principal: Inclusión, infancia y juventud
-- Palabras clave: infancia, juventud, accesibilidad
-- Motivo de la puntuación: Elegibilidad 25/25, temática 0/25, social/educativa 8/15, territorio 8/10, financiación 7/10, estado/plazo 2/10 y viabilidad financiera 5/5; no supera el umbral temático y la prioridad queda limitada a Baja. Viabilidad: sin condiciones financieras adversas publicadas; porcentaje por confirmar.
-- Requisitos o riesgos: no alcanza el umbral temático CARIBDIS; el encaje social o educativo es genérico; sin condiciones financieras adversas publicadas; porcentaje por confirmar
-- Proyecto recomendado: Océano Inclusivo: talleres científicos marinos para menores, alumnado NEAE y jóvenes en situación de vulnerabilidad.
-- Advertencias: Ninguna advertencia adicional.
-- Enlace oficial: https://www.injuve.es/index.php/convocatorias/becas
-- Otros enlaces oficiales: Dato no localizado
-- Bases: https://www.injuve.es/programas-injuve/ayudas-injuve-creacion-joven
-- Sede electrónica: https://juventudeinfancia.sede.gob.es/
-
-### 65. Convocatorias cursos | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
+### 64. Convocatorias cursos | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -6054,7 +6005,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.injuve.es/programas-injuve/ayudas-injuve-creacion-joven
 - Sede electrónica: https://juventudeinfancia.sede.gob.es/
 
-### 66. Convocatorias premios | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
+### 65. Convocatorias premios | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -6129,82 +6080,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.injuve.es/programas-injuve/ayudas-injuve-creacion-joven
 - Sede electrónica: https://juventudeinfancia.sede.gob.es/
 
-### 67. Convocatorias | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
-
-- Estado: Desconocida
-- Apertura: Dato no localizado
-- Plazo: Dato no localizado
-- Organismo: Instituto de la Juventud
-- Consejería: Dato no localizado
-- Tipo de organismo: Organismo público
-- Fuente: INJUVE - Convocatorias
-- Cobertura de la fuente: current — Dato no localizado
-- Metadatos verificados: No consta revisión completa
-- Número BDNS: Dato no localizado
-- Código de procedimiento: Dato no localizado
-- Identificadores oficiales: Dato no localizado
-- Fecha de registro: Dato no localizado
-- Tipo de registro: Convocatoria
-- Solicitabilidad: Pendiente de verificar
-- Familia/tema/actividad: Dato no localizado / Dato no localizado / Dato no localizado
-- Tipo de procedimiento: Dato no localizado
-- Territorio: España
-- Nivel administrativo/comunidad autónoma: Dato no localizado / Dato no localizado
-- Provincia/municipio: Dato no localizado / Dato no localizado
-- Presupuesto de la convocatoria: Dato no localizado
-- Importe máximo por proyecto: Dato no localizado
-- Financiación: Dato no localizado
-- Cofinanciación: Dato no localizado
-- Anticipo: Dato no localizado
-- Instrumento financiero: Premio
-- Finalidad de la financiación: Dato no localizado
-- Porcentaje financiado: Dato no localizado
-- Porcentaje de cofinanciación: Dato no localizado
-- Porcentaje de anticipo: Dato no localizado
-- Aval para el anticipo: Dato no localizado
-- Pago solo tras justificar: Dato no localizado
-- Forma de pago: Dato no localizado
-- Gastos de funcionamiento: Dato no localizado
-- Gastos de personal: Dato no localizado
-- Equipamiento: Dato no localizado
-- Alquiler de sede: Dato no localizado
-- Seguros: Dato no localizado
-- Desplazamientos: Dato no localizado
-- Antigüedad mínima estructurada: Dato no localizado
-- Experiencia previa obligatoria: Dato no localizado
-- Presupuesto mínimo del proyecto: Dato no localizado
-- Auditoría obligatoria: Dato no localizado
-- Apta para entidad nueva: Dato no localizado
-- Riesgo de tesorería: Medio
-- Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar.
-- ¿Puede pedirla CARIBDIS directamente?: Solicitud directa
-- Beneficiarios: Dato no localizado
-- Elegibilidad de una asociación nueva: Dato no localizado
-- Requisitos: Dato no localizado
-- Antigüedad/experiencia: Dato no localizado / Dato no localizado
-- Necesidad de socios/consorcio: Dato no localizado / Dato no localizado
-- Necesidad de aval: Dato no localizado
-- Gastos subvencionables: Dato no localizado
-- Duración: Dato no localizado
-- Fondos europeos: Dato no localizado
-- Instrumentos de ayuda: Premio
-- Eventos administrativos: Dato no localizado
-- Plazo administrativo: Dato no localizado
-- Formularios: Dato no localizado
-- Normas y bases: Dato no localizado
-- Información de contacto: Dato no localizado
-- Temática principal: Inclusión, infancia y juventud
-- Palabras clave: infancia, juventud, accesibilidad
-- Motivo de la puntuación: Elegibilidad 25/25, temática 0/25, social/educativa 8/15, territorio 9/10, financiación 7/10, estado/plazo 2/10 y viabilidad financiera 5/5; no supera el umbral temático y la prioridad queda limitada a Baja. Viabilidad: sin condiciones financieras adversas publicadas; porcentaje por confirmar.
-- Requisitos o riesgos: no alcanza el umbral temático CARIBDIS; el encaje social o educativo es genérico; sin condiciones financieras adversas publicadas; porcentaje por confirmar
-- Proyecto recomendado: Océano Inclusivo: talleres científicos marinos para menores, alumnado NEAE y jóvenes en situación de vulnerabilidad.
-- Advertencias: Ninguna advertencia adicional.
-- Enlace oficial: https://www.injuve.es/convocatorias
-- Otros enlaces oficiales: Dato no localizado
-- Bases: https://www.injuve.es/index.php/programas-injuve/ayudas-injuve-creacion-joven
-- Sede electrónica: https://juventudeinfancia.sede.gob.es/
-
-### 68. Premios Injuve de Periodismo y Comunicación | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
+### 66. Premios Injuve de Periodismo y Comunicación | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -6279,7 +6155,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.injuve.es/index.php/programas-injuve/ayudas-injuve-creacion-joven
 - Sede electrónica: https://juventudeinfancia.sede.gob.es/
 
-### 69. Premios Nacionales de Juventud | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
+### 67. Premios Nacionales de Juventud | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -6354,7 +6230,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.injuve.es/index.php/programas-injuve/ayudas-injuve-creacion-joven
 - Sede electrónica: https://juventudeinfancia.sede.gob.es/
 
-### 70. Subvenciones Injuve asociaciones juveniles | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
+### 68. Subvenciones Injuve asociaciones juveniles | Injuve, Instituto de la Juventud. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -6429,7 +6305,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.injuve.es/index.php/programas-injuve/ayudas-injuve-creacion-joven
 - Sede electrónica: https://juventudeinfancia.sede.gob.es/
 
-### 71. Extracto de la Resolución del Instituto de la Juventud, por la que se convoca la concesión de subvenciones para el mantenimiento y funcionamiento de asociaciones juveniles, organizaciones juveniles y entidades prestadoras de servicios a la juventud de ámbito estatal, para el año 2026. — 49/100 — PRIORIDAD BAJA
+### 69. Extracto de la Resolución del Instituto de la Juventud, por la que se convoca la concesión de subvenciones para el mantenimiento y funcionamiento de asociaciones juveniles, organizaciones juveniles y entidades prestadoras de servicios a la juventud de ámbito estatal, para el año 2026. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: No publicada expresamente; publicacion oficial: 2026-06-30
@@ -6504,7 +6380,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/boe/dias/2026/06/30/pdfs/BOE-B-2026-22341.pdf
 - Sede electrónica: Dato no localizado
 
-### 72. PRIMERA CONVOCATORIA DE AYUDAS A LA EDLP DE GALPA HUELVA DE 2026 - GALPA HUELVA — 49/100 — PRIORIDAD BAJA
+### 70. PRIMERA CONVOCATORIA DE AYUDAS A LA EDLP DE GALPA HUELVA DE 2026 - GALPA HUELVA — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: 2026-03-05
@@ -6579,7 +6455,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://galpahuelva.com/convocatorias/
 - Sede electrónica: https://galpahuelva.com/wp-content/uploads/2024/07/Anexo-I-Solicitud.pdf
 
-### 73. Ayudas y subvenciones del Ministerio | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
+### 71. Ayudas y subvenciones del Ministerio | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -6654,7 +6530,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 74. Becas, ayudas y subvenciones | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
+### 72. Becas, ayudas y subvenciones | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -6729,7 +6605,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: https://www.cultura.gob.es/servicios-a-la-ciudadania/catalogo/becas-ayudas-y-subvenciones/becas/becas-culturex.html
 
-### 75. Becas, ayudas y subvenciones | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
+### 73. Becas, ayudas y subvenciones | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -6804,7 +6680,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: https://www.cultura.gob.es/servicios-a-la-ciudadania/catalogo/becas-ayudas-y-subvenciones/becas/becas-culturex.html
 
-### 76. Becas, ayudas y subvenciones | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
+### 74. Becas, ayudas y subvenciones | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -6879,7 +6755,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: https://www.cultura.gob.es/servicios-a-la-ciudadania/catalogo/becas-ayudas-y-subvenciones/becas/becas-culturex.html
 
-### 77. Resolución de 22 de junio de 2026, de la Subsecretaría, por la que se autoriza la eliminación de series documentales de subvenciones de concurrencia competitiva existentes en los archivos del Departamento y sus Organismos Públicos. — 49/100 — PRIORIDAD BAJA
+### 75. Resolución de 22 de junio de 2026, de la Subsecretaría, por la que se autoriza la eliminación de series documentales de subvenciones de concurrencia competitiva existentes en los archivos del Departamento y sus Organismos Públicos. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: No publicada expresamente; publicacion oficial: 2026-07-09
@@ -6954,7 +6830,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/boe/dias/2026/07/09/pdfs/BOE-A-2026-15011.pdf
 - Sede electrónica: Dato no localizado
 
-### 78. Acuerdo de 03/07/2026 de JGL Ayunt Almería, Aprobación de la convocatoria de subvenciones a las Asociaciones de Comerciantes y Hosteleros para el año 2026, de la Delegación de Área de Empleo, Comercio e Impulso al Talento, por importe total de 140.000,00€ — 37/100 — PRIORIDAD BAJA
+### 76. Acuerdo de 03/07/2026 de JGL Ayunt Almería, Aprobación de la convocatoria de subvenciones a las Asociaciones de Comerciantes y Hosteleros para el año 2026, de la Delegación de Área de Empleo, Comercio e Impulso al Talento, por importe total de 140.000,00€ — 37/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada
 - Apertura: 2026-07-11
@@ -7029,7 +6905,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.dipalme.org/Servicios/Boletin/BOP5Anteriores.nsf/fechabop/C1257E260069CFD5C12588D80041CB7D/$file/22-02873.pdf
 - Sede electrónica: https://sede.aytoalmeria.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=PTS2_HOME
 
-### 79. CONVOCATORIA DE SUBVENCIONES DE LÍNEAS DE ACTUACIÓN DESARROLLADAS POR ENTIDADES SIN ÁNIMO DE LUCRO QUE FAVOREZCAN EL DESARROLLO SOCIOECONÓMICO DEL MUNICIPIO - ESAL 2026 -. — 35/100 — PRIORIDAD BAJA
+### 77. CONVOCATORIA DE SUBVENCIONES DE LÍNEAS DE ACTUACIÓN DESARROLLADAS POR ENTIDADES SIN ÁNIMO DE LUCRO QUE FAVOREZCAN EL DESARROLLO SOCIOECONÓMICO DEL MUNICIPIO - ESAL 2026 -. — 35/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada
 - Apertura: 2026-07-06
@@ -7104,7 +6980,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://sede.cordoba.es/cordoba/tablon-de-anuncios/
 - Sede electrónica: https://sede.cordoba.es/cordoba
 
-### 80. Resolución de la Presidencia del Consejo Superior de Deportes, por la que se convocan ayudas en 2026 para el fomento del asociacionismo en el fútbol. — 32/100 — PRIORIDAD BAJA
+### 78. Resolución de la Presidencia del Consejo Superior de Deportes, por la que se convocan ayudas en 2026 para el fomento del asociacionismo en el fútbol. — 32/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada
 - Apertura: 2026-07-02
@@ -7179,7 +7055,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/buscar/doc.php?id=BOE-A-2012-15180
 - Sede electrónica: Dato no localizado
 
-### 81. Acuerdo JGL de 10/07/26. Aprobación de la convocatoria de subvenciones a Asociaciones de Consumidores y Usuarios, para el desarrollo y defensa de los consumidores y usuarios en el marco de la actuación municipal en materia de consumo, para el año 2026. — 35/100 — PRIORIDAD BAJA
+### 79. Acuerdo JGL de 10/07/26. Aprobación de la convocatoria de subvenciones a Asociaciones de Consumidores y Usuarios, para el desarrollo y defensa de los consumidores y usuarios en el marco de la actuación municipal en materia de consumo, para el año 2026. — 35/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada
 - Apertura: 2026-07-23
@@ -7254,7 +7130,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.dipalme.org/Servicios/Boletin/BOP5Anteriores.nsf/fechabop/C1257E260069CFD5C12588D80041CB7D/$file/22-02873.pdf
 - Sede electrónica: https://sede.aytoalmeria.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=PTS2_HOME
 
-### 82. Bekak, laguntzak eta diru-laguntzak | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
+### 80. Bekak, laguntzak eta diru-laguntzak | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -7329,7 +7205,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 83. Beques, ajudes i subvencions | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
+### 81. Beques, ajudes i subvencions | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -7404,7 +7280,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 84. Beques, ajudes i subvencions | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
+### 82. Beques, ajudes i subvencions | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -7479,7 +7355,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 85. Bolsas, axudas e subvencións | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
+### 83. Bolsas, axudas e subvencións | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -7554,7 +7430,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 86. Extracto de la Resolución de 7 de julio de 2026 de la Dirección de la Agencia Española de Cooperación Internacional para el Desarrollo por la que se convocan subvenciones en concurrencia competitiva para acciones y proyectos de cooperación técnica en materia de Memoria, construcción de paz y resolución de conflictos, en el marco del Programa Democracia con cargo al presupuesto de 2026 — 49/100 — PRIORIDAD BAJA
+### 84. Extracto de la Resolución de 7 de julio de 2026 de la Dirección de la Agencia Española de Cooperación Internacional para el Desarrollo por la que se convocan subvenciones en concurrencia competitiva para acciones y proyectos de cooperación técnica en materia de Memoria, construcción de paz y resolución de conflictos, en el marco del Programa Democracia con cargo al presupuesto de 2026 — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: No publicada expresamente; publicacion oficial: 2026-07-14
@@ -7629,7 +7505,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/boe/dias/2026/07/14/pdfs/BOE-B-2026-24116.pdf
 - Sede electrónica: Dato no localizado
 
-### 87. Scholarships, grants and grants | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
+### 85. Scholarships, grants and grants | Ministerio de Cultura — 49/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -7704,7 +7580,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 88. Extracto de la resolución de 25 de junio de 2026 de la Secretaría de Estado de Economía Social, por la que se aprueba la convocatoria para la concesión de subvenciones a proyectos de economía social y de RSE y para gastos de funcionamiento — 47/100 — PRIORIDAD BAJA
+### 86. Extracto de la resolución de 25 de junio de 2026 de la Secretaría de Estado de Economía Social, por la que se aprueba la convocatoria para la concesión de subvenciones a proyectos de economía social y de RSE y para gastos de funcionamiento — 47/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: No publicada expresamente; publicacion oficial: 2026-07-01
@@ -7779,7 +7655,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/boe/dias/2026/07/01/pdfs/BOE-B-2026-22418.pdf
 - Sede electrónica: Dato no localizado
 
-### 89. Fundación Daniel & Nina Carasso — 47/100 — PRIORIDAD BAJA
+### 87. Fundación Daniel & Nina Carasso — 47/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: 2024-02-28
@@ -7854,7 +7730,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://fondationcarasso.org/es/convocatorias/tiina-transformacion-e-impacto-a-traves-de-la-inversion-en-alimentacion-y-arte-2024/
 - Sede electrónica: Dato no localizado
 
-### 90. Fundación Daniel & Nina Carasso — 47/100 — PRIORIDAD BAJA
+### 88. Fundación Daniel & Nina Carasso — 47/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: 2026-03-16
@@ -7929,7 +7805,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://fondationcarasso.org/es/convocatorias/tiina-transformacion-e-impacto-a-traves-de-la-inversion-en-alimentacion-y-arte/
 - Sede electrónica: Dato no localizado
 
-### 91. CONVOCATORIA EN RÉGIMEN DE CONCURRENCIA COMPETITIVA PARA LA CONCESIÓN DE SUBVENCIONES A ASOCIACIONES DE LA PROVINCIA DE GRANADA, PARA LA DEFENSA, PROMOCIÓN Y DIFUSIÓN DE LA RAZA OVINA LOJEÑA, EJERCICIO 2026. — 35/100 — PRIORIDAD BAJA
+### 89. CONVOCATORIA EN RÉGIMEN DE CONCURRENCIA COMPETITIVA PARA LA CONCESIÓN DE SUBVENCIONES A ASOCIACIONES DE LA PROVINCIA DE GRANADA, PARA LA DEFENSA, PROMOCIÓN Y DIFUSIÓN DE LA RAZA OVINA LOJEÑA, EJERCICIO 2026. — 35/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada
 - Apertura: Dato no localizado
@@ -8004,7 +7880,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.dipgra.es/export/sites/diputaciongranada/diputacion/delegaciones/economia-y-atencion-al-alcalde/.galleries/DIPUTACION-Delegaciones-Economia-y-Patrimonio-Economia/DIPUTACION-Delegaciones-Econo
 - Sede electrónica: Dato no localizado
 
-### 92. CONVOCATORIA EN RÉGIMEN DE CONCURRENCIA COMPETITIVA PARA LA CONCESIÓN DE SUBVENCIONES A GANADEROS/AS, ASOCIACIONES Y COOPERATIVAS DE GRANADA, PARA LA MEJORA GENÉTICA DEL GANADO OVINO RAZA SEGUREÑA, MEDIANTE INSEMINACIÓN ARTIFICIAL, EJERCICIO 2026. — 35/100 — PRIORIDAD BAJA
+### 90. CONVOCATORIA EN RÉGIMEN DE CONCURRENCIA COMPETITIVA PARA LA CONCESIÓN DE SUBVENCIONES A GANADEROS/AS, ASOCIACIONES Y COOPERATIVAS DE GRANADA, PARA LA MEJORA GENÉTICA DEL GANADO OVINO RAZA SEGUREÑA, MEDIANTE INSEMINACIÓN ARTIFICIAL, EJERCICIO 2026. — 35/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada
 - Apertura: Dato no localizado
@@ -8079,7 +7955,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.dipgra.es/export/sites/diputaciongranada/diputacion/delegaciones/economia-y-atencion-al-alcalde/.galleries/DIPUTACION-Delegaciones-Economia-y-Patrimonio-Economia/DIPUTACION-Delegaciones-Econo
 - Sede electrónica: Dato no localizado
 
-### 93. Resolución urgente Nº 5040 de 24/07/2026, del Teniente de Alcalde Delegado del Área de Barrios y Colectivos de Atención Preferente, Derechos Sociales, Empleo, Familia, Igualdad y Asociaciones por el que se convoca “Sevilla Solidaria 2027" — 35/100 — PRIORIDAD BAJA
+### 91. Resolución urgente Nº 5040 de 24/07/2026, del Teniente de Alcalde Delegado del Área de Barrios y Colectivos de Atención Preferente, Derechos Sociales, Empleo, Familia, Igualdad y Asociaciones por el que se convoca “Sevilla Solidaria 2027" — 35/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada
 - Apertura: Dato no localizado
@@ -8154,7 +8030,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: http://www.dipusevilla.es/export/bop/200507/14.pdf
 - Sede electrónica: Dato no localizado
 
-### 94. Resolución urgente Nº 5040 de 24/07/2026, del Teniente de Alcalde Delegado del Área de Barrios y Colectivos de Atención Preferente, Derechos Sociales, Empleo, Familia, Igualdad y Asociaciones por el que se convoca “Sevilla Solidaria 2027" — 35/100 — PRIORIDAD BAJA
+### 92. Resolución urgente Nº 5040 de 24/07/2026, del Teniente de Alcalde Delegado del Área de Barrios y Colectivos de Atención Preferente, Derechos Sociales, Empleo, Familia, Igualdad y Asociaciones por el que se convoca “Sevilla Solidaria 2027" — 35/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada
 - Apertura: Dato no localizado
@@ -8229,7 +8105,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: http://www.dipusevilla.es/export/bop/200507/14.pdf
 - Sede electrónica: Dato no localizado
 
-### 95. Subvenciones institucionales para programas y mantenimiento en el ámbito de la discapacidad / Línea 5 / Bases Reguladoras 2021 — 49/100 — PRIORIDAD BAJA
+### 93. Subvenciones institucionales para programas y mantenimiento en el ámbito de la discapacidad / Línea 5 / Bases Reguladoras 2021 — 49/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada recurrente
 - Apertura: Dato no localizado
@@ -8304,7 +8180,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: http://juntadeandalucia.es/boja/2017/191/BOJA17-191-00039-16823-01_00121943.pdf
 - Sede electrónica: https://ws050.juntadeandalucia.es/vea/accesoDirecto?codProcedimiento=CIPSC_24564
 
-### 96. Subvenciones a entidades privadas para programas que se desarrollen en el marco de la Solidaridad y Garantía Alimentaria de Andalucía/Línea 7/Bases Reguladoras 2021. — 49/100 — PRIORIDAD BAJA
+### 94. Subvenciones a entidades privadas para programas que se desarrollen en el marco de la Solidaridad y Garantía Alimentaria de Andalucía/Línea 7/Bases Reguladoras 2021. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada recurrente
 - Apertura: Dato no localizado
@@ -8379,7 +8255,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://juntadeandalucia.es/eboja/2023/93/BOJA23-093-00053-8710-01_00283740.pdf
 - Sede electrónica: https://ws050.juntadeandalucia.es/vea/faces/vi/inicio.xhtml
 
-### 97. Subvenciones destinadas a programas para la promoción, sensibilización y formación del voluntariado y para la gestión de centros de recursos para el voluntariado y las asociaciones / Línea 12 / Bases Reguladoras 2021 — 49/100 — PRIORIDAD BAJA
+### 95. Subvenciones destinadas a programas para la promoción, sensibilización y formación del voluntariado y para la gestión de centros de recursos para el voluntariado y las asociaciones / Línea 12 / Bases Reguladoras 2021 — 49/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada recurrente
 - Apertura: Dato no localizado
@@ -8454,7 +8330,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://juntadeandalucia.es/boja/2021/146/7
 - Sede electrónica: https://ws050.juntadeandalucia.es/vea/accesoDirecto/CIPS/
 
-### 98. Movimiento asociativo POISES 2018 - 2020 | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 42/100 — PRIORIDAD BAJA
+### 96. Movimiento asociativo POISES 2018 - 2020 | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 42/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada recurrente
 - Apertura: 2018-07-31
@@ -8502,7 +8378,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Apta para entidad nueva: Dato no localizado
 - Riesgo de tesorería: Medio
 - Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio.
-- ¿Puede pedirla CARIBDIS directamente?: Solo con socio
+- ¿Puede pedirla CARIBDIS directamente?: Vigilar próxima edición
 - Beneficiarios: beneficiarias de ayudas con cargo a esta convocatoria, cuya resolución fue publicada el Publicada el 20.12.2018, que se modifica en ciertos apartados de la Convocatoria de Bases, así como la Guía del beneficiario 2018 en lo que respecta a la Matriz de riesgos ex post , la misma no deberá ser entregada por la entidad beneficiaria . Una vez resuelta la petición de ayuda económica por parte de los Órganos competentes de la Fundación ONCE, se publicará en esta página web para su consulta por parte de los solicitantes. Resolución RESOLUCIÓN DEFINITI
 - Elegibilidad de una asociación nueva: Dato no localizado
 - Requisitos: Dato no localizado
@@ -8529,7 +8405,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundaciononce.es/es/convocatorias-de-ayudas
 - Sede electrónica: https://www.fundaciononce.es/es/transparencia/excelencia-y-sistemas-de-gestion
 
-### 99. POISES Psicosocial 2020 | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 42/100 — PRIORIDAD BAJA
+### 97. POISES Psicosocial 2020 | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 42/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada recurrente
 - Apertura: Dato no localizado
@@ -8577,7 +8453,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Apta para entidad nueva: Dato no localizado
 - Riesgo de tesorería: Medio
 - Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio.
-- ¿Puede pedirla CARIBDIS directamente?: Solo con socio
+- ¿Puede pedirla CARIBDIS directamente?: Vigilar próxima edición
 - Beneficiarios: Dato no localizado
 - Elegibilidad de una asociación nueva: Dato no localizado
 - Requisitos: Dato no localizado
@@ -8604,7 +8480,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundaciononce.es/es/convocatorias-de-ayudas
 - Sede electrónica: https://www.fundaciononce.es/es/transparencia/excelencia-y-sistemas-de-gestion
 
-### 100. Premios obtenidos por la Fundación ONCE en el ejercicio 2006 | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 42/100 — PRIORIDAD BAJA
+### 98. Premios obtenidos por la Fundación ONCE en el ejercicio 2006 | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 42/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -8679,7 +8555,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundaciononce.es/es/convocatorias-de-ayudas
 - Sede electrónica: https://www.fundaciononce.es/es/transparencia/excelencia-y-sistemas-de-gestion
 
-### 101. Convocatorias cofinanciadas por el Fondo Social Europeo | Fundación ONCE — 39/100 — PRIORIDAD BAJA
+### 99. Convocatorias cofinanciadas por el Fondo Social Europeo | Fundación ONCE — 39/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -8754,7 +8630,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundaciononce.es/es/convocatorias-de-ayudas
 - Sede electrónica: https://www.fundaciononce.es/es/transparencia/excelencia-y-sistemas-de-gestion
 
-### 102. Convocatorias Emprendimiento | Fundación ONCE — 39/100 — PRIORIDAD BAJA
+### 100. Convocatorias Emprendimiento | Fundación ONCE — 39/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -8829,7 +8705,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundaciononce.es/es/convocatorias-de-ayudas
 - Sede electrónica: https://www.fundaciononce.es/es/transparencia/excelencia-y-sistemas-de-gestion
 
-### 103. Documentación de la convocatoria Movimiento Asociativo POISES 2018 | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 39/100 — PRIORIDAD BAJA
+### 101. Documentación de la convocatoria Movimiento Asociativo POISES 2018 | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 39/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -8904,7 +8780,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundaciononce.es/es/convocatorias-de-ayudas
 - Sede electrónica: https://www.fundaciononce.es/es/transparencia/excelencia-y-sistemas-de-gestion
 
-### 104. Justificación de proyectos (documentación) | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 39/100 — PRIORIDAD BAJA
+### 102. Justificación de proyectos (documentación) | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 39/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -8979,7 +8855,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundaciononce.es/es/convocatorias-de-ayudas
 - Sede electrónica: https://www.fundaciononce.es/es/transparencia/excelencia-y-sistemas-de-gestion
 
-### 105. Formularios de solicitud (Convocatoria General) | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 39/100 — PRIORIDAD BAJA
+### 103. Formularios de solicitud (Convocatoria General) | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 39/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -9054,7 +8930,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundaciononce.es/es/convocatorias-de-ayudas
 - Sede electrónica: https://www.fundaciononce.es/es/transparencia/excelencia-y-sistemas-de-gestion
 
-### 106. Justificación de proyectos (información) | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 39/100 — PRIORIDAD BAJA
+### 104. Justificación de proyectos (información) | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 39/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -9129,7 +9005,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundaciononce.es/es/convocatorias-de-ayudas
 - Sede electrónica: https://www.fundaciononce.es/es/transparencia/excelencia-y-sistemas-de-gestion
 
-### 107. Procedimiento de tramitación de la solicitud | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 39/100 — PRIORIDAD BAJA
+### 105. Procedimiento de tramitación de la solicitud | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad — 39/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -9204,7 +9080,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundaciononce.es/es/convocatorias-de-ayudas
 - Sede electrónica: https://www.fundaciononce.es/es/transparencia/excelencia-y-sistemas-de-gestion
 
-### 108. Convocatoria Acción Social - Fundación Unicaja — 44/100 — PRIORIDAD BAJA
+### 106. Convocatoria Acción Social - Fundación Unicaja — 44/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada recurrente
 - Apertura: Dato no localizado
@@ -9252,7 +9128,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Apta para entidad nueva: Dato no localizado
 - Riesgo de tesorería: Medio
 - Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio.
-- ¿Puede pedirla CARIBDIS directamente?: Solo con socio
+- ¿Puede pedirla CARIBDIS directamente?: Vigilar próxima edición
 - Beneficiarios: Dato no localizado
 - Elegibilidad de una asociación nueva: Dato no localizado
 - Requisitos: Dato no localizado
@@ -9279,7 +9155,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundacionunicaja.com/wp-content/uploads/2025/10/Bases-Convocatoria-Proyectos-Accion-Social-Fundacion-Unicaja.pdf
 - Sede electrónica: https://www.fundacionunicaja.com/protocolo-de-gestion/
 
-### 109. Convocatoria Pleamar 2017 | Pleamar — 38/100 — PRIORIDAD BAJA
+### 107. Convocatoria Pleamar 2017 | Pleamar — 38/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -9354,7 +9230,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://programapleamar.es/convocatorias
 - Sede electrónica: Dato no localizado
 
-### 110. Convocatoria Pleamar 2018 | Pleamar — 38/100 — PRIORIDAD BAJA
+### 108. Convocatoria Pleamar 2018 | Pleamar — 38/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: 2018-12-14
@@ -9429,7 +9305,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: http://www.programapleamar.es/convocatorias
 - Sede electrónica: Dato no localizado
 
-### 111. Convocatoria Pleamar 2021 | Pleamar — 38/100 — PRIORIDAD BAJA
+### 109. Convocatoria Pleamar 2021 | Pleamar — 38/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -9504,7 +9380,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.programapleamar.es/convocatorias
 - Sede electrónica: Dato no localizado
 
-### 112. Resolución Dirección de la Fundación Biodiversidad, que aprueba publicación de convocatoria de subvenciones para el fomento de actuaciones de desarrollo y consolidación de la infraestructura verde de ciudades españolas, cofinanciada por el FEDER. — 49/100 — PRIORIDAD BAJA
+### 110. Resolución Dirección de la Fundación Biodiversidad, que aprueba publicación de convocatoria de subvenciones para el fomento de actuaciones de desarrollo y consolidación de la infraestructura verde de ciudades españolas, cofinanciada por el FEDER. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Próxima
 - Apertura: 2026-10-29
@@ -9579,7 +9455,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19987
 - Sede electrónica: https://fundacion-biodiversidad.es/
 
-### 113. Convocatorias anteriores (FSE) Uno a Uno | Fundación ONCE — 37/100 — PRIORIDAD BAJA
+### 111. Convocatorias anteriores (FSE) Uno a Uno | Fundación ONCE — 37/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada recurrente
 - Apertura: Dato no localizado
@@ -9627,7 +9503,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Apta para entidad nueva: Dato no localizado
 - Riesgo de tesorería: Medio
 - Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio.
-- ¿Puede pedirla CARIBDIS directamente?: Solo con socio
+- ¿Puede pedirla CARIBDIS directamente?: Vigilar próxima edición
 - Beneficiarios: Dato no localizado
 - Elegibilidad de una asociación nueva: Dato no localizado
 - Requisitos: Dato no localizado
@@ -9654,7 +9530,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundaciononce.es/es/convocatorias-de-ayudas
 - Sede electrónica: https://www.fundaciononce.es/es/transparencia/excelencia-y-sistemas-de-gestion
 
-### 114. Convocatorias anteriores (FSE) Psicosocial | Fundación ONCE — 37/100 — PRIORIDAD BAJA
+### 112. Convocatorias anteriores (FSE) Psicosocial | Fundación ONCE — 37/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada recurrente
 - Apertura: Dato no localizado
@@ -9702,7 +9578,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Apta para entidad nueva: Dato no localizado
 - Riesgo de tesorería: Medio
 - Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio.
-- ¿Puede pedirla CARIBDIS directamente?: Solo con socio
+- ¿Puede pedirla CARIBDIS directamente?: Vigilar próxima edición
 - Beneficiarios: Dato no localizado
 - Elegibilidad de una asociación nueva: Dato no localizado
 - Requisitos: Dato no localizado
@@ -9729,7 +9605,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundaciononce.es/es/convocatorias-de-ayudas
 - Sede electrónica: https://www.fundaciononce.es/es/transparencia/excelencia-y-sistemas-de-gestion
 
-### 115. Convocatoria general | Fundación ONCE — 37/100 — PRIORIDAD BAJA
+### 113. Convocatoria general | Fundación ONCE — 37/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada recurrente
 - Apertura: 2026-01-26
@@ -9777,7 +9653,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Apta para entidad nueva: Dato no localizado
 - Riesgo de tesorería: Medio
 - Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio.
-- ¿Puede pedirla CARIBDIS directamente?: Solo con socio
+- ¿Puede pedirla CARIBDIS directamente?: Vigilar próxima edición
 - Beneficiarios: Dato no localizado
 - Elegibilidad de una asociación nueva: Dato no localizado
 - Requisitos: Dato no localizado
@@ -9804,7 +9680,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundaciononce.es/es/convocatorias-de-ayudas
 - Sede electrónica: https://www.fundaciononce.es/es/transparencia/excelencia-y-sistemas-de-gestion
 
-### 116. Convocatorias de axuda | Fundación ONCE — 34/100 — PRIORIDAD BAJA
+### 114. Convocatorias de axuda | Fundación ONCE — 34/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -9879,7 +9755,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundaciononce.es/gl/que-facemos/proxectos-e-solicitudes-de-axuda/convocatorias-de-axuda
 - Sede electrónica: https://www.fundaciononce.es/gl/que-facemos/proxectos-e-solicitudes-de-axuda
 
-### 117. Convocatorias de ayudas | Fundación ONCE — 34/100 — PRIORIDAD BAJA
+### 115. Convocatorias de ayudas | Fundación ONCE — 34/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -9954,7 +9830,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundaciononce.es/es/convocatorias-de-ayudas
 - Sede electrónica: https://www.fundaciononce.es/es/transparencia/excelencia-y-sistemas-de-gestion
 
-### 118. Convocatorias - GALPA HUELVA — 37/100 — PRIORIDAD BAJA
+### 116. Convocatorias - GALPA HUELVA — 37/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: 2026-03-05
@@ -10029,7 +9905,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://galpahuelva.com/convocatorias/
 - Sede electrónica: https://galpahuelva.com/propuesta-provisional-resolucion-ayudas-primera-convocatoria-2024/
 
-### 119. Resolución de la Dirección de la Fundación Biodiversidad por la que se aprueba la publicación de la convocatoria de subvenciones, en régimen de concurrencia competitiva, para la dotación de refugios climáticos en el marco de la Red de Refugios Climáticos. — 36/100 — PRIORIDAD BAJA
+### 117. Resolución de la Dirección de la Fundación Biodiversidad por la que se aprueba la publicación de la convocatoria de subvenciones, en régimen de concurrencia competitiva, para la dotación de refugios climáticos en el marco de la Red de Refugios Climáticos. — 36/100 — PRIORIDAD BAJA
 
 - Estado: Próxima
 - Apertura: 2026-10-15
@@ -10104,7 +9980,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-12926
 - Sede electrónica: https://fundacion-biodiversidad.es/
 
-### 120. Redes de Investigación 2026 | Agencia Estatal de Investigación Buscar — 49/100 — PRIORIDAD BAJA
+### 118. Redes de Investigación 2026 | Agencia Estatal de Investigación Buscar — 49/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada recurrente
 - Apertura: 2026-07-01
@@ -10179,7 +10055,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.aei.gob.es/convocatorias
 - Sede electrónica: https://www.aei.gob.es/ayudas-concedidas/gestiona-tu-ayuda
 
-### 121. Documentos - POCTEP — 33/100 — PRIORIDAD BAJA
+### 119. Documentos - POCTEP — 33/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -10254,7 +10130,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.poctep.eu/convocatorias
 - Sede electrónica: https://www.poctep.eu/gestion-de-proyectos-2021-2027/
 
-### 122. Ayudas y subvenciones de Archivos | Ministerio de Cultura — 30/100 — PRIORIDAD BAJA
+### 120. Ayudas y subvenciones de Archivos | Ministerio de Cultura — 30/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -10329,7 +10205,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.cultura.gob.es/servicios-a-la-ciudadania/catalogo/becas-ayudas-y-subvenciones/ayudas-y-subvenciones/archivos/proyecto-mejora-archivos-2024.html
 - Sede electrónica: Dato no localizado
 
-### 123. Ayudas y subvenciones de Bibliotecas | Ministerio de Cultura — 30/100 — PRIORIDAD BAJA
+### 121. Ayudas y subvenciones de Bibliotecas | Ministerio de Cultura — 30/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -10404,7 +10280,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.cultura.gob.es/servicios-a-la-ciudadania/catalogo/becas-ayudas-y-subvenciones/ayudas-y-subvenciones/bibliotecas/digitalizacion-patrimonio-bibliografico.html
 - Sede electrónica: Dato no localizado
 
-### 124. Ayudas y subvenciones de Industrias culturales | Ministerio de Cultura — 30/100 — PRIORIDAD BAJA
+### 122. Ayudas y subvenciones de Industrias culturales | Ministerio de Cultura — 30/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -10479,7 +10355,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.cultura.gob.es/servicios-a-la-ciudadania/catalogo/becas-ayudas-y-subvenciones/ayudas-y-subvenciones/industrias/salas-musica-directo.html
 - Sede electrónica: https://www.cultura.gob.es/servicios-a-la-ciudadania/catalogo/becas-ayudas-y-subvenciones/ayudas-y-subvenciones/industrias/seleccion-entidad-colaboradora.html
 
-### 125. Ayudas y subvenciones de Relaciones Internacionales | Ministerio de Cultura — 30/100 — PRIORIDAD BAJA
+### 123. Ayudas y subvenciones de Relaciones Internacionales | Ministerio de Cultura — 30/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -10554,7 +10430,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.cultura.gob.es/servicios-a-la-ciudadania/catalogo/becas-ayudas-y-subvenciones/ayudas-y-subvenciones/relaciones-internacionales/programa-iberex.html
 - Sede electrónica: Dato no localizado
 
-### 126. Comunicación y publicidad de las ayudas concedidas | Agencia Estatal de Investigación Buscar — 30/100 — PRIORIDAD BAJA
+### 124. Comunicación y publicidad de las ayudas concedidas | Agencia Estatal de Investigación Buscar — 30/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -10629,7 +10505,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.aei.gob.es/convocatorias
 - Sede electrónica: https://www.aei.gob.es/ayudas-concedidas/gestiona-tu-ayuda
 
-### 127. Orden TES/679/2026, de 29 de junio, por la que se modifica la Orden TMS/368/2019, de 28 de marzo, por la que se desarrolla el Real Decreto 694/2017, de 3 de julio, por el que se desarrolla la Ley 30/2015, de 9 de septiembre, por la que se regula el Sistema de Formación Profesional para el Empleo en el ámbito laboral, en relación con la oferta formativa de las administraciones competentes y su financiación, y se establecen las bases reguladoras para la concesión de subvenciones públicas destinadas a su financiación. — 30/100 — PRIORIDAD BAJA
+### 125. Orden TES/679/2026, de 29 de junio, por la que se modifica la Orden TMS/368/2019, de 28 de marzo, por la que se desarrolla el Real Decreto 694/2017, de 3 de julio, por el que se desarrolla la Ley 30/2015, de 9 de septiembre, por la que se regula el Sistema de Formación Profesional para el Empleo en el ámbito laboral, en relación con la oferta formativa de las administraciones competentes y su financiación, y se establecen las bases reguladoras para la concesión de subvenciones públicas destinadas a su financiación. — 30/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: No publicada expresamente; publicacion oficial: 2026-07-07
@@ -10704,7 +10580,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/boe/dias/2026/07/07/pdfs/BOE-A-2026-14656.pdf
 - Sede electrónica: Dato no localizado
 
-### 128. PRÓXIMAS CONVOCATORIAS - POCTEP — 30/100 — PRIORIDAD BAJA
+### 126. PRÓXIMAS CONVOCATORIAS - POCTEP — 30/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -10779,7 +10655,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.poctep.eu/convocatorias
 - Sede electrónica: https://www.poctep.eu/gestion-de-proyectos-2021-2027/
 
-### 129. Resolución de 2 de julio de 2026, de la Dirección General de Política Interior, por la que se publican las subvenciones estatales anuales, para atender los gastos de funcionamiento ordinario a las diferentes formaciones políticas con representación en el Congreso de los Diputados, durante el segundo trimestre del ejercicio 2026. — 30/100 — PRIORIDAD BAJA
+### 127. Resolución de 2 de julio de 2026, de la Dirección General de Política Interior, por la que se publican las subvenciones estatales anuales, para atender los gastos de funcionamiento ordinario a las diferentes formaciones políticas con representación en el Congreso de los Diputados, durante el segundo trimestre del ejercicio 2026. — 30/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: No publicada expresamente; publicacion oficial: 2026-07-13
@@ -10854,7 +10730,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/boe/dias/2026/07/13/pdfs/BOE-A-2026-15282.pdf
 - Sede electrónica: Dato no localizado
 
-### 130. Resolución de 2 de julio de 2026, de la Dirección General de Política Interior, por la que se publican las subvenciones estatales anuales, para sufragar los gastos de seguridad a las diferentes formaciones políticas con representación en el Congreso de los Diputados, durante el segundo trimestre del ejercicio 2026. — 30/100 — PRIORIDAD BAJA
+### 128. Resolución de 2 de julio de 2026, de la Dirección General de Política Interior, por la que se publican las subvenciones estatales anuales, para sufragar los gastos de seguridad a las diferentes formaciones políticas con representación en el Congreso de los Diputados, durante el segundo trimestre del ejercicio 2026. — 30/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: No publicada expresamente; publicacion oficial: 2026-07-13
@@ -10929,7 +10805,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/boe/dias/2026/07/13/pdfs/BOE-A-2026-15283.pdf
 - Sede electrónica: Dato no localizado
 
-### 131. Subvenciones para financiar medidas de apoyo institucional a los sindicatos del ámbito universitario 2025 — 29/100 — PRIORIDAD BAJA
+### 129. Subvenciones para financiar medidas de apoyo institucional a los sindicatos del ámbito universitario 2025 — 29/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: 2025-11-21
@@ -11004,7 +10880,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.ciencia.gob.es/Convocatorias.html
 - Sede electrónica: https://www.ciencia.gob.es/Servicios/sede_electronica.html
 
-### 132. Resolución de 21 de mayo de 2026, aprobada por la Comisión Mixta para las Relaciones con el Tribunal de Cuentas, en relación con el Informe de fiscalización de las aportaciones percibidas por las fundaciones y demás entidades vinculadas o dependientes de los partidos políticos y de los gastos de programas y actividades de estas financiados con cargo a subvenciones públicas, ejercicios 2021 y 2022. — 28/100 — PRIORIDAD BAJA
+### 130. Resolución de 21 de mayo de 2026, aprobada por la Comisión Mixta para las Relaciones con el Tribunal de Cuentas, en relación con el Informe de fiscalización de las aportaciones percibidas por las fundaciones y demás entidades vinculadas o dependientes de los partidos políticos y de los gastos de programas y actividades de estas financiados con cargo a subvenciones públicas, ejercicios 2021 y 2022. — 28/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: No publicada expresamente; publicacion oficial: 2026-07-14
@@ -11079,7 +10955,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/boe/dias/2026/07/14/pdfs/BOE-A-2026-15347.pdf
 - Sede electrónica: Dato no localizado
 
-### 133. V Edición del premio Cátedra de Joventut de la UV al mejor trabajo Fin de Ciclo, Fin de Grado, Fin de Máster y Tesis Doctoral sobre juventud — 35/100 — PRIORIDAD BAJA
+### 131. V Edición del premio Cátedra de Joventut de la UV al mejor trabajo Fin de Ciclo, Fin de Grado, Fin de Máster y Tesis Doctoral sobre juventud — 35/100 — PRIORIDAD BAJA
 
 - Estado: Próxima
 - Apertura: 2026-09-15
@@ -11154,82 +11030,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://ir.uv.es/X67hWdm
 - Sede electrónica: https://www.uv.es/sede-electronica/es/sede-electronica-uv.html
 
-### 134. Convocatoria de 30 contratos de investigadores postdoctorales para la excelencia científica en el desarrollo del Plan Propio de I+D+i, cofinanciada por el Fondo Social Europeo Plus (FSE+) 2026-2028 — 33/100 — PRIORIDAD BAJA
-
-- Estado: Próxima
-- Apertura: 2026-09-01
-- Plazo: 2026-09-20
-- Organismo: OTROS / UNIVERSIDAD DE CASTILLA-LA MANCHA
-- Consejería: Dato no localizado
-- Tipo de organismo: Administración General del Estado
-- Fuente: Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS)
-- Cobertura de la fuente: api — API oficial BDNS paginada y filtrada por fecha.
-- Metadatos verificados: Sí
-- Número BDNS: 921745
-- Código de procedimiento: Dato no localizado
-- Identificadores oficiales: Dato no localizado
-- Fecha de registro: 2026-07-27
-- Tipo de registro: Convocatoria
-- Solicitabilidad: Solicitable
-- Familia/tema/actividad: Dato no localizado / Dato no localizado / Dato no localizado
-- Tipo de procedimiento: Dato no localizado
-- Territorio: España
-- Nivel administrativo/comunidad autónoma: OTROS / Dato no localizado
-- Provincia/municipio: Dato no localizado / Dato no localizado
-- Presupuesto de la convocatoria: 5.994.193,88 EUR
-- Importe máximo por proyecto: Dato no localizado
-- Financiación: Dato no localizado
-- Cofinanciación: Dato no localizado
-- Anticipo: Dato no localizado
-- Instrumento financiero: Subvención
-- Finalidad de la financiación: Financiación europea
-- Porcentaje financiado: Dato no localizado
-- Porcentaje de cofinanciación: Dato no localizado
-- Porcentaje de anticipo: Dato no localizado
-- Aval para el anticipo: Dato no localizado
-- Pago solo tras justificar: Dato no localizado
-- Forma de pago: Dato no localizado
-- Gastos de funcionamiento: Dato no localizado
-- Gastos de personal: Dato no localizado
-- Equipamiento: Dato no localizado
-- Alquiler de sede: Dato no localizado
-- Seguros: Dato no localizado
-- Desplazamientos: Dato no localizado
-- Antigüedad mínima estructurada: Dato no localizado
-- Experiencia previa obligatoria: Dato no localizado
-- Presupuesto mínimo del proyecto: Dato no localizado
-- Auditoría obligatoria: Dato no localizado
-- Apta para entidad nueva: Dato no localizado
-- Riesgo de tesorería: Medio
-- Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio.
-- ¿Puede pedirla CARIBDIS directamente?: Solo con socio
-- Beneficiarios: PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
-- Elegibilidad de una asociación nueva: Dato no localizado
-- Requisitos: Dato no localizado
-- Antigüedad/experiencia: Dato no localizado / Dato no localizado
-- Necesidad de socios/consorcio: Dato no localizado / Dato no localizado
-- Necesidad de aval: Dato no localizado
-- Gastos subvencionables: Dato no localizado
-- Duración: Dato no localizado
-- Fondos europeos: FSE+ - FONDO SOCIAL EUROPEO PLUS, FSE+
-- Instrumentos de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN, Subvención
-- Eventos administrativos: Dato no localizado
-- Plazo administrativo: Dato no localizado
-- Formularios: Dato no localizado
-- Normas y bases: Dato no localizado
-- Información de contacto: Dato no localizado
-- Temática principal: Sin encaje temático
-- Palabras clave: Ninguna.
-- Motivo de la puntuación: Elegibilidad 5/25, temática 0/25, social/educativa 0/15, territorio 7/10, financiación 10/10, estado/plazo 8/10 y viabilidad financiera 3/5; no supera el umbral temático y la prioridad queda limitada a Baja. Viabilidad: sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio.
-- Requisitos o riesgos: elegibilidad de asociaciones no confirmada; no alcanza el umbral temático CARIBDIS; el encaje social o educativo es genérico; sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio
-- Proyecto recomendado: Dato no localizado
-- Advertencias: Ninguna advertencia adicional.
-- Enlace oficial: https://www.infosubvenciones.gob.es/bdnstrans/GE/es/convocatoria/921745
-- Otros enlaces oficiales: Dato no localizado
-- Bases: https://www.uclm.es/Misiones/Investigacion/Planes/PlanPropio
-- Sede electrónica: Dato no localizado
-
-### 135. Convocatoria general - Fundación Unicaja — 31/100 — PRIORIDAD BAJA
+### 132. Convocatoria general - Fundación Unicaja — 31/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada recurrente
 - Apertura: Dato no localizado
@@ -11277,7 +11078,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Apta para entidad nueva: Dato no localizado
 - Riesgo de tesorería: Medio
 - Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio.
-- ¿Puede pedirla CARIBDIS directamente?: Solo con socio
+- ¿Puede pedirla CARIBDIS directamente?: Vigilar próxima edición
 - Beneficiarios: Dato no localizado
 - Elegibilidad de una asociación nueva: Dato no localizado
 - Requisitos: Dato no localizado
@@ -11304,7 +11105,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundacionunicaja.com/wp-content/uploads/2025/04/Bases-Premio-Arte-Urbano.pdf
 - Sede electrónica: https://www.fundacionunicaja.com/protocolo-de-gestion/
 
-### 136. Presenta tu proyecto - Fundación Unicaja — 31/100 — PRIORIDAD BAJA
+### 133. Presenta tu proyecto - Fundación Unicaja — 31/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada recurrente
 - Apertura: Dato no localizado
@@ -11352,7 +11153,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Apta para entidad nueva: Dato no localizado
 - Riesgo de tesorería: Medio
 - Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio.
-- ¿Puede pedirla CARIBDIS directamente?: Solo con socio
+- ¿Puede pedirla CARIBDIS directamente?: Vigilar próxima edición
 - Beneficiarios: Dato no localizado
 - Elegibilidad de una asociación nueva: Dato no localizado
 - Requisitos: Dato no localizado
@@ -11379,7 +11180,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundacionunicaja.com/convocatoria-accion-social/
 - Sede electrónica: https://www.fundacionunicaja.com/protocolo-de-gestion/
 
-### 137. Premios - Fundación Unicaja — 29/100 — PRIORIDAD BAJA
+### 134. Premios - Fundación Unicaja — 29/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada recurrente
 - Apertura: Dato no localizado
@@ -11427,7 +11228,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Apta para entidad nueva: Dato no localizado
 - Riesgo de tesorería: Medio
 - Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio; exige aval para el anticipo; el anticipo exige aval.
-- ¿Puede pedirla CARIBDIS directamente?: Solo con socio
+- ¿Puede pedirla CARIBDIS directamente?: Vigilar próxima edición
 - Beneficiarios: Dato no localizado
 - Elegibilidad de una asociación nueva: Dato no localizado
 - Requisitos: Dato no localizado
@@ -11454,7 +11255,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.fundacionunicaja.com/premios/#link-CertamenUnicajaArtes
 - Sede electrónica: https://www.fundacionunicaja.com/protocolo-de-gestion/
 
-### 138. Orden ECM/747/2026, de 13 de julio, por la que se aprueban las bases reguladoras de concesión de subvenciones para la realización de proyectos de investigación para el Consejo de la Productividad de España. — 27/100 — PRIORIDAD BAJA
+### 135. Orden ECM/747/2026, de 13 de julio, por la que se aprueban las bases reguladoras de concesión de subvenciones para la realización de proyectos de investigación para el Consejo de la Productividad de España. — 27/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: No publicada expresamente; publicacion oficial: 2026-07-23
@@ -11529,7 +11330,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/boe/dias/2026/07/23/pdfs/BOE-A-2026-16084.pdf
 - Sede electrónica: Dato no localizado
 
-### 139. Ver las bases — 25/100 — PRIORIDAD BAJA
+### 136. Ver las bases — 25/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -11604,7 +11405,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 140. Ver las bases — 25/100 — PRIORIDAD BAJA
+### 137. Ver las bases — 25/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -11679,7 +11480,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 141. Convocatorias de otros OI | Pleamar — 44/100 — PRIORIDAD BAJA
+### 138. Convocatorias de otros OI | Pleamar — 44/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -11754,7 +11555,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://programapleamar.es/convocatorias
 - Sede electrónica: Dato no localizado
 
-### 142. FEMPA | Pleamar — 39/100 — PRIORIDAD BAJA
+### 139. FEMPA | Pleamar — 39/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -11829,7 +11630,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://programapleamar.es/convocatorias
 - Sede electrónica: Dato no localizado
 
-### 143. FEMP | Pleamar — 36/100 — PRIORIDAD BAJA
+### 140. FEMP | Pleamar — 36/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -11904,7 +11705,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://programapleamar.es/convocatorias
 - Sede electrónica: Dato no localizado
 
-### 144. Convocatorias cerradas | Pleamar — 31/100 — PRIORIDAD BAJA
+### 141. Convocatorias cerradas | Pleamar — 31/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -11979,7 +11780,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://programapleamar.es/convocatorias
 - Sede electrónica: Dato no localizado
 
-### 145. Convocatorias | Pleamar — 31/100 — PRIORIDAD BAJA
+### 142. Convocatorias | Pleamar — 31/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -12054,7 +11855,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://programapleamar.es/convocatorias
 - Sede electrónica: Dato no localizado
 
-### 146. IFOP | Pleamar — 31/100 — PRIORIDAD BAJA
+### 143. IFOP | Pleamar — 31/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -12129,7 +11930,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://programapleamar.es/convocatorias
 - Sede electrónica: Dato no localizado
 
-### 147. La Política Pesquera Común y los fondos europeos de pesca | Pleamar — 31/100 — PRIORIDAD BAJA
+### 144. La Política Pesquera Común y los fondos europeos de pesca | Pleamar — 31/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -12204,7 +12005,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://programapleamar.es/convocatorias
 - Sede electrónica: Dato no localizado
 
-### 148. otras convocatorias cerradas | Pleamar — 31/100 — PRIORIDAD BAJA
+### 145. otras convocatorias cerradas | Pleamar — 31/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -12279,7 +12080,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://programapleamar.es/convocatorias
 - Sede electrónica: Dato no localizado
 
-### 149. Otras convocatorias | Pleamar — 31/100 — PRIORIDAD BAJA
+### 146. Otras convocatorias | Pleamar — 31/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -12354,7 +12155,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://programapleamar.es/convocatorias
 - Sede electrónica: Dato no localizado
 
-### 150. Futuras convocatorias - Interreg Sudoe — 30/100 — PRIORIDAD BAJA
+### 147. Futuras convocatorias - Interreg Sudoe — 30/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -12429,7 +12230,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://interreg-sudoe.eu/3a-convocatoria/
 - Sede electrónica: Dato no localizado
 
-### 151. Convocatoria Ayudas GALPA 2026 — 32/100 — PRIORIDAD BAJA
+### 148. Convocatoria Ayudas GALPA 2026 — 32/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -12504,7 +12305,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 152. Convocatoria Ayudas GALPA 2026 — 32/100 — PRIORIDAD BAJA
+### 149. Convocatoria Ayudas GALPA 2026 — 32/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -12579,7 +12380,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 153. Propuesta Provisional Ayudas GALPA 2025 — 32/100 — PRIORIDAD BAJA
+### 150. Propuesta Provisional Ayudas GALPA 2025 — 32/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -12654,7 +12455,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 154. Propuesta Provisional de ayudas GALPA 25 — 32/100 — PRIORIDAD BAJA
+### 151. Propuesta Provisional de ayudas GALPA 25 — 32/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -12729,7 +12530,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 155. Requerimiento de Subsanación Ayudas GALPA 2026 — 32/100 — PRIORIDAD BAJA
+### 152. Requerimiento de Subsanación Ayudas GALPA 2026 — 32/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -12804,7 +12605,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 156. Resolución de ayudas GALPA 25 — 32/100 — PRIORIDAD BAJA
+### 153. Resolución de ayudas GALPA 25 — 32/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -12879,7 +12680,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 157. Resolución definitiva (parte 1) de concesión de las ayudas convocatoria julio 2024 — 32/100 — PRIORIDAD BAJA
+### 154. Resolución definitiva (parte 1) de concesión de las ayudas convocatoria julio 2024 — 32/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -12954,7 +12755,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 158. Resolución Definitiva Ayudas GALPA 2025 — 32/100 — PRIORIDAD BAJA
+### 155. Resolución Definitiva Ayudas GALPA 2025 — 32/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -13029,7 +12830,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 159. Resolución definitiva(parte 2) de concesión de las ayudas convocatoria julio 2024 — 32/100 — PRIORIDAD BAJA
+### 156. Resolución definitiva(parte 2) de concesión de las ayudas convocatoria julio 2024 — 32/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -13104,7 +12905,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 160. Propuesta provisional de resolución convocatoria julio 2024 — 27/100 — PRIORIDAD BAJA
+### 157. Propuesta provisional de resolución convocatoria julio 2024 — 27/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -13179,7 +12980,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 161. Propuesta Provisional de Resolución de la convocatoria de febrero del 26 — 27/100 — PRIORIDAD BAJA
+### 158. Propuesta Provisional de Resolución de la convocatoria de febrero del 26 — 27/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -13254,7 +13055,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 162. Resolución Convocatoria Abril 2024 — 27/100 — PRIORIDAD BAJA
+### 159. Resolución Convocatoria Abril 2024 — 27/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -13329,7 +13130,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: Dato no localizado
 - Sede electrónica: Dato no localizado
 
-### 163. Anuncio de la Autoridad Portuaria de Málaga por el que se somete a información pública la nueva propuesta de valoración de los terrenos y lámina de agua de la zona de servicio del Puerto de Málaga y de los terrenos afectados a las ayudas a la navegación. — 32/100 — PRIORIDAD BAJA
+### 160. Anuncio de la Autoridad Portuaria de Málaga por el que se somete a información pública la nueva propuesta de valoración de los terrenos y lámina de agua de la zona de servicio del Puerto de Málaga y de los terrenos afectados a las ayudas a la navegación. — 32/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: No publicada expresamente; publicacion oficial: 2026-07-08
@@ -13404,7 +13205,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/boe/dias/2026/07/08/pdfs/BOE-B-2026-23478.pdf
 - Sede electrónica: Dato no localizado
 
-### 164. Resolución de 23 de junio de 2026, de la Secretaría General de Formación Profesional, por la que se publica el Acuerdo de la Conferencia Sectorial de Formación Profesional para Personas Trabajadoras de 9 de junio de 2026, por el que se aprueba la propuesta de distribución territorial y los criterios de reparto de los créditos gestionados por comunidades autónomas, con competencias estatutariamente asumidas en el ámbito de la Formación Profesional para personas trabajadoras vinculada al Catálogo Nacional de Estándares de Competencias Profesionales, en el ejercicio presupuestario 2026. — 31/100 — PRIORIDAD BAJA
+### 161. Resolución de 23 de junio de 2026, de la Secretaría General de Formación Profesional, por la que se publica el Acuerdo de la Conferencia Sectorial de Formación Profesional para Personas Trabajadoras de 9 de junio de 2026, por el que se aprueba la propuesta de distribución territorial y los criterios de reparto de los créditos gestionados por comunidades autónomas, con competencias estatutariamente asumidas en el ámbito de la Formación Profesional para personas trabajadoras vinculada al Catálogo Nacional de Estándares de Competencias Profesionales, en el ejercicio presupuestario 2026. — 31/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: No publicada expresamente; publicacion oficial: 2026-07-03
@@ -13479,7 +13280,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/boe/dias/2026/07/03/pdfs/BOE-A-2026-14479.pdf
 - Sede electrónica: Dato no localizado
 
-### 165. Europa Excelencia 2026 — 29/100 — PRIORIDAD BAJA
+### 162. Europa Excelencia 2026 — 29/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -13554,7 +13355,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.ciencia.gob.es/Convocatorias.html
 - Sede electrónica: https://www.ciencia.gob.es/Servicios/sede_electronica.html
 
-### 166. Anuncio de Servicio de Títulos, Becas y Ayudas al Estudiante de la Universidad Rey Juan Carlos sobre extravío de título universitario. — 28/100 — PRIORIDAD BAJA
+### 163. Anuncio de Servicio de Títulos, Becas y Ayudas al Estudiante de la Universidad Rey Juan Carlos sobre extravío de título universitario. — 28/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: No publicada expresamente; publicacion oficial: 2026-07-08
@@ -13629,7 +13430,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/boe/dias/2026/07/08/pdfs/BOE-B-2026-23510.pdf
 - Sede electrónica: Dato no localizado
 
-### 167. Anuncio del Servicio de Títulos, Becas y Ayudas al Estudiante de la Universidad Rey Juan Carlos sobre extravío de título universitario. — 28/100 — PRIORIDAD BAJA
+### 164. Anuncio del Servicio de Títulos, Becas y Ayudas al Estudiante de la Universidad Rey Juan Carlos sobre extravío de título universitario. — 28/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: No publicada expresamente; publicacion oficial: 2026-07-16
@@ -13704,7 +13505,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/boe/dias/2026/07/16/pdfs/BOE-B-2026-24372.pdf
 - Sede electrónica: Dato no localizado
 
-### 168. Ayudas Concedidas | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
+### 165. Ayudas Concedidas | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -13779,7 +13580,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.aei.gob.es/convocatorias
 - Sede electrónica: https://www.aei.gob.es/ayudas-concedidas/gestiona-tu-ayuda
 
-### 169. Ayudas Destacadas | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
+### 166. Ayudas Destacadas | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -13854,7 +13655,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.aei.gob.es/convocatorias
 - Sede electrónica: https://www.aei.gob.es/ayudas-concedidas/gestiona-tu-ayuda
 
-### 170. Buscador de Convocatorias | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
+### 167. Buscador de Convocatorias | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -13929,7 +13730,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.aei.gob.es/convocatorias
 - Sede electrónica: https://www.aei.gob.es/ayudas-concedidas/gestiona-tu-ayuda
 
-### 171. Calendario previsto de las convocatorias de la Agencia Estatal de Investigación | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
+### 168. Calendario previsto de las convocatorias de la Agencia Estatal de Investigación | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -14004,7 +13805,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.aei.gob.es/convocatorias
 - Sede electrónica: https://www.aei.gob.es/ayudas-concedidas/gestiona-tu-ayuda
 
-### 172. Convocatorias cerradas - POCTEP — 28/100 — PRIORIDAD BAJA
+### 169. Convocatorias cerradas - POCTEP — 28/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -14079,7 +13880,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.poctep.eu/convocatorias
 - Sede electrónica: https://www.poctep.eu/gestion-de-proyectos-2021-2027/
 
-### 173. Convocatorias y Oportunidades del Programa POCTEP 2021-2027 — 28/100 — PRIORIDAD BAJA
+### 170. Convocatorias y Oportunidades del Programa POCTEP 2021-2027 — 28/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -14154,7 +13955,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.poctep.eu/convocatorias
 - Sede electrónica: https://www.poctep.eu/gestion-de-proyectos-2021-2027/
 
-### 174. Convocatorias | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
+### 171. Convocatorias | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -14229,7 +14030,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.aei.gob.es/convocatorias
 - Sede electrónica: https://www.aei.gob.es/ayudas-concedidas/gestiona-tu-ayuda
 
-### 175. Información Estadística | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
+### 172. Información Estadística | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -14304,7 +14105,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.aei.gob.es/convocatorias
 - Sede electrónica: https://www.aei.gob.es/ayudas-concedidas/gestiona-tu-ayuda
 
-### 176. Justificación Económica de las Ayudas | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
+### 173. Justificación Económica de las Ayudas | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -14379,7 +14180,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.aei.gob.es/convocatorias
 - Sede electrónica: https://www.aei.gob.es/ayudas-concedidas/gestiona-tu-ayuda
 
-### 177. Webinarios sobre las Convocatorias | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
+### 174. Webinarios sobre las Convocatorias | Agencia Estatal de Investigación Buscar — 28/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -14454,7 +14255,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.aei.gob.es/convocatorias
 - Sede electrónica: https://www.aei.gob.es/ayudas-concedidas/gestiona-tu-ayuda
 
-### 178. Ayudas Cervera para Centros Tecnológicos 2026 — 27/100 — PRIORIDAD BAJA
+### 175. Ayudas Cervera para Centros Tecnológicos 2026 — 27/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -14529,7 +14330,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.ciencia.gob.es/Convocatorias.html
 - Sede electrónica: https://www.ciencia.gob.es/Servicios/sede_electronica.html
 
-### 179. Calendario de convocatorias - Interreg Sudoe — 27/100 — PRIORIDAD BAJA
+### 176. Calendario de convocatorias - Interreg Sudoe — 27/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: Dato no localizado
@@ -14604,7 +14405,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://interreg-sudoe.eu/3a-convocatoria/
 - Sede electrónica: Dato no localizado
 
-### 180. Resolución de 29 de junio de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de modificación parcial del VIII Convenio marco estatal de servicios de atención a las personas dependientes y desarrollo de la promoción de la autonomía personal (residencias privadas de personas mayores y del servicio de ayuda a domicilio). — 27/100 — PRIORIDAD BAJA
+### 177. Resolución de 29 de junio de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de modificación parcial del VIII Convenio marco estatal de servicios de atención a las personas dependientes y desarrollo de la promoción de la autonomía personal (residencias privadas de personas mayores y del servicio de ayuda a domicilio). — 27/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: No publicada expresamente; publicacion oficial: 2026-07-15
@@ -14679,7 +14480,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://www.boe.es/boe/dias/2026/07/15/pdfs/BOE-A-2026-15441.pdf
 - Sede electrónica: Dato no localizado
 
-### 181. 3ª convocatoria (abierta) - Interreg Sudoe — 39/100 — PRIORIDAD BAJA
+### 178. 3ª convocatoria (abierta) - Interreg Sudoe — 39/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: 2026-05-19
@@ -14754,7 +14555,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://interreg-sudoe.eu/3a-convocatoria/
 - Sede electrónica: Dato no localizado
 
-### 182. 4ª convocatoria (abierta) - Interreg Sudoe — 29/100 — PRIORIDAD BAJA
+### 179. 4ª convocatoria (abierta) - Interreg Sudoe — 29/100 — PRIORIDAD BAJA
 
 - Estado: Desconocida
 - Apertura: 2026-05-21
@@ -14829,7 +14630,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Bases: https://interreg-sudoe.eu/3a-convocatoria/
 - Sede electrónica: Dato no localizado
 
-### 183. Subvenciones destinadas a entidades privadas para la realización de programas de ámbito provincial de interés general para atender fines sociales con cargo a la asignación tributaria del 0,7% del impuesto sobre la renta de las personas físicas y del impuesto sobre sociedades. Línea 4. Bases Reguladoras 2024. — 49/100 — PRIORIDAD BAJA
+### 180. Subvenciones destinadas a entidades privadas para la realización de programas de ámbito provincial de interés general para atender fines sociales con cargo a la asignación tributaria del 0,7% del impuesto sobre la renta de las personas físicas y del impuesto sobre sociedades. Línea 4. Bases Reguladoras 2024. — 49/100 — PRIORIDAD BAJA
 
 - Estado: Cerrada recurrente
 - Apertura: Dato no localizado
@@ -14877,7 +14678,7 @@ No superan el umbral temático y se conservan solo para consulta secundaria.
 - Apta para entidad nueva: No
 - Riesgo de tesorería: Medio
 - Motivo de viabilidad financiera: sin condiciones financieras adversas publicadas; porcentaje por confirmar; requiere preparación o participación con socio; exige antigüedad mínima.
-- ¿Puede pedirla CARIBDIS directamente?: Vigilar y preparar requisitos
+- ¿Puede pedirla CARIBDIS directamente?: Vigilar próxima edición
 - Beneficiarios: Asociaciones y organizaciones
 - Elegibilidad de una asociación nueva: No en las condiciones ordinarias si carece de historial: se exige antigüedad, funcionamiento previo o experiencia.
 - Requisitos: a) Tener ámbito de actuación en la Comunidad Autónoma de Andalucía, desarrollando sus actividades de forma efectiva, contando con los medios personales y materiales necesarios, en el ámbito de la Comunidad Autónoma de Andalucía. b) Estar legalmente constituidas con dos años d e antelación a la fecha de publicación de la convocatoria e inscritas en el Registro de Asociaciones correspondiente. Para el caso de las Fundaciones que desarrollen principalmente sus funciones en Andalucía, tener los Estatutos o su modificación debidamente presentados en el Registro de Fundaciones de Andalucía, en aplicación de lo dispuesto en la Disposición Transitoria Primera, puntos 1 y 3 en relación con el artículo 40 de la Ley 10/2005, de 31 de mayo, de Fundaciones de la Comunidad Autónoma de Andalucía. Para el resto de Fundaciones, la obligación de inscripción y actualización irá referida al registro que por su ámbito le corresponda. Asimismo, las Fundaciones deberán cumplir con la obligación de presentar las cuentas anuales al Protectorado en el plazo establecido para ello, de conformidad con lo dispuesto en el artículo 36.3 de la citada Ley 10/2005, de 31 de mayo. c) En el caso de entidades de nueva creación legalmente constituidas que se subroguen en los derechos y obligaciones de entidades que ya hubieran estado constituidas legalmente, se entenderá cumplido el requisito siempre que la entidad transmitente hubiera estado constituida con dos años de antelación a la fecha de la publicación de la convocatoria y debidamente inscrita en el Registro de Asociaciones correspondiente. d) Tener fines institucionales, recogidos en sus estatutos, adecuados a la finalidad de la subvención y propios para la realización de las actividades consideradas subvencionables. e) Tener experiencia y especialización en la atención al colectivo o colectivos a los que se dirigen los proyectos para los que se solicita la subvención. f) Estar inscritas en el Registro de Entidades, Servicios y Centros de Servicios Sociales de Andalucía y cumplir con las restantes obligaciones en materia de autorización recogidas en la normativa de aplicación. En caso de entidades que presenten programas de voluntariado, además cumplir con las obligaciones en materia de registro establecidas en la normativa que regule la organización y funcionamiento del Registro General de Entidades de Voluntariado de Andalucía. La acreditación del cumplimiento de este requisito se verificará dejando constancia en el expediente de los datos que faciliten los registros correspondientes, referentes a la inscripción de la entidad en el mismo. g) Carecer de fines de lucro.
