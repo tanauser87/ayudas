@@ -6407,3 +6407,40 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 25
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-07-21 a 2026-07-30
+Ejecucion: 2026-07-30 14:17:23 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Real Decreto 642/2026, de 29 de julio, por el que se regula la concesión directa de subvenciones del Ministerio de Derechos Sociales, Consumo y Agenda 2030 a diversas entidades.
+Entidad convocante: MINISTERIO DE DERECHOS SOCIALES, CONSUMO Y AGENDA 2030
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-30
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-30
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-07-30
+Beneficiarios/encaje detectado: o finalidad articular, de forma directa y excepcional, la concesión de subvenciones a entidades del Tercer Sector de Acción Social, otras organizaciones y entidades, en atención al interés público y social que justifica dicha medida, conforme al marco legal señalado. Las subvenciones contempladas se integran plenamente en los ejes y objetivos definidos en el Plan Estratégico de Subvenciones 2024-2
+Coincidencias: subvenciones, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, convocatoria, tercer sector, accion social, acción social, servicios sociales, inclusion social, inclusión social, pobreza
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16556
+PDF oficial: https://www.boe.es/boe/dias/2026/07/30/pdfs/BOE-A-2026-16556.pdf
+
+2. Real Decreto 637/2026, de 29 de julio, por el que se regula la concesión directa de subvenciones a las federaciones deportivas españolas, al Comité Olímpico Español y al Comité Paralímpico Español para el año 2026.
+Entidad convocante: MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-30
+Fecha de apertura: 1 de enero de 2026
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: quince días hábiles
+Dia incorporado al TXT: 2026-07-30
+Beneficiarios/encaje detectado: se establecen las obligaciones generales que deberán cumplir las federaciones deportivas españolas beneficiarias de subvenciones concedidas por el Consejo Superior de Deportes, O.A. Artículo 3. Procedimiento de concesión. 1. El procedimiento de concesión de las subvenciones reguladas en este real decreto se iniciará con la entrada en vigor del mismo. Las entidades interesadas deberán presentar la
+Coincidencias: subvencion, subvenciones, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, financiacion, financiación, juventud, discapacidad, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16552
+PDF oficial: https://www.boe.es/boe/dias/2026/07/30/pdfs/BOE-A-2026-16552.pdf
+
+Novedades incorporadas en esta ejecucion: 2
+Coincidencias totales en el periodo revisado: 18
