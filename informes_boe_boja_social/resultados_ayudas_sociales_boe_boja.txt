@@ -6444,3 +6444,66 @@ PDF oficial: https://www.boe.es/boe/dias/2026/07/30/pdfs/BOE-A-2026-16552.pdf
 
 Novedades incorporadas en esta ejecucion: 2
 Coincidencias totales en el periodo revisado: 18
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-07-23 a 2026-08-01
+Ejecucion: 2026-08-01 13:14:05 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Real Decreto 635/2026, de 29 de julio, por el que se regula la concesión directa de subvenciones en determinados ámbitos de actuación del Ministerio del Interior.
+Entidad convocante: MINISTERIO DEL INTERIOR
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-31
+Fecha de apertura: 1 de enero de 2026
+Fecha de cierre: 31 de diciembre de 2026
+Dia incorporado al TXT: 2026-08-01
+Beneficiarios/encaje detectado: can el interés público y social se basan en los datos expresados anteriormente y en el hecho que el beneficiario último de las subvenciones no sea otro que unos colectivos que se encuentran en situaciones especialmente vulnerables. Por otra parte, el carácter especializado de las instituciones y entidades que prestan los servicios en cuestión muestra la imposibilidad de iniciar un procedimiento en
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, convocatoria, financiacion, financiación, sin animo de lucro, sin ánimo de lucro, asociaciones
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16656
+PDF oficial: https://www.boe.es/boe/dias/2026/07/31/pdfs/BOE-A-2026-16656.pdf
+
+2. Real Decreto 639/2026, de 29 de julio, por el que se regula la concesión directa de una subvención a la Comunidad Autónoma de Canarias para apoyar la financiación del Plan de impulso al sector primario canario.
+Entidad convocante: MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-07-31
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-07-31
+Fecha de cierre: 31 de julio de 2028
+Dia incorporado al TXT: 2026-08-01
+Beneficiarios/encaje detectado: ón a dicha comunidad autónoma, con el fin de que, a su vez, realice inversiones directas y ayudas a beneficiarios finales. En materia de inversiones, debe partirse de que Canarias constituye uno de los territorios donde la modernización del regadío adquiere una mayor relevancia estratégica. La singularidad geográfica del archipiélago, la escasez estructural de recursos hídricos, la elevada depende
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, convocatoria, financiacion, financiación, vulnerabilidad, dependencia, mayores, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16660
+PDF oficial: https://www.boe.es/boe/dias/2026/07/31/pdfs/BOE-A-2026-16660.pdf
+
+3. Orden TDF/811/2026, de 22 de julio, por la que se establecen las bases reguladoras para la creación de infraestructuras para la investigación, el ensayo y la experimentación en tecnologías de uso dual.
+Entidad convocante: MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-08-01
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-08-01
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: 36 mes
+Dia incorporado al TXT: 2026-08-01
+Beneficiarios/encaje detectado: y control de productos de doble uso, contribuyendo a la certeza del marco normativo aplicable a los beneficiarios. En materia de transparencia, esta norma establece unos criterios de evaluación de las solicitudes que son objetivos, públicos y conocidos previamente por los potenciales beneficiarios. Por lo demás, la norma es coherente con el principio de eficiencia, en tanto que asegura la máxima e
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, financiacion, financiación, entidades sin animo de lucro, entidades sin ánimo de lucro, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16837
+PDF oficial: https://www.boe.es/boe/dias/2026/08/01/pdfs/BOE-A-2026-16837.pdf
+
+4. Orden PJC/808/2026, de 30 de julio, por la que se concretan determinados aspectos del procedimiento para el aplazamiento y fraccionamiento del pago con dispensa de garantía a pequeñas y medianas empresas de alta intensidad inversora en I+D+I, para las cuotas de préstamos de determinadas convocatorias de los programas estatales de investigación, desarrollo e innovación orientada a los retos de la sociedad y para impulsar la investigación científico-técnica y su transferencia.
+Entidad convocante: MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-08-01
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-08-01
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: un mes
+Dia incorporado al TXT: 2026-08-01
+Beneficiarios/encaje detectado: a impulsar proyectos estratégicos de I+D+I. En estas convocatorias, la financiación a las entidades beneficiarias se ha instrumentado mayoritariamente en forma de préstamos reembolsables en condiciones ventajosas respecto al mercado, con el objetivo de estimular la inversión privada y favorecer la maduración tecnológica de proyectos con elevado potencial científico, tecnológico y económico. Este e
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocatoria, financiacion, financiación, dependencia
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16807
+PDF oficial: https://www.boe.es/boe/dias/2026/08/01/pdfs/BOE-A-2026-16807.pdf
+
+Novedades incorporadas en esta ejecucion: 4
+Coincidencias totales en el periodo revisado: 19
