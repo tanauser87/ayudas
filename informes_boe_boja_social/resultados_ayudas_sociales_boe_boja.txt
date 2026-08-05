@@ -6544,3 +6544,27 @@ PDF oficial: https://www.boe.es/boe/dias/2026/08/04/pdfs/BOE-B-2026-26061.pdf
 
 Novedades incorporadas en esta ejecucion: 1
 Coincidencias totales en el periodo revisado: 9
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-07-27 a 2026-08-05
+Ejecucion: 2026-08-05 11:16:47 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Resolución de 29 de julio de 2026, de la Dirección General de Incentivos para el Empleo y Competitividad Empresarial, de ampliación del crédito de las Líneas 2 y 3 de la convocatoria de subvenciones para el año 2026, regulada en la Orden de 9 de abril de 2025, por la que se aprueban las bases reguladoras para la concesión de subvenciones públicas, en régimen de concurrencia no competitiva, dirigidas a la inclusión laboral de las personas pertenecientes a colectivos en riesgo o situación de exclusión social en empresas de inserción y en el mercado ordinario de trabajo en Andalucía.
+Entidad convocante: Consejería de Empleo, Empresa y Trabajo Autónomo
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-08-05
+Fecha de apertura: 29 de julio de 2026
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-08-05
+Beneficiarios/encaje detectado: oncesión de la subvención de solicitudes que, aun cumpliendo todos los requisitos, no hubieran sido beneficiarias por agotamiento del mismo. En este sentido, se pronuncia el apartado 3, del resuelve séptimo, de la Resolución de 16 de marzo de 2026, al disponer que la persona titular de la Dirección General de Incentivos para el Empleo y Competitividad Empresarial podrá acordar que, eventuales aume
+Coincidencias: subvenciones, bases reguladoras, convocatoria, exclusion social, exclusión social
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/150/1.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/150/BOJA26-150-00003-10712-01_00341941.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 10
