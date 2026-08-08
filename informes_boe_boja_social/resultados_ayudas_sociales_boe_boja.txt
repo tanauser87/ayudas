@@ -6642,3 +6642,40 @@ PDF oficial: https://www.boe.es/boe/dias/2026/08/07/pdfs/BOE-B-2026-26402.pdf
 
 Novedades incorporadas en esta ejecucion: 2
 Coincidencias totales en el periodo revisado: 12
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-07-30 a 2026-08-08
+Ejecucion: 2026-08-08 09:27:47 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Extracto de la resolución de 5 de agosto de 2026 de la Dirección General del Instituto de la Juventud, por la que se convocan ayudas del Programa «Erasmus+», línea de Juventud, correspondientes a la ronda de febrero de 2026.
+Entidad convocante: MINISTERIO DE JUVENTUD E INFANCIA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-08-08
+Fecha de apertura: 1 de junio de 2026
+Fecha de cierre: 1 de junio de 2026
+Dia incorporado al TXT: 2026-08-08
+Beneficiarios/encaje detectado: 1 Acción clave 1.- Acción de Inclusión de DiscoverEU (KA155): 532.424,00 euros. B2 Acción clave 2.- Asociaciones de Cooperación (KA220): 4.595.150,00 euros. B3 Acción clave 2.- Asociaciones de Cooperación a pequeña escala (KA210): 2.268.808,00 euros. b) Sin perjuicio de todo lo anterior, la concesión de las ayudas estará condicionada a la existencia de crédito adecuado y suficiente en el momento d
+Coincidencias: subvencion, subvenciones, ayudas, bases reguladoras, convocatoria, convocan, asociaciones, organizaciones no gubernamentales, infancia, menores, juventud, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-26629
+PDF oficial: https://www.boe.es/boe/dias/2026/08/08/pdfs/BOE-B-2026-26629.pdf
+
+2. Decreto-ley 1/2026, de 10 de junio, del Gobierno de Aragón, por el que se concede un suplemento de crédito para atender las necesidades adicionales de financiación derivadas del funcionamiento de los servicios públicos esenciales y se adoptan medidas urgentes en relación con determinadas subvenciones de interés público.
+Entidad convocante: COMUNIDAD AUTÓNOMA DE ARAGÓN
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-08-08
+Fecha de apertura: 1 de enero de 2024
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-08-08
+Beneficiarios/encaje detectado: tivamente por la norma presupuestaria, en un listado único y separado, en el que se haga constar el beneficiario, el importe y el objeto al que van destinadas dichas ayudas. Esta previsión ha sido utilizada por las sucesivas leyes de presupuestos aprobadas por la comunidad autónoma, que han acudido a esta posibilidad legal, recogiendo en un anexo, tras el articulado, determinadas ayudas que, por l
+Coincidencias: subvencion, subvenciones, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, financiacion, financiación, fundacion, fundación, servicios sociales, mayores
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17288
+PDF oficial: https://www.boe.es/boe/dias/2026/08/08/pdfs/BOE-A-2026-17288.pdf
+
+Novedades incorporadas en esta ejecucion: 2
+Coincidencias totales en el periodo revisado: 14
