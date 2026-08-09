@@ -6679,3 +6679,16 @@ PDF oficial: https://www.boe.es/boe/dias/2026/08/08/pdfs/BOE-A-2026-17288.pdf
 
 Novedades incorporadas en esta ejecucion: 2
 Coincidencias totales en el periodo revisado: 14
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-07-31 a 2026-08-09
+Ejecucion: 2026-08-09 09:30:26 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban registradas.
+
+Novedades incorporadas en esta ejecucion: 0
+Coincidencias totales en el periodo revisado: 12
