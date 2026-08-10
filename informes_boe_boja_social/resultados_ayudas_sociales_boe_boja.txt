@@ -6692,3 +6692,40 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 12
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-08-01 a 2026-08-10
+Ejecucion: 2026-08-10 10:12:54 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Extracto de la Orden de 28 de julio de 2026, por la que se convocan, en régimen de concurrencia no competitiva, las ayudas para la consolidación de las organizaciones y asociaciones de productores pesqueros y acuícolas, y para la preparación y ejecución de los planes de producción y comercialización, correspondiente a la campaña 2027, reconocidas en el ámbito de la Comunidad Autónoma de Andalucía, al amparo de la Orden de 9 de octubre de 2024.
+Entidad convocante: Consejería de Agricultura, Pesca, Agua y Desarrollo Rural
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-08-10
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-08-10
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-08-10
+Beneficiarios/encaje detectado: los miembros de la OPP. 8.º Embarque de observadores. Y que además de cumplir con los requisitos de beneficiario colectivo y que sean de interés colectivo, cumplan con uno de los siguientes criterios, de conformidad con lo establecido en los criterios de selección del Programa para España del FEMPA: 1.º Características innovadoras: Medidas que supongan la introducción de un producto, servicio o pr
+Coincidencias: ayudas, convocan, asociaciones
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/153/5.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/153/BOJA26-153-00004-10905-01_00342135.pdf
+
+2. Orden de 28 de julio de 2026, por la que se convocan, en régimen de concurrencia no competitiva, las ayudas para la consolidación de las organizaciones y asociaciones de productores pesqueros y acuícolas, y para la preparación y ejecución de los planes de producción y comercialización, correspondiente a la campaña 2027, reconocidas en el ámbito de la Comunidad Autónoma de Andalucía, al amparo de la Orden de 9 de octubre de 2024.
+Entidad convocante: Consejería de Agricultura, Pesca, Agua y Desarrollo Rural
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-08-10
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-08-10
+Fecha de cierre: 30 de abril de 2027
+Dia incorporado al TXT: 2026-08-10
+Beneficiarios/encaje detectado: ncreto, por las establecidas en el artículo 2 de la citada orden. Tercero. Entidades solicitantes y beneficiarias de las ayudas. Las entidades solicitantes de las subvenciones deberán cumplir, como mínimo, los siguientes requisitos generales: a) Disponer del reconocimiento como OPP, concedido por resolución de la Dirección General de Pesca, Acuicultura y Economía Azul, y estar inscritas en el Regi
+Coincidencias: ayudas, convocan, asociaciones
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/153/1.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/153/BOJA26-153-00022-10901-01_00342131.pdf
+
+Novedades incorporadas en esta ejecucion: 2
+Coincidencias totales en el periodo revisado: 11
