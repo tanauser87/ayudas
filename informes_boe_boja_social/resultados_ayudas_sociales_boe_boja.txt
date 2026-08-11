@@ -6729,3 +6729,27 @@ PDF oficial: https://www.juntadeandalucia.es/boja/2026/153/BOJA26-153-00022-1090
 
 Novedades incorporadas en esta ejecucion: 2
 Coincidencias totales en el periodo revisado: 11
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-08-02 a 2026-08-11
+Ejecucion: 2026-08-11 09:45:18 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Resolución de 5 de agosto de 2026, de la Subsecretaría, por la que se publica el Convenio con la Universidad de Murcia, para impulsar procesos de innovación, generación y transferencia de conocimiento en materia de aplicación de la inteligencia artificial en la gestión de subvenciones públicas.
+Entidad convocante: MINISTERIO DE DERECHOS SOCIALES, CONSUMO Y AGENDA 2030
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-08-11
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-08-11
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: un mes
+Dia incorporado al TXT: 2026-08-11
+Beneficiarios/encaje detectado: ncesión de subvenciones. Así, buena parte de su actuación se centra en la gestión de subvenciones a asociaciones, entidades, ayuntamientos, ONG, etc., como instrumento para promover y financiar la ejecución de programas y objetivos de interés general, en base a criterios de eficacia y eficiencia en la gestión de políticas públicas, como la proximidad territorial (las entidades locales o del tercer
+Coincidencias: subvencion, subvenciones, convocatoria, financiacion, financiación, tercer sector, asociaciones, ong, pobreza, discapacidad, personas consumidoras
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17565
+PDF oficial: https://www.boe.es/boe/dias/2026/08/11/pdfs/BOE-A-2026-17565.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 8
