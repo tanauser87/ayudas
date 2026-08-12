@@ -6753,3 +6753,51 @@ PDF oficial: https://www.boe.es/boe/dias/2026/08/11/pdfs/BOE-A-2026-17565.pdf
 
 Novedades incorporadas en esta ejecucion: 1
 Coincidencias totales en el periodo revisado: 8
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-08-03 a 2026-08-12
+Ejecucion: 2026-08-12 10:11:31 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Extracto de la Orden de 4 de agosto de 2026, por la que se aprueban las bases reguladoras para la concesión de subvenciones, en régimen de concurrencia no competitiva, dirigidas a entidades privadas sin ánimo de lucro, universidades públicas y entidades locales, para el desarrollo de proyectos en materia de conciliación y corresponsabilidad en el marco del Plan Corresponsables, en el ámbito de las competencias de la Consejería, y se efectúa su convocatoria en el año 2026.
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-08-12
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-08-12
+Fecha de cierre: 10 de octubre de 2026
+Dia incorporado al TXT: 2026-08-12
+Beneficiarios/encaje detectado: 12.621.000,00 € 1800180000 G/31D/46500/00 S0717 1800180000 G/31D/46800/00 S0717 Segundo. Personas beneficiarias. Podrán ser beneficiarias de estas subvenciones las entidades privadas sin ánimo de lucro, incluidas organizaciones sindicales y asociaciones empresariales de Andalucía para las actuaciones contempladas en la Línea 1, las universidades públicas para las actuaciones de la Línea 2 y las
+Coincidencias: subvenciones, bases reguladoras, convocatoria, sin animo de lucro, sin ánimo de lucro, servicios sociales, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/155/4.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/155/BOJA26-155-00003-10974-01_00342204.pdf
+
+2. Orden de 4 de agosto de 2026, por la que se aprueban las bases reguladoras para la concesión de subvenciones en régimen de concurrencia no competitiva, dirigidas a entidades privadas sin ánimo de lucro, universidades públicas y entidades locales, para el desarrollo de proyectos en materia de conciliación y corresponsabilidad en el marco del Plan Corresponsables, en el ámbito de las competencias de la Consejería, y se efectúa su convocatoria en el año 2026.
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-08-12
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-08-12
+Fecha de cierre: 10 de octubre de 2026
+Dia incorporado al TXT: 2026-08-12
+Beneficiarios/encaje detectado: ndos del Plan Corresponsables, concediéndose en atención de una determinada situación en la entidad beneficiaria. El procedimiento para la tramitación de las subvenciones que se convocan, será de urgencia en virtud del artículo 33 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, debido a la importante atención que se presta a través de la
+Coincidencias: subvenciones, bases reguladoras, convocatoria, sin animo de lucro, sin ánimo de lucro, servicios sociales, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/155/3.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/155/BOJA26-155-00152-10973-01_00342203.pdf
+
+Novedades incorporadas en esta ejecucion: 2
+Coincidencias totales en el periodo revisado: 4
+Incidencias: 10
+- 2026-08-03: BOE: URLError: <urlopen error timed out>
+- 2026-08-04: BOE: URLError: <urlopen error timed out>
+- 2026-08-05: BOE: URLError: <urlopen error timed out>
+- 2026-08-06: BOE: URLError: <urlopen error timed out>
+- 2026-08-07: BOE: URLError: <urlopen error timed out>
+- 2026-08-08: BOE: URLError: <urlopen error timed out>
+- 2026-08-09: BOE: URLError: <urlopen error timed out>
+- 2026-08-10: BOE: URLError: <urlopen error timed out>
+- 2026-08-11: BOE: URLError: <urlopen error timed out>
+- 2026-08-12: BOE: URLError: <urlopen error timed out>
