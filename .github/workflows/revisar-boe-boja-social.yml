@@ -1,33 +1,49 @@
-name: Revisar BOE y BOJA - ayudas sociales
+name: Revisar ayudas globales CARIBDIS
 
 on:
   schedule:
     - cron: "30 6 * * *"
   workflow_dispatch:
     inputs:
-      date:
-        description: "Fecha a revisar en formato YYYY-MM-DD. Si se deja vacia, usa hoy en Europe/Madrid."
+      start_date:
+        description: "Fecha inicial YYYY-MM-DD. Opcional."
+        required: false
+        type: string
+      end_date:
+        description: "Fecha final YYYY-MM-DD. Si se omite, usa hoy."
         required: false
         type: string
       days:
-        description: "Numero de dias hacia atras que quieres revisar, incluyendo la fecha indicada."
+        description: "Dias hacia atras cuando no se indica fecha inicial."
         required: false
         default: "10"
+        type: string
+      historical:
+        description: "Revisar 365 dias si no se indica fecha inicial."
+        required: false
+        default: false
+        type: boolean
+      source_id:
+        description: "ID de una fuente para una ejecucion de diagnostico. Opcional."
+        required: false
         type: string
 
 permissions:
   contents: write
 
 concurrency:
-  group: revisar-boe-boja-social
+  group: revisar-ayudas-caribdis
   cancel-in-progress: false
 
 jobs:
   revisar:
     runs-on: ubuntu-latest
     env:
-      RUN_DATE: ${{ github.event.inputs.date || '' }}
+      START_DATE: ${{ github.event.inputs.start_date || '' }}
+      END_DATE: ${{ github.event.inputs.end_date || '' }}
       RUN_DAYS: ${{ github.event.inputs.days || '10' }}
+      RUN_HISTORICAL: ${{ github.event.inputs.historical || 'false' }}
+      SOURCE_ID: ${{ github.event.inputs.source_id || '' }}
 
     steps:
       - name: Descargar repositorio
@@ -36,37 +52,46 @@ jobs:
           fetch-depth: 0
 
       - name: Sincronizar con GitHub antes de revisar
-        run: |
-          git pull --rebase origin "$GITHUB_REF_NAME"
+        run: git pull --rebase origin "$GITHUB_REF_NAME"
 
       - name: Preparar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Limpiar formato antiguo de resultados
+      - name: Mantener revision BOE y BOJA
+        shell: bash
         run: |
-          rm -f informes_boe_boja_social/ayudas_sociales_boe_boja_*.txt
-          rm -f informes_boe_boja_social/datos_boe_boja_social_*.json
-          rm -f informes_boe_boja_social/resumen_ultima_revision.md
-
-      - name: Revisar BOE y BOJA
-        run: |
-          if [ -n "$RUN_DATE" ]; then
-            python scraper_boe_boja_social.py --date "$RUN_DATE" --days "$RUN_DAYS"
+          LEGACY_END="${END_DATE:-$(date +%F)}"
+          if [ -n "$START_DATE" ]; then
+            LEGACY_DAYS=$(python -c "from datetime import date; print((date.fromisoformat('$LEGACY_END') - date.fromisoformat('$START_DATE')).days + 1)")
+          elif [ "$RUN_HISTORICAL" = "true" ]; then
+            LEGACY_DAYS=365
           else
-            python scraper_boe_boja_social.py --days "$RUN_DAYS"
+            LEGACY_DAYS="$RUN_DAYS"
           fi
+          python scraper_boe_boja_social.py --date "$LEGACY_END" --days "$LEGACY_DAYS"
+
+      - name: Ejecutar buscador global CARIBDIS
+        shell: bash
+        run: |
+          ARGS=(--days "$RUN_DAYS")
+          if [ -n "$START_DATE" ]; then ARGS+=(--start-date "$START_DATE"); fi
+          if [ -n "$END_DATE" ]; then ARGS+=(--end-date "$END_DATE"); fi
+          if [ "$RUN_HISTORICAL" = "true" ]; then ARGS+=(--historical); fi
+          if [ -n "$SOURCE_ID" ]; then ARGS+=(--source-id "$SOURCE_ID"); fi
+          python buscador_caribdis.py "${ARGS[@]}"
 
       - name: Guardar resultados en el repositorio
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add informes_boe_boja_social/
+          git add informes_boe_boja_social/ informes_caribdis/
           if git diff --cached --quiet; then
             echo "No hay cambios que guardar."
           else
-            git commit -m "Actualizar ayudas sociales BOE/BOJA"
+            git commit -m "Actualizar informe global de ayudas CARIBDIS"
             git push || {
               git pull --rebase origin "$GITHUB_REF_NAME"
               git push
