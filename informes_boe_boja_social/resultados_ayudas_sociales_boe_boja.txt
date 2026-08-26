@@ -7077,3 +7077,27 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 4
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-08-17 a 2026-08-26
+Ejecucion: 2026-08-26 09:16:03 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Extracto de la Resolución de 13 de agosto de 2026 de la Dirección de la Fundación Biodiversidad, F.S.P., por la que se aprueba la publicación de la convocatoria de subvenciones, en régimen de concurrencia competitiva, a determinadas organizaciones no gubernamentales para el apoyo y la participación en la ejecución de políticas públicas de competencia estatal.
+Entidad convocante: MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-08-26
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-08-26
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: 20 días hábiles
+Dia incorporado al TXT: 2026-08-26
+Beneficiarios/encaje detectado: a ejecución de las políticas públicas relativas al medio ambiente de competencia estatal. Segundo.- Beneficiarias. 1. Podrán obtener la condición de beneficiarias las entidades y organizaciones sin ánimo de lucro, apartado 3.1.a) de la Orden TED/818/2021, de 12 de julio, que cumplan los requisitos del artículo 3.2 de la misma y los citados a continuación: a) Estar legalmente constituidas y tener d
+Coincidencias: subvencion, subvenciones, ayuda, bases reguladoras, convocatoria, financiacion, financiación, sin animo de lucro, sin ánimo de lucro, asociacion, asociación, fundacion
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-27852
+PDF oficial: https://www.boe.es/boe/dias/2026/08/26/pdfs/BOE-B-2026-27852.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 4
