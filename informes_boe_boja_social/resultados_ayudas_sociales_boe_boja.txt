@@ -7101,3 +7101,66 @@ PDF oficial: https://www.boe.es/boe/dias/2026/08/26/pdfs/BOE-B-2026-27852.pdf
 
 Novedades incorporadas en esta ejecucion: 1
 Coincidencias totales en el periodo revisado: 4
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-08-18 a 2026-08-27
+Ejecucion: 2026-08-27 19:43:22 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Real Decreto 683/2026, de 26 de agosto, por el que se modifican el Real Decreto 956/2017, de 3 de noviembre, por el que se establece el marco regulador de ayudas a las organizaciones profesionales del sector de la pesca y de la acuicultura, cofinanciadas por el Fondo Europeo Marítimo y de Pesca, y sus bases reguladoras de ámbito estatal, y por el que se modifican el Real Decreto 418/2015, de 29 de mayo, por el que se regula la primera venta de productos pesqueros, y el Real Decreto 277/2016, de 24 de junio, por el que se regulan las organizaciones profesionales en el sector de los productos de la pesca y de la acuicultura; el Real Decreto 1044/2022, de 27 de diciembre, de ordenación de la flota pesquera; y el Real Decreto 1046/2022, de 27 de diciembre, por el que se regula la gobernanza del Plan Estratégico de la Política Agrícola Común en España y de los fondos europeos agrícolas FEAGA y Feader.
+Entidad convocante: MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-08-27
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-08-27
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-08-27
+Beneficiarios/encaje detectado: miento de normas, fundamentalmente basada en la descripción de los requisitos que deben cumplir los beneficiarios finales de las ayudas, a una política centrada en el rendimiento y la obtención de resultados, mediante la consecución de unos objetivos generales y específicos. Con este nuevo enfoque, España, tras un análisis riguroso de la situación de partida, que ha permitido identificar y prioriz
+Coincidencias: ayuda, ayudas, bases reguladoras, convocatoria, financiacion, financiación, asociaciones, menores
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18204
+PDF oficial: https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18204.pdf
+
+2. Orden de 24 de agosto de 2026, por la que se concede una subvención nominativa a la Fundación para la Promoción y el Desarrollo del Olivar y del Aceite de Oliva para financiar el coste del personal dedicado a la difusión de la información de precios en origen del aceite de oliva.
+Entidad convocante: Consejería de Agricultura, Pesca, Agua y Desarrollo Rural
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-08-27
+Fecha de apertura: 1 de enero de 2026
+Fecha de cierre: 30 de noviembre de 2026
+Dia incorporado al TXT: 2026-08-27
+Beneficiarios/encaje detectado: me del 100% del importe de la subvención, previa aceptación y justificación por parte de la entidad beneficiaria de la realización de las actividades que fundamentan el otorgamiento de la subvención. - Mediante un pago anticipado, con un anticipo máximo del 50% del importe de la subvención, previa solicitud motivada de la necesidad de liquidez de la entidad y tras la aceptación expresa de la subve
+Coincidencias: subvencion, fundacion, fundación
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/166/8.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/166/BOJA26-166-00003-11275-01_00342505.pdf
+
+3. Real Decreto 685/2026, de 26 de agosto, por el que se regula la concesión directa de una subvención a la Federación Española de Municipios y Provincias para la financiación de los gastos de funcionamiento de su actividad.
+Entidad convocante: MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-08-27
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-08-27
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: tres mes
+Dia incorporado al TXT: 2026-08-27
+Beneficiarios/encaje detectado: as, así como por lo establecido en las demás normas que resulten de aplicación. Artículo 4. Entidad beneficiaria. Será beneficiaria de esta subvención la FEMP. Con carácter previo a la formalización del convenio la entidad beneficiaria deberá acreditar el cumplimiento de los requisitos previstos en el artículo 13 de la Ley 38/2003, de 17 de noviembre, y en los artículos 18 al 29 del Reglamento de
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, convocatoria, financiacion, financiación, asociaciones, asociacion, asociación
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18206
+PDF oficial: https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18206.pdf
+
+4. Extracto de la Resolución de 28 de julio de 2026 del Museo Nacional Centro de Arte Reina Sofía por la que se convocan dos ayudas para estancias de investigación en producción artística sostenible en el marco del programa Museum of the Commons-Climate de L'Internationale
+Entidad convocante: MINISTERIO DE CULTURA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-08-27
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-08-27
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: treinta días hábiles
+Dia incorporado al TXT: 2026-08-27
+Beneficiarios/encaje detectado: ubvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/922367) Primero. Personas beneficiarias. Podrán ser beneficiarias las personas físicas mayores de edad que presenten su candidatura individualmente o como integrantes de un colectivo, que acrediten un perfil profesional como investigadoras y que no se encuentren incursas en ninguna de las prohibiciones previstas en el artícu
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocatoria, convocan, mayores
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-27929
+PDF oficial: https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-B-2026-27929.pdf
+
+Novedades incorporadas en esta ejecucion: 4
+Coincidencias totales en el periodo revisado: 7
