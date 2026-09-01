@@ -7240,3 +7240,92 @@ PDF oficial: https://www.boe.es/boe/dias/2026/08/31/pdfs/BOE-A-2026-18359.pdf
 
 Novedades incorporadas en esta ejecucion: 2
 Coincidencias totales en el periodo revisado: 6
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-08-23 a 2026-09-01
+Ejecucion: 2026-09-01 13:51:55 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Extracto del Acuerdo de 22 de junio de 2026 de la Comisión de Subvenciones de la Fundación Estatal para la Prevención de Riesgos Laborales F.S.P., autorizado por Resolución de la Secretaría de Estado de Trabajo de 18 de junio de 2026, por el que se convocan subvenciones destinadas para la realización de acciones intersectoriales del ejercicio 2025, en el ámbito de la prevención de riesgos laborales
+Entidad convocante: MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-01
+Fecha de apertura: 1 de marzo de 2027
+Fecha de cierre: 29 de febrero de 2028
+Dia incorporado al TXT: 2026-09-01
+Beneficiarios/encaje detectado: onal de Subvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/926992) Primero. Beneficiarios. Serán beneficiarios, en régimen de concurrencia competitiva, las organizaciones empresariales y sindicales más representativas, sin ánimo de lucro, que representen a todos los sectores y que tengan entre sus fines la representación, promoción y defensa de los intereses de trabajadores
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, convocan, sin animo de lucro, sin ánimo de lucro, fundaciones, fundacion, fundación
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28322
+PDF oficial: https://www.boe.es/boe/dias/2026/09/01/pdfs/BOE-B-2026-28322.pdf
+
+2. Extracto del Acuerdo de 22 de junio de 2026 de la Comisión de Subvenciones de la Fundación Estatal para la Prevención de Riesgos Laborales F.S.P., autorizado por Resolución de la Secretaría de Estado de Trabajo de 18 de junio de 2026, por el que se convocan subvenciones destinadas para la realización de acciones sectoriales del ejercicio 2025, en el ámbito de la prevención de riesgos laborales
+Entidad convocante: MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-01
+Fecha de apertura: 1 de marzo de 2027
+Fecha de cierre: 29 de febrero de 2028
+Dia incorporado al TXT: 2026-09-01
+Beneficiarios/encaje detectado: onal de Subvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/926996) Primero. Beneficiarios. Serán beneficiarios, en régimen de concurrencia competitiva, las organizaciones empresariales y sindicales más representativas y representativas en su ámbito sectorial correspondiente, que tengan entre sus fines la representación, promoción y defensa de los intereses de trabajadores o
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, convocan, fundaciones, fundacion, fundación
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28323
+PDF oficial: https://www.boe.es/boe/dias/2026/09/01/pdfs/BOE-B-2026-28323.pdf
+
+3. Extracto del Acuerdo de 22 de junio de 2026 de la Comisión de Subvenciones de la Fundación Estatal para la Prevención de Riesgos Laborales F.S.P., autorizado por Resolución de la Secretaría de Estado de Trabajo de 18 de junio de 2026, por el que se convocan subvenciones destinadas para la realización de acciones territoriales para Ceuta y Melilla del ejercicio 2025, en el ámbito de la prevención de riesgos laborales
+Entidad convocante: MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-01
+Fecha de apertura: 1 de marzo de 2027
+Fecha de cierre: 29 de febrero de 2028
+Dia incorporado al TXT: 2026-09-01
+Beneficiarios/encaje detectado: onal de Subvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/926999) Primero. Beneficiarios. Serán beneficiarios, en régimen de concurrencia competitiva, las organizaciones empresariales y sindicales más representativas, sin ánimo de lucro, que representen a todos los sectores productivos en los territorios de las Ciudades Autónomas de Ceuta o Melilla, respectivamente, y que
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, convocan, sin animo de lucro, sin ánimo de lucro, fundaciones, fundacion, fundación
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28324
+PDF oficial: https://www.boe.es/boe/dias/2026/09/01/pdfs/BOE-B-2026-28324.pdf
+
+4. Extracto del Acuerdo de 22 de junio de 2026 de la Comisión de Subvenciones de la Fundación Estatal para la Prevención de Riesgos Laborales F.S.P., autorizado por Resolución de la Secretaría de Estado de Trabajo de 18 de junio de 2026, por el que se convocan subvenciones para el desarrollo de las actuaciones en el ámbito intersectorial contempladas en la Estrategia Española de Seguridad y Salud en el Trabajo 2023-2027 para el ejercicio 2025, en el ámbito de la prevención de riesgos laborales
+Entidad convocante: MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-01
+Fecha de apertura: 1 de marzo de 2027
+Fecha de cierre: 31 de agosto de 2028
+Dia incorporado al TXT: 2026-09-01
+Beneficiarios/encaje detectado: onal de Subvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/927017) Primero. Beneficiarios. Serán beneficiarios, en régimen de concurrencia competitiva, las organizaciones empresariales y sindicales más representativas, sin ánimo de lucro, que representen a todos los sectores y que tengan entre sus fines la representación, promoción y defensa de los intereses de trabajadores
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, convocan, sin animo de lucro, sin ánimo de lucro, fundaciones, fundacion, fundación
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28325
+PDF oficial: https://www.boe.es/boe/dias/2026/09/01/pdfs/BOE-B-2026-28325.pdf
+
+5. Extracto del Acuerdo de 4 de agosto de 2026 de la Comisión de Subvenciones de la Fundación Estatal para la Prevención de Riesgos Laborales F.S.P., autorizado por Resolución de la Secretaría de Estado de Trabajo de 31 de julio de 2026, por el que se convocan subvenciones para el desarrollo de las actuaciones en el ámbito sectorial contempladas en la Estrategia Española de Seguridad y Salud en el Trabajo 2023-2027 para el ejercicio 2025, en el ámbito de la prevención de riesgos laborales
+Entidad convocante: MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-01
+Fecha de apertura: 1 de marzo de 2027
+Fecha de cierre: 31 de agosto de 2028
+Dia incorporado al TXT: 2026-09-01
+Beneficiarios/encaje detectado: onal de Subvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/927024) Primero. Beneficiarios. Serán beneficiarios, en régimen de concurrencia competitiva, las organizaciones empresariales y sindicales más representativas y representativas en su ámbito sectorial correspondiente, que tengan entre sus fines la representación, promoción y defensa de los intereses de trabajadores o
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, convocan, fundaciones, fundacion, fundación
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-28326
+PDF oficial: https://www.boe.es/boe/dias/2026/09/01/pdfs/BOE-B-2026-28326.pdf
+
+6. Orden IGD/911/2026, de 26 de agosto, por la que se aprueban las bases reguladoras para la concesión de subvenciones públicas destinadas al desarrollo de planes de atención integral y la inserción sociolaboral de personas en situación de prostitución.
+Entidad convocante: MINISTERIO DE IGUALDAD
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-01
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-01
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-09-01
+Beneficiarios/encaje detectado: lidad perseguida, sin imponer obligaciones accesorias o innecesarias a las entidades solicitantes o beneficiarias. Asimismo, la norma se ajusta al principio de seguridad jurídica, al integrarse de forma coherente en el ordenamiento jurídico, en particular en el marco establecido por la Ley 38/2003, de 17 de noviembre, General de Subvenciones, y su Reglamento de desarrollo, aprobado por el Real Dec
+Coincidencias: subvencion, subvenciones, bases reguladoras, financiacion, financiación, vulnerabilidad, personas vulnerables, menores, discapacidad, migrantes, igualdad, violencia de genero
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18422
+PDF oficial: https://www.boe.es/boe/dias/2026/09/01/pdfs/BOE-A-2026-18422.pdf
+
+Novedades incorporadas en esta ejecucion: 6
+Coincidencias totales en el periodo revisado: 11
