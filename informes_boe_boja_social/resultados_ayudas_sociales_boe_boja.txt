@@ -7342,3 +7342,79 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 10
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-08-25 a 2026-09-03
+Ejecucion: 2026-09-03 13:28:50 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Real Decreto 710/2026, de 2 de septiembre, por el que se regula la concesión directa de diversas subvenciones en materia de medicamentos y productos sanitarios durante el ejercicio 2026.
+Entidad convocante: MINISTERIO DE SANIDAD
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-03
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-03
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: un mes
+Dia incorporado al TXT: 2026-09-03
+Beneficiarios/encaje detectado: en establecer parámetros comparativos ni priorización entre entidades, no existiendo otras posibles beneficiarias que puedan desarrollar estas funciones en las mismas condiciones. Las presentes subvenciones objeto de regulación se integran dentro del Plan Estratégico de Subvenciones del Ministerio de Sanidad, a fin de dar cumplimiento a los objetivos estratégicos contemplados en el mismo, específi
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, convocatoria, financiacion, financiación, entidades sin animo de lucro, entidades sin ánimo de lucro, sin animo de lucro, sin ánimo de lucro, asociaciones
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18512
+PDF oficial: https://www.boe.es/boe/dias/2026/09/03/pdfs/BOE-A-2026-18512.pdf
+
+2. Resolución de 31 de agosto de 2026, de la Fundación Real Escuela Andaluza del Arte Ecuestre, por la que se publica la adjudicación de contratos de publicidad institucional y la concesión de ayudas, subvenciones y convenios en materia de actividad publicitaria, correspondiente al segundo cuatrimestre del año 2026.
+Entidad convocante: Consejería de Turismo, Justicia, Desregulación y Administración Local
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-09-03
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-03
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-09-03
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Información inst
+Coincidencias: subvenciones, ayudas, fundacion, fundación
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/171/15.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/171/BOJA26-171-00001-11417-01_00342647.pdf
+
+3. Anuncio de 31 de agosto de 2026, de la Delegación Territorial de Vivienda, Juventud y Ordenación del Territorio y de Fomento y Movilidad en Cádiz, por el que se notifica resolución en el procedimiento de ayudas de alquiler a las víctimas de violencia de género, personas objeto de desahucio de su vivienda habitual o personas con otras circunstancias de vulnerabilidad convocadas por Orden de 8 de octubre de 2025, de la entonces Consejería de Fomento, Articulación del Territorio y Vivienda (BOJA de 16 de octubre).
+Entidad convocante: Consejería de Vivienda, Juventud y Ordenación del Territorio
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-09-03
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-03
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días hábiles
+Dia incorporado al TXT: 2026-09-03
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Información inst
+Coincidencias: ayudas, vulnerabilidad, juventud, violencia de genero, violencia de género
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/171/33.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/171/BOJA26-171-00001-11418-01_00342648.pdf
+
+4. Real Decreto 711/2026, de 2 de septiembre, por el que se regula la concesión directa de subvenciones para la financiación de iniciativas locales destinadas a la consecución de los objetivos del Marco de actuaciones para el desarrollo territorial sostenible del área de influencia del Espacio Natural de Doñana, en el ámbito de la inclusión social en el ejercicio presupuestario 2026.
+Entidad convocante: MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-03
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-03
+Fecha de cierre: 30 de septiembre de 2028
+Dia incorporado al TXT: 2026-09-03
+Beneficiarios/encaje detectado: lo territorial sostenible del área de influencia del espacio natural Doñana exige que las entidades beneficiarias de esta subvención sean los catorce Ayuntamientos que integran dicha área, por ser los competentes para llevar a cabo las actuaciones que se busca promover y reforzar. Éstos, atendiendo a su mejor conocimiento del territorio y a las necesidades de sus habitantes, seleccionarán los proy
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, convocatoria, financiacion, financiación, servicios sociales, inclusion social, inclusión social
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18513
+PDF oficial: https://www.boe.es/boe/dias/2026/09/03/pdfs/BOE-A-2026-18513.pdf
+
+5. Real Decreto 708/2026, de 2 de septiembre, por el que se regula la concesión directa de subvenciones para realizar actuaciones de interés general en las ciudades de Ceuta y Melilla.
+Entidad convocante: MINISTERIO DE HACIENDA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-03
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-03
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-09-03
+Beneficiarios/encaje detectado: públicos esenciales para la población y la mejora de la sostenibilidad financiera de las entidades beneficiarias, fines que quedan perfectamente identificados en el procedimiento establecido. La no realización de las actuaciones previstas perjudicaría sensiblemente a las entidades beneficiarias, privando del efecto pretendido por la norma. Se adecúa también al principio de proporcionalidad, en ta
+Coincidencias: subvenciones, concesion directa de subvenciones, concesión directa de subvenciones, convocatoria, financiacion, financiación, servicios sociales, exclusion social, exclusión social, pobreza, mayores
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18510
+PDF oficial: https://www.boe.es/boe/dias/2026/09/03/pdfs/BOE-A-2026-18510.pdf
+
+Novedades incorporadas en esta ejecucion: 5
+Coincidencias totales en el periodo revisado: 15
