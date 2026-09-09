@@ -7481,3 +7481,68 @@ PDF oficial: https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18768.pdf
 
 Novedades incorporadas en esta ejecucion: 1
 Coincidencias totales en el periodo revisado: 13
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-08-31 a 2026-09-09
+Ejecucion: 2026-09-09 13:40:42 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Anuncio de 1 de septiembre de 2026, de la Delegación Territorial de Vivienda, Juventud y Ordenación del Territorio y de Fomento y Movilidad en Málaga, por el que se hace pública la relación de solicitantes de ayudas al alquiler cuyas bases son reguladas por la Orden de 10 de junio de 2022 (BOJA núm. 115, de 17 de junio de 2022), a los que no ha sido posible notificar diferentes actos relativos a procedimientos de reintegro de subvenciones.
+Entidad convocante: Consejería de Vivienda, Juventud y Ordenación del Territorio
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-09-08
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-08
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días hábiles
+Dia incorporado al TXT: 2026-09-09
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Información inst
+Coincidencias: subvenciones, ayudas, juventud
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/174/36.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/174/BOJA26-174-00001-11585-01_00342815.pdf
+
+2. Anuncio de 1 de septiembre de 2026, de la Delegación Territorial de Vivienda, Juventud y Ordenación del Territorio y de Fomento y Movilidad en Málaga, por el que se hace pública la relación de solicitantes de ayudas al alquiler en régimen de concurrencia no competitiva, para contribuir a minimizar el impacto económico y social del COVID-19 en los alquileres de vivienda habitual, convocadas por Orden de 29 de junio de 2020 (BOJA extraordinario núm. 42, de 1 de julio de 2020), a los que no ha sido posible notificar actos relativos a procedimientos de reintegro de subvenciones.
+Entidad convocante: Consejería de Vivienda, Juventud y Ordenación del Territorio
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-09-08
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-08
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días hábiles
+Dia incorporado al TXT: 2026-09-09
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Información inst
+Coincidencias: subvenciones, ayudas, juventud
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/174/35.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/174/BOJA26-174-00001-11584-01_00342814.pdf
+
+3. Resolución de 27 de agosto de 2026, de la Secretaría de Estado de Derechos Sociales, por la que se publica el Acuerdo del Consejo Territorial de Servicios Sociales y del Sistema para la Autonomía y Atención a la Dependencia, de 13 de agosto de 2026, para el Marco de Cooperación Interadministrativa y criterios de reparto de créditos de la Administración General del Estado para la financiación durante 2026 del nivel acordado, previsto en la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia.
+Entidad convocante: MINISTERIO DE DERECHOS SOCIALES, CONSUMO Y AGENDA 2030
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-09
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-09
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-09-09
+Beneficiarios/encaje detectado: En cada uno de ellos se calcula primero una ratio (Ri) que es igual a la proporción de personas beneficiarias con derecho reconocido (Di) sobre la población de esa edad (Pi). A continuación, se obtiene un factor de ajuste (Fi) que es igual al cociente entre la proporción de personas beneficiarias en cada tramo de edad y la proporción de personas beneficiarias en el tramo de edad de 80 a 84 años (F
+Coincidencias: ayuda, ayudas, convocatoria, financiacion, financiación, organizaciones no gubernamentales, accion social, acción social, servicios sociales, menores, discapacidad, dependencia
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18897
+PDF oficial: https://www.boe.es/boe/dias/2026/09/09/pdfs/BOE-A-2026-18897.pdf
+
+4. Extracto de la Resolución de 1 de septiembre de 2026 de la Fundación Pluralismo y Convivencia F.S.P, por el que se convocan subvenciones destinadas a la realización de actividades de fortalecimiento de la convivencia y prevención de la intolerancia y la discriminación por motivos religiosos, año 2026
+Entidad convocante: MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-09
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-09
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: un mes
+Dia incorporado al TXT: 2026-09-09
+Beneficiarios/encaje detectado: bvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/928103) Primero. Entidades beneficiarias. Podrán ser beneficiarias de las ayudas concedidas al amparo de esta convocatoria, las asociaciones, fundaciones y demás entidades privadas sin ánimo de lucro constituidas al amparo de la Ley Orgánica 1/2002, de 22 de marzo, reguladora del Derecho de Asociación y la Ley 50/2002, de 26
+Coincidencias: subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, convocan, financiacion, financiación, entidades sin animo de lucro, entidades sin ánimo de lucro, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29248
+PDF oficial: https://www.boe.es/boe/dias/2026/09/09/pdfs/BOE-B-2026-29248.pdf
+
+Novedades incorporadas en esta ejecucion: 4
+Coincidencias totales en el periodo revisado: 15
+Incidencias: 1
+- 2026-09-07: BOJA / detalle https://www.juntadeandalucia.es/boja/2026/173/53.html: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>
