@@ -7637,3 +7637,40 @@ Novedades incorporadas en esta ejecucion: 6
 Coincidencias totales en el periodo revisado: 20
 Incidencias: 1
 - 2026-09-09: BOJA / detalle https://www.juntadeandalucia.es/boja/2026/175/27.html: RemoteDisconnected: Remote end closed connection without response
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-09-02 a 2026-09-11
+Ejecucion: 2026-09-11 13:38:16 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Extracto de la Resolución de la Dirección General del Instituto de la Juventud, por la que se convocan ayudas del Programa «Cuerpo Europeo de Solidaridad» correspondientes a la ronda de octubre de 2026.
+Entidad convocante: MINISTERIO DE JUVENTUD E INFANCIA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-11
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-11
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-09-11
+Beneficiarios/encaje detectado: as comunidades, con un empeño especial en promover la inclusión social, principalmente a través del voluntariado. En la guía del programa se especifican otros objetivos y prioridades generales por acción a tener en cuenta. Se podrán solicitar proyectos para la participación de jóvenes en actividades solidarias, en la acción de proyectos de solidaridad. Véase el texto completo de esta Resolución y
+Coincidencias: subvencion, subvenciones, ayudas, bases reguladoras, convocatoria, convocan, voluntariado, inclusion social, inclusión social, infancia, juventud
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-29446
+PDF oficial: https://www.boe.es/boe/dias/2026/09/11/pdfs/BOE-B-2026-29446.pdf
+
+2. Real Decreto 721/2026, de 9 de septiembre, por el que se regula la concesión directa de una subvención al Centro de Estudios de Transportes del Mediterráneo Occidental (CETMO), para el desarrollo de actividades de secretariado del Grupo de Ministros de Transportes del Mediterráneo Occidental (GTMO 5+5) durante el ejercicio presupuestario 2026.
+Entidad convocante: MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-11
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-11
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días hábiles
+Dia incorporado al TXT: 2026-09-11
+Beneficiarios/encaje detectado: rráneo Occidental (GTMO 5+5), de manera que la ayuda viene otorgándose plurianualmente a la entidad beneficiaria, garantizando su continuidad y el cumplimiento de lo recogido en el Protocolo internacional de cooperación firmado por los Ministros de Transportes en 2007. Financiar las actividades del CETMO tiene como objetivo específico: (1) Avanzar en el desarrollo de los ámbitos prioritarios de la
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, financiacion, financiación, asociacion, asociación
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18997
+PDF oficial: https://www.boe.es/boe/dias/2026/09/11/pdfs/BOE-A-2026-18997.pdf
+
+Novedades incorporadas en esta ejecucion: 2
+Coincidencias totales en el periodo revisado: 14
