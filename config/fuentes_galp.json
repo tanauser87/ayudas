@@ -1,0 +1,88 @@
+{
+  "defaults": {
+    "group": "GALP/GALPA/FEMPA",
+    "adapter": "html",
+    "organization_type": "Grupo de acción local pesquero",
+    "territory": "Andalucía",
+    "max_items": 20,
+    "enabled": true
+  },
+  "sources": [
+    {
+      "id": "junta_directorio_galpa",
+      "name": "Junta de Andalucía - Grupos GALPA",
+      "organization": "Consejería de Agricultura, Pesca, Agua y Desarrollo Rural",
+      "url": "https://www.juntadeandalucia.es/organismos/agriculturapescaaguaydesarrollorural/areas/pesca-acuicultura/gdp/paginas/info-galpa.html",
+      "official_domains": ["juntadeandalucia.es"],
+      "organization_type": "Administración autonómica"
+    },
+    {
+      "id": "junta_ayudas_fempa",
+      "name": "Junta de Andalucía - Ayudas FEMPA",
+      "organization": "Consejería de Agricultura, Pesca, Agua y Desarrollo Rural",
+      "url": "https://www.juntadeandalucia.es/organismos/agriculturapescaaguaydesarrollorural/areas/pesca-acuicultura/ayudas-pesqueras/paginas/ayudas-fempa.html",
+      "official_domains": ["juntadeandalucia.es"],
+      "organization_type": "Administración autonómica"
+    },
+    {
+      "id": "junta_procedimiento_galpa",
+      "name": "Junta de Andalucía - Procedimiento de ayudas GALPA",
+      "organization": "Junta de Andalucía",
+      "url": "https://www.juntadeandalucia.es/servicios/sede/tramites/procedimientos/detalle/25430.html",
+      "official_domains": ["juntadeandalucia.es"],
+      "organization_type": "Administración autonómica"
+    },
+    {
+      "id": "galpa_cadiz",
+      "name": "GALPA Cádiz - Convocatorias",
+      "organization": "Grupo de Acción Local de Pesca de Cádiz",
+      "province": "Cádiz",
+      "url": "https://galpacadiz.com/convocatorias/",
+      "official_domains": ["galpacadiz.com"],
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual de convocatorias GALPA Cádiz.",
+      "include_landing": false
+    },
+    {
+      "id": "galpa_huelva",
+      "name": "GALPA Huelva - Convocatorias",
+      "organization": "Grupo de Acción Local del Sector Pesquero y Acuícola de Huelva",
+      "province": "Huelva",
+      "url": "https://galpahuelva.com/category/primera-convocatoria-2026/",
+      "official_domains": ["galpahuelva.com"],
+      "coverage_type": "current",
+      "coverage_note": "Categoría oficial de la primera convocatoria GALPA Huelva 2026.",
+      "include_landing": false
+    },
+    {
+      "id": "galpa_malaga",
+      "name": "GALPA Málaga - Grupo de Desarrollo Pesquero",
+      "organization": "Grupo de Desarrollo Pesquero de la Provincia de Málaga",
+      "province": "Málaga",
+      "url": "https://www.pescamalaga.org/",
+      "official_domains": ["pescamalaga.org"],
+      "requires_adjustment": true,
+      "adjustment_reason": "La portada no ofrece un listado estable; requiere adaptar el repositorio documental o la convocatoria FEMPA."
+    },
+    {
+      "id": "galpa_alboran",
+      "name": "GALPA Alborán - Granada y Poniente Almeriense",
+      "organization": "Grupo de Acción Local de Pesca y Acuicultura de Granada y Poniente Almeriense",
+      "province": "Granada / Almería",
+      "url": "https://galpaalboran.org/",
+      "official_domains": ["galpaalboran.org"],
+      "requires_adjustment": true,
+      "adjustment_reason": "La portada no acredita convocatorias vigentes; requiere un adaptador del listado oficial."
+    },
+    {
+      "id": "galpa_almeria_levante",
+      "name": "GALPA Almería a Levante",
+      "organization": "Asociación de Desarrollo Marítimo, Pesquero y Acuícola Almería a Levante",
+      "province": "Almería",
+      "url": "https://almeriaalevante.es/",
+      "official_domains": ["almeriaalevante.es"],
+      "requires_adjustment": true,
+      "adjustment_reason": "La portada no acredita convocatorias vigentes; requiere un adaptador del listado oficial."
+    }
+  ]
+}
