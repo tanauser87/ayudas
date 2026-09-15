@@ -7748,3 +7748,44 @@ PDF oficial: https://www.juntadeandalucia.es/boja/2026/178/BOJA26-178-00002-1184
 
 Novedades incorporadas en esta ejecucion: 2
 Coincidencias totales en el periodo revisado: 14
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-09-06 a 2026-09-15
+Ejecucion: 2026-09-15 14:02:44 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Corrección de errata de la Orden de 4 de agosto de 2026, por la que se aprueban las bases reguladoras para la concesión de subvenciones en régimen de concurrencia no competitiva, dirigidas a entidades privadas sin ánimo de lucro, universidades públicas y entidades locales, para el desarrollo de proyectos en materia de conciliación y corresponsabilidad en el marco del Plan Corresponsables, en el ámbito de las competencias de la Consejería, y se efectúa su convocatoria en el año 2026 (BOJA 155, de 12 de agosto de 2026).
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-09-15
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-15
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-09-15
+Beneficiarios/encaje detectado: r por otras subvenciones o por tasas y precios públicos aplicados en forma de copago a las personas beneficiarias, en ningún caso se disminuirá el importe mínimo a cofinanciar del 12,5% de cada Entidad Local. ENTIDADES LOCALES IMPORTE A SUBVENCIONAR POR LA JUNTA DE ANDALUCÍA (MÁXIMO 87,5%) IMPORTE A COFINANCIAR POR LAS ENTIDADES LOCALES (MÍNIMO 12,5%) COSTE TOTAL DEL PROYECTO (100%) Diputación Pro
+Coincidencias: subvenciones, bases reguladoras, convocatoria, sin animo de lucro, sin ánimo de lucro, servicios sociales, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/179/1.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/179/BOJA26-179-00004-11861-01_00343092.pdf
+
+2. Resolución de 9 de septiembre de 2026, de la Universidad Pablo de Olavide, de Sevilla, Vicerrectorado de Estudiantes, por la que se establecen las bases reguladoras de la concesión de ayudas para asociaciones de estudiantes de la Universidad Pablo de Olavide, y se convocan para el curso 2026/2027.
+Entidad convocante: Universidades
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-09-15
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-15
+Fecha de cierre: 10 de noviembre de 2027
+Dia incorporado al TXT: 2026-09-15
+Beneficiarios/encaje detectado: de Selección. El estudio de las solicitudes presentadas y la selección de las posibles asociaciones beneficiarias será llevado a cabo por una Comisión creada al efecto, formada como mínimo por los siguientes miembros o personas en quien deleguen: - Vicerrectora de Estudiantes, que actuará como presidenta. - Director General de Proyección Institucional, o persona en quien delegue. - Director del Ár
+Coincidencias: ayudas, bases reguladoras, convocan, asociaciones
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/179/2.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/179/BOJA26-179-00006-11823-01_00343053.pdf
+
+Novedades incorporadas en esta ejecucion: 2
+Coincidencias totales en el periodo revisado: 15
+Incidencias: 3
+- 2026-09-11: BOJA / detalle https://www.juntadeandalucia.es/boja/2026/177/23.html: RemoteDisconnected: Remote end closed connection without response
+- 2026-09-11: BOJA / detalle https://www.juntadeandalucia.es/boja/2026/177/52.html: RemoteDisconnected: Remote end closed connection without response
+- 2026-09-14: BOJA / detalle https://www.juntadeandalucia.es/boja/2026/178/17.html: RemoteDisconnected: Remote end closed connection without response
