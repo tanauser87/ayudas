@@ -7897,3 +7897,16 @@ Coincidencias totales en el periodo revisado: 16
 Incidencias: 2
 - 2026-09-16: BOJA / detalle https://www.juntadeandalucia.es/boja/2026/180/46.html: RemoteDisconnected: Remote end closed connection without response
 - 2026-09-17: BOJA / detalle https://www.juntadeandalucia.es/boja/2026/181/32.html: RemoteDisconnected: Remote end closed connection without response
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-09-10 a 2026-09-19
+Ejecucion: 2026-09-19 13:18:15 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban registradas.
+
+Novedades incorporadas en esta ejecucion: 0
+Coincidencias totales en el periodo revisado: 14
