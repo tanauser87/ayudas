@@ -7923,3 +7923,27 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 9
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-09-12 a 2026-09-21
+Ejecucion: 2026-09-21 15:17:48 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban registradas.
+
+Novedades incorporadas en esta ejecucion: 0
+Coincidencias totales en el periodo revisado: 2
+Incidencias: 10
+- 2026-09-12: BOJA: URLError: <urlopen error timed out>
+- 2026-09-13: BOJA: URLError: <urlopen error timed out>
+- 2026-09-14: BOJA: URLError: <urlopen error timed out>
+- 2026-09-15: BOJA: URLError: <urlopen error timed out>
+- 2026-09-16: BOJA: URLError: <urlopen error timed out>
+- 2026-09-17: BOJA: URLError: <urlopen error timed out>
+- 2026-09-18: BOJA: URLError: <urlopen error timed out>
+- 2026-09-19: BOJA: URLError: <urlopen error timed out>
+- 2026-09-20: BOJA: URLError: <urlopen error timed out>
+- 2026-09-21: BOJA: URLError: <urlopen error timed out>
