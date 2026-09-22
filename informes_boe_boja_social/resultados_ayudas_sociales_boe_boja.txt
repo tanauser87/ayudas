@@ -7947,3 +7947,38 @@ Incidencias: 10
 - 2026-09-19: BOJA: URLError: <urlopen error timed out>
 - 2026-09-20: BOJA: URLError: <urlopen error timed out>
 - 2026-09-21: BOJA: URLError: <urlopen error timed out>
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-09-13 a 2026-09-22
+Ejecucion: 2026-09-22 14:08:12 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Sentencia de 29 de julio de 2026, de la Sala Tercera del Tribunal Supremo, que estima parcialmente el recurso contencioso-administrativo 21/2025, interpuesto por las entidades Cáritas Española; Comisión Española de Ayuda al Refugiado; Federación Andalucía Acoge; Federación Red Acoge y Servicio Jesuita a Migrantes, contra el Real Decreto 1155/2024, de 19 de noviembre, por el que se aprueba el Reglamento de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social.
+Entidad convocante: TRIBUNAL SUPREMO
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-22
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-22
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-09-22
+Beneficiarios/encaje detectado: No detallado en el listado; revisar el enlace oficial.
+Coincidencias: ayuda, caritas, cáritas, migrantes
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19633
+PDF oficial: https://www.boe.es/boe/dias/2026/09/22/pdfs/BOE-A-2026-19633.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 2
+Incidencias: 10
+- 2026-09-13: BOJA: URLError: <urlopen error timed out>
+- 2026-09-14: BOJA: URLError: <urlopen error timed out>
+- 2026-09-15: BOJA: URLError: <urlopen error timed out>
+- 2026-09-16: BOJA: URLError: <urlopen error timed out>
+- 2026-09-17: BOJA: URLError: <urlopen error timed out>
+- 2026-09-18: BOJA: URLError: <urlopen error timed out>
+- 2026-09-19: BOJA: URLError: <urlopen error timed out>
+- 2026-09-20: BOJA: URLError: <urlopen error timed out>
+- 2026-09-21: BOJA: URLError: <urlopen error timed out>
+- 2026-09-22: BOJA: URLError: <urlopen error timed out>
