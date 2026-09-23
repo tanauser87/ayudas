@@ -7982,3 +7982,38 @@ Incidencias: 10
 - 2026-09-20: BOJA: URLError: <urlopen error timed out>
 - 2026-09-21: BOJA: URLError: <urlopen error timed out>
 - 2026-09-22: BOJA: URLError: <urlopen error timed out>
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-09-14 a 2026-09-23
+Ejecucion: 2026-09-23 14:07:22 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Extracto de la Resolución de 21 de septiembre de 2026, de la Dirección General del Servicio Público de Empleo Estatal, por la que se aprueba la convocatoria para la concesión de subvenciones públicas, destinadas a financiar en el ejercicio 2026, la contratación de personas jóvenes desempleadas menores de treinta años en el marco de «Proyectos de primera experiencia en administraciones públicas»
+Entidad convocante: MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-23
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-23
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: 15 días naturales
+Dia incorporado al TXT: 2026-09-23
+Beneficiarios/encaje detectado: os organismos públicos y las instituciones que forman el sector público estatal. Segundo. Entidades beneficiarias: Podrán ser beneficiarias de las subvenciones objeto de esta convocatoria, los órganos de la Administración General del Estado, los organismos públicos y las instituciones que forman el sector público estatal, respecto de las subvenciones por las contrataciones realizadas en el marco d
+Coincidencias: subvencion, subvenciones, bases reguladoras, convocatoria, financiacion, financiación, menores
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30719
+PDF oficial: https://www.boe.es/boe/dias/2026/09/23/pdfs/BOE-B-2026-30719.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 3
+Incidencias: 10
+- 2026-09-14: BOJA: URLError: <urlopen error timed out>
+- 2026-09-15: BOJA: URLError: <urlopen error timed out>
+- 2026-09-16: BOJA: URLError: <urlopen error timed out>
+- 2026-09-17: BOJA: URLError: <urlopen error timed out>
+- 2026-09-18: BOJA: URLError: <urlopen error timed out>
+- 2026-09-19: BOJA: URLError: <urlopen error timed out>
+- 2026-09-20: BOJA: URLError: <urlopen error timed out>
+- 2026-09-21: BOJA: URLError: <urlopen error timed out>
+- 2026-09-22: BOJA: URLError: <urlopen error timed out>
+- 2026-09-23: BOJA: URLError: <urlopen error timed out>
