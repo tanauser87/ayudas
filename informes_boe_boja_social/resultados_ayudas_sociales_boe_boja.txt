@@ -8017,3 +8017,79 @@ Incidencias: 10
 - 2026-09-21: BOJA: URLError: <urlopen error timed out>
 - 2026-09-22: BOJA: URLError: <urlopen error timed out>
 - 2026-09-23: BOJA: URLError: <urlopen error timed out>
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-09-15 a 2026-09-24
+Ejecucion: 2026-09-24 14:06:27 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Corrección de errores de la Resolución de 29 de junio de 2026, de la Dirección General de Vivienda y Regeneración Urbana, por la que se acuerda la redistribución del crédito establecido en la Orden de 11 de noviembre de 2025, por la que se amplía la cuantía total máxima del crédito destinado a la convocatoria, en régimen de concurrencia no competitiva, de subvenciones para la rehabilitación a nivel de edificio, la mejora de la eficiencia energética en viviendas, la elaboración del libro del edificio existente para la rehabilitación y la redacción de proyectos de rehabilitación, en el marco del Plan de Recuperación, Transformación y Resiliencia, en la Comunidad Autónoma de Andalucía, efectuada por la Orden de 26 de septiembre de 2022 (BOJA núm. 129, de 7.7.2026).
+Entidad convocante: Consejería de Vivienda, Juventud y Ordenación del Territorio
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-09-23
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-23
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-09-24
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Información inst
+Coincidencias: subvenciones, convocatoria, juventud
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/185/7.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/185/BOJA26-185-00004-12300-01_00343530.pdf
+
+2. Resolución de 15 de septiembre de 2026, de la Secretaría General Técnica, por la que se da publicidad a los contratos de publicidad institucional adjudicados y a las ayudas, subvenciones y convenios en materia de actividad publicitaria, durante el segundo cuatrimestre de 2026.
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-09-23
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-23
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-09-24
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Información inst
+Coincidencias: subvenciones, ayudas, servicios sociales, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/185/35.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/185/BOJA26-185-00001-12284-01_00343514.pdf
+
+3. Anuncio de 17 de septiembre de 2026, de la Delegación Territorial de Vivienda, Juventud y Ordenación del Territorio y de Fomento y Movilidad en Córdoba, mediante el que se publica la resolución por la que se notifica la finalización del procedimiento al solicitante de ayuda al alquiler de vivienda habitual a personas en situación de especial vulnerabilidad, con ingresos limitados y a jóvenes, en la Comunidad Autónoma de Andalucía (convocatoria 2025).
+Entidad convocante: Consejería de Vivienda, Juventud y Ordenación del Territorio
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-09-24
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-24
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: 10 días hábiles
+Dia incorporado al TXT: 2026-09-24
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Información inst
+Coincidencias: ayuda, convocatoria, vulnerabilidad, juventud
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/186/65.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/186/BOJA26-186-00001-12386-01_00343616.pdf
+
+4. Extracto de la Resolución de 22 de septiembre de 2026 de la Presidencia de la Agencia Estatal de Investigación, por la que se aprueba la convocatoria 2026 de las ayudas del Programa de Doctorados Industriales.
+Entidad convocante: MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-24
+Fecha de apertura: 26 de octubre de 2026
+Fecha de cierre: 26 de octubre de 2026
+Dia incorporado al TXT: 2026-09-24
+Beneficiarios/encaje detectado: de Datos Nacional de Subvenciones corresponden a un mismo texto de convocatoria. Primero. Entidades beneficiarias. Podrán ser entidades beneficiarias de las ayudas, de acuerdo con lo establecido en el artículo 6 de la convocatoria, las empresas, así como las entidades privadas sin ánimo de lucro y las administraciones públicas, que en sus estatutos o en la normativa que los regule o en su objeto s
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocatoria, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30860
+PDF oficial: https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-B-2026-30860.pdf
+
+5. Extracto de la Resolución de 22 de septiembre de 2026 de la Presidencia de la Agencia Estatal de Investigación, por la que se aprueba la convocatoria 2026 de las ayudas Torres Quevedo.
+Entidad convocante: MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-24
+Fecha de apertura: 29 de octubre de 2026
+Fecha de cierre: 29 de octubre de 2026
+Dia incorporado al TXT: 2026-09-24
+Beneficiarios/encaje detectado: bvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/918657) Primero. Entidades beneficiarias. Podrán ser entidades beneficiarias, de acuerdo con lo establecido en el artículo 6 de la convocatoria, las empresas, entre las que se incluyen las empresas spin-off y las Jóvenes Empresas Innovadoras, los centros tecnológicos, los centros de apoyo a la innovación tecnológica, las asoc
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocatoria, asociaciones
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-30861
+PDF oficial: https://www.boe.es/boe/dias/2026/09/24/pdfs/BOE-B-2026-30861.pdf
+
+Novedades incorporadas en esta ejecucion: 5
+Coincidencias totales en el periodo revisado: 8
