@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+informes_caribdis/cache/
+.tmp_caribdis_*/

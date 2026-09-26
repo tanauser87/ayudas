@@ -1,0 +1,122 @@
+{
+  "defaults": {
+    "group": "Fundaciones privadas y RSC",
+    "adapter": "html",
+    "organization_type": "Fundación privada",
+    "territory": "España",
+    "max_items": 20,
+    "enabled": true,
+    "eligibility_hint": "La elegibilidad de asociaciones debe confirmarse en las bases de cada convocatoria."
+  },
+  "sources": [
+    {
+      "id": "fundacion_la_caixa",
+      "name": "Fundación la Caixa - Convocatorias sociales",
+      "organization": "Fundación la Caixa",
+      "url": "https://fundacionlacaixa.org/es/convocatorias-sociales",
+      "official_domains": ["fundacionlacaixa.org"],
+      "eligibility_hint": "Convocatorias para entidades privadas sin ánimo de lucro; revisar la edición de Andalucía.",
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual; cada edición territorial debe verificarse en su página y bases.",
+      "include_landing": false
+    },
+    {
+      "id": "caixabank_accion_social",
+      "name": "CaixaBank - Acción social",
+      "organization": "CaixaBank",
+      "organization_type": "Responsabilidad social corporativa",
+      "url": "https://www.caixabank.com/es/sostenibilidad/accion-social.html",
+      "official_domains": ["caixabank.com"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "fundacion_unicaja",
+      "name": "Fundación Unicaja - Convocatorias",
+      "organization": "Fundación Unicaja",
+      "url": "https://www.fundacionunicaja.com/convocatorias/",
+      "official_domains": ["fundacionunicaja.com"],
+      "coverage_type": "current",
+      "coverage_note": "Listado oficial actual de convocatorias de Fundación Unicaja.",
+      "include_landing": false
+    },
+    {
+      "id": "fundacion_once",
+      "name": "Fundación ONCE - Convocatorias de ayudas",
+      "organization": "Fundación ONCE",
+      "url": "https://www.fundaciononce.es/es/convocatorias-de-ayudas",
+      "official_domains": ["fundaciononce.es"],
+      "eligibility_hint": "Entidades sin ánimo de lucro pueden participar según la línea de discapacidad y accesibilidad."
+    },
+    {
+      "id": "fundacion_carasso",
+      "name": "Fundación Daniel y Nina Carasso - Convocatorias",
+      "organization": "Fundación Daniel y Nina Carasso",
+      "url": "https://fondationcarasso.org/es/convocatorias/",
+      "official_domains": ["fondationcarasso.org"]
+    },
+    {
+      "id": "fundacion_banco_santander",
+      "name": "Fundación Banco Santander - Convocatorias",
+      "organization": "Fundación Banco Santander",
+      "url": "https://www.fundacionbancosantander.com/es/convocatorias",
+      "official_domains": ["fundacionbancosantander.com"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "fundacion_ibercaja",
+      "name": "Fundación Ibercaja - Convocatorias",
+      "organization": "Fundación Ibercaja",
+      "url": "https://www.fundacionibercaja.es/convocatorias/",
+      "official_domains": ["fundacionibercaja.es"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "fundacion_endesa",
+      "name": "Fundación Endesa - Convocatorias",
+      "organization": "Fundación Endesa",
+      "url": "https://www.fundacionendesa.org/es/convocatorias",
+      "official_domains": ["fundacionendesa.org"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "fundacion_naturgy",
+      "name": "Fundación Naturgy",
+      "organization": "Fundación Naturgy",
+      "url": "https://www.fundacionnaturgy.org/",
+      "official_domains": ["fundacionnaturgy.org"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "fundacion_moeve",
+      "name": "Fundación Moeve - Convocatorias",
+      "organization": "Fundación Moeve",
+      "url": "https://fundacion.moeveglobal.com/es/",
+      "official_domains": ["moeveglobal.com"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "fundacion_repsol",
+      "name": "Fundación Repsol - Convocatorias",
+      "organization": "Fundación Repsol",
+      "url": "https://www.fundacionrepsol.com/es/convocatorias/",
+      "official_domains": ["fundacionrepsol.com"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "fundacion_telefonica",
+      "name": "Fundación Telefónica - Convocatorias",
+      "organization": "Fundación Telefónica",
+      "url": "https://www.fundaciontelefonica.com/convocatorias/",
+      "official_domains": ["fundaciontelefonica.com"],
+      "requires_adjustment": true
+    },
+    {
+      "id": "fundacion_mapfre",
+      "name": "Fundación MAPFRE - Premios y ayudas",
+      "organization": "Fundación MAPFRE",
+      "url": "https://www.fundacionmapfre.org/premios-ayudas/",
+      "official_domains": ["fundacionmapfre.org"],
+      "requires_adjustment": true
+    }
+  ]
+}
