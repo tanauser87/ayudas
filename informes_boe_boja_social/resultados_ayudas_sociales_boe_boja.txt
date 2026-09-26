@@ -8117,3 +8117,77 @@ Incidencias: 10
 - 2026-09-23: BOJA: URLError: <urlopen error timed out>
 - 2026-09-24: BOJA: URLError: <urlopen error timed out>
 - 2026-09-25: BOJA: URLError: <urlopen error timed out>
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-09-17 a 2026-09-26
+Ejecucion: 2026-09-26 13:49:58 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Extracto de la Resolución de 25 de septiembre de 2026 de la Presidencia de la Agencia Estatal de Investigación, por la que se aprueba la convocatoria 2026 de las ayudas Juan de la Cierva.
+Entidad convocante: MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-26
+Fecha de apertura: 3 de diciembre de 2026
+Fecha de cierre: 3 de diciembre de 2026
+Dia incorporado al TXT: 2026-09-26
+Beneficiarios/encaje detectado: bvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/918644) Primero. Entidades beneficiarias. Podrán ser beneficiarias de las ayudas Juan de la Cierva, las siguientes entidades: a) En el caso de las ayudas del turno general y del turno específico de personas con discapacidad, los organismos públicos de investigación, las universidades públicas y sus institutos universitarios
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocatoria, sin animo de lucro, sin ánimo de lucro, discapacidad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31265
+PDF oficial: https://www.boe.es/boe/dias/2026/09/26/pdfs/BOE-B-2026-31265.pdf
+
+2. Extracto de la Resolución de 25 de septiembre de 2026 de la Presidencia de la Agencia Estatal de Investigación, por la que se aprueba la convocatoria 2026 de las ayudas Ramón y Cajal.
+Entidad convocante: MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-26
+Fecha de apertura: 10 de diciembre de 2026
+Fecha de cierre: 10 de diciembre de 2026
+Dia incorporado al TXT: 2026-09-26
+Beneficiarios/encaje detectado: bvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/918641) Primero. Entidades beneficiarias. Podrán ser beneficiarias de las ayudas Ramón y Cajal, las siguientes entidades: 1. En el caso de las ayudas del turno general y del turno específico de personas con discapacidad, los organismos públicos de investigación, las universidades públicas y sus institutos universitarios, las
+Coincidencias: subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, financiacion, financiación, sin animo de lucro, sin ánimo de lucro, discapacidad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31264
+PDF oficial: https://www.boe.es/boe/dias/2026/09/26/pdfs/BOE-B-2026-31264.pdf
+
+3. Extracto de la Resolución de 25 de septiembre de 2026 de la Presidencia de la Agencia Estatal de Investigación, por la que se aprueba la convocatoria 2026 de ayudas para contratos predoctorales para la formación de profesorado universitario.
+Entidad convocante: MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-26
+Fecha de apertura: 20 de noviembre de 2026
+Fecha de cierre: 20 de noviembre de 2026
+Dia incorporado al TXT: 2026-09-26
+Beneficiarios/encaje detectado: bvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/918659) Primero. Entidades beneficiarias. Podrán ser entidades beneficiarias, de acuerdo con lo establecido en el artículo 5 de la convocatoria, los organismos públicos de investigación, las universidades públicas y privadas, las entidades e instituciones sanitarias públicas y privadas sin ánimo de lucro, los Institutos de in
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocatoria, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31266
+PDF oficial: https://www.boe.es/boe/dias/2026/09/26/pdfs/BOE-B-2026-31266.pdf
+
+4. Extracto de la Resolución de la Dirección General del Instituto de la Juventud, por la que se convocan ayudas de la línea de Deporte, del Programa Erasmus+, correspondientes a la ronda de octubre de 2026
+Entidad convocante: MINISTERIO DE JUVENTUD E INFANCIA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-26
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-26
+Fecha de cierre: 1 de octubre de 2026
+Dia incorporado al TXT: 2026-09-26
+Beneficiarios/encaje detectado: No detallado en el listado; revisar el enlace oficial.
+Coincidencias: subvencion, subvenciones, ayudas, bases reguladoras, convocatoria, convocan, infancia, juventud
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31267
+PDF oficial: https://www.boe.es/boe/dias/2026/09/26/pdfs/BOE-B-2026-31267.pdf
+
+Novedades incorporadas en esta ejecucion: 4
+Coincidencias totales en el periodo revisado: 8
+Incidencias: 10
+- 2026-09-17: BOJA: URLError: <urlopen error timed out>
+- 2026-09-18: BOJA: URLError: <urlopen error timed out>
+- 2026-09-19: BOJA: URLError: <urlopen error timed out>
+- 2026-09-20: BOJA: URLError: <urlopen error timed out>
+- 2026-09-21: BOJA: URLError: <urlopen error timed out>
+- 2026-09-22: BOJA: URLError: <urlopen error timed out>
+- 2026-09-23: BOJA: URLError: <urlopen error timed out>
+- 2026-09-24: BOJA: URLError: <urlopen error timed out>
+- 2026-09-25: BOJA: URLError: <urlopen error timed out>
+- 2026-09-26: BOJA: URLError: <urlopen error timed out>
