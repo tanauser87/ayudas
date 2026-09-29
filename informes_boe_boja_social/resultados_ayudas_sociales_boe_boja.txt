@@ -8239,3 +8239,27 @@ PDF oficial: https://www.juntadeandalucia.es/boja/2026/187/BOJA26-187-00003-1235
 
 Novedades incorporadas en esta ejecucion: 1
 Coincidencias totales en el periodo revisado: 9
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-09-20 a 2026-09-29
+Ejecucion: 2026-09-29 15:10:34 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Extracto de la Resolución de la Dirección General del Instituto de la Juventud, por la que se convocan ayudas del Programa «Erasmus+», línea de Juventud, correspondientes a la ronda de octubre de 2026
+Entidad convocante: MINISTERIO DE JUVENTUD E INFANCIA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-09-29
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-09-29
+Fecha de cierre: 31 de mayo de 2027
+Dia incorporado al TXT: 2026-09-29
+Beneficiarios/encaje detectado: Unión Europea a través del mantenimiento y mejora del conocimiento y participación de los jóvenes y asociaciones de juventud en proyectos de aprendizaje no formal que fomentan la movilidad internacional y el aprendizaje de competencias no formales, a través de acciones de movilidad por Europa, durante el periodo 2024-2026. Mantener y mejorar la participación libre y eficaz de la juventud en el des
+Coincidencias: subvencion, subvenciones, ayudas, bases reguladoras, convocatoria, convocan, asociaciones, organizaciones no gubernamentales, infancia, menores, juventud, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31573
+PDF oficial: https://www.boe.es/boe/dias/2026/09/29/pdfs/BOE-B-2026-31573.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 9
