@@ -8313,3 +8313,66 @@ PDF oficial: https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-B-2026-31652.pdf
 
 Novedades incorporadas en esta ejecucion: 3
 Coincidencias totales en el periodo revisado: 12
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-09-22 a 2026-10-01
+Ejecucion: 2026-10-01 15:37:05 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Real Decreto 763/2026, de 30 de septiembre, por el que se regula la concesión directa de una subvención a la Fundación Princesa de Asturias para la celebración de la convocatoria 2026 de los Premios Princesa de Asturias.
+Entidad convocante: MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-10-01
+Fecha de apertura: 1 de enero de 2026
+Fecha de cierre: 31 de octubre de 2026
+Dia incorporado al TXT: 2026-10-01
+Beneficiarios/encaje detectado: s de interés público y social que dificultan la convocatoria pública: la singularidad de la entidad beneficiaria y de la actividad subvencionada; el reconocido prestigio nacional e internacional de los Premios Princesa de Asturias; su contribución a la promoción de los valores científicos, culturales, sociales y humanísticos y a la proyección exterior de España; y la vinculación directa e indisoci
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, convocatoria, financiacion, financiación, fundacion, fundación, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20387
+PDF oficial: https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-A-2026-20387.pdf
+
+2. Real Decreto 766/2026, de 30 de septiembre, por el que se regula la concesión directa de subvenciones a diversas entidades para la Capitalidad Cultural de Barcelona.
+Entidad convocante: MINISTERIO DE CULTURA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-10-01
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-01
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: quince días
+Dia incorporado al TXT: 2026-10-01
+Beneficiarios/encaje detectado: los filmes de Pere Portabella (1960-2020), en el marco del Año Portabella. La misma institución es beneficiaria de otra subvención regulada en este real decreto, que prevé financiar nuevas actuaciones para la ampliación de su espacio expositivo, ampliación necesaria para que pueda desplegar su política de exposiciones temporales y permanente. De esta forma, el museo podrá exponer una parte import
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, bases reguladoras, convocatoria, financiacion, financiación, asociacion, asociación
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20390
+PDF oficial: https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-A-2026-20390.pdf
+
+3. Extracto de la Orden de 29 de septiembre de 2026, por la que se convocan, para el ejercicio 2026, las ayudas previstas en la Orden de 20 de julio de 2023, por la que se aprueban las bases reguladoras para la concesión de subvenciones, en régimen de concurrencia no competitiva, dirigidas a los Consejos Reguladores y a sus asociaciones representativas que desarrollan sus funciones en la Comunidad Autónoma de Andalucía, para la gestión de las denominaciones de origen e indicaciones geográficas protegidas.
+Entidad convocante: Consejería de Agricultura, Pesca, Agua y Desarrollo Rural
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-10-01
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-01
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-10-01
+Beneficiarios/encaje detectado: 1E/74200/00 2017000144 2026 342.458,30 1200010000 G/71E/78000/00 2026000814 2026 40.000,00 Segundo. Beneficiarios. Son beneficiarios de estas ayudas los Consejos Reguladores de las denominaciones de origen protegidas e indicaciones geográficas protegidas, constituidos como corporaciones de derecho público, y las asociaciones constituidas por dichos consejos reguladores, como entidades sin ánimo de
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocan, asociaciones
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/219102/3.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/219102/BOJA26-219102-00002-12995-01_00344225.pdf
+
+4. Orden de 29 de septiembre de 2026, por la que se convocan, para el ejercicio 2026, las ayudas previstas en la Orden de 20 de julio de 2023, por la que se aprueban las bases reguladoras para la concesión de subvenciones, en régimen de concurrencia no competitiva, dirigidas a los Consejos Reguladores y a sus asociaciones representativas que desarrollan sus funciones en la Comunidad Autónoma de Andalucía, para la gestión de las denominaciones de origen e indicaciones geográficas protegidas.
+Entidad convocante: Consejería de Agricultura, Pesca, Agua y Desarrollo Rural
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-10-01
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-01
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: seis mes
+Dia incorporado al TXT: 2026-10-01
+Beneficiarios/encaje detectado: en de 6 de agosto de 2026, por la que se modifica la Orden de 20 de julio de 2023, se incluyen como beneficiarios a las asociaciones constituidas por dichos Consejos Reguladores, como entidades sin ánimo de lucro y que sean representativas de dichos consejos, siendo su objeto la promoción, defensa y reconocimiento de los productos de calidad diferenciada de Andalucía. La presente convocatoria se a
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocan, asociaciones
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/219102/1.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/219102/BOJA26-219102-00025-12994-01_00344224.pdf
+
+Novedades incorporadas en esta ejecucion: 4
+Coincidencias totales en el periodo revisado: 14
