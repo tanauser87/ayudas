@@ -8376,3 +8376,105 @@ PDF oficial: https://www.juntadeandalucia.es/boja/2026/219102/BOJA26-219102-0002
 
 Novedades incorporadas en esta ejecucion: 4
 Coincidencias totales en el periodo revisado: 14
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-09-23 a 2026-10-02
+Ejecucion: 2026-10-02 14:55:47 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Real Decreto 767/2026, de 30 de septiembre, por el que se regula la concesión directa de una subvención a la Federación Española de Municipios y Provincias para el fomento de políticas de reducción de la demanda de drogas y otras adicciones, financiada con cargo al Fondo de bienes decomisados por tráfico ilícito de drogas y otros delitos relacionados durante el ejercicio de 2026.
+Entidad convocante: MINISTERIO DE SANIDAD
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-10-02
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-02
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: veinte días hábiles
+Dia incorporado al TXT: 2026-10-02
+Beneficiarios/encaje detectado: n, seguimiento, justificación y control de la subvención, sin establecer la imposición a la entidad beneficiaria de requisitos o cargas que excedan de lo necesario para garantizar el cumplimiento de su finalidad y la correcta aplicación de los fondos públicos, por lo que la utilización del real decreto resulta proporcionada a la finalidad perseguida. Por otro lado, este real decreto da cumplimient
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, convocatoria, financiacion, financiación, asociacion, asociación, servicios sociales, menores, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20472
+PDF oficial: https://www.boe.es/boe/dias/2026/10/02/pdfs/BOE-A-2026-20472.pdf
+
+2. Resolución de 22 de septiembre de 2026, de la Universidad de Huelva, por la que se establecen las bases reguladoras del Programa Becas Prácticas Fundación ONCE-CRUE.
+Entidad convocante: Universidades
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-10-02
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-02
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: 10 días hábiles
+Dia incorporado al TXT: 2026-10-02
+Beneficiarios/encaje detectado: o 2. Personas destinatarias. Tendrán la condición de candidatos/as y, por tanto, podrán optar a ser beneficiarios/as de este Programa de prácticas, el estudiantado universitario que tenga una discapacidad reconocida igual o superior al 33% y se encuentre matriculado en alguno de los estudios ofertados por la Universidad de Huelva, durante el curso académico que corresponda en cada una de las convo
+Coincidencias: bases reguladoras, fundacion, fundación
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/192/6.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/192/BOJA26-192-00005-12892-01_00344124.pdf
+
+3. Anuncio de 25 de septiembre de 2026, de la Delegación Territorial de Vivienda, Juventud y Ordenación del Territorio y de Fomento y Movilidad en Córdoba, mediante el que se notifica acuerdo de inicio de expediente de reintegro y relativa a ayuda para el alquiler de vivienda habitual a personas en situación de especial vulnerabilidad, con ingresos limitados y a jóvenes, en la Comunidad Autónoma de Andalucía (convocatoria 2025).
+Entidad convocante: Consejería de Vivienda, Juventud y Ordenación del Territorio
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-10-02
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-02
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: 10 días hábiles
+Dia incorporado al TXT: 2026-10-02
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Entender la tran
+Coincidencias: ayuda, convocatoria, vulnerabilidad, juventud
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/192/78.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/192/BOJA26-192-00001-12831-01_00344061.pdf
+
+4. Anuncio de 25 de septiembre de 2026, de la Delegación Territorial de Vivienda, Juventud y Ordenación del Territorio y de Fomento y Movilidad en Córdoba, mediante el que se notifica acuerdo de inicio de expediente de reintegro y resolución de reintegro y relativa a ayuda para el alquiler de vivienda habitual a personas en situación de especial vulnerabilidad, con ingresos limitados y a jóvenes, en la Comunidad Autónoma de Andalucía (convocatoria 2024).
+Entidad convocante: Consejería de Vivienda, Juventud y Ordenación del Territorio
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-10-02
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-02
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: 10 días hábiles
+Dia incorporado al TXT: 2026-10-02
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Entender la tran
+Coincidencias: ayuda, convocatoria, vulnerabilidad, juventud
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/192/79.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/192/BOJA26-192-00001-12850-01_00344079.pdf
+
+5. Extracto de la Resolución de 30 de septiembre de 2026 de la Presidencia de la Agencia Estatal de Investigación por la que se aprueba la convocatoria 2026 de ayudas a Plataformas Tecnológicas.
+Entidad convocante: MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-10-02
+Fecha de apertura: 17 de noviembre de 2026
+Fecha de cierre: 17 de noviembre de 2026
+Dia incorporado al TXT: 2026-10-02
+Beneficiarios/encaje detectado: bvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/918680) Primero. Entidades beneficiarias. Podrán ser entidades beneficiarias de las ayudas, de acuerdo con lo establecido en el artículo 5 de la convocatoria, los organismos públicos de investigación, las universidades públicas y sus institutos universitarios, los Centros Tecnológicos de ámbito estatal y Centros de Apoyo a la
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocatoria, sin animo de lucro, sin ánimo de lucro, asociaciones
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31901
+PDF oficial: https://www.boe.es/boe/dias/2026/10/02/pdfs/BOE-B-2026-31901.pdf
+
+6. Extracto de la Resolución de 30 de septiembre de 2026 de la Presidencia de la Agencia Estatal de Investigación por la que se aprueba la convocatoria 2026 de ayudas a Proyectos de Generación de Conocimiento y actuaciones para formación de personal investigador predoctoral.
+Entidad convocante: MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-10-02
+Fecha de apertura: 24 de noviembre de 2026
+Fecha de cierre: 24 de noviembre de 2026
+Dia incorporado al TXT: 2026-10-02
+Beneficiarios/encaje detectado: bvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/918664) Primero. Entidades beneficiarias. Podrán ser entidades beneficiarias de las ayudas, de conformidad con el artículo 7 de la convocatoria, los organismos públicos de investigación, las universidades públicas y privadas, las entidades e instituciones sanitarias públicas y privadas sin ánimo de lucro, los Institutos de in
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocatoria, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31900
+PDF oficial: https://www.boe.es/boe/dias/2026/10/02/pdfs/BOE-B-2026-31900.pdf
+
+7. Extracto de la Resolución de 30 de septiembre de 2026 de la Presidencia de la Agencia Estatal de Investigación, por la que se aprueba la convocatoria 2026 de ayudas para personal técnico y de gestión de I+D+i.
+Entidad convocante: MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-10-02
+Fecha de apertura: 17 de diciembre de 2026
+Fecha de cierre: 17 de diciembre de 2026
+Dia incorporado al TXT: 2026-10-02
+Beneficiarios/encaje detectado: bvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/918648) Primero. Entidades beneficiarias. Podrán ser entidades beneficiarias, de acuerdo con lo establecido en el artículo 5 de la convocatoria, los organismos públicos de investigación, las universidades públicas y privadas, las entidades e instituciones sanitarias públicas y privadas sin ánimo de lucro, los Institutos de in
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocatoria, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-31902
+PDF oficial: https://www.boe.es/boe/dias/2026/10/02/pdfs/BOE-B-2026-31902.pdf
+
+Novedades incorporadas en esta ejecucion: 7
+Coincidencias totales en el periodo revisado: 19
