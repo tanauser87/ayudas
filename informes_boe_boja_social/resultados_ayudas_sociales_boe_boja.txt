@@ -8478,3 +8478,27 @@ PDF oficial: https://www.boe.es/boe/dias/2026/10/02/pdfs/BOE-B-2026-31902.pdf
 
 Novedades incorporadas en esta ejecucion: 7
 Coincidencias totales en el periodo revisado: 19
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-09-24 a 2026-10-03
+Ejecucion: 2026-10-03 13:52:48 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Orden TDF/1027/2026, de 23 de septiembre, por la que se modifica la Orden ETD/1236/2023, de 14 de noviembre, por la que se establecen las bases reguladoras para la concesión de ayudas a los participantes en proyectos importantes de interés común europeo y primera convocatoria, en el marco del Plan de Recuperación, Transformación y Resiliencia -financiado por la Unión Europea- Next Generation EU.
+Entidad convocante: MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-10-03
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-03
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días hábiles
+Dia incorporado al TXT: 2026-10-03
+Beneficiarios/encaje detectado: realización de los hitos y objetivos marcados en la correspondiente convocatoria. 2. Las entidades beneficiarias deberán cumplir las obligaciones generales que establece el artículo 14 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, así como las contenidas en esta orden de bases, las que establezca la correspondiente convocatoria, las que figuren en la resolución de concesión de l
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, financiacion, financiación, discapacidad, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20584
+PDF oficial: https://www.boe.es/boe/dias/2026/10/03/pdfs/BOE-A-2026-20584.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 15
