@@ -8515,3 +8515,40 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 13
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-09-26 a 2026-10-05
+Ejecucion: 2026-10-05 17:03:21 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Resolución de 24 de septiembre de 2026, de la Dirección General de Diversidad Familiar y Servicios Sociales, por la que se publica el Convenio con la Ciudad de Ceuta, por el que se canaliza una subvención de concesión directa destinada a la realización de programas y actividades en materia de asistencia social para el ejercicio 2026.
+Entidad convocante: MINISTERIO DE DERECHOS SOCIALES, CONSUMO Y AGENDA 2030
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-10-05
+Fecha de apertura: 31 de diciembre de 2026
+Fecha de cierre: 31 de diciembre de 2026
+Dia incorporado al TXT: 2026-10-05
+Beneficiarios/encaje detectado: io, que se regirá por las siguientes CLÁUSULAS Primera. Determinación del objeto de la subvención y beneficiario. El presente convenio tiene por objeto canalizar una subvención directa a favor de la Ciudad de Ceuta para el desarrollo en dicha ciudad de los siguiente programas y actuaciones en materia de asistencia social: 1.º Programas para promover la mejora de la calidad de vida de las personas
+Coincidencias: subvencion, subvenciones, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, financiacion, financiación, tercer sector, voluntariado, accion social, acción social, servicios sociales
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20724
+PDF oficial: https://www.boe.es/boe/dias/2026/10/05/pdfs/BOE-A-2026-20724.pdf
+
+2. Anuncio de 28 de septiembre de 2026, de la Dirección General de Prestaciones, Ayudas y Subvenciones, por el que se notifican resoluciones de expedientes de reintegros de pensiones de ancianidad/enfermedad con cargo al Fondo de Asistencia Social y/o Ayudas Sociales Extraordinarias, indebidamente percibidas.
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-10-05
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-05
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: quince días hábiles
+Dia incorporado al TXT: 2026-10-05
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Entender la tran
+Coincidencias: subvenciones, ayudas, servicios sociales, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/193/40.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/193/BOJA26-193-00002-12935-01_00344165.pdf
+
+Novedades incorporadas en esta ejecucion: 2
+Coincidencias totales en el periodo revisado: 10
