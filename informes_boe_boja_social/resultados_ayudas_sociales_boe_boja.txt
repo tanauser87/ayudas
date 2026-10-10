@@ -8739,3 +8739,29 @@ PDF oficial: https://www.juntadeandalucia.es/boja/2026/197/BOJA26-197-00001-1319
 
 Novedades incorporadas en esta ejecucion: 2
 Coincidencias totales en el periodo revisado: 14
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-10-01 a 2026-10-10
+Ejecucion: 2026-10-10 14:49:19 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Extracto de la Resolución de 8 de octubre de 2026 de ICEX España Exportación e Inversiones E.P.E. por la que se aprueba la convocatoria para la concesión de las subvenciones del "Programa ICEX NEXT" de ICEX España Exportación e Inversiones E.P.E.
+Entidad convocante: MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-10-10
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-10
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-10-10
+Beneficiarios/encaje detectado: onal de Subvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/934425) Primero. Beneficiarios. 1. Podrán ser beneficiarias de las subvenciones las empresas españolas con potencial exportador que deseen crecer internacionalmente y que reúnan los siguientes requisitos: a) Ser PYME según definición del Anexo 1 del Reglamento (UE) nº 651/2014 de la Comisión, de 17 de junio de 2014
+Coincidencias: subvencion, subvenciones, ayudas, bases reguladoras, convocatoria, asociaciones, fundaciones
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-33136
+PDF oficial: https://www.boe.es/boe/dias/2026/10/10/pdfs/BOE-B-2026-33136.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 15
+Incidencias: 1
+- 2026-10-10: BOE / detalle https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21150: HTTPError: HTTP Error 404: Not Found
