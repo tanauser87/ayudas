@@ -9004,3 +9004,27 @@ PDF oficial: https://www.juntadeandalucia.es/boja/2026/201/BOJA26-201-00010-1347
 
 Novedades incorporadas en esta ejecucion: 4
 Coincidencias totales en el periodo revisado: 17
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-10-08 a 2026-10-17
+Ejecucion: 2026-10-17 13:02:12 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Real Decreto 832/2026, de 14 de octubre, por el que se regula la concesión directa de una subvención a la Fundación Círculo de Tecnologías para la Defensa y Seguridad.
+Entidad convocante: MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-10-17
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-17
+Fecha de cierre: 31 de marzo de 2027
+Dia incorporado al TXT: 2026-10-17
+Beneficiarios/encaje detectado: de aplicación a la Defensa y la Seguridad; impulsar la interacción y la cooperación entre todos los beneficiarios de la Fundación –especialmente en aspectos de innovación e I+D–; estimular las relaciones entre las personas, organismos, instituciones y empresas que tienen intereses y realizan actividades dentro del sector de las tecnologías de la Defensa y la Seguridad; así como constituir un lugar
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, convocatoria, financiacion, financiación, fundacion, fundación
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21623
+PDF oficial: https://www.boe.es/boe/dias/2026/10/17/pdfs/BOE-A-2026-21623.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 17
