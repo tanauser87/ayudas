@@ -9041,3 +9041,53 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 13
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-10-10 a 2026-10-19
+Ejecucion: 2026-10-19 15:44:22 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Orden JUI/1097/2026, de 5 de octubre, por la que se establecen las bases reguladoras para la concesión de subvenciones para el mantenimiento, funcionamiento y equipamiento de asociaciones juveniles, organizaciones juveniles y entidades prestadoras de servicios a la juventud de ámbito estatal.
+Entidad convocante: MINISTERIO DE JUVENTUD E INFANCIA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-10-19
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-19
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días hábiles
+Dia incorporado al TXT: 2026-10-19
+Beneficiarios/encaje detectado: to al Ministerio de Juventud e Infancia, ya que entre los requisitos que deben reunir las entidades beneficiarias se encuentran tener ámbito de actuación estatal y acreditar documentalmente tener sede abierta y en funcionamiento en el ámbito de varias comunidades autónomas. Esta orden ha sido informada previamente por la Abogacía del Estado en el departamento, por la Intervención Delegada en el In
+Coincidencias: subvencion, subvenciones, ayudas, bases reguladoras, convocatoria, financiacion, financiación, entidades sin animo de lucro, entidades sin ánimo de lucro, sin animo de lucro, sin ánimo de lucro, entidades sociales
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21775
+PDF oficial: https://www.boe.es/boe/dias/2026/10/19/pdfs/BOE-A-2026-21775.pdf
+
+2. Extracto de la Resolución de 14 de octubre de 2026, del Instituto Andaluz de la Mujer, por la que se convoca subvención de carácter plurianual, en régimen de concurrencia no competitiva, a Organizaciones Sindicales para el funcionamiento de un Servicio de Asesoramiento Jurídico y Defensa Procesal a Mujeres en caso de discriminación laboral por razón de sexo, para el ejercicio 2026.
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-10-19
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-19
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: 15 días naturales
+Dia incorporado al TXT: 2026-10-19
+Beneficiarios/encaje detectado: El objeto de esta convocatoria se describe en el Anexo I que se acompaña a este extracto. Tercero. Beneficiarias. Podrán ser beneficiarias de estas subvenciones las organizaciones sindicales y entidades sin ánimo de lucro que cumplan los requisitos señalados en el Anexo I que se Acompaña a este extracto. Cuarto. Bases reguladoras. La presente convocatoria se regirá por las bases reguladoras para
+Coincidencias: subvencion, servicios sociales, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/202/5.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/202/BOJA26-202-00003-13656-01_00344886.pdf
+
+3. Resolución de 14 de octubre de 2026, del Instituto Andaluz de la Mujer, por la que se convoca subvención de carácter plurianual, en régimen de concurrencia no competitiva, a Organizaciones Sindicales para el funcionamiento de un Servicio de Asesoramiento Jurídico y Defensa Procesal a Mujeres en caso de discriminación laboral por razón de sexo, para el ejercicio 2026.
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-10-19
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-19
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: 15 días naturales
+Dia incorporado al TXT: 2026-10-19
+Beneficiarios/encaje detectado: re mujeres y hombres, en todo el ámbito territorial de la Comunidad Autónoma de Andalucía. Tercero. Beneficiarias, requisito para solicitar la subvención y forma de acreditación. 1. Estas subvenciones van destinadas a las siguientes entidades beneficiarias: a) Organizaciones sindicales reguladas por su Ley Orgánica 11/1985, de 2 de agosto, de libertad sindical, con implantación en todo el territor
+Coincidencias: subvencion, servicios sociales, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/202/4.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/202/BOJA26-202-00016-13654-01_00344884.pdf
+
+Novedades incorporadas en esta ejecucion: 3
+Coincidencias totales en el periodo revisado: 12
