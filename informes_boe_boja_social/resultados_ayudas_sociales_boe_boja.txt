@@ -9091,3 +9091,16 @@ PDF oficial: https://www.juntadeandalucia.es/boja/2026/202/BOJA26-202-00016-1365
 
 Novedades incorporadas en esta ejecucion: 3
 Coincidencias totales en el periodo revisado: 12
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-10-11 a 2026-10-20
+Ejecucion: 2026-10-20 13:54:52 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban registradas.
+
+Novedades incorporadas en esta ejecucion: 0
+Coincidencias totales en el periodo revisado: 11
