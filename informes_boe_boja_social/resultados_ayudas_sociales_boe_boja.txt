@@ -9104,3 +9104,53 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 11
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-10-12 a 2026-10-21
+Ejecucion: 2026-10-21 14:06:56 CEST
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Resolución de 20 de octubre de 2026, del Instituto Andaluz de la Mujer, por la que se declara la disponibilidad de crédito adicional y se amplía el crédito de la convocatoria de subvenciones en régimen de concurrencia competitiva a entidades sin ánimo de lucro para la atención a mujeres en situación de riesgo de exclusión social y especialmente vulnerables ante la violencia de género para el ejercicio 2026.
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-10-20
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-20
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-10-21
+Beneficiarios/encaje detectado: y se amplía el crédito de la convocatoria de subvenciones en régimen de concurrencia competitiva a entidades sin ánimo de lucro para la atención a mujeres en situación de riesgo de exclusión social y especialmente vulnerables ante la violencia de género para el ejercicio 2026.. Boletín Extraordinario número 219802 de 20 de octubre de 2026 - 1. Disposiciones generales. Resolución de 20 de octubre
+Coincidencias: subvenciones, convocatoria, entidades sin animo de lucro, entidades sin ánimo de lucro, sin animo de lucro, sin ánimo de lucro, servicios sociales, exclusion social, exclusión social, igualdad, violencia de genero, violencia de género
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/220302/1.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/220302/BOJA26-220302-00003-13897-01_00345127.pdf
+
+2. Decreto-ley 5/2026, de 1 de septiembre, de ayudas extraordinarias y otras medidas urgentes para la recuperación de las zonas afectadas por los incendios forestales acaecidos en Extremadura durante el verano de 2026 y en materia preventiva de incendios forestales.
+Entidad convocante: COMUNIDAD AUTÓNOMA DE EXTREMADURA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-10-21
+Fecha de apertura: 1 de agosto de 2026
+Fecha de cierre: 31 de diciembre de 2027
+Dia incorporado al TXT: 2026-10-21
+Beneficiarios/encaje detectado: incendios forestales y por las pérdidas económicas derivadas de los mismos, se exime a las personas beneficiarias, mediante esta norma con rango de ley, del cumplimiento de determinadas obligaciones establecidas en la Ley 6/2011, de 23 de marzo, de Subvenciones de la Comunidad Autónoma de Extremadura. V Si bien las medidas contempladas en este decreto-ley para paliar y minimizar el impacto de los
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, convocan, financiacion, financiación, asociaciones, asociacion, asociación, vulnerabilidad, menores
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21876
+PDF oficial: https://www.boe.es/boe/dias/2026/10/21/pdfs/BOE-A-2026-21876.pdf
+
+3. Orden de 20 de octubre de 2026, por la que se incrementa el importe del crédito presupuestario disponible en la convocatoria de 2026, para las ayudas previstas en la Orden de 20 de julio de 2023, por la que se aprueban las bases reguladoras para la concesión de subvenciones, en régimen de concurrencia no competitiva, dirigidas a los Consejos Reguladores y sus asociaciones representativas que desarrollan su actividad en la Comunidad Autónoma de Andalucía, para la gestión de las denominaciones de origen e indicaciones geográficas protegidas.
+Entidad convocante: Consejería de Agricultura, Pesca, Agua y Desarrollo Rural
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-10-21
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-21
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-10-21
+Beneficiarios/encaje detectado: solución complementaria a los solicitantes que, cumpliendo los requisitos necesarios, no hayan sido beneficiarios de la máxima intensidad de ayuda que le correspondiese por haberse agotado el crédito consignado inicialmente, conforme a lo dispuesto en el artículo 10.e) del Reglamento de los Procedimientos de Concesión de Subvenciones de la Administración de la Junta de Andalucía». A continuación a
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocatoria, asociaciones
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/220401/1.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/220401/BOJA26-220401-00002-13950-01_00345180.pdf
+
+Novedades incorporadas en esta ejecucion: 3
+Coincidencias totales en el periodo revisado: 12
