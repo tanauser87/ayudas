@@ -9306,3 +9306,40 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 12
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-10-17 a 2026-10-26
+Ejecucion: 2026-10-26 14:23:29 CET
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Anuncio de 20 de octubre de 2026, de la Delegación Territorial de Vivienda, Juventud y Ordenación del Territorio y de Fomento y de Movilidad en Sevilla, mediante el que se publica la notificación de requerimientos, propuestas provisionales y resoluciones relativos a ayudas de vivienda habitual a personas en especiales circunstancias de emergencia social incursas en procedimientos de desahucios o de ejecución, que sean privadas de la propiedad de su vivienda habitual, en la Comunidad Autónoma de Andalucía.
+Entidad convocante: Consejería de Vivienda, Juventud y Ordenación del Territorio
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-10-26
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-26
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: 10 días hábiles
+Dia incorporado al TXT: 2026-10-26
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Entender la tran
+Coincidencias: ayudas, juventud
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/207/66.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/207/BOJA26-207-00001-13925-01_00345155.pdf
+
+2. Resolución de 20 de octubre de 2026, de la Dirección General del Instituto Andaluz de la Juventud, por la que se establecen las bases reguladoras y se convocan los Premios Juventud Andaluza, en su edición 2026.
+Entidad convocante: Consejería de Vivienda, Juventud y Ordenación del Territorio
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-10-26
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-10-26
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días hábiles
+Dia incorporado al TXT: 2026-10-26
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Entender la tran
+Coincidencias: bases reguladoras, convocan, juventud
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/207/3.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/207/BOJA26-207-00015-13955-01_00345185.pdf
+
+Novedades incorporadas en esta ejecucion: 2
+Coincidencias totales en el periodo revisado: 11
