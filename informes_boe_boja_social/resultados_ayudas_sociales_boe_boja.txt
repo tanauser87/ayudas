@@ -9519,3 +9519,27 @@ PDF oficial: https://www.boe.es/boe/dias/2026/10/30/pdfs/BOE-A-2026-22719.pdf
 
 Novedades incorporadas en esta ejecucion: 2
 Coincidencias totales en el periodo revisado: 16
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-10-22 a 2026-10-31
+Ejecucion: 2026-10-31 13:53:28 CET
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Real Decreto 923/2026, de 28 de octubre, por el que se regula la concesión directa de subvenciones a favor de determinadas entidades y asociaciones para proyectos dirigidos a la población joven con el fin de reforzar su adhesión a los valores democráticos, la confianza en las instituciones públicas, frenar la polarización, combatir la desinformación y promover su participación como sujetos activos de la sociedad.
+Entidad convocante: MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-10-31
+Fecha de apertura: 30 de junio de 2026
+Fecha de cierre: 30 de junio de 2026
+Dia incorporado al TXT: 2026-10-31
+Beneficiarios/encaje detectado: nil con implantación a nivel territorial, ambas cosas les dan legitimidad específica a cada entidad beneficiaria. La eventual concurrencia de entidades que no alcancen estos requisitos comprometería la eficacia de las actuaciones y el adecuado cumplimiento de los fines de interés público perseguidos. Estas circunstancias determinan que no se trate de proyectos intercambiables, sino de actuaciones
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, convocatoria, financiacion, financiación, entidades sin animo de lucro, entidades sin ánimo de lucro, sin animo de lucro
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22791
+PDF oficial: https://www.boe.es/boe/dias/2026/10/31/pdfs/BOE-A-2026-22791.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 15
