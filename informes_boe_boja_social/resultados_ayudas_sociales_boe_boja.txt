@@ -9556,3 +9556,27 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 10
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-10-24 a 2026-11-02
+Ejecucion: 2026-11-02 17:22:04 CET
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Orden CLT/1155/2026, de 27 de octubre, por la que se establecen las bases reguladoras para la concesión de ayudas públicas para el desarrollo de las «Residencias Artísticas Joaquim Jordà» para proyectos del ámbito del cine experimental y no-ficción en el Museo Nacional Centro de Arte Reina Sofía.
+Entidad convocante: MINISTERIO DE CULTURA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-02
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-02
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: veinte días
+Dia incorporado al TXT: 2026-11-02
+Beneficiarios/encaje detectado: participar en el FIDLab de Marsella y en Doclisboa a las personas y/o agrupaciones o colectivos de beneficiarios. En este sentido, FIDLab es una plataforma de coproducción internacional que tiene lugar durante la celebración de FIDMarseille a comienzos de julio, donde se presentan diferentes proyectos para obtener financiación y distribución. Los proyectos que obtengan las «Residencias Joaquim Jo
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, financiacion, financiación, asociaciones, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22992
+PDF oficial: https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22992.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 10
