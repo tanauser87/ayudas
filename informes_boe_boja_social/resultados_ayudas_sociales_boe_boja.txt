@@ -9580,3 +9580,27 @@ PDF oficial: https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22992.pdf
 
 Novedades incorporadas en esta ejecucion: 1
 Coincidencias totales en el periodo revisado: 10
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-10-25 a 2026-11-03
+Ejecucion: 2026-11-03 15:30:27 CET
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Resolución de 23 de octubre de 2026, de la Universidad Pablo de Olavide de Sevilla, Vicerrectorado de Estudiantes, por la que se convocan plazas de Asistentes/as Personales Universitarios/as para prestar apoyo a estudiantes con alguna discapacidad matriculados/as en la Universidad Pablo de Olavide de Sevilla, en titulaciones oficiales de grado en el curso académico 2026/27, y se establecen las bases reguladoras.
+Entidad convocante: Universidades
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-03
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-03
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: 10 días hábiles
+Dia incorporado al TXT: 2026-11-03
+Beneficiarios/encaje detectado: del importe de la ayuda percibida, por incumplimiento de las funciones y obligaciones de la persona beneficiaria, petición del/la estudiante con discapacidad porque renuncia a su Asistente/a Personal Universitario/a o abandona sus estudios, o bien en el caso de descubrirse que en su concesión concurrió ocultación o falseamiento de datos o que existe incompatibilidad con otras ayudas. Artículo 13
+Coincidencias: bases reguladoras, convocan, discapacidad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/212/24.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/212/BOJA26-212-00005-14153-01_00345383.pdf
+
+Novedades incorporadas en esta ejecucion: 1
+Coincidencias totales en el periodo revisado: 11
