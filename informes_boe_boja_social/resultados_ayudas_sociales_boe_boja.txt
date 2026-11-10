@@ -9728,3 +9728,66 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 4
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-11-01 a 2026-11-10
+Ejecucion: 2026-11-10 16:05:56 CET
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Orden VAU/1195/2026, de 6 de noviembre, por la que se establecen las bases reguladoras para la concesión de subvenciones a actividades para el impulso de la construcción industrializada de la vivienda.
+Entidad convocante: MINISTERIO DE VIVIENDA Y AGENDA URBANA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-10
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-10
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: un mes
+Dia incorporado al TXT: 2026-11-10
+Beneficiarios/encaje detectado: opeo aplicable en materia de subvenciones y ayudas de Estado, definiendo con claridad las entidades beneficiarias, las actuaciones subvencionables y los criterios de valoración. Igualmente, respeta el principio de eficiencia, al prever la tramitación íntegramente electrónica del procedimiento, permitir la comprobación de oficio de requisitos mediante consultas a registros y plataformas públicas y
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, financiacion, financiación, fundaciones, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23591
+PDF oficial: https://www.boe.es/boe/dias/2026/11/10/pdfs/BOE-A-2026-23591.pdf
+
+2. Anuncio de 3 de noviembre de 2026, de la Delegación Territorial de Vivienda, Juventud y Ordenación del Territorio y de Fomento y Movilidad en Málaga, por el que se hace pública la relación de solicitantes de ayudas al alquiler cuyas bases son reguladas por la Orden de 1 de septiembre de 2020 (BOJA núm. 174, de 8 de septiembre de 2020), a los que no ha sido posible notificar.
+Entidad convocante: Consejería de Vivienda, Juventud y Ordenación del Territorio
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-10
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-10
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días hábiles
+Dia incorporado al TXT: 2026-11-10
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Entender la tran
+Coincidencias: ayudas, juventud
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/217/51.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/217/BOJA26-217-00001-14680-01_00345910.pdf
+
+3. Orden de 5 de noviembre de 2026, por la que se acuerda la aplicación de la tramitación de urgencia al procedimiento de concesión de subvenciones destinadas a entidades privadas para la realización de actuaciones de interés general para atender a fines sociales con cargo a la asignación tributaria del 0,7 por ciento del Impuesto sobre la Renta de las Personas Físicas y del Impuesto sobre Sociedades, en concreto para las Líneas 1 y 2, reguladas mediante la Orden de 10 de julio de 2024, por la que se aprueban sus bases reguladoras, y convocadas por la Orden de 24 de junio de 2026 .
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-10
+Fecha de apertura: 5 de noviembre de 2026
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-11-10
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Entender la tran
+Coincidencias: subvenciones, bases reguladoras, servicios sociales, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/217/2.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/217/BOJA26-217-00002-14719-01_00345947.pdf
+
+4. Orden SND/1196/2026, de 29 de octubre, por la que se amplía el plazo máximo para resolver y notificar el procedimiento de selección de operaciones, previsto en la Orden SND/677/2026, de 26 de junio, por la que se aprueban las bases reguladoras y convocatoria 2026 para la selección de operaciones «Tardes con Plan 2», en el marco del Programa de Inclusión Social, Garantía Infantil y Lucha contra la Pobreza, cofinanciado con el Fondo Social Europeo Plus (FSE+).
+Entidad convocante: MINISTERIO DE SANIDAD
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-10
+Fecha de apertura: 29 de octubre de 2026
+Fecha de cierre: 7 de enero de 2027
+Dia incorporado al TXT: 2026-11-10
+Beneficiarios/encaje detectado: No detallado en el listado; revisar el enlace oficial.
+Coincidencias: ayudas, bases reguladoras, convocatoria, inclusion social, inclusión social, pobreza
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23593
+PDF oficial: https://www.boe.es/boe/dias/2026/11/10/pdfs/BOE-A-2026-23593.pdf
+
+Novedades incorporadas en esta ejecucion: 4
+Coincidencias totales en el periodo revisado: 7
