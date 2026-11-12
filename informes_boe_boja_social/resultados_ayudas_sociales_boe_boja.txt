@@ -9804,3 +9804,53 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 6
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-11-03 a 2026-11-12
+Ejecucion: 2026-11-12 16:28:46 CET
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Real Decreto 976/2026, de 11 de noviembre, por el que se regula la concesión directa de subvenciones para la cooperación internacional al desarrollo sostenible por la Secretaría de Estado de Cooperación Internacional del Ministerio de Asuntos Exteriores, Unión Europea y Cooperación.
+Entidad convocante: MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-12
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-12
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días
+Dia incorporado al TXT: 2026-11-12
+Beneficiarios/encaje detectado: e se financian actuaciones concretas que no pueden ser realizadas por entidades diferentes de las beneficiarias. Asimismo, de las consideraciones anteriores se desprende el interés público, institucional y social expuesto e inherente a las instituciones beneficiarias, que justifica la concesión directa de las subvenciones. De conformidad con lo dispuesto en el artículo 8.1 de la Ley 38/2003, de 17
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, bases reguladoras, convocatoria, financiacion, financiación, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23663
+PDF oficial: https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23663.pdf
+
+2. Real Decreto 987/2026, de 11 de noviembre, por el que se regula la concesión directa de una subvención a la Asociación Española de Normalización (UNE) destinada a impulsar la actividad de normalización y estandarización, así como el soporte a secretaría y acción internacional en comités, tanto en el ámbito de las tecnologías digitales y la digitalización, como de las telecomunicaciones e infraestructuras digitales.
+Entidad convocante: MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-12
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-12
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-11-12
+Beneficiarios/encaje detectado: odo, no contiene restricciones de derechos ni impone nuevas obligaciones a terceros ni a la entidad beneficiaria, salvo las derivadas de la concesión de la subvención previstas en la Ley 38/2003, de 17 de noviembre, y en su reglamento de desarrollo, aprobado por el Real Decreto 887/2006, de 21 de julio. En relación con el principio de seguridad jurídica, esta iniciativa normativa es coherente con
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, financiacion, financiación, sin animo de lucro, sin ánimo de lucro, asociaciones, asociacion
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23669
+PDF oficial: https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23669.pdf
+
+3. Real Decreto 983/2026, de 11 de noviembre, por el que se regula la concesión directa de una subvención destinada a la Fundación para la Transformación de La Rioja para contribuir al proyecto de creación del Centro Nacional de Tecnologías del Envase (CENTIDE), con cargo al ejercicio presupuestario 2026.
+Entidad convocante: MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-12
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-12
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: quince días hábiles
+Dia incorporado al TXT: 2026-11-12
+Beneficiarios/encaje detectado: ección General de Residuos de la Dirección General de Calidad y Evaluación Ambiental. 3. La entidad beneficiaria deberá aportar, en el plazo de quince días hábiles desde la publicación de este real decreto, declaración responsable en la que manifieste no estar incursa en ninguna de las causas de prohibición para la obtención de la subvención mencionadas en el artículo 13.2, excepto el párrafo e)
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, convocatoria, financiacion, financiación, sin animo de lucro, sin ánimo de lucro, fundacion, fundación
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23665
+PDF oficial: https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23665.pdf
+
+Novedades incorporadas en esta ejecucion: 3
+Coincidencias totales en el periodo revisado: 6
