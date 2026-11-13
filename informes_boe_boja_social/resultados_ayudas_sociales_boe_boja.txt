@@ -9854,3 +9854,92 @@ PDF oficial: https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23665.pdf
 
 Novedades incorporadas en esta ejecucion: 3
 Coincidencias totales en el periodo revisado: 6
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-11-04 a 2026-11-13
+Ejecucion: 2026-11-13 15:45:47 CET
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Real Decreto 977/2026, de 11 de noviembre, por el que se regula la concesión directa de subvenciones a las confesiones religiosas minoritarias firmantes de acuerdos de cooperación con el Estado.
+Entidad convocante: MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-13
+Fecha de apertura: 1 de marzo de 2021
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: un mes
+Dia incorporado al TXT: 2026-11-13
+Beneficiarios/encaje detectado: dades distribuidas por toda España, están vinculadas al desarrollo de los acuerdos suscritos, cuyos beneficiarios finales son los propios creyentes y el ejercicio de su derecho a la libertad religiosa. La Fundación Pluralismo y Convivencia, F.S.P., viene gestionando la cooperación económica con estas entidades, facilitándoles la posibilidad de atender el cumplimiento de las funciones mencionadas y
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, convocatoria, financiacion, financiación, fundaciones, fundacion, fundación
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23756
+PDF oficial: https://www.boe.es/boe/dias/2026/11/13/pdfs/BOE-A-2026-23756.pdf
+
+2. Anuncio de 6 de noviembre de 2026, de la Dirección General de Prestaciones, Ayudas y Subvenciones, por el que se notifican resoluciones de expedientes de reintegros de pensiones de ancianidad/enfermedad con cargo al Fondo de Asistencia Social y/o Ayudas Sociales Extraordinarias, indebidamente percibidas.
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-13
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-13
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: quince días hábiles
+Dia incorporado al TXT: 2026-11-13
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Entender la tran
+Coincidencias: subvenciones, ayudas, servicios sociales, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/220/52.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/220/BOJA26-220-00001-14828-01_00346057.pdf
+
+3. Orden de 5 de noviembre de 2026, por la que se da publicidad al incremento del crédito disponible para la concesión de subvenciones, en régimen de concurrencia no competitiva, destinadas al apoyo directo al cuidado de las personas con Esclerosis Lateral Amiotrófica (ELA), en el ámbito de las competencias de la Consejería de Inclusión Social, Juventud, Familias e Igualdad, en la convocatoria 2026.
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-13
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-13
+Fecha de cierre: 30 de junio de 2026
+Dia incorporado al TXT: 2026-11-13
+Beneficiarios/encaje detectado: mplementarias de concesión para solicitudes que, aun cumpliendo todos los requisitos, no hayan sido beneficiarias por agotamiento del mismo, de conformidad con lo previsto en el artículo 10.e) del Decreto 282/2010, de 4 de mayo, por el que se aprueba el Reglamento de los Procedimientos de concesión de subvenciones de la Administración de la Junta de Andalucía. La evolución de las solicitudes prese
+Coincidencias: subvenciones, convocatoria, servicios sociales, inclusion social, inclusión social, juventud, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/220/1.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/220/BOJA26-220-00002-14825-01_00346054.pdf
+
+4. Orden de 9 de noviembre de 2026, por la que se da publicidad al incremento de crédito disponible para la concesión de subvenciones, en régimen de concurrencia competitiva, destinadas a entidades privadas para la realización de actuaciones de interés general para atender fines sociales con cargo a la asignación tributaria del 0,7% del Impuesto sobre la Renta de las Personas Físicas y del Impuesto sobre Sociedades, reguladas en la Orden de 10 de julio de 2024, por la que se aprueban sus bases reguladoras, en el ámbito de las competencias de la Consejería.
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-13
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-13
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-11-13
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Entender la tran
+Coincidencias: subvenciones, bases reguladoras, servicios sociales, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/220/2.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/220/BOJA26-220-00004-14810-01_00346039.pdf
+
+5. Extracto de la Orden de 5 de noviembre de 2026, por la que se da publicidad al incremento del crédito disponible para la concesión de subvenciones, en régimen de concurrencia no competitiva, destinadas al apoyo directo al cuidado de las personas con Esclerosis Lateral Amiotrófica (ELA) en el ámbito de las competencias de la Consejería, en la convocatoria 2026.
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-13
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-13
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-11-13
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Entender la tran
+Coincidencias: subvenciones, convocatoria, servicios sociales, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/220/4.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/220/BOJA26-220-00001-14826-01_00346055.pdf
+
+6. Extracto de la Orden por la que se da publicidad al incremento de crédito disponible para la concesión de subvenciones, en régimen de concurrencia competitiva, destinadas a entidades privadas para la realización de actuaciones de interés general para atender fines sociales con cargo a la asignación tributaria del 0,7% del Impuesto sobre la Renta de las Personas Físicas y del Impuesto sobre Sociedades, reguladas en la Orden de 10 de julio de 2024, por la que se aprueban sus bases reguladoras, en el ámbito de las competencias de la Consejería.
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-13
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-13
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-11-13
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Entender la tran
+Coincidencias: subvenciones, bases reguladoras, servicios sociales, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/220/3.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/220/BOJA26-220-00003-14811-01_00346040.pdf
+
+Novedades incorporadas en esta ejecucion: 6
+Coincidencias totales en el periodo revisado: 12
