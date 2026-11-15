@@ -9956,3 +9956,16 @@ Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban 
 
 Novedades incorporadas en esta ejecucion: 0
 Coincidencias totales en el periodo revisado: 12
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-11-06 a 2026-11-15
+Ejecucion: 2026-11-15 15:10:24 CET
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+Sin nuevas incorporaciones en este TXT; las coincidencias detectadas ya estaban registradas.
+
+Novedades incorporadas en esta ejecucion: 0
+Coincidencias totales en el periodo revisado: 12
