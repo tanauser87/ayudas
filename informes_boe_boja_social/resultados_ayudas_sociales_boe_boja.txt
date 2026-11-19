@@ -10091,3 +10091,92 @@ Incidencias: 10
 - 2026-11-16: BOJA: RemoteDisconnected: Remote end closed connection without response
 - 2026-11-17: BOJA: RemoteDisconnected: Remote end closed connection without response
 - 2026-11-18: BOJA: RemoteDisconnected: Remote end closed connection without response
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-11-10 a 2026-11-19
+Ejecucion: 2026-11-19 16:56:41 CET
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Real Decreto 1001/2026, de 18 de noviembre, por el que se regula la concesión directa de una subvención al CEI-Fundación Privada Centro de Estudios Internacionales durante el ejercicio presupuestario 2026.
+Entidad convocante: MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-19
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-19
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días hábiles
+Dia incorporado al TXT: 2026-11-19
+Beneficiarios/encaje detectado: ones específicas, sin que existan otras posibles entidades perceptoras de tales fondos. Artículo 2. Beneficiario y actividades a financiar. 1. La entidad beneficiaria de la subvención será el CEI-Fundación Privada Centro de Estudios Internacionales. 2. Las actividades a financiar serán: la contratación de ponentes o personal técnico para impartir las clases y para la preparación de los ejercicios
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, financiacion, financiación, asociaciones, fundacion, fundación, accion social
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24187
+PDF oficial: https://www.boe.es/boe/dias/2026/11/19/pdfs/BOE-A-2026-24187.pdf
+
+2. Real Decreto 1002/2026, de 18 de noviembre, por el que se regula la concesión directa de subvenciones en materia de cooperación para el desarrollo sostenible por la Agencia Española de Cooperación Internacional para el Desarrollo.
+Entidad convocante: MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-19
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-19
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-11-19
+Beneficiarios/encaje detectado: 3, de 20 de febrero, es fundamental el mantenimiento de los programas que desarrollan las entidades beneficiarias incluidas en este real decreto, directamente relacionados con los fines señalados anteriormente y que responden a razones de interés público, social y humanitario. En concreto, estas subvenciones permiten destinar los recursos adecuados al desarrollo y ejecución de los programas de con
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, bases reguladoras, convocatoria, financiacion, financiación, fundacion, fundación
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24188
+PDF oficial: https://www.boe.es/boe/dias/2026/11/19/pdfs/BOE-A-2026-24188.pdf
+
+3. Extracto de la orden de 12 de noviembre de 2026 por la que se convocan las ayudas para la preparacion y aplicación de los planes de producción y comercialización para el año 2026, de las organizaciones de productores pesqueros y sus asociaciones de ámbito nacional y transnacional
+Entidad convocante: MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-19
+Fecha de apertura: 1 de junio de 2027
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: siete días hábiles
+Dia incorporado al TXT: 2026-11-19
+Beneficiarios/encaje detectado: productores pesqueros del año 2026 y sus asociaciones de ámbito nacional y transnacional. Segundo. Beneficiarios Podrán ser beneficiarios de las ayudas indicadas en el artículo 2 de la presente convocatoria las OPP y AOP de ámbito nacional y transnacional que se encuentren dadas de alta en el Registro establecido en el artículo 8 del Real Decreto 277/2016, de 24 de junio, por el que se regulan la
+Coincidencias: subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, convocan, financiacion, financiación, asociaciones
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38039
+PDF oficial: https://www.boe.es/boe/dias/2026/11/19/pdfs/BOE-B-2026-38039.pdf
+
+4. Anuncio de 13 de noviembre de 2026, de la Delegación Territorial de Vivienda, Juventud y Ordenación del Territorio y Fomento y Movilidad en Sevilla, mediante el que se publican resoluciones de archivo por prescripción de expedientes relativos a ayudas de vivienda habitual a personas en especiales circunstancias de emergencia social incursas en procedimientos de desahucios o de ejecución, que sean privadas de la propiedad de su vivienda habitual, en la Comunidad Autónoma de Andalucía.
+Entidad convocante: Consejería de Vivienda, Juventud y Ordenación del Territorio
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-19
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-19
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: 10 días hábiles
+Dia incorporado al TXT: 2026-11-19
+Beneficiarios/encaje detectado: consumo Familias e igualdad Atención administrativa e impuestos Tráfico y transporte Medio ambiente Asociaciones y voluntariado Cultura, ocio y deporte Justicia, seguridad y emergencias Tecnologías de la Información y Comunicación Contratación pública Empresas y profesionales Sectores de actividad Agricultura, ganadería y pesca Energía Sanitario Ver más Transparencia Transparencia Entender la tran
+Coincidencias: ayudas, juventud
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/224/67.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/224/BOJA26-224-00001-15089-01_00346318.pdf
+
+5. Extracto de la Resolución de 13 de noviembre de 2026 de la Secretaría de Estado de Cultura, por la que se convocan subvenciones, en régimen de concurrencia competitiva, para entidades sin fines de lucro que promueven y fortalecen la industria editorial, correspondientes al año 2027
+Entidad convocante: MINISTERIO DE CULTURA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-19
+Fecha de apertura: 13 de noviembre de 2026
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-11-19
+Beneficiarios/encaje detectado: onal de Subvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/942928) Primero. Beneficiarios: Aquellas entidades sin fines de lucro que, no perteneciendo al sector público, acrediten haber realizado actuaciones de promoción del libro o de las publicaciones culturales. Se entiende por entidades sin fines de lucro las asociaciones, federaciones, confederaciones y fundaciones, as
+Coincidencias: subvenciones, ayudas, bases reguladoras, convocatoria, convocan, asociaciones, fundaciones
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-38070
+PDF oficial: https://www.boe.es/boe/dias/2026/11/19/pdfs/BOE-B-2026-38070.pdf
+
+6. Resolución de 6 de noviembre de 2026, de la Secretaría General de Formación Profesional, por la que se publica el Acuerdo de la Conferencia Sectorial de Formación Profesional para Personas Trabajadoras de 28 de septiembre de 2026, por el que se aprueba la propuesta de distribución territorial extraordinaria y los criterios de reparto de los créditos gestionados por comunidades autónomas, con competencias estatutariamente asumidas en el ámbito de la Formación Profesional para personas trabajadoras vinculada al Catálogo Nacional de Estándares de Competencias Profesionales, en el ejercicio presupuestario 2026.
+Entidad convocante: MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-19
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-19
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-11-19
+Beneficiarios/encaje detectado: No detallado en el listado; revisar el enlace oficial.
+Coincidencias: ayudas, convocatoria, financiacion, financiación, exclusion social, exclusión social, pobreza, vulnerabilidad, migrantes
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24260
+PDF oficial: https://www.boe.es/boe/dias/2026/11/19/pdfs/BOE-A-2026-24260.pdf
+
+Novedades incorporadas en esta ejecucion: 6
+Coincidencias totales en el periodo revisado: 16
