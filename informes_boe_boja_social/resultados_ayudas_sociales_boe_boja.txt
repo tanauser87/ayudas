@@ -10369,3 +10369,79 @@ Incidencias: 10
 - 2026-11-20: BOJA: RemoteDisconnected: Remote end closed connection without response
 - 2026-11-21: BOJA: RemoteDisconnected: Remote end closed connection without response
 - 2026-11-22: BOJA: RemoteDisconnected: Remote end closed connection without response
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-11-14 a 2026-11-23
+Ejecucion: 2026-11-23 19:33:32 CET
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Extracto de la Orden de 19 de noviembre de 2026, por la que se aprueban las bases reguladoras para la concesión de subvenciones en régimen de concurrencia competitiva dirigidas a entidades privadas del tercer sector, para el desarrollo de proyectos de carácter integral que favorezcan la inclusión socioeducativa de jóvenes gitanos y gitanas en el ámbito de la Consejería de Servicios Sociales, Familias e Igualdad, cofinanciadas por el Fondo Social Europeo Plus, y se efectúa su convocatoria para el año 2026.
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-23
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-23
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días hábiles
+Dia incorporado al TXT: 2026-11-23
+Beneficiarios/encaje detectado: 0 G/31G/48000/00 D442JAF4B1 4.000.000,00 4.000.000,00 2.000.000,00 10.000.000,00 Segundo. Entidades beneficiarias. Podrán ser beneficiarias de estas subvenciones las entidades privadas y organizaciones sin ánimo de lucro cuyo objeto o fin social sea la acción social, de conformidad con el apartado 4 del cuadro resumen. Tercero. Objeto. Será objeto de subvención pública apoyar la realización de pro
+Coincidencias: subvenciones, bases reguladoras, convocatoria, tercer sector, servicios sociales, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/222601/2.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/222601/BOJA26-222601-00003-15449-01_00346677.pdf
+
+2. Orden de 19 de noviembre de 2026, por la que se aprueban las bases reguladoras para la concesión de subvenciones, en régimen de concurrencia competitiva, dirigidas a entidades privadas del tercer sector, para el desarrollo de proyectos de carácter integral que favorezcan la inclusión socioeducativa de jóvenes gitanos y gitanas en el ámbito de la Consejería de Servicios Sociales, Familias e Igualdad, cofinanciadas por el Fondo Social Europeo Plus, y se efectúa su convocatoria para el año 2026.
+Entidad convocante: Consejería de Servicios Sociales, Familias e Igualdad
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-23
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-23
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días
+Dia incorporado al TXT: 2026-11-23
+Beneficiarios/encaje detectado: la el hecho de que los rendimientos financieros que se generen por los fondos librados a la entidad beneficiaria no incrementen el importe de la subvención concedida y que no se apliquen a la actividad subvencionada. De acuerdo con lo previsto en el artículo 14.2 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, y el Decreto 622/2019, de 2
+Coincidencias: subvenciones, bases reguladoras, convocatoria, tercer sector, servicios sociales, igualdad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/222601/1.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/222601/BOJA26-222601-00063-15448-01_00346676.pdf
+
+3. Resolución de 16 de noviembre de 2026, de la Delegación Territorial de Educación en Almería, de concesión de subvenciones a entidades sin ánimo de lucro para el desarrollo de programas de ámbito provincial dirigidos a la mediación intercultural durante el curso escolar 2026/2027.
+Entidad convocante: Consejería de Educación
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-23
+Fecha de apertura: 1 de septiembre de 2026
+Fecha de cierre: 30 de septiembre de 2027
+Dia incorporado al TXT: 2026-11-23
+Beneficiarios/encaje detectado: erior, en la que se incluye, en Anexo I que se adjunta, la relación de entidades sin ánimo de lucro beneficiarias provisionales de subvención, por importe de cincuenta mil ochocientos cuatro euros con cuarenta y ocho céntimos (50.804,48 €). Segundo. Al amparo del artículo 15 de la Orden de 15 de abril de 2011, que establece las bases reguladoras de estas ayudas, la Comisión Evaluadora Provincial p
+Coincidencias: subvenciones, entidades sin animo de lucro, entidades sin ánimo de lucro, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/226/37.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/226/BOJA26-226-00003-15295-01_00346523.pdf
+
+4. Resolución de 16 de noviembre de 2026, de la Delegación Territorial de Educación en Almería, de concesión de subvenciones a entidades sin ánimo de lucro para el desarrollo de programas para la prevención, seguimiento y control del absentismo escolar durante el curso 2026/2027.
+Entidad convocante: Consejería de Educación
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-23
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-23
+Fecha de cierre: 31 de agosto de 2027
+Dia incorporado al TXT: 2026-11-23
+Beneficiarios/encaje detectado: n el párrafo anterior, en la que se incluye, en Anexo I la relación de entidades sin ánimo de lucro beneficiarias provisionales de subvención. Con posterioridad a la publicación de dicha propuesta provisional se ha advertido la omisión involuntaria de una solicitud presentada en tiempo y forma por la entidad Andalucía por la Enseñanza Pública cuya incorporación a la propuesta provisional de resolu
+Coincidencias: subvenciones, entidades sin animo de lucro, entidades sin ánimo de lucro, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/226/36.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/226/BOJA26-226-00004-15292-01_00346519.pdf
+
+5. Resolución de 17 de noviembre de 2026, de la Dirección General de Incentivos para el Empleo, mediante la que se modifica la Resolución de 9 de abril de 2026, por la que se convoca para el año 2026 la concesión de las subvenciones reguladas en la Orden de 21 de junio de 2024, por la que se aprueban las bases reguladoras para la concesión de subvenciones públicas, en régimen de concurrencia no competitiva, para el fomento del empleo de personas con discapacidad en centros especiales de empleo y en el mercado ordinario de trabajo.
+Entidad convocante: Consejería de Empleo, Empresa y Trabajo Autónomo
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-23
+Fecha de apertura: 17 de noviembre de 2026
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-11-23
+Beneficiarios/encaje detectado: yor número de solicitantes que cumplan los requisitos exigidos para obtener la condición de persona beneficiaria. En este contexto, y ante la existencia de solicitudes que, reuniendo los requisitos establecidos en la normativa reguladora, no van a poder obtener la condición de beneficiarias por agotamiento del crédito inicialmente convocado, se considera necesario ampliar dicho crédito en la cuant
+Coincidencias: subvenciones, bases reguladoras, discapacidad
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/226/2.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/226/BOJA26-226-00010-15340-01_00346568.pdf
+
+Novedades incorporadas en esta ejecucion: 5
+Coincidencias totales en el periodo revisado: 25
