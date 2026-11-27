@@ -10673,3 +10673,94 @@ PDF oficial: https://www.boe.es/boe/dias/2026/11/26/pdfs/BOE-A-2026-24808.pdf
 
 Novedades incorporadas en esta ejecucion: 6
 Coincidencias totales en el periodo revisado: 31
+
+------------------------------------------------------------------------
+
+ACTUALIZACION BOE/BOJA - SUBVENCIONES PARA ENTIDADES SOCIALES
+Periodo revisado: 2026-11-18 a 2026-11-27
+Ejecucion: 2026-11-27 17:54:00 CET
+Fuentes: BOE y BOJA.
+Filtro: subvenciones/ayudas con indicios de entidades sociales, tercer sector, asociaciones, fundaciones, ONG o fines sociales.
+
+1. Real Decreto 1067/2026, de 26 de noviembre, por el que se regula la concesión directa de determinadas subvenciones en el ámbito del medio ambiente para el ejercicio presupuestario 2026.
+Entidad convocante: MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-27
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-27
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-11-27
+Beneficiarios/encaje detectado: ios que aportan terreno a los parques nacionales y a sus Zonas Periféricas de Protección (ZPP); son beneficiarios de una subvención de carácter anual y en ellos habitan 1.614.977 personas. Un buen número de ellos forma parte de esta Asociación, que tiene entre sus fines «la defensa del medio rural con un desarrollo armónico respetuoso con el medio natural, apostar por los Parques Nacionales como v
+Coincidencias: subvencion, subvenciones, ayudas, concesion directa de subvenciones, concesión directa de subvenciones, convocatoria, financiacion, financiación, sin animo de lucro, sin ánimo de lucro, asociaciones, asociacion
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24929
+PDF oficial: https://www.boe.es/boe/dias/2026/11/27/pdfs/BOE-A-2026-24929.pdf
+
+2. Resolución de 24 de noviembre de 2026, de la Delegación Territorial de Sanidad y Consumo en Málaga, por la que se hace pública la relación de subvenciones concedidas en régimen de concurrencia competitiva, dirigidas a entidades privadas sin ánimo de lucro, ubicadas en el territorio de la Comunidad Autónoma de Andalucía, destinadas al desarrollo de programas de drogodependencias y adicciones (Línea 3), durante el ejercicio 2026.
+Entidad convocante: Consejería de Presidencia, Sanidad y Emergencias
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-27
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-27
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-11-27
+Beneficiarios/encaje detectado: G/31B/ 48202 / 29 01 1300180000 G/31B/ 48200 / 29 S0066 SUBVENCIONES CONCEDIDAS EXPEDIENTE ENTIDAD BENEFICIARIA CUANTÍA SUBVENCIONADA 2026-MA-L3-01 ASOCIACIÓN RESURGIR 7.506,29 € 2026-MA-L3-03 ASOC ALCOHOLICOS Y FAMILIARES RONDEÑOS – ALFARO 6.055,34 € 2026-MA-L3-04 AMALAJER 8.609,03 € 2026-MA-L3-05 AMALAJER 5.939,26 € 2026-MA-L3-06 ASOC. PARA LA PREV DE LAS ADIC EN AD Y J – ADIADOS 22.615,63 € 20
+Coincidencias: subvenciones, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/230/29.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/230/BOJA26-230-00002-15640-01_00346867.pdf
+
+3. Resolución de 24 de noviembre de 2026, de la Delegación Territorial de Sanidad y Consumo en Málaga, por la que se hace pública la relación de subvenciones concedidas en régimen de concurrencia competitiva, para el mantenimiento de sedes y sostenimiento de la actividad ordinaria de las entidades privadas sin ánimo de lucro, ubicadas en el territorio de la Comunidad Autónoma de Andalucía, dedicadas al ámbito de las adicciones (Línea 1), durante el ejercicio 2026.
+Entidad convocante: Consejería de Presidencia, Sanidad y Emergencias
+Fuente: BOJA
+Ambito: Andalucia
+Dia publicado en BOE/BOJA: 2026-11-27
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-27
+Fecha de cierre: No publicada expresamente; revisar el texto oficial
+Dia incorporado al TXT: 2026-11-27
+Beneficiarios/encaje detectado: ámbito de las adicciones. 1300020000 G/31B/48202/29 01 Subvenciones concedidas. EXPEDIENTE ENTIDAD BENEFICIARIA CUANTÍA SUBVENCIONADA 2026-MA-L1-01 ASOC. RESURGIR 5.009,50 € 2026-MA-L1-02 ASOC. CASA MENGA 1.025,76 € 2026-MA-L1-03 ASOCIACIÓN ALCOHOLICOS Y FAMILIARES RONDEÑOS 3.617,97 € 2026-MA-L1-04 AMALAJER 11.879,68 € 2026-MA-L1-05 ASOC. BENEFICA HORIZONTE 5.900,08 € 2026-MA-L1-06 ASOC. REHABILI
+Coincidencias: subvenciones, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.juntadeandalucia.es/boja/2026/230/27.html
+PDF oficial: https://www.juntadeandalucia.es/boja/2026/230/BOJA26-230-00002-15635-01_00346862.pdf
+
+4. Extracto de la Resolución de la Secretaría de Estado de Cultura por la que se convocan las ayudas, en régimen de concurrencia competitiva, para la promoción del arte contemporáneo español, correspondientes al año 2027.
+Entidad convocante: MINISTERIO DE CULTURA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-27
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-27
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: 15 días hábiles
+Dia incorporado al TXT: 2026-11-27
+Beneficiarios/encaje detectado: l y su normativa de desarrollo (BOE núm. 97, de 22 de abril de 1996). Segundo: Condición de persona beneficiaria 1. Podrán solicitar estas ayudas las personas jurídicas y las personas físicas inscritas en el Régimen Especial de Trabajadores Autónomos, que realicen las actividades a las que se refiere el apartado Primero.2, tengan residencia fiscal en España y cumplan los requisitos establecidos en
+Coincidencias: subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, convocan, entidades sin animo de lucro, entidades sin ánimo de lucro, sin animo de lucro, sin ánimo de lucro
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-39182
+PDF oficial: https://www.boe.es/boe/dias/2026/11/27/pdfs/BOE-B-2026-39182.pdf
+
+5. Extracto de la Resolución de 25 de noviembre de 2026, de la Secretaría de Estado de Vivienda y Agenda Urbana, por la que se convocan las ayudas para las actividades que tengan por objeto la difusión, el fomento y la investigación de la arquitectura correspondientes al año 2026.
+Entidad convocante: MINISTERIO DE VIVIENDA Y AGENDA URBANA
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-27
+Fecha de apertura: No publicada expresamente; publicacion oficial: 2026-11-27
+Fecha de cierre: No publicada como fecha cerrada; plazo indicado: diez días hábiles
+Dia incorporado al TXT: 2026-11-27
+Beneficiarios/encaje detectado: al de Subvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/944854) Primero. - Beneficiarios. Podrán ser beneficiarios las personas físicas, así como las personas jurídicas de nacionalidad española, de cualquier Estado miembro de la Unión Europea o de los Estados signatarios del Acuerdo sobre el Espacio Económico Europeo, o de otras nacionalidades, siempre que tengan su reside
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, bases reguladoras, convocatoria, convocan, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-39179
+PDF oficial: https://www.boe.es/boe/dias/2026/11/27/pdfs/BOE-B-2026-39179.pdf
+
+6. Real Decreto 1054/2026, de 26 de noviembre, por el que se regula la concesión directa de una subvención a la Generalitat de Cataluña en concepto de espacios ocupados por el personal que gestiona las becas y ayudas al estudio durante el año 2026.
+Entidad convocante: MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES
+Fuente: BOE
+Ambito: Estatal
+Dia publicado en BOE/BOJA: 2026-11-27
+Fecha de apertura: 1 de enero de 2026
+Fecha de cierre: 31 de diciembre de 2026
+Dia incorporado al TXT: 2026-11-27
+Beneficiarios/encaje detectado: becas y ayudas al estudio, las condiciones económicas y académicas que hayan de reunir las personas beneficiarias, así como los supuestos de incompatibilidad, revocación, reintegro y cuantos requisitos sean precisos para asegurar la igualdad en el acceso a las citadas becas y ayudas, correspondiendo a las comunidades autónomas las potestades de ejecución, si así se ha previsto en sus respectivos e
+Coincidencias: subvencion, subvenciones, ayuda, ayudas, convocatoria, financiacion, financiación, igualdad
+Enlace oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24923
+PDF oficial: https://www.boe.es/boe/dias/2026/11/27/pdfs/BOE-A-2026-24923.pdf
+
+Novedades incorporadas en esta ejecucion: 6
+Coincidencias totales en el periodo revisado: 32
+Incidencias: 1
+- 2026-11-25: BOE / detalle https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24700: HTTPError: HTTP Error 404: Not Found
